@@ -1,22 +1,6 @@
 import { useState, useMemo, useEffect } from 'react';
 import { Search, X, Calendar, ExternalLink, ChevronDown } from 'lucide-react';
-
-// ---------------------------------------------------------------------------
-// MOCK DATA — replace with your manifest when wiring up real videos.
-// `driveId` is the Google Drive file ID (the long string in the share URL).
-// ---------------------------------------------------------------------------
-const MOCK_VIDEOS = [
-  { id: 'v1', driveId: 'EXAMPLE_ID_1', title: 'Snatch, PR attempt', date: '2026-05-08', lift: 'snatch', weight: 95, tags: ['pr', 'competition-prep'], notes: 'Made it from the floor, lost it overhead.' },
-  { id: 'v2', driveId: 'EXAMPLE_ID_2', title: 'Clean and Jerk, working set', date: '2026-05-08', lift: 'clean_and_jerk', weight: 110, tags: ['working-set'], notes: 'Felt good. Bar drift in second pull.' },
-  { id: 'v3', driveId: 'EXAMPLE_ID_3', title: 'Front Squat, heavy double', date: '2026-05-06', lift: 'front_squat', weight: 130, tags: ['heavy', 'review'], notes: 'Lost upper back position on rep 2.' },
-  { id: 'v4', driveId: 'EXAMPLE_ID_4', title: 'Power Snatch from blocks', date: '2026-05-05', lift: 'power_snatch', weight: 70, tags: ['blocks', 'technique'], notes: 'Working on faster turnover.' },
-  { id: 'v5', driveId: 'EXAMPLE_ID_5', title: 'Snatch, light technique', date: '2026-05-03', lift: 'snatch', weight: 60, tags: ['technique', 'light-day'], notes: 'Pause at the knee.' },
-  { id: 'v6', driveId: 'EXAMPLE_ID_6', title: 'Back Squat, 5x3', date: '2026-05-01', lift: 'back_squat', weight: 145, tags: ['volume'], notes: 'All sets felt grindy.' },
-  { id: 'v7', driveId: 'EXAMPLE_ID_7', title: 'Clean, single', date: '2026-04-29', lift: 'clean', weight: 115, tags: ['heavy', 'review'], notes: 'Brutal rack catch.' },
-  { id: 'v8', driveId: 'EXAMPLE_ID_8', title: 'Jerk from rack', date: '2026-04-28', lift: 'jerk', weight: 100, tags: ['rack', 'technique'], notes: 'Press out on left side.' },
-  { id: 'v9', driveId: 'EXAMPLE_ID_9', title: 'Snatch, opener attempt', date: '2026-04-26', lift: 'snatch', weight: 88, tags: ['competition-prep', 'opener'], notes: 'Easy speed under.' },
-  { id: 'v10', driveId: 'EXAMPLE_ID_10', title: 'Front Squat, 3x5', date: '2026-04-24', lift: 'front_squat', weight: 110, tags: ['volume'], notes: 'Building base.' },
-];
+import videos from './videos.json';
 
 const LIFT_LABELS = {
   snatch: 'Snatch',
@@ -30,8 +14,6 @@ const LIFT_LABELS = {
   deadlift: 'Deadlift',
 };
 
-// ---------------------------------------------------------------------------
-
 export default function App() {
   const [search, setSearch] = useState('');
   const [selectedLifts, setSelectedLifts] = useState(new Set());
@@ -39,7 +21,6 @@ export default function App() {
   const [activeVideo, setActiveVideo] = useState(null);
   const [filtersOpen, setFiltersOpen] = useState(true);
 
-  // Inject Google Fonts on mount.
   useEffect(() => {
     const link = document.createElement('link');
     link.rel = 'stylesheet';
@@ -48,30 +29,26 @@ export default function App() {
     return () => document.head.removeChild(link);
   }, []);
 
-  // Lock body scroll when modal is open.
   useEffect(() => {
     document.body.style.overflow = activeVideo ? 'hidden' : '';
     return () => { document.body.style.overflow = ''; };
   }, [activeVideo]);
 
-  // Build the set of all tags present in the data.
   const allTags = useMemo(() => {
     const tags = new Set();
-    MOCK_VIDEOS.forEach(v => v.tags.forEach(t => tags.add(t)));
+    videos.forEach(v => v.tags.forEach(t => tags.add(t)));
     return Array.from(tags).sort();
   }, []);
 
-  // Build the set of all lift types present in the data.
   const allLifts = useMemo(() => {
     const lifts = new Set();
-    MOCK_VIDEOS.forEach(v => lifts.add(v.lift));
+    videos.forEach(v => lifts.add(v.lift));
     return Array.from(lifts);
   }, []);
 
-  // Filtered, sorted view.
   const visibleVideos = useMemo(() => {
     const q = search.trim().toLowerCase();
-    return MOCK_VIDEOS
+    return videos
       .filter(v => {
         if (selectedLifts.size > 0 && !selectedLifts.has(v.lift)) return false;
         if (selectedTags.size > 0 && !v.tags.some(t => selectedTags.has(t))) return false;
@@ -102,7 +79,6 @@ export default function App() {
     <div style={styles.root}>
       <style>{globalCss}</style>
 
-      {/* Header */}
       <header style={styles.header}>
         <div style={styles.headerInner}>
           <div>
@@ -111,7 +87,7 @@ export default function App() {
           </div>
           <div style={styles.headerStats}>
             <div style={styles.stat}>
-              <div style={styles.statNum}>{MOCK_VIDEOS.length}</div>
+              <div style={styles.statNum}>{videos.length}</div>
               <div style={styles.statLabel}>Total</div>
             </div>
             <div style={styles.stat}>
@@ -122,7 +98,6 @@ export default function App() {
         </div>
       </header>
 
-      {/* Filter bar */}
       <section style={styles.filterBar}>
         <div style={styles.searchWrap}>
           <Search size={16} style={styles.searchIcon} />
@@ -194,7 +169,6 @@ export default function App() {
         </section>
       )}
 
-      {/* Video grid */}
       <main style={styles.main}>
         {visibleVideos.length === 0 ? (
           <div style={styles.empty}>
@@ -217,15 +191,12 @@ export default function App() {
         <span style={styles.footerText}>Lifts manifest, Drive embedded.</span>
       </footer>
 
-      {/* Modal */}
       {activeVideo && (
         <VideoModal video={activeVideo} onClose={() => setActiveVideo(null)} />
       )}
     </div>
   );
 }
-
-// ---------------------------------------------------------------------------
 
 function VideoCard({ video, onClick }) {
   const date = new Date(video.date);
@@ -251,10 +222,7 @@ function VideoCard({ video, onClick }) {
   );
 }
 
-// ---------------------------------------------------------------------------
-
 function VideoModal({ video, onClose }) {
-  // Close on Esc.
   useEffect(() => {
     const handler = e => { if (e.key === 'Escape') onClose(); };
     window.addEventListener('keydown', handler);
@@ -292,9 +260,6 @@ function VideoModal({ video, onClose }) {
             allowFullScreen
             title={video.title}
           />
-          <div style={styles.modalVideoNote}>
-            Mock embed. Real videos load when you replace the manifest with valid Drive file IDs and the files are shared with link access.
-          </div>
         </div>
 
         {video.notes && (
@@ -324,9 +289,6 @@ function VideoModal({ video, onClose }) {
   );
 }
 
-// ---------------------------------------------------------------------------
-// Styles
-// ---------------------------------------------------------------------------
 const COLORS = {
   bg: '#0A0908',
   surface: '#141210',
@@ -651,7 +613,6 @@ const styles = {
     textTransform: 'uppercase',
     color: COLORS.textMute,
   },
-  // Modal
   modalBackdrop: {
     position: 'fixed',
     inset: 0,
@@ -747,15 +708,6 @@ const styles = {
     aspectRatio: '16 / 9',
     border: 'none',
     display: 'block',
-  },
-  modalVideoNote: {
-    background: COLORS.surfaceLift,
-    fontFamily: FONTS.mono,
-    fontSize: 10,
-    color: COLORS.textMute,
-    padding: '8px 12px',
-    textAlign: 'center',
-    borderTop: `1px solid ${COLORS.border}`,
   },
   modalNotes: {
     background: COLORS.surfaceLift,
