@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect } from 'react';
-import { Search, X, Calendar, ExternalLink, ChevronDown } from 'lucide-react';
+import { Search, X, Calendar, ExternalLink, ChevronDown, Play } from 'lucide-react';
 import videos from './videos.json';
 import { supabase } from './supabase.js';
 
@@ -252,6 +252,10 @@ function GroupCard({ group, onClick }) {
           <span key={t} style={styles.cardTag}>{t}</span>
         ))}
       </div>
+      <div style={styles.cardFooter}>
+        <Play size={11} style={{ marginRight: 6 }} fill="currentColor" />
+        Play {setCount} {setCount === 1 ? 'set' : 'sets'}
+      </div>
     </button>
   );
 }
@@ -498,6 +502,7 @@ const FONTS = {
 
 const globalCss = `
   * { box-sizing: border-box; }
+  html { scrollbar-gutter: stable; }
   body { margin: 0; }
   .lift-card { transition: border-color 0.15s ease, transform 0.15s ease, background 0.15s ease; }
   .lift-card:hover { border-color: ${COLORS.borderStrong}; background: ${COLORS.surfaceLift}; }
@@ -790,6 +795,18 @@ const styles = {
   cardSetMetaSecondary: {
     color: COLORS.textMute,
   },
+  cardFooter: {
+    marginTop: 8,
+    paddingTop: 12,
+    borderTop: `1px solid ${COLORS.border}`,
+    display: 'flex',
+    alignItems: 'center',
+    fontFamily: FONTS.mono,
+    fontSize: 11,
+    letterSpacing: '0.08em',
+    textTransform: 'uppercase',
+    color: COLORS.accent,
+  },
   setList: {
     display: 'flex',
     flexDirection: 'column',
@@ -905,13 +922,13 @@ const styles = {
   modalBackdrop: {
     position: 'fixed',
     inset: 0,
-    background: 'rgba(0, 0, 0, 0.85)',
-    backdropFilter: 'blur(4px)',
+    background: 'rgba(0, 0, 0, 0.92)',
     zIndex: 100,
     display: 'flex',
     alignItems: 'flex-start',
     justifyContent: 'center',
     overflowY: 'auto',
+    overscrollBehavior: 'contain',
     padding: '24px 16px',
   },
   modal: {
