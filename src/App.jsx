@@ -8,6 +8,7 @@ const LIFT_LABELS = {
   clean_and_jerk: 'Clean & Jerk',
   clean: 'Clean',
   power_clean: 'Power Clean',
+  hang_power_clean_push_press: 'Hang Power Clean + Push Press',
   jerk: 'Jerk',
   press_in_split: 'Press in Split',
   front_squat: 'Front Squat',
