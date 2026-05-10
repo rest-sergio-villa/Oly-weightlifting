@@ -85,5 +85,16 @@
     "weight": 80,
     "tags": ["week-12", "working-set", "raised", "technique"],
     "notes": "Bar elevated on 20kg plates. Setup at the bottom is solid — flat back, lats engaged. Off the floor the hips rise slightly before the shoulders, compromising the back angle and bar path."
+  },
+  {
+    "id": "v9",
+    "youtubeId": "g3bblJNiQDk",
+    "vertical": true,
+    "title": "Raised snatch deadlift, set 2",
+    "date": "2026-05-07",
+    "lift": "raised_snatch_deadlift",
+    "weight": 80,
+    "tags": ["week-12", "working-set", "raised", "technique"],
+    "notes": "Cleaner than set 3 — hips and shoulders rise together off the floor, less hips-first. Shoulders well-stacked over the bar at the start."
   }
 ]
