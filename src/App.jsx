@@ -64,6 +64,20 @@ export default function App() {
       .sort((a, b) => b.date.localeCompare(a.date));
   }, [search, selectedLifts, selectedTags]);
 
+  // Group by (lift, date, weight). Map insertion order preserves the
+  // upstream date-descending sort, so groups are also date-descending.
+  const groupedVideos = useMemo(() => {
+    const groups = new Map();
+    for (const v of visibleVideos) {
+      const key = `${v.date}|${v.lift}|${v.weight}`;
+      if (!groups.has(key)) {
+        groups.set(key, { key, date: v.date, lift: v.lift, weight: v.weight, videos: [] });
+      }
+      groups.get(key).videos.push(v);
+    }
+    return Array.from(groups.values());
+  }, [visibleVideos]);
+
   const toggle = (set, value, setter) => {
     const next = new Set(set);
     next.has(value) ? next.delete(value) : next.add(value);
@@ -182,9 +196,24 @@ export default function App() {
             )}
           </div>
         ) : (
-          <div style={styles.grid}>
-            {visibleVideos.map(v => (
-              <VideoCard key={v.id} video={v} onClick={() => setActiveVideo(v)} />
+          <div style={styles.groups}>
+            {groupedVideos.map(g => (
+              <section key={g.key} style={styles.group}>
+                <div style={styles.groupHeader}>
+                  <span style={styles.groupLift}>{LIFT_LABELS[g.lift] || g.lift}</span>
+                  <span style={styles.groupSep}>·</span>
+                  <span style={styles.groupWeight}>{g.weight}kg</span>
+                  <span style={styles.groupSep}>·</span>
+                  <span style={styles.groupDate}>{formatGroupDate(g.date)}</span>
+                  <span style={styles.groupSep}>·</span>
+                  <span style={styles.groupSets}>{g.videos.length} {g.videos.length === 1 ? 'set' : 'sets'}</span>
+                </div>
+                <div style={styles.grid}>
+                  {g.videos.map(v => (
+                    <VideoCard key={v.id} video={v} onClick={() => setActiveVideo(v)} />
+                  ))}
+                </div>
+              </section>
             ))}
           </div>
         )}
@@ -340,6 +369,12 @@ function formatCommentDate(s) {
   const d = new Date(s);
   if (isNaN(d.getTime())) return s;
   return d.toLocaleDateString('en-AU', { day: '2-digit', month: 'short', year: '2-digit' });
+}
+
+function formatGroupDate(s) {
+  const d = new Date(s);
+  if (isNaN(d.getTime())) return s;
+  return d.toLocaleDateString('en-AU', { day: 'numeric', month: 'short' });
 }
 
 function VideoModal({ video, onClose }) {
@@ -619,6 +654,46 @@ const styles = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
     gap: 14,
+  },
+  groups: {
+    display: 'flex',
+    flexDirection: 'column',
+    gap: 28,
+  },
+  group: {
+    display: 'flex',
+    flexDirection: 'column',
+    gap: 12,
+  },
+  groupHeader: {
+    display: 'flex',
+    alignItems: 'baseline',
+    flexWrap: 'wrap',
+    gap: 10,
+    paddingBottom: 8,
+    borderBottom: `1px solid ${COLORS.border}`,
+    fontFamily: FONTS.mono,
+    fontSize: 11,
+    letterSpacing: '0.1em',
+    textTransform: 'uppercase',
+  },
+  groupLift: {
+    color: COLORS.accent,
+    fontWeight: 600,
+  },
+  groupWeight: {
+    color: COLORS.text,
+    fontWeight: 500,
+  },
+  groupDate: {
+    color: COLORS.textDim,
+  },
+  groupSets: {
+    color: COLORS.textMute,
+  },
+  groupSep: {
+    color: COLORS.textMute,
+    opacity: 0.5,
   },
   card: {
     textAlign: 'left',
