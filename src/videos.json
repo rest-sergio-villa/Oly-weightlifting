@@ -9,5 +9,16 @@
     "weight": 57,
     "tags": ["heavy", "rack", "technique"],
     "notes": "Not getting under the bar fast enough or low enough."
+  },
+  {
+    "id": "v2",
+    "youtubeId": "NB7An_x6XrE",
+    "vertical": true,
+    "title": "Jerk, working set from rack",
+    "date": "2026-05-09",
+    "lift": "jerk",
+    "weight": 50,
+    "tags": ["working-set", "rack", "technique"],
+    "notes": "Not fully extended; rushing to get under the bar."
   }
 ]
