@@ -1,6 +1,7 @@
 import { useState, useMemo, useEffect } from 'react';
 import { Search, X, Calendar, ExternalLink, ChevronDown } from 'lucide-react';
 import videos from './videos.json';
+import { supabase } from './supabase.js';
 
 const LIFT_LABELS = {
   snatch: 'Snatch',
@@ -224,29 +225,113 @@ function VideoCard({ video, onClick }) {
   );
 }
 
-function Comments({ comments }) {
-  const list = comments || [];
+function Comments({ video }) {
+  const [list, setList] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+  const [author, setAuthor] = useState(() => {
+    try { return localStorage.getItem('lifts.author') || ''; } catch { return ''; }
+  });
+  const [body, setBody] = useState('');
+  const [submitting, setSubmitting] = useState(false);
+
+  useEffect(() => {
+    let alive = true;
+    setLoading(true);
+    setError(null);
+    supabase
+      .from('comments')
+      .select('id, author, body, created_at')
+      .eq('video_youtube_id', video.youtubeId)
+      .order('created_at', { ascending: true })
+      .then(({ data, error }) => {
+        if (!alive) return;
+        if (error) setError(error.message);
+        else setList(data || []);
+        setLoading(false);
+      });
+    return () => { alive = false; };
+  }, [video.youtubeId]);
+
+  const canSubmit = author.trim() && body.trim() && !submitting;
+
+  const submit = async (e) => {
+    e.preventDefault();
+    if (!canSubmit) return;
+    const a = author.trim();
+    const b = body.trim();
+    setSubmitting(true);
+    setError(null);
+    const { data, error } = await supabase
+      .from('comments')
+      .insert({ video_youtube_id: video.youtubeId, author: a, body: b })
+      .select()
+      .single();
+    setSubmitting(false);
+    if (error) {
+      setError(error.message);
+      return;
+    }
+    setList(prev => [...prev, data]);
+    setBody('');
+    try { localStorage.setItem('lifts.author', a); } catch {}
+  };
+
   return (
     <div style={styles.commentsBlock}>
       <div style={styles.commentsHeader}>
         <span style={styles.modalNotesLabel}>Comments</span>
-        <span style={styles.commentsCount}>{list.length}</span>
+        <span style={styles.commentsCount}>{loading ? '…' : list.length}</span>
       </div>
-      {list.length === 0 ? (
-        <div style={styles.commentsEmpty}>No comments yet.</div>
-      ) : (
+
+      {error && <div style={styles.commentsError}>{error}</div>}
+
+      {!loading && list.length === 0 && !error && (
+        <div style={styles.commentsEmpty}>No comments yet. Be the first.</div>
+      )}
+
+      {list.length > 0 && (
         <ul style={styles.commentsList}>
-          {list.map((c, i) => (
-            <li key={i} style={styles.comment}>
+          {list.map((c) => (
+            <li key={c.id} style={styles.comment}>
               <div style={styles.commentMeta}>
                 <span style={styles.commentAuthor}>{c.author}</span>
-                {c.date && <span style={styles.commentDate}>{formatCommentDate(c.date)}</span>}
+                <span style={styles.commentDate}>{formatCommentDate(c.created_at)}</span>
               </div>
               <div style={styles.commentBody}>{c.body}</div>
             </li>
           ))}
         </ul>
       )}
+
+      <form onSubmit={submit} style={styles.commentForm}>
+        <input
+          type="text"
+          placeholder="Your name"
+          value={author}
+          onChange={e => setAuthor(e.target.value)}
+          maxLength={50}
+          style={styles.commentInputName}
+        />
+        <textarea
+          placeholder="Add a comment…"
+          value={body}
+          onChange={e => setBody(e.target.value)}
+          maxLength={2000}
+          rows={3}
+          style={styles.commentInputBody}
+        />
+        <button
+          type="submit"
+          disabled={!canSubmit}
+          style={{
+            ...styles.commentSubmit,
+            ...(canSubmit ? {} : styles.commentSubmitDisabled),
+          }}
+        >
+          {submitting ? 'Posting…' : 'Post comment'}
+        </button>
+      </form>
     </div>
   );
 }
@@ -304,7 +389,7 @@ function VideoModal({ video, onClose }) {
           </div>
         )}
 
-        <Comments comments={video.comments} />
+        <Comments video={video} />
 
         <div style={styles.modalTags}>
           {video.tags.map(t => (
@@ -838,6 +923,59 @@ const styles = {
     fontSize: 13,
     color: COLORS.text,
     lineHeight: 1.55,
+  },
+  commentsError: {
+    fontFamily: FONTS.mono,
+    fontSize: 11,
+    color: '#E94E1B',
+    marginBottom: 10,
+  },
+  commentForm: {
+    display: 'flex',
+    flexDirection: 'column',
+    gap: 8,
+    marginTop: 14,
+    paddingTop: 14,
+    borderTop: `1px solid ${COLORS.border}`,
+  },
+  commentInputName: {
+    width: '100%',
+    padding: '9px 12px',
+    background: COLORS.surface,
+    border: `1px solid ${COLORS.border}`,
+    borderRadius: 6,
+    color: COLORS.text,
+    fontFamily: FONTS.body,
+    fontSize: 13,
+  },
+  commentInputBody: {
+    width: '100%',
+    padding: '9px 12px',
+    background: COLORS.surface,
+    border: `1px solid ${COLORS.border}`,
+    borderRadius: 6,
+    color: COLORS.text,
+    fontFamily: FONTS.body,
+    fontSize: 13,
+    resize: 'vertical',
+    minHeight: 70,
+  },
+  commentSubmit: {
+    alignSelf: 'flex-end',
+    background: COLORS.accent,
+    color: '#fff',
+    border: 'none',
+    padding: '9px 16px',
+    borderRadius: 6,
+    fontFamily: FONTS.body,
+    fontSize: 12,
+    fontWeight: 500,
+    cursor: 'pointer',
+  },
+  commentSubmitDisabled: {
+    background: COLORS.borderStrong,
+    color: COLORS.textMute,
+    cursor: 'not-allowed',
   },
   modalTags: {
     display: 'flex',
