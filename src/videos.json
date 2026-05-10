@@ -42,5 +42,16 @@
     "weight": 30,
     "tags": ["week-12", "primer", "split", "lockout"],
     "notes": "Midline braced and glutes engaged through the split. Lockout incomplete — elbows not fully extending overhead."
+  },
+  {
+    "id": "v5",
+    "youtubeId": "VPb5i_HzVuo",
+    "vertical": true,
+    "title": "Below-the-knee hang power clean + push press, set 4",
+    "date": "2026-05-10",
+    "lift": "hang_power_clean_push_press",
+    "weight": 50,
+    "tags": ["week-12", "working-set", "complex", "btk-hang", "technique"],
+    "notes": "Setup is solid: flat back, lats engaged, gaze forward. Strong, patient pull — bar makes contact at the mid-thigh before the jump. Fast turnover through the elbows but could be quicker. Push press is OK; needs more leg drive before the arms take over."
   }
 ]
