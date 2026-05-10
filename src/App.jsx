@@ -103,11 +103,13 @@ export default function App() {
       <style>{globalCss}</style>
 
       <header style={styles.header}>
-        <SnatchLifter />
         <div style={styles.headerInner}>
           <div>
             <div style={styles.eyebrow}>Training log</div>
-            <h1 style={styles.title}>Sergio / Lifts</h1>
+            <div style={styles.titleRow}>
+              <h1 style={styles.title}>Sergio / Lifts</h1>
+              <SnatchLifter />
+            </div>
           </div>
           <div style={styles.headerStats}>
             <div style={styles.stat}>
@@ -377,7 +379,7 @@ function SnatchLifter() {
   // Pure CSS keyframes on the arms+bar group; cartoonish anatomy on purpose.
   return (
     <div style={styles.snatchAnim} aria-hidden="true">
-      <svg viewBox="0 0 60 70" width="56" height="66">
+      <svg className="snatch-svg" viewBox="0 0 60 70" width="72" height="84">
         <line x1="6" y1="64" x2="54" y2="64" stroke="currentColor" strokeWidth="0.6" opacity="0.4" />
         <circle cx="30" cy="20" r="3.5" fill="none" stroke="currentColor" strokeWidth="1.3" />
         <line x1="30" y1="23.5" x2="30" y2="44" stroke="currentColor" strokeWidth="1.5" />
@@ -542,6 +544,15 @@ const globalCss = `
     transform-origin: 30px 52px;
     animation: snatch-attempts 14s ease-in-out infinite;
   }
+  .snatch-svg {
+    transform-origin: 50% 60%;
+    animation: snatch-flip 14s ease-in-out infinite;
+  }
+  @keyframes snatch-flip {
+    0%, 60%   { transform: rotate(0); }
+    70%       { transform: rotate(360deg); }
+    100%      { transform: rotate(360deg); }
+  }
   @keyframes snatch-attempts {
     0%, 4%   { transform: translateY(0); }
     7%       { transform: translateY(-2px); }
@@ -582,17 +593,20 @@ const styles = {
     paddingBottom: 80,
   },
   header: {
-    position: 'relative',
     borderBottom: `1px solid ${COLORS.border}`,
     padding: '32px 24px 24px',
   },
+  titleRow: {
+    display: 'flex',
+    alignItems: 'center',
+    gap: 16,
+    flexWrap: 'wrap',
+  },
   snatchAnim: {
-    position: 'absolute',
-    top: 14,
-    right: 14,
     color: COLORS.textDim,
-    opacity: 0.55,
+    opacity: 0.7,
     pointerEvents: 'none',
+    flexShrink: 0,
   },
   headerInner: {
     maxWidth: 1200,
