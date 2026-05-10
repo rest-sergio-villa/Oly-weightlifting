@@ -379,7 +379,7 @@ function SnatchLifter() {
   // Pure CSS keyframes on the arms+bar group; cartoonish anatomy on purpose.
   return (
     <div style={styles.snatchAnim} aria-hidden="true">
-      <svg className="snatch-svg" viewBox="0 0 60 70" width="72" height="84">
+      <svg viewBox="0 0 60 70" width="72" height="84">
         <line x1="6" y1="64" x2="54" y2="64" stroke="currentColor" strokeWidth="0.6" opacity="0.4" />
         <circle cx="30" cy="20" r="3.5" fill="none" stroke="currentColor" strokeWidth="1.3" />
         <line x1="30" y1="23.5" x2="30" y2="44" stroke="currentColor" strokeWidth="1.5" />
@@ -541,44 +541,38 @@ const globalCss = `
   input:focus { outline: none; }
 
   .snatch-bar-group {
-    transform-origin: 30px 52px;
+    transform-box: view-box;
+    transform-origin: 30px 28px;
     animation: snatch-attempts 14s ease-in-out infinite;
   }
-  .snatch-svg {
-    transform-origin: 50% 60%;
-    animation: snatch-flip 14s ease-in-out infinite;
-  }
-  @keyframes snatch-flip {
-    0%, 60%   { transform: rotate(0); }
-    70%       { transform: rotate(360deg); }
-    100%      { transform: rotate(360deg); }
-  }
   @keyframes snatch-attempts {
-    0%, 4%   { transform: translateY(0); }
-    7%       { transform: translateY(-2px); }
-    9%       { transform: translateY(-12px); }
-    11%      { transform: translateY(-10px) rotate(-3deg); }
-    14%      { transform: translateY(2px) rotate(-1deg); }
-    16%, 21% { transform: translateY(0); }
+    /* Attempt 1: fail to mid-thigh */
+    0%, 4%   { transform: translate(0, 0) rotate(0deg); }
+    7%       { transform: translate(0, -2px) rotate(0deg); }
+    10%      { transform: translate(0, -13px) rotate(0deg); }
+    12%      { transform: translate(0, -10px) rotate(0deg); }
+    15%      { transform: translate(0, 2px) rotate(0deg); }
+    17%, 22% { transform: translate(0, 0) rotate(0deg); }
 
-    24%      { transform: translateY(-2px); }
-    26%      { transform: translateY(-12px); }
-    28%      { transform: translateY(-9px) rotate(3deg); }
-    31%      { transform: translateY(2px) rotate(1deg); }
-    33%, 38% { transform: translateY(0); }
+    /* Attempt 2: fail */
+    25%      { transform: translate(0, -2px) rotate(0deg); }
+    28%      { transform: translate(0, -13px) rotate(0deg); }
+    30%      { transform: translate(0, -10px) rotate(0deg); }
+    33%      { transform: translate(0, 2px) rotate(0deg); }
+    35%, 40% { transform: translate(0, 0) rotate(0deg); }
 
-    41%      { transform: translateY(-2px); }
-    43%      { transform: translateY(-13px); }
-    45%      { transform: translateY(-11px) rotate(-2deg); }
-    48%      { transform: translateY(2px) rotate(-1deg); }
-    50%, 55% { transform: translateY(0); }
+    /* Attempt 3: fail */
+    43%      { transform: translate(0, -2px) rotate(0deg); }
+    46%      { transform: translate(0, -13px) rotate(0deg); }
+    48%      { transform: translate(0, -11px) rotate(0deg); }
+    51%      { transform: translate(0, 2px) rotate(0deg); }
+    53%, 58% { transform: translate(0, 0) rotate(0deg); }
 
-    58%      { transform: translateY(-2px); }
-    62%      { transform: translateY(-12px); }
-    68%      { transform: translateY(-32px); }
-    88%      { transform: translateY(-32px); }
-    94%      { transform: translateY(-2px); }
-    100%     { transform: translateY(0); }
+    /* Attempt 4: SUCCESS — triangle flips overhead */
+    62%      { transform: translate(0, -8px) rotate(0deg); }   /* pull starts */
+    70%      { transform: translate(0, 0) rotate(180deg); }    /* flip */
+    88%      { transform: translate(0, 0) rotate(180deg); }    /* hold overhead */
+    100%     { transform: translate(0, 0) rotate(360deg); }    /* spin back to start (looks identical to 0°) */
   }
 `;
 
