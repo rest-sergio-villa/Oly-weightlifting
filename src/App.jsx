@@ -252,10 +252,10 @@ function VideoModal({ video, onClose }) {
           </div>
         </div>
 
-        <div style={styles.modalVideoWrap}>
+        <div style={video.vertical ? styles.modalVideoWrapVertical : styles.modalVideoWrap}>
           <iframe
             src={`https://www.youtube.com/embed/${video.youtubeId}`}
-            style={styles.modalVideo}
+            style={video.vertical ? styles.modalVideoVertical : styles.modalVideo}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
             title={video.title}
@@ -706,6 +706,22 @@ const styles = {
   modalVideo: {
     width: '100%',
     aspectRatio: '16 / 9',
+    border: 'none',
+    display: 'block',
+  },
+  modalVideoWrapVertical: {
+    background: '#000',
+    border: `1px solid ${COLORS.border}`,
+    borderRadius: 8,
+    overflow: 'hidden',
+    marginBottom: 20,
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    width: 'min(360px, 100%)',
+  },
+  modalVideoVertical: {
+    width: '100%',
+    aspectRatio: '9 / 16',
     border: 'none',
     display: 'block',
   },

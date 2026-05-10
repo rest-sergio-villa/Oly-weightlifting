@@ -42,7 +42,7 @@ npm run preview    # serve dist/ locally
 
 `id` just needs to be unique. `lift` should be one of the keys in `LIFT_LABELS` in `src/App.jsx` — add a new one there if you need a new category.
 
-Shorts (vertical 9:16) play fine in the modal but get letterboxed inside the 16:9 player.
+Set `"vertical": true` for YouTube Shorts (or any 9:16 video). The modal will render a portrait player (capped at 360px wide, centered). Omit the field for normal landscape videos.
 
 ## Deploy
 
