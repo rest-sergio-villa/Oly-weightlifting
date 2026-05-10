@@ -223,6 +223,39 @@ function VideoCard({ video, onClick }) {
   );
 }
 
+function Comments({ comments }) {
+  const list = comments || [];
+  return (
+    <div style={styles.commentsBlock}>
+      <div style={styles.commentsHeader}>
+        <span style={styles.modalNotesLabel}>Comments</span>
+        <span style={styles.commentsCount}>{list.length}</span>
+      </div>
+      {list.length === 0 ? (
+        <div style={styles.commentsEmpty}>No comments yet.</div>
+      ) : (
+        <ul style={styles.commentsList}>
+          {list.map((c, i) => (
+            <li key={i} style={styles.comment}>
+              <div style={styles.commentMeta}>
+                <span style={styles.commentAuthor}>{c.author}</span>
+                {c.date && <span style={styles.commentDate}>{formatCommentDate(c.date)}</span>}
+              </div>
+              <div style={styles.commentBody}>{c.body}</div>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
+}
+
+function formatCommentDate(s) {
+  const d = new Date(s);
+  if (isNaN(d.getTime())) return s;
+  return d.toLocaleDateString('en-AU', { day: '2-digit', month: 'short', year: '2-digit' });
+}
+
 function VideoModal({ video, onClose }) {
   useEffect(() => {
     const handler = e => { if (e.key === 'Escape') onClose(); };
@@ -269,6 +302,8 @@ function VideoModal({ video, onClose }) {
             <div style={styles.modalNotesBody}>{video.notes}</div>
           </div>
         )}
+
+        <Comments comments={video.comments} />
 
         <div style={styles.modalTags}>
           {video.tags.map(t => (
@@ -745,6 +780,63 @@ const styles = {
     fontSize: 14,
     color: COLORS.text,
     lineHeight: 1.6,
+  },
+  commentsBlock: {
+    background: COLORS.surfaceLift,
+    border: `1px solid ${COLORS.border}`,
+    borderRadius: 6,
+    padding: 14,
+    marginBottom: 16,
+  },
+  commentsHeader: {
+    display: 'flex',
+    alignItems: 'baseline',
+    gap: 8,
+    marginBottom: 10,
+  },
+  commentsCount: {
+    fontFamily: FONTS.mono,
+    fontSize: 10,
+    color: COLORS.textMute,
+  },
+  commentsEmpty: {
+    fontFamily: FONTS.mono,
+    fontSize: 11,
+    color: COLORS.textMute,
+  },
+  commentsList: {
+    listStyle: 'none',
+    margin: 0,
+    padding: 0,
+    display: 'flex',
+    flexDirection: 'column',
+    gap: 12,
+  },
+  comment: {
+    paddingTop: 10,
+    borderTop: `1px solid ${COLORS.border}`,
+  },
+  commentMeta: {
+    display: 'flex',
+    alignItems: 'baseline',
+    gap: 10,
+    marginBottom: 4,
+  },
+  commentAuthor: {
+    fontFamily: FONTS.mono,
+    fontSize: 11,
+    letterSpacing: '0.06em',
+    color: COLORS.accent,
+  },
+  commentDate: {
+    fontFamily: FONTS.mono,
+    fontSize: 10,
+    color: COLORS.textMute,
+  },
+  commentBody: {
+    fontSize: 13,
+    color: COLORS.text,
+    lineHeight: 1.55,
   },
   modalTags: {
     display: 'flex',
