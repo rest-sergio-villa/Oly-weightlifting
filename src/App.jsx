@@ -188,7 +188,7 @@ export default function App() {
       </main>
 
       <footer style={styles.footer}>
-        <span style={styles.footerText}>Lifts manifest, Drive embedded.</span>
+        <span style={styles.footerText}>Lifts manifest, YouTube embedded.</span>
       </footer>
 
       {activeVideo && (
@@ -252,11 +252,11 @@ function VideoModal({ video, onClose }) {
           </div>
         </div>
 
-        <div style={styles.modalVideoWrap}>
+        <div style={video.vertical ? styles.modalVideoWrapVertical : styles.modalVideoWrap}>
           <iframe
-            src={`https://drive.google.com/file/d/${video.driveId}/preview`}
-            style={styles.modalVideo}
-            allow="autoplay; fullscreen"
+            src={`https://www.youtube.com/embed/${video.youtubeId}`}
+            style={video.vertical ? styles.modalVideoVertical : styles.modalVideo}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
             title={video.title}
           />
@@ -276,12 +276,12 @@ function VideoModal({ video, onClose }) {
         </div>
 
         <a
-          href={`https://drive.google.com/file/d/${video.driveId}/view`}
+          href={`https://www.youtube.com/watch?v=${video.youtubeId}`}
           target="_blank"
           rel="noreferrer"
           style={styles.modalDriveLink}
         >
-          Open in Drive
+          Open on YouTube
           <ExternalLink size={13} />
         </a>
       </div>
@@ -706,6 +706,22 @@ const styles = {
   modalVideo: {
     width: '100%',
     aspectRatio: '16 / 9',
+    border: 'none',
+    display: 'block',
+  },
+  modalVideoWrapVertical: {
+    background: '#000',
+    border: `1px solid ${COLORS.border}`,
+    borderRadius: 8,
+    overflow: 'hidden',
+    marginBottom: 20,
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    width: 'min(360px, 100%)',
+  },
+  modalVideoVertical: {
+    width: '100%',
+    aspectRatio: '9 / 16',
     border: 'none',
     display: 'block',
   },

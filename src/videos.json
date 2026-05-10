@@ -1,102 +1,13 @@
 [
   {
     "id": "v1",
-    "driveId": "EXAMPLE_ID_1",
-    "title": "Snatch, PR attempt",
-    "date": "2026-05-08",
-    "lift": "snatch",
-    "weight": 95,
-    "tags": ["pr", "competition-prep"],
-    "notes": "Made it from the floor, lost it overhead."
-  },
-  {
-    "id": "v2",
-    "driveId": "EXAMPLE_ID_2",
-    "title": "Clean and Jerk, working set",
-    "date": "2026-05-08",
-    "lift": "clean_and_jerk",
-    "weight": 110,
-    "tags": ["working-set"],
-    "notes": "Felt good. Bar drift in second pull."
-  },
-  {
-    "id": "v3",
-    "driveId": "EXAMPLE_ID_3",
-    "title": "Front Squat, heavy double",
-    "date": "2026-05-06",
-    "lift": "front_squat",
-    "weight": 130,
-    "tags": ["heavy", "review"],
-    "notes": "Lost upper back position on rep 2."
-  },
-  {
-    "id": "v4",
-    "driveId": "EXAMPLE_ID_4",
-    "title": "Power Snatch from blocks",
-    "date": "2026-05-05",
-    "lift": "power_snatch",
-    "weight": 70,
-    "tags": ["blocks", "technique"],
-    "notes": "Working on faster turnover."
-  },
-  {
-    "id": "v5",
-    "driveId": "EXAMPLE_ID_5",
-    "title": "Snatch, light technique",
-    "date": "2026-05-03",
-    "lift": "snatch",
-    "weight": 60,
-    "tags": ["technique", "light-day"],
-    "notes": "Pause at the knee."
-  },
-  {
-    "id": "v6",
-    "driveId": "EXAMPLE_ID_6",
-    "title": "Back Squat, 5x3",
-    "date": "2026-05-01",
-    "lift": "back_squat",
-    "weight": 145,
-    "tags": ["volume"],
-    "notes": "All sets felt grindy."
-  },
-  {
-    "id": "v7",
-    "driveId": "EXAMPLE_ID_7",
-    "title": "Clean, single",
-    "date": "2026-04-29",
-    "lift": "clean",
-    "weight": 115,
-    "tags": ["heavy", "review"],
-    "notes": "Brutal rack catch."
-  },
-  {
-    "id": "v8",
-    "driveId": "EXAMPLE_ID_8",
-    "title": "Jerk from rack",
-    "date": "2026-04-28",
+    "youtubeId": "PesVfzoU3-0",
+    "vertical": true,
+    "title": "Jerk, heavy single from rack",
+    "date": "2026-05-09",
     "lift": "jerk",
-    "weight": 100,
-    "tags": ["rack", "technique"],
-    "notes": "Press out on left side."
-  },
-  {
-    "id": "v9",
-    "driveId": "EXAMPLE_ID_9",
-    "title": "Snatch, opener attempt",
-    "date": "2026-04-26",
-    "lift": "snatch",
-    "weight": 88,
-    "tags": ["competition-prep", "opener"],
-    "notes": "Easy speed under."
-  },
-  {
-    "id": "v10",
-    "driveId": "EXAMPLE_ID_10",
-    "title": "Front Squat, 3x5",
-    "date": "2026-04-24",
-    "lift": "front_squat",
-    "weight": 110,
-    "tags": ["volume"],
-    "notes": "Building base."
+    "weight": 57,
+    "tags": ["heavy", "rack", "technique"],
+    "notes": "Not getting under the bar fast enough or low enough."
   }
 ]
