@@ -75,5 +75,15 @@
     "weight": 50,
     "tags": ["week-12", "working-set", "complex", "btk-hang", "technique"],
     "notes": "Same mix of strong points and faults seen in the other sets. Standout: very consistent setup — flat back and patient pull with mid-thigh contact. Main issue is the push press: leg drive isn't consistent — arms take over before the legs finish."
+  },
+  {
+    "id": "v8",
+    "youtubeId": "cKXym5SGD4g",
+    "title": "Raised snatch deadlift, set 3",
+    "date": "2026-05-07",
+    "lift": "raised_snatch_deadlift",
+    "weight": 80,
+    "tags": ["week-12", "working-set", "raised", "technique"],
+    "notes": "Bar elevated on 20kg plates. Setup at the bottom is solid — flat back, lats engaged. Off the floor the hips rise slightly before the shoulders, compromising the back angle and bar path."
   }
 ]
