@@ -31,5 +31,16 @@
     "weight": 45,
     "tags": ["week-12", "working-set", "rack", "technique", "dip-drive"],
     "notes": "Dip drifts forward of vertical; bar travels off midfoot. Incomplete drive — not finishing triple extension at the hips. Recurring fault across the session."
+  },
+  {
+    "id": "v4",
+    "youtubeId": "EccC7Eh3RBs",
+    "vertical": true,
+    "title": "Press in Split, third set",
+    "date": "2026-05-10",
+    "lift": "press_in_split",
+    "weight": 30,
+    "tags": ["week-12", "working-set", "split", "lockout"],
+    "notes": "Midline braced and glutes engaged through the split. Lockout incomplete — elbows not fully extending overhead."
   }
 ]

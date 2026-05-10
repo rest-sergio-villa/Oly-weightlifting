@@ -9,6 +9,7 @@ const LIFT_LABELS = {
   clean: 'Clean',
   power_clean: 'Power Clean',
   jerk: 'Jerk',
+  press_in_split: 'Press in Split',
   front_squat: 'Front Squat',
   back_squat: 'Back Squat',
   deadlift: 'Deadlift',
