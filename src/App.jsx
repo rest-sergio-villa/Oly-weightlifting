@@ -103,6 +103,7 @@ export default function App() {
       <style>{globalCss}</style>
 
       <header style={styles.header}>
+        <SnatchLifter />
         <div style={styles.headerInner}>
           <div>
             <div style={styles.eyebrow}>Training log</div>
@@ -371,6 +372,29 @@ function Comments({ video }) {
   );
 }
 
+function SnatchLifter() {
+  // Three failed snatch attempts to mid-thigh, then one clean overhead lock.
+  // Pure CSS keyframes on the arms+bar group; cartoonish anatomy on purpose.
+  return (
+    <div style={styles.snatchAnim} aria-hidden="true">
+      <svg viewBox="0 0 60 70" width="56" height="66">
+        <line x1="6" y1="64" x2="54" y2="64" stroke="currentColor" strokeWidth="0.6" opacity="0.4" />
+        <circle cx="30" cy="20" r="3.5" fill="none" stroke="currentColor" strokeWidth="1.3" />
+        <line x1="30" y1="23.5" x2="30" y2="44" stroke="currentColor" strokeWidth="1.5" />
+        <line x1="30" y1="44" x2="25" y2="60" stroke="currentColor" strokeWidth="1.5" />
+        <line x1="30" y1="44" x2="35" y2="60" stroke="currentColor" strokeWidth="1.5" />
+        <g className="snatch-bar-group">
+          <line x1="30" y1="28" x2="20" y2="52" stroke="currentColor" strokeWidth="1.4" />
+          <line x1="30" y1="28" x2="40" y2="52" stroke="currentColor" strokeWidth="1.4" />
+          <line x1="12" y1="52" x2="48" y2="52" stroke="currentColor" strokeWidth="2" />
+          <circle cx="12" cy="52" r="2.6" fill="currentColor" />
+          <circle cx="48" cy="52" r="2.6" fill="currentColor" />
+        </g>
+      </svg>
+    </div>
+  );
+}
+
 function formatCommentDate(s) {
   const d = new Date(s);
   if (isNaN(d.getTime())) return s;
@@ -513,6 +537,38 @@ const globalCss = `
   ::-webkit-scrollbar-thumb:hover { background: ${COLORS.borderStrong}; }
   input::placeholder { color: ${COLORS.textMute}; }
   input:focus { outline: none; }
+
+  .snatch-bar-group {
+    transform-origin: 30px 52px;
+    animation: snatch-attempts 14s ease-in-out infinite;
+  }
+  @keyframes snatch-attempts {
+    0%, 4%   { transform: translateY(0); }
+    7%       { transform: translateY(-2px); }
+    9%       { transform: translateY(-12px); }
+    11%      { transform: translateY(-10px) rotate(-3deg); }
+    14%      { transform: translateY(2px) rotate(-1deg); }
+    16%, 21% { transform: translateY(0); }
+
+    24%      { transform: translateY(-2px); }
+    26%      { transform: translateY(-12px); }
+    28%      { transform: translateY(-9px) rotate(3deg); }
+    31%      { transform: translateY(2px) rotate(1deg); }
+    33%, 38% { transform: translateY(0); }
+
+    41%      { transform: translateY(-2px); }
+    43%      { transform: translateY(-13px); }
+    45%      { transform: translateY(-11px) rotate(-2deg); }
+    48%      { transform: translateY(2px) rotate(-1deg); }
+    50%, 55% { transform: translateY(0); }
+
+    58%      { transform: translateY(-2px); }
+    62%      { transform: translateY(-12px); }
+    68%      { transform: translateY(-32px); }
+    88%      { transform: translateY(-32px); }
+    94%      { transform: translateY(-2px); }
+    100%     { transform: translateY(0); }
+  }
 `;
 
 const styles = {
@@ -526,8 +582,17 @@ const styles = {
     paddingBottom: 80,
   },
   header: {
+    position: 'relative',
     borderBottom: `1px solid ${COLORS.border}`,
     padding: '32px 24px 24px',
+  },
+  snatchAnim: {
+    position: 'absolute',
+    top: 14,
+    right: 14,
+    color: COLORS.textDim,
+    opacity: 0.55,
+    pointerEvents: 'none',
   },
   headerInner: {
     maxWidth: 1200,
