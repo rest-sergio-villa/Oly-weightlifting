@@ -21,7 +21,7 @@ export default function App() {
   const [search, setSearch] = useState('');
   const [selectedLifts, setSelectedLifts] = useState(new Set());
   const [selectedTags, setSelectedTags] = useState(new Set());
-  const [activeVideo, setActiveVideo] = useState(null);
+  const [activeGroup, setActiveGroup] = useState(null);
   const [filtersOpen, setFiltersOpen] = useState(true);
 
   useEffect(() => {
@@ -33,9 +33,9 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    document.body.style.overflow = activeVideo ? 'hidden' : '';
+    document.body.style.overflow = activeGroup ? 'hidden' : '';
     return () => { document.body.style.overflow = ''; };
-  }, [activeVideo]);
+  }, [activeGroup]);
 
   const allTags = useMemo(() => {
     const tags = new Set();
@@ -64,16 +64,21 @@ export default function App() {
       .sort((a, b) => b.date.localeCompare(a.date));
   }, [search, selectedLifts, selectedTags]);
 
-  // Group by (lift, date, weight). Map insertion order preserves the
-  // upstream date-descending sort, so groups are also date-descending.
+  // Group by (lift, date). Map insertion order preserves the upstream
+  // date-descending sort, so groups are also date-descending. Within a
+  // group, sets are sorted weight-descending (top set first).
   const groupedVideos = useMemo(() => {
     const groups = new Map();
     for (const v of visibleVideos) {
-      const key = `${v.date}|${v.lift}|${v.weight}`;
+      const key = `${v.date}|${v.lift}`;
       if (!groups.has(key)) {
-        groups.set(key, { key, date: v.date, lift: v.lift, weight: v.weight, videos: [] });
+        groups.set(key, { key, date: v.date, lift: v.lift, videos: [] });
       }
       groups.get(key).videos.push(v);
+    }
+    for (const g of groups.values()) {
+      // Stable sort by weight desc so same-weight ordering is preserved.
+      g.videos.sort((a, b) => b.weight - a.weight);
     }
     return Array.from(groups.values());
   }, [visibleVideos]);
@@ -196,24 +201,9 @@ export default function App() {
             )}
           </div>
         ) : (
-          <div style={styles.groups}>
+          <div style={styles.grid}>
             {groupedVideos.map(g => (
-              <section key={g.key} style={styles.group}>
-                <div style={styles.groupHeader}>
-                  <span style={styles.groupLift}>{LIFT_LABELS[g.lift] || g.lift}</span>
-                  <span style={styles.groupSep}>·</span>
-                  <span style={styles.groupWeight}>{g.weight}kg</span>
-                  <span style={styles.groupSep}>·</span>
-                  <span style={styles.groupDate}>{formatGroupDate(g.date)}</span>
-                  <span style={styles.groupSep}>·</span>
-                  <span style={styles.groupSets}>{g.videos.length} {g.videos.length === 1 ? 'set' : 'sets'}</span>
-                </div>
-                <div style={styles.grid}>
-                  {g.videos.map(v => (
-                    <VideoCard key={v.id} video={v} onClick={() => setActiveVideo(v)} />
-                  ))}
-                </div>
-              </section>
+              <GroupCard key={g.key} group={g} onClick={() => setActiveGroup(g)} />
             ))}
           </div>
         )}
@@ -223,30 +213,41 @@ export default function App() {
         <span style={styles.footerText}>Lifts manifest, YouTube embedded.</span>
       </footer>
 
-      {activeVideo && (
-        <VideoModal video={activeVideo} onClose={() => setActiveVideo(null)} />
+      {activeGroup && (
+        <GroupModal group={activeGroup} onClose={() => setActiveGroup(null)} />
       )}
     </div>
   );
 }
 
-function VideoCard({ video, onClick }) {
-  const date = new Date(video.date);
+function GroupCard({ group, onClick }) {
+  const date = new Date(group.date);
   const dateStr = date.toLocaleDateString('en-AU', { day: '2-digit', month: 'short', year: '2-digit' });
+
+  const top = group.videos[0]; // sorted weight-desc
+  const otherWeights = Array.from(new Set(group.videos.slice(1).map(v => v.weight))).filter(w => w !== top.weight);
+  const setCount = group.videos.length;
+  const allTags = Array.from(new Set(group.videos.flatMap(v => v.tags)));
+
   return (
     <button onClick={onClick} style={styles.card} className="lift-card">
       <div style={styles.cardTop}>
-        <div style={styles.cardLift}>{LIFT_LABELS[video.lift] || video.lift}</div>
+        <div style={styles.cardLift}>{LIFT_LABELS[group.lift] || group.lift}</div>
         <div style={styles.cardDate}>{dateStr}</div>
       </div>
       <div style={styles.cardWeight}>
-        <span style={styles.cardWeightNum}>{video.weight}</span>
+        <span style={styles.cardWeightNum}>{top.weight}</span>
         <span style={styles.cardWeightUnit}>kg</span>
       </div>
-      <div style={styles.cardTitle}>{video.title}</div>
-      {video.notes && <div style={styles.cardNotes}>{video.notes}</div>}
+      <div style={styles.cardSetMeta}>
+        <span>{setCount} {setCount === 1 ? 'set' : 'sets'}</span>
+        {otherWeights.length > 0 && (
+          <span style={styles.cardSetMetaSecondary}> · also {otherWeights.join(', ')}kg</span>
+        )}
+      </div>
+      {top.notes && <div style={styles.cardNotes}>{top.notes}</div>}
       <div style={styles.cardTags}>
-        {video.tags.map(t => (
+        {allTags.map(t => (
           <span key={t} style={styles.cardTag}>{t}</span>
         ))}
       </div>
@@ -377,15 +378,17 @@ function formatGroupDate(s) {
   return d.toLocaleDateString('en-AU', { day: 'numeric', month: 'short' });
 }
 
-function VideoModal({ video, onClose }) {
+function GroupModal({ group, onClose }) {
   useEffect(() => {
     const handler = e => { if (e.key === 'Escape') onClose(); };
     window.addEventListener('keydown', handler);
     return () => window.removeEventListener('keydown', handler);
   }, [onClose]);
 
-  const date = new Date(video.date);
+  const date = new Date(group.date);
   const dateStr = date.toLocaleDateString('en-AU', { weekday: 'long', day: '2-digit', month: 'long', year: 'numeric' });
+  const top = group.videos[0];
+  const setCount = group.videos.length;
 
   return (
     <div style={styles.modalBackdrop} onClick={onClose}>
@@ -395,54 +398,81 @@ function VideoModal({ video, onClose }) {
         </button>
 
         <div style={styles.modalHeader}>
-          <div style={styles.modalLift}>{LIFT_LABELS[video.lift] || video.lift}</div>
+          <div style={styles.modalLift}>{LIFT_LABELS[group.lift] || group.lift}</div>
           <div style={styles.modalWeight}>
-            <span style={styles.modalWeightNum}>{video.weight}</span>
-            <span style={styles.modalWeightUnit}>kg</span>
+            <span style={styles.modalWeightNum}>{top.weight}</span>
+            <span style={styles.modalWeightUnit}>kg top</span>
           </div>
-          <h2 style={styles.modalTitle}>{video.title}</h2>
+          <h2 style={styles.modalTitle}>{setCount} {setCount === 1 ? 'set' : 'sets'}</h2>
           <div style={styles.modalDate}>
             <Calendar size={13} style={{ marginRight: 6, opacity: 0.6 }} />
             {dateStr}
           </div>
         </div>
 
-        <div style={video.vertical ? styles.modalVideoWrapVertical : styles.modalVideoWrap}>
-          <iframe
-            src={`https://www.youtube.com/embed/${video.youtubeId}`}
-            style={video.vertical ? styles.modalVideoVertical : styles.modalVideo}
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowFullScreen
-            title={video.title}
-          />
-        </div>
-
-        {video.notes && (
-          <div style={styles.modalNotes}>
-            <div style={styles.modalNotesLabel}>Notes</div>
-            <div style={styles.modalNotesBody}>{video.notes}</div>
-          </div>
-        )}
-
-        <Comments video={video} />
-
-        <div style={styles.modalTags}>
-          {video.tags.map(t => (
-            <span key={t} style={styles.modalTag}># {t}</span>
+        <div style={styles.setList}>
+          {group.videos.map((v, i) => (
+            <SetSection
+              key={v.id}
+              video={v}
+              setNumber={setCount - i}
+              totalSets={setCount}
+              isFirst={i === 0}
+            />
           ))}
         </div>
-
-        <a
-          href={`https://www.youtube.com/watch?v=${video.youtubeId}`}
-          target="_blank"
-          rel="noreferrer"
-          style={styles.modalDriveLink}
-        >
-          Open on YouTube
-          <ExternalLink size={13} />
-        </a>
       </div>
     </div>
+  );
+}
+
+function SetSection({ video, setNumber, totalSets, isFirst }) {
+  return (
+    <section style={{ ...styles.setSection, ...(isFirst ? styles.setSectionFirst : {}) }}>
+      <div style={styles.setHeader}>
+        <div style={styles.setIndex}>Set {setNumber} of {totalSets}</div>
+        <div style={styles.setWeight}>
+          <span style={styles.setWeightNum}>{video.weight}</span>
+          <span style={styles.setWeightUnit}>kg</span>
+        </div>
+        <div style={styles.setTitle}>{video.title}</div>
+      </div>
+
+      <div style={video.vertical ? styles.modalVideoWrapVertical : styles.modalVideoWrap}>
+        <iframe
+          src={`https://www.youtube.com/embed/${video.youtubeId}`}
+          style={video.vertical ? styles.modalVideoVertical : styles.modalVideo}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+          title={video.title}
+        />
+      </div>
+
+      {video.notes && (
+        <div style={styles.modalNotes}>
+          <div style={styles.modalNotesLabel}>Notes</div>
+          <div style={styles.modalNotesBody}>{video.notes}</div>
+        </div>
+      )}
+
+      <Comments video={video} />
+
+      <div style={styles.modalTags}>
+        {video.tags.map(t => (
+          <span key={t} style={styles.modalTag}># {t}</span>
+        ))}
+      </div>
+
+      <a
+        href={`https://www.youtube.com/watch?v=${video.youtubeId}`}
+        target="_blank"
+        rel="noreferrer"
+        style={styles.modalDriveLink}
+      >
+        Open on YouTube
+        <ExternalLink size={13} />
+      </a>
+    </section>
   );
 }
 
@@ -748,6 +778,67 @@ const styles = {
   cardTitle: {
     fontSize: 14,
     fontWeight: 500,
+    color: COLORS.text,
+  },
+  cardSetMeta: {
+    fontFamily: FONTS.mono,
+    fontSize: 11,
+    color: COLORS.textDim,
+    letterSpacing: '0.04em',
+  },
+  cardSetMetaSecondary: {
+    color: COLORS.textMute,
+  },
+  setList: {
+    display: 'flex',
+    flexDirection: 'column',
+    gap: 0,
+  },
+  setSection: {
+    paddingTop: 28,
+    marginTop: 28,
+    borderTop: `1px solid ${COLORS.border}`,
+  },
+  setSectionFirst: {
+    paddingTop: 0,
+    marginTop: 0,
+    borderTop: 'none',
+  },
+  setHeader: {
+    display: 'flex',
+    alignItems: 'baseline',
+    flexWrap: 'wrap',
+    gap: 14,
+    marginBottom: 14,
+  },
+  setIndex: {
+    fontFamily: FONTS.mono,
+    fontSize: 11,
+    letterSpacing: '0.1em',
+    textTransform: 'uppercase',
+    color: COLORS.textMute,
+  },
+  setWeight: {
+    display: 'inline-flex',
+    alignItems: 'baseline',
+    gap: 3,
+  },
+  setWeightNum: {
+    fontFamily: FONTS.display,
+    fontWeight: 800,
+    fontSize: 36,
+    lineHeight: 0.9,
+    letterSpacing: '-0.02em',
+    color: COLORS.text,
+  },
+  setWeightUnit: {
+    fontFamily: FONTS.mono,
+    fontSize: 12,
+    color: COLORS.textDim,
+  },
+  setTitle: {
+    fontFamily: FONTS.body,
+    fontSize: 14,
     color: COLORS.text,
   },
   cardNotes: {
