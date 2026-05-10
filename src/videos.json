@@ -20,5 +20,16 @@
     "weight": 50,
     "tags": ["working-set", "rack", "technique"],
     "notes": "Not fully extended; rushing to get under the bar."
+  },
+  {
+    "id": "v3",
+    "youtubeId": "gIqbGdU_a3o",
+    "vertical": true,
+    "title": "Jerk, building set from rack",
+    "date": "2026-05-09",
+    "lift": "jerk",
+    "weight": 45,
+    "tags": ["working-set", "rack", "technique", "dip-drive"],
+    "notes": "Dip drifts forward of vertical; bar travels off midfoot. Incomplete drive — not finishing triple extension at the hips. Recurring fault across the session."
   }
 ]
