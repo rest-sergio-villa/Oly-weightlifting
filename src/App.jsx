@@ -12,6 +12,7 @@ const LIFT_LABELS = {
   hang_power_clean_push_press: 'Below-the-Knee HPC + PP',
   jerk: 'Jerk',
   press_in_split: 'Press in Split',
+  raised_snatch_deadlift: 'Raised Snatch Deadlift',
   front_squat: 'Front Squat',
   back_squat: 'Back Squat',
   deadlift: 'Deadlift',
