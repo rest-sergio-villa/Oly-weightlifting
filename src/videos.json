@@ -7,7 +7,7 @@
     "date": "2026-05-09",
     "lift": "jerk",
     "weight": 57,
-    "tags": ["heavy", "rack", "technique"],
+    "tags": ["week-12", "heavy", "rack", "technique"],
     "notes": "Not getting under the bar fast enough or low enough."
   },
   {
@@ -18,7 +18,7 @@
     "date": "2026-05-09",
     "lift": "jerk",
     "weight": 50,
-    "tags": ["working-set", "rack", "technique"],
+    "tags": ["week-12", "working-set", "rack", "technique"],
     "notes": "Not fully extended; rushing to get under the bar."
   },
   {
@@ -29,7 +29,7 @@
     "date": "2026-05-09",
     "lift": "jerk",
     "weight": 45,
-    "tags": ["working-set", "rack", "technique", "dip-drive"],
+    "tags": ["week-12", "working-set", "rack", "technique", "dip-drive"],
     "notes": "Dip drifts forward of vertical; bar travels off midfoot. Incomplete drive — not finishing triple extension at the hips. Recurring fault across the session."
   }
 ]
