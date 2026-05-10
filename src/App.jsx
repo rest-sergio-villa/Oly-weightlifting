@@ -188,7 +188,7 @@ export default function App() {
       </main>
 
       <footer style={styles.footer}>
-        <span style={styles.footerText}>Lifts manifest, Drive embedded.</span>
+        <span style={styles.footerText}>Lifts manifest, YouTube embedded.</span>
       </footer>
 
       {activeVideo && (
@@ -254,9 +254,9 @@ function VideoModal({ video, onClose }) {
 
         <div style={styles.modalVideoWrap}>
           <iframe
-            src={`https://drive.google.com/file/d/${video.driveId}/preview`}
+            src={`https://www.youtube.com/embed/${video.youtubeId}`}
             style={styles.modalVideo}
-            allow="autoplay; fullscreen"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
             title={video.title}
           />
@@ -276,12 +276,12 @@ function VideoModal({ video, onClose }) {
         </div>
 
         <a
-          href={`https://drive.google.com/file/d/${video.driveId}/view`}
+          href={`https://www.youtube.com/watch?v=${video.youtubeId}`}
           target="_blank"
           rel="noreferrer"
           style={styles.modalDriveLink}
         >
-          Open in Drive
+          Open on YouTube
           <ExternalLink size={13} />
         </a>
       </div>

@@ -1,6 +1,6 @@
 # Sergio / Lifts
 
-Olympic weightlifting training log. Static React + Vite site that embeds videos straight from Google Drive.
+Olympic weightlifting training log. Static React + Vite site that embeds videos from YouTube.
 
 ## Develop
 
@@ -20,16 +20,17 @@ npm run preview    # serve dist/ locally
 
 ## Adding a video
 
-1. Upload the file to Google Drive.
-2. Right-click the file in Drive → **Share** → set link access to **Anyone with the link**. Without this, the embed will not load.
-3. Copy the file ID from the share URL — it's the long string between `/d/` and `/view`:
-   - `https://drive.google.com/file/d/`**`1A2B3C…XYZ`**`/view?usp=sharing`
-4. Add an entry to [`src/videos.json`](src/videos.json):
+1. Upload the video to YouTube. Set visibility to **Unlisted** (only people with the link can view; not in search results).
+2. Copy the video ID from the URL — it's the `v=` parameter, or the part after `youtu.be/` or `youtube.com/shorts/`:
+   - `https://www.youtube.com/watch?v=`**`PesVfzoU3-0`**
+   - `https://youtu.be/`**`PesVfzoU3-0`**
+   - `https://youtube.com/shorts/`**`PesVfzoU3-0`**`?si=...`
+3. Add an entry to [`src/videos.json`](src/videos.json):
 
 ```json
 {
-  "id": "v11",
-  "driveId": "1A2B3C…XYZ",
+  "id": "v2",
+  "youtubeId": "PesVfzoU3-0",
   "title": "Snatch, top single",
   "date": "2026-05-09",
   "lift": "snatch",
@@ -40,6 +41,8 @@ npm run preview    # serve dist/ locally
 ```
 
 `id` just needs to be unique. `lift` should be one of the keys in `LIFT_LABELS` in `src/App.jsx` — add a new one there if you need a new category.
+
+Shorts (vertical 9:16) play fine in the modal but get letterboxed inside the 16:9 player.
 
 ## Deploy
 
