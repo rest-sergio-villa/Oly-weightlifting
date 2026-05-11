@@ -21,6 +21,22 @@ const LIFT_LABELS = {
 export default function App() {
   const [search, setSearch] = useState('');
   const [selectedLifts, setSelectedLifts] = useState(new Set());
+  const [selectedWeeks, setSelectedWeeks] = useState(() => {
+    // Default to the latest week present in the data.
+    let latest = null;
+    let latestN = -Infinity;
+    for (const v of videos) {
+      for (const t of v.tags) {
+        if (!t.startsWith('week-')) continue;
+        const n = parseInt(t.slice(5), 10);
+        if (Number.isFinite(n) && n > latestN) {
+          latestN = n;
+          latest = t;
+        }
+      }
+    }
+    return latest ? new Set([latest]) : new Set();
+  });
   const [selectedTags, setSelectedTags] = useState(new Set());
   const [activeGroup, setActiveGroup] = useState(null);
   const [filtersOpen, setFiltersOpen] = useState(true);
@@ -40,8 +56,18 @@ export default function App() {
 
   const allTags = useMemo(() => {
     const tags = new Set();
-    videos.forEach(v => v.tags.forEach(t => tags.add(t)));
+    videos.forEach(v => v.tags.forEach(t => {
+      if (!t.startsWith('week-')) tags.add(t);
+    }));
     return Array.from(tags).sort();
+  }, []);
+
+  const allWeeks = useMemo(() => {
+    const weeks = new Set();
+    videos.forEach(v => v.tags.forEach(t => {
+      if (t.startsWith('week-')) weeks.add(t);
+    }));
+    return Array.from(weeks).sort((a, b) => parseInt(b.slice(5), 10) - parseInt(a.slice(5), 10));
   }, []);
 
   const allLifts = useMemo(() => {
@@ -55,6 +81,7 @@ export default function App() {
     return videos
       .filter(v => {
         if (selectedLifts.size > 0 && !selectedLifts.has(v.lift)) return false;
+        if (selectedWeeks.size > 0 && !v.tags.some(t => selectedWeeks.has(t))) return false;
         if (selectedTags.size > 0 && !v.tags.some(t => selectedTags.has(t))) return false;
         if (q) {
           const haystack = `${v.title} ${v.notes} ${v.tags.join(' ')} ${LIFT_LABELS[v.lift] || v.lift} ${v.weight}`.toLowerCase();
@@ -63,7 +90,7 @@ export default function App() {
         return true;
       })
       .sort((a, b) => b.date.localeCompare(a.date));
-  }, [search, selectedLifts, selectedTags]);
+  }, [search, selectedLifts, selectedWeeks, selectedTags]);
 
   // Group by (lift, date). Map insertion order preserves the upstream
   // date-descending sort, so groups are also date-descending. Within a
@@ -93,10 +120,11 @@ export default function App() {
   const clearAll = () => {
     setSearch('');
     setSelectedLifts(new Set());
+    setSelectedWeeks(new Set());
     setSelectedTags(new Set());
   };
 
-  const hasActiveFilters = search || selectedLifts.size > 0 || selectedTags.size > 0;
+  const hasActiveFilters = search || selectedLifts.size > 0 || selectedWeeks.size > 0 || selectedTags.size > 0;
 
   return (
     <div style={styles.root}>
@@ -157,6 +185,26 @@ export default function App() {
 
       {filtersOpen && (
         <section style={styles.filterPanel}>
+          {allWeeks.length > 0 && (
+            <div style={styles.filterGroup}>
+              <div style={styles.filterLabel}>Week</div>
+              <div style={styles.chipRow}>
+                {allWeeks.map(week => (
+                  <button
+                    key={week}
+                    onClick={() => toggle(selectedWeeks, week, setSelectedWeeks)}
+                    style={{
+                      ...styles.chip,
+                      ...(selectedWeeks.has(week) ? styles.chipActive : {}),
+                    }}
+                  >
+                    {formatWeek(week)}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
           <div style={styles.filterGroup}>
             <div style={styles.filterLabel}>Lift</div>
             <div style={styles.chipRow}>
@@ -411,6 +459,11 @@ function SnatchLifter() {
       </svg>
     </div>
   );
+}
+
+function formatWeek(weekTag) {
+  const n = weekTag.slice(5);
+  return `Week ${n}`;
 }
 
 function formatCommentDate(s) {
