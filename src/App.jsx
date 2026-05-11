@@ -381,16 +381,32 @@ function SnatchLifter() {
     <div style={styles.snatchAnim} aria-hidden="true">
       <svg viewBox="0 0 60 70" width="72" height="84">
         <line x1="6" y1="64" x2="54" y2="64" stroke="currentColor" strokeWidth="0.6" opacity="0.4" />
-        <circle cx="30" cy="20" r="3.5" fill="none" stroke="currentColor" strokeWidth="1.3" />
-        <line x1="30" y1="23.5" x2="30" y2="44" stroke="currentColor" strokeWidth="1.5" />
-        <line x1="30" y1="44" x2="25" y2="60" stroke="currentColor" strokeWidth="1.5" />
-        <line x1="30" y1="44" x2="35" y2="60" stroke="currentColor" strokeWidth="1.5" />
-        <g className="snatch-bar-group">
-          <line x1="30" y1="28" x2="20" y2="52" stroke="currentColor" strokeWidth="1.4" />
-          <line x1="30" y1="28" x2="40" y2="52" stroke="currentColor" strokeWidth="1.4" />
-          <line x1="12" y1="52" x2="48" y2="52" stroke="currentColor" strokeWidth="2" />
-          <circle cx="12" cy="52" r="2.6" fill="currentColor" />
-          <circle cx="48" cy="52" r="2.6" fill="currentColor" />
+
+        {/* Standing legs (faded out on the success catch) */}
+        <g className="snatch-legs-standing">
+          <line x1="30" y1="44" x2="25" y2="60" stroke="currentColor" strokeWidth="1.5" />
+          <line x1="30" y1="44" x2="35" y2="60" stroke="currentColor" strokeWidth="1.5" />
+        </g>
+
+        {/* Squat legs: hip near feet, knees pushed wide, shins angle to fixed feet */}
+        <g className="snatch-legs-squat">
+          <line x1="30" y1="56" x2="18" y2="56" stroke="currentColor" strokeWidth="1.5" />
+          <line x1="18" y1="56" x2="25" y2="60" stroke="currentColor" strokeWidth="1.5" />
+          <line x1="30" y1="56" x2="42" y2="56" stroke="currentColor" strokeWidth="1.5" />
+          <line x1="42" y1="56" x2="35" y2="60" stroke="currentColor" strokeWidth="1.5" />
+        </g>
+
+        {/* Upper body + arms/bar: drops on the success catch */}
+        <g className="snatch-upper">
+          <circle cx="30" cy="20" r="3.5" fill="none" stroke="currentColor" strokeWidth="1.3" />
+          <line x1="30" y1="23.5" x2="30" y2="44" stroke="currentColor" strokeWidth="1.5" />
+          <g className="snatch-bar-group">
+            <line x1="30" y1="28" x2="20" y2="52" stroke="currentColor" strokeWidth="1.4" />
+            <line x1="30" y1="28" x2="40" y2="52" stroke="currentColor" strokeWidth="1.4" />
+            <line x1="12" y1="52" x2="48" y2="52" stroke="currentColor" strokeWidth="2" />
+            <circle cx="12" cy="52" r="2.6" fill="currentColor" />
+            <circle cx="48" cy="52" r="2.6" fill="currentColor" />
+          </g>
         </g>
       </svg>
     </div>
@@ -544,6 +560,37 @@ const globalCss = `
     transform-box: view-box;
     transform-origin: 30px 28px;
     animation: snatch-attempts 14s ease-in-out infinite;
+  }
+  .snatch-upper {
+    transform-box: view-box;
+    transform-origin: 30px 44px;
+    animation: snatch-upper 14s ease-in-out infinite;
+  }
+  .snatch-legs-squat { opacity: 0; }
+  .snatch-legs-standing {
+    animation: snatch-legs-standing 14s ease-in-out infinite;
+  }
+  .snatch-legs-squat {
+    animation: snatch-legs-squat 14s ease-in-out infinite;
+  }
+  @keyframes snatch-upper {
+    0%, 62%  { transform: translateY(0); }
+    72%      { transform: translateY(12px); }
+    88%      { transform: translateY(12px); }
+    96%      { transform: translateY(0); }
+    100%     { transform: translateY(0); }
+  }
+  @keyframes snatch-legs-standing {
+    0%, 66%  { opacity: 1; }
+    70%, 90% { opacity: 0; }
+    95%      { opacity: 1; }
+    100%     { opacity: 1; }
+  }
+  @keyframes snatch-legs-squat {
+    0%, 66%  { opacity: 0; }
+    70%, 90% { opacity: 1; }
+    95%      { opacity: 0; }
+    100%     { opacity: 0; }
   }
   @keyframes snatch-attempts {
     /* Attempt 1: fail to mid-thigh */
