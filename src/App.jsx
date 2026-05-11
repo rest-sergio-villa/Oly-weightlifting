@@ -547,32 +547,32 @@ const globalCss = `
   }
   @keyframes snatch-attempts {
     /* Attempt 1: fail to mid-thigh */
-    0%, 4%   { transform: translate(0, 0) rotate(0deg); }
-    7%       { transform: translate(0, -2px) rotate(0deg); }
-    10%      { transform: translate(0, -13px) rotate(0deg); }
-    12%      { transform: translate(0, -10px) rotate(0deg); }
-    15%      { transform: translate(0, 2px) rotate(0deg); }
-    17%, 22% { transform: translate(0, 0) rotate(0deg); }
+    0%, 4%   { transform: translate(0, 0) rotateX(0deg); }
+    7%       { transform: translate(0, -2px) rotateX(0deg); }
+    10%      { transform: translate(0, -13px) rotateX(0deg); }
+    12%      { transform: translate(0, -10px) rotateX(0deg); }
+    15%      { transform: translate(0, 2px) rotateX(0deg); }
+    17%, 22% { transform: translate(0, 0) rotateX(0deg); }
 
     /* Attempt 2: fail */
-    25%      { transform: translate(0, -2px) rotate(0deg); }
-    28%      { transform: translate(0, -13px) rotate(0deg); }
-    30%      { transform: translate(0, -10px) rotate(0deg); }
-    33%      { transform: translate(0, 2px) rotate(0deg); }
-    35%, 40% { transform: translate(0, 0) rotate(0deg); }
+    25%      { transform: translate(0, -2px) rotateX(0deg); }
+    28%      { transform: translate(0, -13px) rotateX(0deg); }
+    30%      { transform: translate(0, -10px) rotateX(0deg); }
+    33%      { transform: translate(0, 2px) rotateX(0deg); }
+    35%, 40% { transform: translate(0, 0) rotateX(0deg); }
 
     /* Attempt 3: fail */
-    43%      { transform: translate(0, -2px) rotate(0deg); }
-    46%      { transform: translate(0, -13px) rotate(0deg); }
-    48%      { transform: translate(0, -11px) rotate(0deg); }
-    51%      { transform: translate(0, 2px) rotate(0deg); }
-    53%, 58% { transform: translate(0, 0) rotate(0deg); }
+    43%      { transform: translate(0, -2px) rotateX(0deg); }
+    46%      { transform: translate(0, -13px) rotateX(0deg); }
+    48%      { transform: translate(0, -11px) rotateX(0deg); }
+    51%      { transform: translate(0, 2px) rotateX(0deg); }
+    53%, 58% { transform: translate(0, 0) rotateX(0deg); }
 
-    /* Attempt 4: SUCCESS — triangle flips overhead */
-    62%      { transform: translate(0, -8px) rotate(0deg); }   /* pull starts */
-    70%      { transform: translate(0, 0) rotate(180deg); }    /* flip */
-    88%      { transform: translate(0, 0) rotate(180deg); }    /* hold overhead */
-    100%     { transform: translate(0, 0) rotate(360deg); }    /* spin back to start (looks identical to 0°) */
+    /* Attempt 4: SUCCESS — flip overhead in place */
+    62%      { transform: translate(0, -8px) rotateX(0deg); }
+    70%      { transform: translate(0, 0) rotateX(180deg); }
+    88%      { transform: translate(0, 0) rotateX(180deg); }
+    100%     { transform: translate(0, 0) rotateX(360deg); }
   }
 `;
 
