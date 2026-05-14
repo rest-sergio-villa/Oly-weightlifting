@@ -108,5 +108,16 @@
     "weight": 80,
     "tags": ["week-12-c1", "working-set", "raised", "cycle-1", "loc-brunswick"],
     "notes": "Bar elevated on 20kg plates."
+  },
+  {
+    "id": "v12",
+    "youtubeId": "MPErMveCXJw",
+    "vertical": true,
+    "title": "Paused Back Squat, set 1",
+    "date": "2026-05-14",
+    "lift": "paused_back_squat",
+    "weight": 40,
+    "tags": ["week-1-c2", "working-set", "paused", "technique", "cycle-2", "loc-altona"],
+    "notes": "Three-second pause at the bottom. Good breathing — ribs stacked over hips, strong brace. Focus on maintaining that tension all the way through the ascent. Toe angle slightly wider than ideal; flagging as a mobility limitation rather than a cueing issue."
   }
 ]
