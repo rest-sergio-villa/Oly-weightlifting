@@ -15,6 +15,7 @@ const LIFT_LABELS = {
   raised_snatch_deadlift: 'Raised Snatch Deadlift',
   front_squat: 'Front Squat',
   back_squat: 'Back Squat',
+  paused_back_squat: 'Paused Back Squat',
   deadlift: 'Deadlift',
 };
 
@@ -22,15 +23,19 @@ export default function App() {
   const [search, setSearch] = useState('');
   const [selectedLifts, setSelectedLifts] = useState(new Set());
   const [selectedWeeks, setSelectedWeeks] = useState(() => {
-    // Default to the latest week present in the data.
+    // Default to the latest week present in the data, where "latest"
+    // means highest cycle, then highest week within that cycle.
     let latest = null;
-    let latestN = -Infinity;
+    let latestCycle = -Infinity;
+    let latestWeek = -Infinity;
     for (const v of videos) {
       for (const t of v.tags) {
         if (!t.startsWith('week-')) continue;
-        const n = parseInt(t.slice(5), 10);
-        if (Number.isFinite(n) && n > latestN) {
-          latestN = n;
+        const [w, c] = parseWeekTag(t);
+        if (!Number.isFinite(w)) continue;
+        if (c > latestCycle || (c === latestCycle && w > latestWeek)) {
+          latestCycle = c;
+          latestWeek = w;
           latest = t;
         }
       }
@@ -72,7 +77,12 @@ export default function App() {
     videos.forEach(v => v.tags.forEach(t => {
       if (t.startsWith('week-')) weeks.add(t);
     }));
-    return Array.from(weeks).sort((a, b) => parseInt(b.slice(5), 10) - parseInt(a.slice(5), 10));
+    return Array.from(weeks).sort((a, b) => {
+      const [wa, ca] = parseWeekTag(a);
+      const [wb, cb] = parseWeekTag(b);
+      if (cb !== ca) return cb - ca;
+      return wb - wa;
+    });
   }, []);
 
   const allCycles = useMemo(() => {
@@ -526,9 +536,17 @@ function SnatchLifter() {
   );
 }
 
+function parseWeekTag(weekTag) {
+  // "week-12-c1" -> [12, 1]; "week-12" -> [12, 0]
+  const parts = weekTag.split('-');
+  const week = parseInt(parts[1], 10);
+  const cycle = parts[2] && /^c\d+$/i.test(parts[2]) ? parseInt(parts[2].slice(1), 10) : 0;
+  return [week, cycle];
+}
+
 function formatWeek(weekTag) {
   // "week-12" -> "Week 12"; "week-12-c1" -> "Week 12 — C1"
-  const parts = weekTag.split('-'); // ["week", "12"] or ["week", "12", "c1"]
+  const parts = weekTag.split('-');
   const n = parts[1] || '';
   const cycle = parts[2];
   if (cycle && /^c\d+$/i.test(cycle)) {
