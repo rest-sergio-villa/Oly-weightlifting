@@ -55,12 +55,15 @@ Sergio pastes a YouTube URL plus a short description (lift, weight, set, notes).
      "date": "2026-MM-DD",
      "lift": "lift_type_key",
      "weight": 50,
+     "bodyweight": 100,
      "tags": ["week-N", "working-set", "..."],
      "notes": "OWL-translated note."
    }
    ```
 
    `id`: increment from the highest existing `v{N}`. It only needs to be unique. Comments key on `youtubeId`, not `id`.
+
+   `bodyweight`: optional (kg). When set, the card and modal display the lift's percentage of bodyweight (e.g. "60% BW") alongside the absolute weight. Omit if unknown.
 
 6. **Array position matters within a group.** Cards group by `(lift, date)`. Inside a group, sets sort by weight descending; same-weight sets preserve **array order**. Sergio's convention is "most recent set at the top of the modal." So if a working set at 50kg already has set 4, set 3 in that order, place new set 2 **after** them in the JSON.
 
