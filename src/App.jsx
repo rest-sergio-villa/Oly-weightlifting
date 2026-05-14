@@ -366,6 +366,11 @@ function GroupCard({ group, onClick }) {
         <span style={styles.cardWeightNum}>{top.weight}</span>
         <span style={styles.cardWeightUnit}>kg</span>
       </div>
+      {top.bodyweight && (
+        <div style={styles.cardBwPct}>
+          {Math.round((top.weight / top.bodyweight) * 100)}% BW
+        </div>
+      )}
       <div style={styles.cardSetMeta}>
         <span>{setCount} {setCount === 1 ? 'set' : 'sets'}</span>
         {otherWeights.length > 0 && (
@@ -634,6 +639,9 @@ function SetSection({ video, setNumber, totalSets, isFirst }) {
           <span style={styles.setWeightNum}>{video.weight}</span>
           <span style={styles.setWeightUnit}>kg</span>
         </div>
+        {video.bodyweight && (
+          <span style={styles.setBwPct}>{Math.round((video.weight / video.bodyweight) * 100)}% BW</span>
+        )}
         <div style={styles.setTitle}>{video.title}</div>
       </div>
 
@@ -1058,6 +1066,13 @@ const styles = {
     fontWeight: 500,
     color: COLORS.text,
   },
+  cardBwPct: {
+    fontFamily: FONTS.mono,
+    fontSize: 11,
+    letterSpacing: '0.06em',
+    color: COLORS.textDim,
+    marginTop: -4,
+  },
   cardSetMeta: {
     fontFamily: FONTS.mono,
     fontSize: 11,
@@ -1125,6 +1140,12 @@ const styles = {
     fontFamily: FONTS.mono,
     fontSize: 12,
     color: COLORS.textDim,
+  },
+  setBwPct: {
+    fontFamily: FONTS.mono,
+    fontSize: 11,
+    color: COLORS.textDim,
+    letterSpacing: '0.06em',
   },
   setTitle: {
     fontFamily: FONTS.body,
