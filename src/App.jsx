@@ -37,6 +37,8 @@ export default function App() {
     }
     return latest ? new Set([latest]) : new Set();
   });
+  const [selectedCycles, setSelectedCycles] = useState(new Set());
+  const [selectedLocations, setSelectedLocations] = useState(new Set());
   const [selectedTags, setSelectedTags] = useState(new Set());
   const [activeGroup, setActiveGroup] = useState(null);
   const [filtersOpen, setFiltersOpen] = useState(true);
@@ -57,7 +59,10 @@ export default function App() {
   const allTags = useMemo(() => {
     const tags = new Set();
     videos.forEach(v => v.tags.forEach(t => {
-      if (!t.startsWith('week-')) tags.add(t);
+      if (t.startsWith('week-')) return;
+      if (t.startsWith('cycle-')) return;
+      if (t.startsWith('loc-')) return;
+      tags.add(t);
     }));
     return Array.from(tags).sort();
   }, []);
@@ -68,6 +73,22 @@ export default function App() {
       if (t.startsWith('week-')) weeks.add(t);
     }));
     return Array.from(weeks).sort((a, b) => parseInt(b.slice(5), 10) - parseInt(a.slice(5), 10));
+  }, []);
+
+  const allCycles = useMemo(() => {
+    const cycles = new Set();
+    videos.forEach(v => v.tags.forEach(t => {
+      if (t.startsWith('cycle-')) cycles.add(t);
+    }));
+    return Array.from(cycles).sort();
+  }, []);
+
+  const allLocations = useMemo(() => {
+    const locations = new Set();
+    videos.forEach(v => v.tags.forEach(t => {
+      if (t.startsWith('loc-')) locations.add(t);
+    }));
+    return Array.from(locations).sort();
   }, []);
 
   const allLifts = useMemo(() => {
@@ -82,6 +103,8 @@ export default function App() {
       .filter(v => {
         if (selectedLifts.size > 0 && !selectedLifts.has(v.lift)) return false;
         if (selectedWeeks.size > 0 && !v.tags.some(t => selectedWeeks.has(t))) return false;
+        if (selectedCycles.size > 0 && !v.tags.some(t => selectedCycles.has(t))) return false;
+        if (selectedLocations.size > 0 && !v.tags.some(t => selectedLocations.has(t))) return false;
         if (selectedTags.size > 0 && !v.tags.some(t => selectedTags.has(t))) return false;
         if (q) {
           const haystack = `${v.title} ${v.notes} ${v.tags.join(' ')} ${LIFT_LABELS[v.lift] || v.lift} ${v.weight}`.toLowerCase();
@@ -90,7 +113,7 @@ export default function App() {
         return true;
       })
       .sort((a, b) => b.date.localeCompare(a.date));
-  }, [search, selectedLifts, selectedWeeks, selectedTags]);
+  }, [search, selectedLifts, selectedWeeks, selectedCycles, selectedLocations, selectedTags]);
 
   // Group by (lift, date). Map insertion order preserves the upstream
   // date-descending sort, so groups are also date-descending. Within a
@@ -121,10 +144,12 @@ export default function App() {
     setSearch('');
     setSelectedLifts(new Set());
     setSelectedWeeks(new Set());
+    setSelectedCycles(new Set());
+    setSelectedLocations(new Set());
     setSelectedTags(new Set());
   };
 
-  const hasActiveFilters = search || selectedLifts.size > 0 || selectedWeeks.size > 0 || selectedTags.size > 0;
+  const hasActiveFilters = search || selectedLifts.size > 0 || selectedWeeks.size > 0 || selectedCycles.size > 0 || selectedLocations.size > 0 || selectedTags.size > 0;
 
   return (
     <div style={styles.root}>
@@ -199,6 +224,46 @@ export default function App() {
                     }}
                   >
                     {formatWeek(week)}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {allCycles.length > 0 && (
+            <div style={styles.filterGroup}>
+              <div style={styles.filterLabel}>Cycle</div>
+              <div style={styles.chipRow}>
+                {allCycles.map(cycle => (
+                  <button
+                    key={cycle}
+                    onClick={() => toggle(selectedCycles, cycle, setSelectedCycles)}
+                    style={{
+                      ...styles.chip,
+                      ...(selectedCycles.has(cycle) ? styles.chipActive : {}),
+                    }}
+                  >
+                    {formatCycle(cycle)}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {allLocations.length > 0 && (
+            <div style={styles.filterGroup}>
+              <div style={styles.filterLabel}>Location</div>
+              <div style={styles.chipRow}>
+                {allLocations.map(loc => (
+                  <button
+                    key={loc}
+                    onClick={() => toggle(selectedLocations, loc, setSelectedLocations)}
+                    style={{
+                      ...styles.chip,
+                      ...(selectedLocations.has(loc) ? styles.chipActive : {}),
+                    }}
+                  >
+                    {formatLocation(loc)}
                   </button>
                 ))}
               </div>
@@ -462,8 +527,24 @@ function SnatchLifter() {
 }
 
 function formatWeek(weekTag) {
-  const n = weekTag.slice(5);
+  // "week-12" -> "Week 12"; "week-12-c1" -> "Week 12 — C1"
+  const parts = weekTag.split('-'); // ["week", "12"] or ["week", "12", "c1"]
+  const n = parts[1] || '';
+  const cycle = parts[2];
+  if (cycle && /^c\d+$/i.test(cycle)) {
+    return `Week ${n} — ${cycle.toUpperCase()}`;
+  }
   return `Week ${n}`;
+}
+
+function formatCycle(cycleTag) {
+  const n = cycleTag.slice('cycle-'.length);
+  return `Cycle ${n}`;
+}
+
+function formatLocation(locTag) {
+  const name = locTag.slice('loc-'.length);
+  return name.charAt(0).toUpperCase() + name.slice(1);
 }
 
 function formatCommentDate(s) {

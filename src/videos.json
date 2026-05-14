@@ -7,7 +7,7 @@
     "date": "2026-05-09",
     "lift": "jerk",
     "weight": 57,
-    "tags": ["week-12", "heavy", "rack", "technique"],
+    "tags": ["week-12-c1", "heavy", "rack", "technique", "cycle-1", "loc-brunswick"],
     "notes": "Not getting under the bar fast enough or low enough."
   },
   {
@@ -18,7 +18,7 @@
     "date": "2026-05-09",
     "lift": "jerk",
     "weight": 50,
-    "tags": ["week-12", "working-set", "rack", "technique"],
+    "tags": ["week-12-c1", "working-set", "rack", "technique", "cycle-1", "loc-brunswick"],
     "notes": "Not fully extended; rushing to get under the bar."
   },
   {
@@ -29,7 +29,7 @@
     "date": "2026-05-09",
     "lift": "jerk",
     "weight": 45,
-    "tags": ["week-12", "working-set", "rack", "technique", "dip-drive"],
+    "tags": ["week-12-c1", "working-set", "rack", "technique", "dip-drive", "cycle-1", "loc-brunswick"],
     "notes": "Dip drifts forward of vertical; bar travels off midfoot. Incomplete drive — not finishing triple extension at the hips. Recurring fault across the session."
   },
   {
@@ -40,7 +40,7 @@
     "date": "2026-05-09",
     "lift": "press_in_split",
     "weight": 30,
-    "tags": ["week-12", "primer", "split", "lockout"],
+    "tags": ["week-12-c1", "primer", "split", "lockout", "cycle-1", "loc-brunswick"],
     "notes": "Midline braced and glutes engaged through the split. Lockout incomplete — elbows not fully extending overhead."
   },
   {
@@ -51,7 +51,7 @@
     "date": "2026-05-09",
     "lift": "hang_power_clean_push_press",
     "weight": 50,
-    "tags": ["week-12", "working-set", "complex", "btk-hang", "technique"],
+    "tags": ["week-12-c1", "working-set", "complex", "btk-hang", "technique", "cycle-1", "loc-brunswick"],
     "notes": "Setup is solid: flat back, lats engaged, gaze forward. Strong, patient pull — bar makes contact at the mid-thigh before the jump. Fast turnover through the elbows but could be quicker. Push press is OK; needs more leg drive before the arms take over."
   },
   {
@@ -62,7 +62,7 @@
     "date": "2026-05-09",
     "lift": "hang_power_clean_push_press",
     "weight": 50,
-    "tags": ["week-12", "working-set", "complex", "btk-hang", "technique"],
+    "tags": ["week-12-c1", "working-set", "complex", "btk-hang", "technique", "cycle-1", "loc-brunswick"],
     "notes": "Same as set 4 — flat back, lats engaged, gaze forward; patient pull with mid-thigh contact; fast turnover but could be quicker. Push press has stronger leg drive than set 4 — better drive from the legs before the arms take over."
   },
   {
@@ -73,7 +73,7 @@
     "date": "2026-05-09",
     "lift": "hang_power_clean_push_press",
     "weight": 50,
-    "tags": ["week-12", "working-set", "complex", "btk-hang", "technique"],
+    "tags": ["week-12-c1", "working-set", "complex", "btk-hang", "technique", "cycle-1", "loc-brunswick"],
     "notes": "Same mix of strong points and faults seen in the other sets. Standout: very consistent setup — flat back and patient pull with mid-thigh contact. Main issue is the push press: leg drive isn't consistent — arms take over before the legs finish."
   },
   {
@@ -84,7 +84,7 @@
     "date": "2026-05-09",
     "lift": "hang_power_clean_push_press",
     "weight": 50,
-    "tags": ["week-12", "working-set", "complex", "btk-hang", "technique"],
+    "tags": ["week-12-c1", "working-set", "complex", "btk-hang", "technique", "cycle-1", "loc-brunswick"],
     "notes": "Push press leg drive is especially weak on this rep — arms take over before the legs finish. The session's recurring push press fault is most pronounced here."
   },
   {
@@ -95,7 +95,7 @@
     "date": "2026-05-07",
     "lift": "raised_snatch_deadlift",
     "weight": 80,
-    "tags": ["week-12", "working-set", "raised", "technique"],
+    "tags": ["week-12-c1", "working-set", "raised", "technique", "cycle-1", "loc-brunswick"],
     "notes": "Bar elevated on 20kg plates. Hips and shoulders rise together off the floor — no hips-first fault. Shoulders well-stacked over the bar at the start."
   },
   {
@@ -106,7 +106,7 @@
     "date": "2026-05-07",
     "lift": "raised_snatch_deadlift",
     "weight": 80,
-    "tags": ["week-12", "working-set", "raised"],
+    "tags": ["week-12-c1", "working-set", "raised", "cycle-1", "loc-brunswick"],
     "notes": "Bar elevated on 20kg plates."
   }
 ]
