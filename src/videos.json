@@ -1,5 +1,17 @@
 [
   {
+    "id": "v17",
+    "youtubeId": "CEVoZFDtAoo",
+    "vertical": true,
+    "title": "Drop Snatch, set 2",
+    "date": "2026-05-14",
+    "lift": "drop_snatch",
+    "weight": 20,
+    "bodyweight": 82,
+    "tags": ["week-1-c2", "primer", "technique", "lockout", "cycle-2", "loc-altona"],
+    "notes": "Faster drop under the bar than set 1. Lockout stronger overhead. Coach cue: chin up — chin dropping during the catch, compromising the upper-back position."
+  },
+  {
     "id": "v16",
     "youtubeId": "phBxZTx4-k8",
     "vertical": true,
