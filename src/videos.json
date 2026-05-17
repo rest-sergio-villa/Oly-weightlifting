@@ -1,5 +1,48 @@
 [
   {
+    "id": "v64",
+    "youtubeId": "YU1Hy-mokCU",
+    "vertical": true,
+    "accessory": true,
+    "title": "Bulgarian Split Squat, set 3",
+    "date": "2026-05-16",
+    "lift": "bulgarian_split_squat",
+    "weight": 20,
+    "reps": 10,
+    "bodyweight": 82,
+    "tags": ["week-1-c2", "accessory", "cycle-2", "loc-brunswick"],
+    "notes": "20kg loaded, 10 reps each side, RPE 7.",
+    "summary": "Three accessory sets of Bulgarian split squats at 20kg, RPE 7, 10 reps each side."
+  },
+  {
+    "id": "v63",
+    "youtubeId": "JawmUL4bvDo",
+    "vertical": true,
+    "accessory": true,
+    "title": "Bulgarian Split Squat, set 2",
+    "date": "2026-05-16",
+    "lift": "bulgarian_split_squat",
+    "weight": 20,
+    "reps": 10,
+    "bodyweight": 82,
+    "tags": ["week-1-c2", "accessory", "cycle-2", "loc-brunswick"],
+    "notes": "20kg loaded, 10 reps each side, RPE 7."
+  },
+  {
+    "id": "v62",
+    "youtubeId": "pRNMqOkWOqk",
+    "vertical": true,
+    "accessory": true,
+    "title": "Bulgarian Split Squat, set 1",
+    "date": "2026-05-16",
+    "lift": "bulgarian_split_squat",
+    "weight": 20,
+    "reps": 10,
+    "bodyweight": 82,
+    "tags": ["week-1-c2", "accessory", "cycle-2", "loc-brunswick"],
+    "notes": "20kg loaded, 10 reps each side, RPE 7."
+  },
+  {
     "id": "v61",
     "youtubeId": "fbT0zzM5Z6w",
     "vertical": true,
