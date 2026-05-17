@@ -9,6 +9,7 @@ const LIFT_LABELS = {
   drop_snatch: 'Drop Snatch',
   floating_snatch: 'Floating Snatch',
   clean_and_jerk: 'Clean & Jerk',
+  pause_off_floor_clean_jerk: 'Pause Off-Floor Clean + 2 Jerks',
   clean: 'Clean',
   power_clean: 'Power Clean',
   hang_power_clean_push_press: 'Below-the-Knee HPC + PP',
