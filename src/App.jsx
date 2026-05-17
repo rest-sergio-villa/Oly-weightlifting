@@ -27,6 +27,7 @@ const LIFT_LABELS = {
   back_squat: 'Back Squat',
   paused_back_squat: 'Paused Back Squat',
   deadlift: 'Deadlift',
+  bb_bent_over_row_supinated: 'BB Bent-Over Row, Supinated',
   dips: 'Dips',
   pull_ups: 'Pull-Ups',
 };
