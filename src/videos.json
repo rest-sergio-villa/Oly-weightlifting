@@ -1,5 +1,18 @@
 [
   {
+    "id": "v51",
+    "youtubeId": "6tQLvV_Yn_s",
+    "vertical": true,
+    "title": "BTN Strict Press, Snatch Grip — set 4",
+    "date": "2026-05-16",
+    "lift": "btn_strict_press_snatch_grip",
+    "weight": 20,
+    "bodyweight": 82,
+    "tags": ["week-1-c2", "primer", "technique", "lockout", "cycle-2", "loc-brunswick"],
+    "notes": "Cleanest set of the working set — execution improved across every cue.",
+    "summary": "Four primer sets at 20kg. Bounce off the back reduced and lockout / midline brace improving across the working set — set 4 the cleanest execution."
+  },
+  {
     "id": "v50",
     "youtubeId": "Nx2ekzFYdnE",
     "vertical": true,
@@ -9,8 +22,7 @@
     "weight": 20,
     "bodyweight": 82,
     "tags": ["week-1-c2", "primer", "technique", "lockout", "cycle-2", "loc-brunswick"],
-    "notes": "Bounce off the back reduced. Lockout solid overhead. Core engaged through the full rep. Wrist position looks uneven from this angle — could be the camera, worth a check from another view.",
-    "summary": "Three primer sets at 20kg. Bounce off the back reduced and lockout / midline brace improving across the working set. Wrist position uneven on set 3 — possibly camera angle."
+    "notes": "Bounce off the back reduced. Lockout solid overhead. Core engaged through the full rep. Wrist position looks uneven from this angle — could be the camera, worth a check from another view."
   },
   {
     "id": "v49",
