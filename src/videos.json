@@ -1,5 +1,18 @@
 [
   {
+    "id": "v40",
+    "youtubeId": "Kwx2wcS0JVs",
+    "vertical": true,
+    "title": "Pause Above-Knee Clean, set 4",
+    "date": "2026-05-15",
+    "lift": "pause_above_knee_clean",
+    "weight": 40,
+    "bodyweight": 82,
+    "tags": ["week-1-c2", "working-set", "technique", "cycle-2", "loc-altona"],
+    "notes": "Best rep of the working set — execution clean across the lift.",
+    "summary": "Four-second pause above the knee. Lats and chest-lead came together after coach cues from set 2; elbow turnover was the recurring sticking point. Set 4 the cleanest execution of the working set."
+  },
+  {
     "id": "v39",
     "youtubeId": "Egv5o15_Hos",
     "vertical": true,
@@ -9,8 +22,7 @@
     "weight": 40,
     "bodyweight": 82,
     "tags": ["week-1-c2", "working-set", "technique", "cycle-2", "loc-altona"],
-    "notes": "Elbow turnover into the catch still too slow.",
-    "summary": "Four-second pause above the knee. Lats engagement and chest-lead fixed across the working set after coach cues; elbow turnover into the catch the recurring fault — still too slow by set 3."
+    "notes": "Elbow turnover into the catch still too slow."
   },
   {
     "id": "v38",
