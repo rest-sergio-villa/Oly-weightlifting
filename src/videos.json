@@ -1,5 +1,17 @@
 [
   {
+    "id": "v21",
+    "youtubeId": "vqC0GENJ0qQ",
+    "vertical": true,
+    "title": "Floating Snatch, set 3",
+    "date": "2026-05-14",
+    "lift": "floating_snatch",
+    "weight": 27,
+    "bodyweight": 82,
+    "tags": ["week-1-c2", "working-set", "technique", "cycle-2", "loc-altona"],
+    "notes": "Cleaner chest lead off the floor than set 2, but still not where it needs to be. Bar travels too far from the body during the pull — keep it tight by driving the elbows up and back."
+  },
+  {
     "id": "v20",
     "youtubeId": "AOG0kbyNVJw",
     "vertical": true,
