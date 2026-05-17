@@ -6,6 +6,7 @@ import { supabase } from './supabase.js';
 const LIFT_LABELS = {
   snatch: 'Snatch',
   power_snatch: 'Power Snatch',
+  hip_power_snatch_ohs: '2 Hip Power Snatch + 2 OHS',
   drop_snatch: 'Drop Snatch',
   floating_snatch: 'Floating Snatch',
   clean_and_jerk: 'Clean & Jerk',
