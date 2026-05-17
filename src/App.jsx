@@ -21,6 +21,7 @@ const LIFT_LABELS = {
   press_in_split: 'Press in Split',
   push_jerk_in_split: 'Push Jerk in Split',
   raised_snatch_deadlift: 'Raised Snatch Deadlift',
+  paused_snatch_pull: 'Paused Snatch Pull (BTK + ATK)',
   tempo_clean_grip_deadlift: 'Tempo Clean-Grip Deadlift',
   front_squat: 'Front Squat',
   back_squat: 'Back Squat',
