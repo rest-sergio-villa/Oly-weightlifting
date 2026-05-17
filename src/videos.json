@@ -1,5 +1,18 @@
 [
   {
+    "id": "v56",
+    "youtubeId": "uclrIQSbN9c",
+    "vertical": true,
+    "title": "Front Squat, set 2",
+    "date": "2026-05-16",
+    "lift": "front_squat",
+    "weight": 50,
+    "bodyweight": 82,
+    "tags": ["week-1-c2", "working-set", "technique", "cycle-2", "loc-brunswick"],
+    "notes": "Clean execution — no faults to call out.",
+    "summary": "Two front squat sets at 50kg. Midline brace, breathing, elbow drive and depth on point across both sets."
+  },
+  {
     "id": "v55",
     "youtubeId": "mnF7GTlng-Y",
     "vertical": true,
