@@ -17,6 +17,7 @@ const LIFT_LABELS = {
   hang_power_clean_push_press: 'Below-the-Knee HPC + PP',
   jerk: 'Jerk',
   behind_neck_jerk: 'Behind-the-Neck Jerk',
+  btn_strict_press_snatch_grip: 'BTN Strict Press, Snatch Grip',
   press_in_split: 'Press in Split',
   push_jerk_in_split: 'Push Jerk in Split',
   raised_snatch_deadlift: 'Raised Snatch Deadlift',
