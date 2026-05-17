@@ -1,5 +1,17 @@
 [
   {
+    "id": "v55",
+    "youtubeId": "mnF7GTlng-Y",
+    "vertical": true,
+    "title": "Front Squat, set 1",
+    "date": "2026-05-16",
+    "lift": "front_squat",
+    "weight": 50,
+    "bodyweight": 82,
+    "tags": ["week-1-c2", "working-set", "technique", "cycle-2", "loc-brunswick"],
+    "notes": "Midline braced hard, breathing well-managed. Elbows actively pulling up — rack stays solid. Breaking parallel cleanly."
+  },
+  {
     "id": "v54",
     "youtubeId": "T-_nxmDjG4o",
     "vertical": true,
