@@ -1,5 +1,17 @@
 [
   {
+    "id": "v48",
+    "youtubeId": "iZIdG8FN2aE",
+    "vertical": true,
+    "title": "BTN Strict Press, Snatch Grip — set 1",
+    "date": "2026-05-16",
+    "lift": "btn_strict_press_snatch_grip",
+    "weight": 20,
+    "bodyweight": 82,
+    "tags": ["week-1-c2", "primer", "technique", "lockout", "cycle-2", "loc-brunswick"],
+    "notes": "Minimise bouncing off the back — keep the press strict. Midline brace breaks down towards the end of the rep. Lockout overhead could be more decisive."
+  },
+  {
     "id": "v47",
     "accessory": true,
     "title": "Pull-Ups (logged)",
