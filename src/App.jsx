@@ -426,15 +426,20 @@ function GroupCard({ group, onClick, accessory }) {
 
   const top = group.videos[0]; // sorted weight-desc
   const otherWeights = Array.from(new Set(group.videos.slice(1).map(v => v.weight))).filter(w => w !== top.weight);
-  const setCount = group.videos.length;
+  const setCount = group.videos.reduce((sum, v) => sum + (v.sets || 1), 0);
   const allTags = Array.from(new Set(group.videos.flatMap(v => v.tags)));
   const reps = top.reps;
   const isBodyweight = accessory && (top.weight == null || top.weight === 0);
+  const hasVideo = group.videos.some(v => v.youtubeId);
 
   return (
     <button
-      onClick={onClick}
-      style={{ ...styles.card, ...(accessory ? styles.cardAccessory : {}) }}
+      onClick={hasVideo ? onClick : undefined}
+      style={{
+        ...styles.card,
+        ...(accessory ? styles.cardAccessory : {}),
+        ...(hasVideo ? {} : styles.cardLogged),
+      }}
       className="lift-card"
     >
       <div style={styles.cardTop}>
@@ -475,10 +480,14 @@ function GroupCard({ group, onClick, accessory }) {
           <span key={t} style={styles.cardTag}>{t}</span>
         ))}
       </div>
-      <div style={{ ...styles.cardFooter, ...(accessory ? styles.cardFooterAccessory : {}) }}>
-        <Play size={11} style={{ marginRight: 6 }} fill="currentColor" />
-        Play {setCount} {setCount === 1 ? 'set' : 'sets'}
-      </div>
+      {hasVideo ? (
+        <div style={{ ...styles.cardFooter, ...(accessory ? styles.cardFooterAccessory : {}) }}>
+          <Play size={11} style={{ marginRight: 6 }} fill="currentColor" />
+          Play {setCount} {setCount === 1 ? 'set' : 'sets'}
+        </div>
+      ) : (
+        <div style={styles.cardLoggedFooter}>Logged · no video</div>
+      )}
     </button>
   );
 }
@@ -1236,6 +1245,20 @@ const styles = {
   },
   cardFooterAccessory: {
     color: COLORS.textDim,
+  },
+  cardLogged: {
+    cursor: 'default',
+    opacity: 0.85,
+  },
+  cardLoggedFooter: {
+    marginTop: 8,
+    paddingTop: 12,
+    borderTop: `1px solid ${COLORS.border}`,
+    fontFamily: FONTS.mono,
+    fontSize: 11,
+    letterSpacing: '0.08em',
+    textTransform: 'uppercase',
+    color: COLORS.textMute,
   },
   accessoryBlock: {
     marginTop: 8,
