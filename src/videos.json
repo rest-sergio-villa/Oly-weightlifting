@@ -1,5 +1,17 @@
 [
   {
+    "id": "v34",
+    "youtubeId": "joqKzG3Bwp0",
+    "vertical": true,
+    "title": "2 Hip Power Snatch + 2 OHS, set 1",
+    "date": "2026-05-15",
+    "lift": "hip_power_snatch_ohs",
+    "weight": 25,
+    "bodyweight": 82,
+    "tags": ["week-1-c2", "working-set", "complex", "technique", "lockout", "cycle-2", "loc-altona"],
+    "notes": "Strong arm punch/lockout overhead but overhead position lacks stability. Transition from the power snatch catch into the overhead squat is choppy — needs to be smoother. Squat depth incomplete — not breaking parallel."
+  },
+  {
     "id": "v33",
     "youtubeId": "wnxFFLXORj4",
     "vertical": true,
