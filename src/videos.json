@@ -1,5 +1,17 @@
 [
   {
+    "id": "v36",
+    "youtubeId": "M0NU7WAzi3M",
+    "vertical": true,
+    "title": "2 Hip Power Snatch + 2 OHS, set 3",
+    "date": "2026-05-15",
+    "lift": "hip_power_snatch_ohs",
+    "weight": 25,
+    "bodyweight": 82,
+    "tags": ["week-1-c2", "working-set", "complex", "technique", "cycle-2", "loc-altona"],
+    "notes": "Same overhead stability issues as set 1 — overhead position still not locked in."
+  },
+  {
     "id": "v35",
     "youtubeId": "XYomP4Cz59A",
     "vertical": true,
