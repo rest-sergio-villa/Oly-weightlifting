@@ -1,5 +1,18 @@
 [
   {
+    "id": "v58",
+    "youtubeId": "0MscU41jsPM",
+    "vertical": true,
+    "title": "Front Squat, set 4",
+    "date": "2026-05-16",
+    "lift": "front_squat",
+    "weight": 50,
+    "bodyweight": 82,
+    "tags": ["week-1-c2", "working-set", "technique", "cycle-2", "loc-brunswick"],
+    "notes": "Clean final rep — finished strong.",
+    "summary": "Four front squat sets at 50kg. Midline brace, breathing, elbow drive and depth solid across the working set. Foot angle wider than 10-and-2 — mobility limitation, not cueing. Finished strong."
+  },
+  {
     "id": "v57",
     "youtubeId": "OWHz7ijPKd4",
     "vertical": true,
@@ -9,8 +22,7 @@
     "weight": 50,
     "bodyweight": 82,
     "tags": ["week-1-c2", "working-set", "technique", "cycle-2", "loc-brunswick"],
-    "notes": "Foot stance wider than 10-and-2 — flagging as a mobility limitation rather than a cueing fix.",
-    "summary": "Three front squat sets at 50kg. Midline brace, breathing, elbow drive and depth solid across all sets. Foot angle wider than 10-and-2 — mobility limitation, not cueing."
+    "notes": "Foot stance wider than 10-and-2 — flagging as a mobility limitation rather than a cueing fix."
   },
   {
     "id": "v56",
