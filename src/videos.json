@@ -1,5 +1,17 @@
 [
   {
+    "id": "v18",
+    "youtubeId": "JMsu_lvlrwI",
+    "vertical": true,
+    "title": "Drop Snatch, set 3",
+    "date": "2026-05-14",
+    "lift": "drop_snatch",
+    "weight": 20,
+    "bodyweight": 82,
+    "tags": ["week-1-c2", "primer", "technique", "lockout", "cycle-2", "loc-altona"],
+    "notes": "Drop under the bar lacks speed, arm punch isn't aggressive — regression on the gains from set 2."
+  },
+  {
     "id": "v17",
     "youtubeId": "BCK5uCa8hSs",
     "vertical": true,
