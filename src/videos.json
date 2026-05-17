@@ -1,5 +1,19 @@
 [
   {
+    "id": "v47",
+    "accessory": true,
+    "title": "Pull-Ups (logged)",
+    "date": "2026-05-15",
+    "lift": "pull_ups",
+    "weight": 0,
+    "sets": 3,
+    "reps": 5,
+    "bodyweight": 82,
+    "tags": ["week-1-c2", "accessory", "cycle-2", "loc-altona"],
+    "notes": "Bodyweight pull-ups. Logged only — not recorded.",
+    "summary": "Bodyweight pull-ups, 3 × 5. Logged only."
+  },
+  {
     "id": "v46",
     "youtubeId": "FBhwleZ0nJk",
     "vertical": true,
