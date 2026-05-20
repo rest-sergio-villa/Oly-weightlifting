@@ -1,5 +1,66 @@
 [
   {
+    "id": "v86",
+    "youtubeId": "uT04UQYN0-c",
+    "vertical": true,
+    "title": "Paused Back Squat, set 5",
+    "date": "2026-05-19",
+    "lift": "paused_back_squat",
+    "weight": 56,
+    "bodyweight": 82,
+    "tags": ["week-2-c2", "working-set", "paused", "technique", "cycle-2", "loc-altona"],
+    "notes": "Pause held at the bottom. Ascent still slow — needs more aggression out of the hole.",
+    "summary": "Five paused back squat sets at 56kg. Coach cue across the working set: not getting back up fast enough — ascent needs more aggression out of the pause."
+  },
+  {
+    "id": "v85",
+    "youtubeId": "on9Ht9k2xFY",
+    "vertical": true,
+    "title": "Paused Back Squat, set 4",
+    "date": "2026-05-19",
+    "lift": "paused_back_squat",
+    "weight": 56,
+    "bodyweight": 82,
+    "tags": ["week-2-c2", "working-set", "paused", "technique", "cycle-2", "loc-altona"],
+    "notes": "Pause held at the bottom. Coach cue: ascent too slow — drive up faster out of the pause."
+  },
+  {
+    "id": "v84",
+    "youtubeId": "c_1qXznzdO8",
+    "vertical": true,
+    "title": "Paused Back Squat, set 3",
+    "date": "2026-05-19",
+    "lift": "paused_back_squat",
+    "weight": 56,
+    "bodyweight": 82,
+    "tags": ["week-2-c2", "working-set", "paused", "technique", "cycle-2", "loc-altona"],
+    "notes": "Pause held at the bottom. Coach cue: ascent too slow — drive up faster out of the pause."
+  },
+  {
+    "id": "v83",
+    "youtubeId": "cCdtm-58HOY",
+    "vertical": true,
+    "title": "Paused Back Squat, set 2",
+    "date": "2026-05-19",
+    "lift": "paused_back_squat",
+    "weight": 56,
+    "bodyweight": 82,
+    "tags": ["week-2-c2", "working-set", "paused", "technique", "cycle-2", "loc-altona"],
+    "notes": "Pause held at the bottom. Coach cue: ascent too slow — drive up faster out of the pause."
+  },
+  {
+    "id": "v82",
+    "youtubeId": "jguV4bUcNaE",
+    "vertical": true,
+    "title": "Paused Back Squat, set 1",
+    "date": "2026-05-19",
+    "lift": "paused_back_squat",
+    "weight": 56,
+    "bodyweight": 82,
+    "tags": ["week-2-c2", "working-set", "paused", "technique", "cycle-2", "loc-altona"],
+    "notes": "Pause held at the bottom. Coach cue: ascent too slow — drive up faster out of the pause."
+  },
+  {
     "id": "v81",
     "youtubeId": "LSzPSRyC-wA",
     "vertical": true,
