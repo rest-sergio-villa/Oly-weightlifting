@@ -1,5 +1,18 @@
 [
   {
+    "id": "v80",
+    "youtubeId": "IdUI7dvxA9Y",
+    "vertical": true,
+    "title": "Pause 1\" Off Floor Clean + 2 Jerks, set 3",
+    "date": "2026-05-19",
+    "lift": "pause_off_floor_clean_jerk",
+    "weight": 43,
+    "bodyweight": 82,
+    "tags": ["week-2-c2", "working-set", "complex", "split", "technique", "cycle-2", "loc-altona"],
+    "notes": "Split still too shallow — not dropping under the bar to receive.",
+    "summary": "Three sets at 43kg. Split stays too shallow across the working set — not dropping under the bar in the jerk catch. Dip and elbow turnover still off; no rep was clean."
+  },
+  {
     "id": "v79",
     "youtubeId": "6l1zMNR1LKY",
     "vertical": true,
@@ -9,8 +22,7 @@
     "weight": 43,
     "bodyweight": 82,
     "tags": ["week-2-c2", "working-set", "complex", "split", "technique", "cycle-2", "loc-altona"],
-    "notes": "Incremental improvement on set 1 — dip, elbows and split still not where they need to be.",
-    "summary": "Two sets at 43kg. Same faults persist across the working set — dip not smooth, elbows slow into the catch, split too shallow. Incremental improvement set to set but no rep clean."
+    "notes": "Incremental improvement on set 1 — dip, elbows and split still not where they need to be."
   },
   {
     "id": "v78",
