@@ -1,5 +1,30 @@
 [
   {
+    "id": "v74",
+    "youtubeId": "6ld46av0hAI",
+    "vertical": true,
+    "title": "Floating Snatch, set 5",
+    "date": "2026-05-19",
+    "lift": "floating_snatch",
+    "weight": 30,
+    "bodyweight": 82,
+    "tags": ["week-2-c2", "working-set", "technique", "cycle-2", "loc-altona"],
+    "notes": "30kg — pattern from set 4 continues.",
+    "summary": "Five floating snatch sets, 25 → 27 → 30kg. Eye-forward cue stuck across the working set; back-driven pull came together by set 3. Heavier 30kg sets exposed the same persistent faults — elbows not driving up, drop under the bar slow."
+  },
+  {
+    "id": "v73",
+    "youtubeId": "ZLuso5ssduY",
+    "vertical": true,
+    "title": "Floating Snatch, set 4",
+    "date": "2026-05-19",
+    "lift": "floating_snatch",
+    "weight": 30,
+    "bodyweight": 82,
+    "tags": ["week-2-c2", "working-set", "technique", "cycle-2", "loc-altona"],
+    "notes": "30kg — same faults from the lighter sets carry through. Elbows still not driving up; drop under the bar still slow."
+  },
+  {
     "id": "v72",
     "youtubeId": "yjsvFsqCL4E",
     "vertical": true,
@@ -9,8 +34,7 @@
     "weight": 27,
     "bodyweight": 82,
     "tags": ["week-2-c2", "working-set", "technique", "cycle-2", "loc-altona"],
-    "notes": "Strongest rep of the working set. Pull driven by the back / posterior chain rather than the hips snapping early — back angle holds longer off the floor.",
-    "summary": "Three floating snatch sets, 25 → 27kg. Coach cue 'eyes forward' carried through; by set 3 the pull is back-driven and the back angle holds off the floor. Elbows still not fully driving up; drop under the bar still the limiter."
+    "notes": "Strongest rep of the working set. Pull driven by the back / posterior chain rather than the hips snapping early — back angle holds longer off the floor."
   },
   {
     "id": "v71",
