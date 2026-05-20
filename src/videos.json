@@ -1,5 +1,18 @@
 [
   {
+    "id": "v81",
+    "youtubeId": "LSzPSRyC-wA",
+    "vertical": true,
+    "title": "Pause 1\" Off Floor Clean + 2 Jerks, set 4",
+    "date": "2026-05-19",
+    "lift": "pause_off_floor_clean_jerk",
+    "weight": 43,
+    "bodyweight": 82,
+    "tags": ["week-2-c2", "working-set", "complex", "split", "technique", "cycle-2", "loc-altona"],
+    "notes": "Strongest rep of the working set — clear intent on every phase of the lift.",
+    "summary": "Four sets at 43kg. Dip, elbow turnover and split shallowness were the recurring faults across sets 1-3. Set 4 the strongest — clear intent on every phase, the rep the rest of the working set was missing."
+  },
+  {
     "id": "v80",
     "youtubeId": "IdUI7dvxA9Y",
     "vertical": true,
@@ -9,8 +22,7 @@
     "weight": 43,
     "bodyweight": 82,
     "tags": ["week-2-c2", "working-set", "complex", "split", "technique", "cycle-2", "loc-altona"],
-    "notes": "Split still too shallow — not dropping under the bar to receive.",
-    "summary": "Three sets at 43kg. Split stays too shallow across the working set — not dropping under the bar in the jerk catch. Dip and elbow turnover still off; no rep was clean."
+    "notes": "Split still too shallow — not dropping under the bar to receive."
   },
   {
     "id": "v79",
