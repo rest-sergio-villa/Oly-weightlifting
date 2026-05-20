@@ -270,7 +270,7 @@ export default function App() {
               <SnatchLifter />
             </div>
             <p style={styles.intro}>
-              Welcome to my Oly Fans. I log my training mostly for me — sometimes for my coach.
+              Welcome to my Oly Fans. I log my training mostly for me — sometimes for my coach. I don't take payments; please don't offer crypto.
             </p>
           </div>
           <div style={styles.headerStats}>
