@@ -1,16 +1,28 @@
 [
   {
+    "id": "v90",
+    "youtubeId": "jhGQDamnATs",
+    "vertical": true,
+    "title": "Behind-the-Neck Jerk, set 4",
+    "date": "2026-05-22",
+    "lift": "behind_neck_jerk",
+    "weight": 40,
+    "bodyweight": 82,
+    "tags": ["week-2-c2", "working-set", "split", "technique", "cycle-2", "loc-altona"],
+    "notes": "Best rep of the working set — punch, hip drop and split all came together.",
+    "summary": "Four sets, 35 → 40kg. Dip punch and hip depth were the early limiters; cleaned up as the session went. Set 4 at 40kg the best of the lot — everything came together. Feet still turn out in the split (mobility)."
+  },
+  {
     "id": "v89",
     "youtubeId": "4HppeH354yc",
     "vertical": true,
     "title": "Behind-the-Neck Jerk, set 3",
     "date": "2026-05-22",
     "lift": "behind_neck_jerk",
-    "weight": 35,
+    "weight": 40,
     "bodyweight": 82,
     "tags": ["week-2-c2", "working-set", "split", "technique", "cycle-2", "loc-altona"],
-    "notes": "Slight improvement dropping the hips into the catch. Feet turn out in the split landing — makes recovery (bringing them back in) harder. Flagged as a mobility limitation.",
-    "summary": "Three sets at 35kg. Dip punch and hip depth the recurring limiters — slight improvement on the hip drop by set 3. Feet turn out in the split landing (mobility), making recovery harder."
+    "notes": "Slight improvement dropping the hips into the catch. Feet turn out in the split landing — makes recovery (bringing them back in) harder. Flagged as a mobility limitation."
   },
   {
     "id": "v88",
