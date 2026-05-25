@@ -1,5 +1,18 @@
 [
   {
+    "id": "v93",
+    "youtubeId": "u9d_hnXgpJo",
+    "vertical": true,
+    "title": "2 Hip Power Snatch + 2 OHS, set 3",
+    "date": "2026-05-22",
+    "lift": "hip_power_snatch_ohs",
+    "weight": 30,
+    "bodyweight": 82,
+    "tags": ["week-2-c2", "working-set", "complex", "technique", "heavy", "cycle-2", "loc-altona"],
+    "notes": "Bumped to 30kg — 5kg over the programmed load. Coach cue: hips need to drop lower in the receiving position of the power snatch.",
+    "summary": "Three sets, 25 → 30kg (set 3 went 5kg over the programmed load). Upper-back engagement and OHS depth the limiters; coach cue to drop the hips lower in the power receiving position."
+  },
+  {
     "id": "v92",
     "youtubeId": "yhgy5BBpYVk",
     "vertical": true,
@@ -9,8 +22,7 @@
     "weight": 25,
     "bodyweight": 82,
     "tags": ["week-2-c2", "working-set", "complex", "technique", "cycle-2", "loc-altona"],
-    "notes": "OHS still not smooth or punchy. Arms break early — pulling before full extension on the snatch. Depth better than set 1, suggesting it's a warm-up / mobility thing rather than a hard limit.",
-    "summary": "Two sets at 25kg. Upper-back engagement and OHS depth the limiters — depth improving across sets (likely warm-up / mobility). Arms rushing before full extension on the snatch."
+    "notes": "OHS still not smooth or punchy. Arms break early — pulling before full extension on the snatch. Depth better than set 1, suggesting it's a warm-up / mobility thing rather than a hard limit."
   },
   {
     "id": "v91",
