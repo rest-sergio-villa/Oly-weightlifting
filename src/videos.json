@@ -1,5 +1,18 @@
 [
   {
+    "id": "v105",
+    "youtubeId": "vBu5DcM9Ghg",
+    "vertical": true,
+    "title": "BTN Strict Press, Snatch Grip — set 4",
+    "date": "2026-05-23",
+    "lift": "btn_strict_press_snatch_grip",
+    "weight": 20,
+    "bodyweight": 82,
+    "tags": ["week-2-c2", "primer", "technique", "lockout", "cycle-2", "loc-brunswick"],
+    "notes": "Improvement across the board — cleanest set of the working set.",
+    "summary": "Four primer sets at 20kg. Core brace and lockout came together early; tempo, shoulder set and overhead position refined across the set — set 4 the cleanest."
+  },
+  {
     "id": "v104",
     "youtubeId": "EadatPA1skk",
     "vertical": true,
@@ -9,8 +22,7 @@
     "weight": 20,
     "bodyweight": 82,
     "tags": ["week-2-c2", "primer", "technique", "lockout", "cycle-2", "loc-brunswick"],
-    "notes": "Set the shoulders under the bar. Slow the tempo down — more control. Show the armpits overhead — externally rotate into a stable lockout.",
-    "summary": "Three primer sets at 20kg. Core brace and lockout came together early. Refinements: slower controlled tempo, shoulders set under the bar, armpits showing in the overhead lockout."
+    "notes": "Set the shoulders under the bar. Slow the tempo down — more control. Show the armpits overhead — externally rotate into a stable lockout."
   },
   {
     "id": "v103",
