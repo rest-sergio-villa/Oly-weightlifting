@@ -1,5 +1,18 @@
 [
   {
+    "id": "v100",
+    "youtubeId": "k5KdYCnSPNU",
+    "vertical": true,
+    "title": "Tempo Clean-Grip Deadlift, set 3",
+    "date": "2026-05-22",
+    "lift": "tempo_clean_grip_deadlift",
+    "weight": 47,
+    "bodyweight": 82,
+    "tags": ["week-2-c2", "working-set", "technique", "cycle-2", "loc-altona"],
+    "notes": "Cues for next time: chest up and lead with the chest off the floor.",
+    "summary": "Three sets at 47kg, four-second tempo. Keep the lats engaged through the full pull and lead with the chest off the floor — the cues to carry into next session."
+  },
+  {
     "id": "v99",
     "youtubeId": "lczkUwP3l70",
     "vertical": true,
@@ -9,8 +22,7 @@
     "weight": 47,
     "bodyweight": 82,
     "tags": ["week-2-c2", "working-set", "technique", "cycle-2", "loc-altona"],
-    "notes": "Same as set 1. Needs to keep the lats engaged through the entire pull — back tightness drops off.",
-    "summary": "Two sets at 47kg, four-second tempo. Keeping the lats engaged through the full pull is the focus — back tightness drops off."
+    "notes": "Same as set 1. Needs to keep the lats engaged through the entire pull — back tightness drops off."
   },
   {
     "id": "v98",
