@@ -1,5 +1,17 @@
 [
   {
+    "id": "v102",
+    "youtubeId": "kulT2EBnqxw",
+    "vertical": true,
+    "title": "BTN Strict Press, Snatch Grip — set 1",
+    "date": "2026-05-23",
+    "lift": "btn_strict_press_snatch_grip",
+    "weight": 20,
+    "bodyweight": 82,
+    "tags": ["week-2-c2", "primer", "technique", "lockout", "cycle-2", "loc-brunswick"],
+    "notes": "Ribcage flaring up — core not braced. Needs to lock the ribs down and keep the midline tight through the press."
+  },
+  {
     "id": "v101",
     "youtubeId": "m8bUzpKmRTA",
     "vertical": true,
