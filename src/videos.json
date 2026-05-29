@@ -1,5 +1,18 @@
 [
   {
+    "id": "v109",
+    "youtubeId": "xwMlczNxYu4",
+    "vertical": true,
+    "title": "Paused BTK + ATK Snatch Pull, set 3",
+    "date": "2026-05-23",
+    "lift": "paused_snatch_pull",
+    "weight": 37.5,
+    "bodyweight": 82,
+    "tags": ["week-2-c2", "working-set", "technique", "cycle-2", "loc-brunswick"],
+    "notes": "Good set. Cues: keep the bar tight to the body and drive through the legs with even pressure across the foot.",
+    "summary": "Three sets at 37.5kg. Chest-up start the mobility limiter. Strong tempo and loose arms; refinement cues — keep the bar tight to the body and drive through the legs with balanced foot pressure."
+  },
+  {
     "id": "v108",
     "youtubeId": "l_vMh_HeRdk",
     "vertical": true,
@@ -9,8 +22,7 @@
     "weight": 37.5,
     "bodyweight": 82,
     "tags": ["week-2-c2", "working-set", "technique", "cycle-2", "loc-brunswick"],
-    "notes": "Slight improvement. Strong tempo control. Arms staying loose through the pull — good, letting the legs and back drive.",
-    "summary": "Two sets at 37.5kg. Chest-up start the limiter (mobility). Strong tempo control and loose arms through the pull — letting the legs and back do the work."
+    "notes": "Slight improvement. Strong tempo control. Arms staying loose through the pull — good, letting the legs and back drive."
   },
   {
     "id": "v107",
