@@ -1,5 +1,17 @@
 [
   {
+    "id": "v111",
+    "youtubeId": "eFnVZrKoVBE",
+    "vertical": true,
+    "title": "Front Squat, set 1",
+    "date": "2026-05-23",
+    "lift": "front_squat",
+    "weight": 55,
+    "bodyweight": 82,
+    "tags": ["week-2-c2", "working-set", "technique", "cycle-2", "loc-brunswick"],
+    "notes": "Brace correction from coach: was sucking the belly in on the inhale. Should instead inflate the ribcage and brace 360° so the ribs stay stacked over the pelvis."
+  },
+  {
     "id": "v110",
     "youtubeId": "bXd-yHtYtdw",
     "vertical": true,
