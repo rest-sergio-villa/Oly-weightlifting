@@ -1,5 +1,18 @@
 [
   {
+    "id": "v118",
+    "youtubeId": "SMDu0tEAraY",
+    "vertical": true,
+    "title": "Floating Snatch, set 2",
+    "date": "2026-05-26",
+    "lift": "floating_snatch",
+    "weight": 27,
+    "bodyweight": 82,
+    "tags": ["week-3-c2", "working-set", "technique", "cycle-2", "loc-altona"],
+    "notes": "Transition under the bar is slow — not pulling under quickly enough. Arm punch overhead lacks aggression.",
+    "summary": "Two sets, 25 → 27kg. Chest lead off the floor was the issue at 25kg; at 27kg the transition under the bar is slow and the punch overhead lacks aggression."
+  },
+  {
     "id": "v117",
     "youtubeId": "DTi1TnIw5QQ",
     "vertical": true,
