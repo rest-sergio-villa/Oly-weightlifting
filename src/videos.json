@@ -1,5 +1,18 @@
 [
   {
+    "id": "v116",
+    "youtubeId": "H--9RmHuf2k",
+    "vertical": true,
+    "title": "Drop Snatch, set 3",
+    "date": "2026-05-26",
+    "lift": "drop_snatch",
+    "weight": 20,
+    "bodyweight": 82,
+    "tags": ["week-3-c2", "primer", "technique", "lockout", "cycle-2", "loc-altona"],
+    "notes": "Drop speed still not there — same incremental progress, not locked in.",
+    "summary": "Three primer sets at 20kg. Dip-and-catch cleaned up by coach cue after set 1; drop speed still the limiter — incremental improvement but not locked in by set 3."
+  },
+  {
     "id": "v115",
     "youtubeId": "7wYYQReY9R0",
     "vertical": true,
@@ -9,8 +22,7 @@
     "weight": 20,
     "bodyweight": 82,
     "tags": ["week-3-c2", "primer", "technique", "lockout", "cycle-2", "loc-altona"],
-    "notes": "Dip from set 1 corrected after coach cue — cleaner drop straight in. Hips dropping faster into the catch, but still not as fast as it needs to be.",
-    "summary": "Two primer sets at 20kg. Dip-and-catch from set 1 cleaned up by coach cue; hips dropping faster into the catch by set 2 — still not fully there."
+    "notes": "Dip from set 1 corrected after coach cue — cleaner drop straight in. Hips dropping faster into the catch, but still not as fast as it needs to be."
   },
   {
     "id": "v114",
