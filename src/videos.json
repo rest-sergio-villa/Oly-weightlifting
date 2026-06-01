@@ -1,5 +1,17 @@
 [
   {
+    "id": "v114",
+    "youtubeId": "-qj8ozMjf5w",
+    "vertical": true,
+    "title": "Drop Snatch, set 1",
+    "date": "2026-05-26",
+    "lift": "drop_snatch",
+    "weight": 20,
+    "bodyweight": 82,
+    "tags": ["week-3-c2", "primer", "technique", "lockout", "cycle-2", "loc-altona"],
+    "notes": "Slight dip in the catch — should be a clean drop straight into the receiving position, not a dip-and-catch."
+  },
+  {
     "id": "v113",
     "youtubeId": "PWGafL3rEXs",
     "vertical": true,
