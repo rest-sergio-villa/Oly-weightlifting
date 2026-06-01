@@ -1,5 +1,18 @@
 [
   {
+    "id": "v120",
+    "youtubeId": "9rfoNEMHoII",
+    "vertical": true,
+    "title": "Floating Snatch, set 4",
+    "date": "2026-05-26",
+    "lift": "floating_snatch",
+    "weight": 27,
+    "bodyweight": 82,
+    "tags": ["week-3-c2", "working-set", "technique", "cycle-2", "loc-altona"],
+    "notes": "Continued improvement on the transition under the bar and the punch — still not fully there.",
+    "summary": "Four sets, 25 → 27kg. Chest lead the issue at 25kg; transition under the bar and overhead punch improving across the 27kg sets — incremental gains but not locked in."
+  },
+  {
     "id": "v119",
     "youtubeId": "bdsZyDEFmsk",
     "vertical": true,
@@ -9,8 +22,7 @@
     "weight": 27,
     "bodyweight": 82,
     "tags": ["week-3-c2", "working-set", "technique", "cycle-2", "loc-altona"],
-    "notes": "Improvement on the transition under the bar and the punch from set 2.",
-    "summary": "Three sets, 25 → 27kg. Chest lead the issue at 25kg; transition under the bar and overhead punch improving across the 27kg sets — set 3 the cleanest so far."
+    "notes": "Improvement on the transition under the bar and the punch from set 2."
   },
   {
     "id": "v118",
