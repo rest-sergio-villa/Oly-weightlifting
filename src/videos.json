@@ -1,5 +1,42 @@
 [
   {
+    "id": "v133",
+    "youtubeId": "-YxZlQ3sFos",
+    "vertical": true,
+    "title": "Back Squat, set 3",
+    "date": "2026-05-26",
+    "lift": "back_squat",
+    "weight": 70,
+    "bodyweight": 82,
+    "tags": ["week-3-c2", "working-set", "technique", "cycle-2", "loc-altona"],
+    "notes": "New brace cue applied — inflated ribcage / 360° brace instead of sucking the belly in.",
+    "summary": "Three back squat sets at 70kg. Applied the new brace cue across the working set — inflated ribcage with 360° brace instead of tucking the belly. Stacked position held through the sets."
+  },
+  {
+    "id": "v132",
+    "youtubeId": "-IU6nzIOk1c",
+    "vertical": true,
+    "title": "Back Squat, set 2",
+    "date": "2026-05-26",
+    "lift": "back_squat",
+    "weight": 70,
+    "bodyweight": 82,
+    "tags": ["week-3-c2", "working-set", "technique", "cycle-2", "loc-altona"],
+    "notes": "New brace cue applied — inflated ribcage / 360° brace instead of sucking the belly in."
+  },
+  {
+    "id": "v131",
+    "youtubeId": "AHmcJ0uO2rA",
+    "vertical": true,
+    "title": "Back Squat, set 1",
+    "date": "2026-05-26",
+    "lift": "back_squat",
+    "weight": 70,
+    "bodyweight": 82,
+    "tags": ["week-3-c2", "working-set", "technique", "cycle-2", "loc-altona"],
+    "notes": "New brace cue applied — inflated ribcage / 360° brace instead of sucking the belly in."
+  },
+  {
     "id": "v130",
     "youtubeId": "gmyhfbzHmpk",
     "vertical": true,
