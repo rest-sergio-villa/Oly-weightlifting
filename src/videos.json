@@ -1,5 +1,18 @@
 [
   {
+    "id": "v136",
+    "youtubeId": "CgXQFe-kS1I",
+    "vertical": true,
+    "title": "Behind-the-Neck Jerk, set 3",
+    "date": "2026-05-28",
+    "lift": "behind_neck_jerk",
+    "weight": 45,
+    "bodyweight": 82,
+    "tags": ["week-3-c2", "working-set", "split", "technique", "cycle-2", "loc-altona"],
+    "notes": "Way better. Cues that landed: heels shoulder-width, toes slightly turned out (not too much), 'open the knees' to stay stacked and vertical.",
+    "summary": "Three sets, 40 → 45kg. Forward lean fixed by set 3 — cues that landed: heels shoulder-width, toes slightly turned out, 'open the knees' to stay stacked vertical."
+  },
+  {
     "id": "v135",
     "youtubeId": "xIvsr3SJc-0",
     "vertical": true,
@@ -9,8 +22,7 @@
     "weight": 45,
     "bodyweight": 82,
     "tags": ["week-3-c2", "working-set", "split", "technique", "cycle-2", "loc-altona"],
-    "notes": "Same forward lean through the dip — torso not staying vertical.",
-    "summary": "Two sets, 40 → 45kg. Forward lean through the dip the persistent issue across both sets — torso not staying vertical."
+    "notes": "Same forward lean through the dip — torso not staying vertical."
   },
   {
     "id": "v134",
