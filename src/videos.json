@@ -1,5 +1,18 @@
 [
   {
+    "id": "v122",
+    "youtubeId": "FZNJ7WPg9zw",
+    "vertical": true,
+    "title": "Floating Snatch, set 6",
+    "date": "2026-05-26",
+    "lift": "floating_snatch",
+    "weight": 30,
+    "bodyweight": 82,
+    "tags": ["week-3-c2", "working-set", "technique", "cycle-2", "loc-altona"],
+    "notes": "Foot pressure not balanced through the pull — weight shifts back to the heels, then forward as compensation. Need stable midfoot pressure across the pull.",
+    "summary": "Six sets, 25 → 27 → 30kg. Chest lead, transition under and overhead punch worked through earlier in the set. Set 6 surfaces a balance issue — pressure on the feet shifts back through the pull then forward as compensation."
+  },
+  {
     "id": "v121",
     "youtubeId": "Qr4i9AGJ0WQ",
     "vertical": true,
@@ -9,8 +22,7 @@
     "weight": 30,
     "bodyweight": 82,
     "tags": ["week-3-c2", "working-set", "technique", "cycle-2", "loc-altona"],
-    "notes": "Best rep of the working set so far — transition under the bar and overhead punch came together.",
-    "summary": "Five sets, 25 → 27 → 30kg. Worked through chest lead at the lighter end, then transition under the bar and overhead punch across the heavier sets — set 5 the cleanest, everything came together."
+    "notes": "Best rep of the working set so far — transition under the bar and overhead punch came together."
   },
   {
     "id": "v120",
