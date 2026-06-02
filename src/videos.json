@@ -1,5 +1,17 @@
 [
   {
+    "id": "v140",
+    "youtubeId": "RswWKOtrtEw",
+    "vertical": true,
+    "title": "2 Hip Power Snatch + 2 OHS, set 1",
+    "date": "2026-05-28",
+    "lift": "hip_power_snatch_ohs",
+    "weight": 25,
+    "bodyweight": 82,
+    "tags": ["week-3-c2", "working-set", "complex", "technique", "cycle-2", "loc-altona"],
+    "notes": "Power catch could go lower to increase margin. OHS depth limited — flagged as a mobility issue."
+  },
+  {
     "id": "v139",
     "youtubeId": "M6t9hvydFOg",
     "vertical": true,
