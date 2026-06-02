@@ -1,5 +1,18 @@
 [
   {
+    "id": "v142",
+    "youtubeId": "6ITHWLM2sjE",
+    "vertical": true,
+    "title": "2 Hip Power Snatch + 2 OHS, set 3",
+    "date": "2026-05-28",
+    "lift": "hip_power_snatch_ohs",
+    "weight": 30,
+    "bodyweight": 82,
+    "tags": ["week-3-c2", "working-set", "complex", "technique", "heavy", "cycle-2", "loc-altona"],
+    "notes": "Top weight of the working set. Cues to check at this load (carried from the lighter sets): power catch depth, OHS depth, vertical torso at the bottom (no forward lean), armpits forward overhead for a stable lockout.",
+    "summary": "Three sets, 25 → 30kg. Power catch depth, OHS bottom position, and slight forward lean the recurring limiters across the working set — mobility flagged. Set 3 the heaviest."
+  },
+  {
     "id": "v141",
     "youtubeId": "EgxTqqdcsLw",
     "vertical": true,
@@ -9,8 +22,7 @@
     "weight": 25,
     "bodyweight": 82,
     "tags": ["week-3-c2", "working-set", "complex", "technique", "cycle-2", "loc-altona"],
-    "notes": "Slight forward lean at the bottom of the OHS — keep the torso vertical in the deep position.",
-    "summary": "Two sets at 25kg. Power catch could go lower; OHS depth and a slight forward lean at the bottom the limiters — mobility flagged."
+    "notes": "Slight forward lean at the bottom of the OHS — keep the torso vertical in the deep position."
   },
   {
     "id": "v140",
