@@ -1,5 +1,17 @@
 [
   {
+    "id": "v123",
+    "youtubeId": "KbIn8unUyxo",
+    "vertical": true,
+    "title": "Push Jerk in Split, set 1",
+    "date": "2026-05-26",
+    "lift": "push_jerk_in_split",
+    "weight": 20,
+    "bodyweight": 82,
+    "tags": ["week-3-c2", "primer", "split", "technique", "cycle-2", "loc-altona"],
+    "notes": "20kg primer. No specific observations recorded."
+  },
+  {
     "id": "v122",
     "youtubeId": "FZNJ7WPg9zw",
     "vertical": true,
