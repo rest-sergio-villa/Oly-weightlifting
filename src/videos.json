@@ -1,5 +1,18 @@
 [
   {
+    "id": "v147",
+    "youtubeId": "0OETxokD1l8",
+    "vertical": true,
+    "title": "Pause Above-Knee Clean, set 4",
+    "date": "2026-05-28",
+    "lift": "pause_above_knee_clean",
+    "weight": 45,
+    "bodyweight": 82,
+    "tags": ["week-3-c2", "working-set", "technique", "cycle-2", "loc-altona"],
+    "notes": "Hips a touch high at the pause. Jumping forward into the catch again. Cue: lead with the chest off the floor, not the hips.",
+    "summary": "Four sets at 45kg. Tension at the pause fixed by set 3; jumping forward into the catch the recurring issue across sets 3–4. Set 4 also surfaced hips slightly high at the pause. Cue: lead with the chest, not the hips."
+  },
+  {
     "id": "v146",
     "youtubeId": "Z4yi3SxKPls",
     "vertical": true,
@@ -9,8 +22,7 @@
     "weight": 45,
     "bodyweight": 82,
     "tags": ["week-3-c2", "working-set", "technique", "cycle-2", "loc-altona"],
-    "notes": "Tension at the pause looks better. New issue — jumping forward into the squat catch instead of dropping straight under the bar.",
-    "summary": "Three sets at 45kg. Tension at the pause came together by set 3, but jumping forward into the squat catch — feet / body drifting forward instead of dropping straight under the bar."
+    "notes": "Tension at the pause looks better. New issue — jumping forward into the squat catch instead of dropping straight under the bar."
   },
   {
     "id": "v145",
