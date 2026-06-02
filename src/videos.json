@@ -1,5 +1,18 @@
 [
   {
+    "id": "v146",
+    "youtubeId": "Z4yi3SxKPls",
+    "vertical": true,
+    "title": "Pause Above-Knee Clean, set 3",
+    "date": "2026-05-28",
+    "lift": "pause_above_knee_clean",
+    "weight": 45,
+    "bodyweight": 82,
+    "tags": ["week-3-c2", "working-set", "technique", "cycle-2", "loc-altona"],
+    "notes": "Tension at the pause looks better. New issue — jumping forward into the squat catch instead of dropping straight under the bar.",
+    "summary": "Three sets at 45kg. Tension at the pause came together by set 3, but jumping forward into the squat catch — feet / body drifting forward instead of dropping straight under the bar."
+  },
+  {
     "id": "v145",
     "youtubeId": "mWU_C6JpS_A",
     "vertical": true,
@@ -9,8 +22,7 @@
     "weight": 45,
     "bodyweight": 82,
     "tags": ["week-3-c2", "working-set", "technique", "cycle-2", "loc-altona"],
-    "notes": "Losing tension at the pause — body relaxes during the hold instead of staying tight.",
-    "summary": "Two sets at 45kg. Back engagement / tension at the pause above the knee the recurring issue — body relaxing during the hold instead of staying tight."
+    "notes": "Losing tension at the pause — body relaxes during the hold instead of staying tight."
   },
   {
     "id": "v144",
