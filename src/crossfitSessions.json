@@ -1,4 +1,26 @@
 {
+  "2026-05-29": {
+    "className": "CrossFit",
+    "time": "6:00am",
+    "week": "week-3-c2",
+    "cycle": "cycle-2",
+    "location": "loc-altona",
+    "strength": [
+      {
+        "name": "Weightlifting: 2 Clean + 1 Jerk",
+        "scheme": "5 sets, ascending to heavy. Reset between cleans. Time cap 15:00.",
+        "myWeight": "40kg → 45kg (form bad on 45)"
+      }
+    ],
+    "metcon": {
+      "format": "For Time",
+      "details": "Partition work as desired:\n100/80 Calorie Machine\n80 Kettlebell Swings\n120m Kettlebell Suitcase Carry",
+      "scoreType": "Time",
+      "timeCap": "16:00"
+    },
+    "accessories": ["Unscored"],
+    "notes": "Clean & Jerk went 40 → 45kg — form was really bad on the 45kg. Kettlebells at 20kg felt light on the metcon."
+  },
   "2026-05-31": {
     "className": "CrossFit",
     "time": "9:00am",
