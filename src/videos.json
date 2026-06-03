@@ -1,5 +1,54 @@
 [
   {
+    "id": "v153",
+    "youtubeId": "ctOQTn7yAsU",
+    "vertical": true,
+    "title": "BTN Strict Press, Snatch Grip — set 4",
+    "date": "2026-05-30",
+    "lift": "btn_strict_press_snatch_grip",
+    "weight": 25,
+    "bodyweight": 82,
+    "tags": ["week-3-c2", "primer", "technique", "lockout", "cycle-2", "loc-brunswick"],
+    "notes": "Working at RPE 7. No specific technique notes — execution felt right.",
+    "summary": "Four primer sets, 20 → 25kg, RPE 7. Execution felt right; no specific technique notes from this session."
+  },
+  {
+    "id": "v152",
+    "youtubeId": "DKTPbPnTDfE",
+    "vertical": true,
+    "title": "BTN Strict Press, Snatch Grip — set 3",
+    "date": "2026-05-30",
+    "lift": "btn_strict_press_snatch_grip",
+    "weight": 25,
+    "bodyweight": 82,
+    "tags": ["week-3-c2", "primer", "technique", "lockout", "cycle-2", "loc-brunswick"],
+    "notes": "Working at RPE 7. Moved up to 25kg. Execution felt right."
+  },
+  {
+    "id": "v151",
+    "youtubeId": "Fjfiuw0bFxs",
+    "vertical": true,
+    "title": "BTN Strict Press, Snatch Grip — set 2",
+    "date": "2026-05-30",
+    "lift": "btn_strict_press_snatch_grip",
+    "weight": 20,
+    "bodyweight": 82,
+    "tags": ["week-3-c2", "primer", "technique", "lockout", "cycle-2", "loc-brunswick"],
+    "notes": "Working at RPE 7. Execution felt right."
+  },
+  {
+    "id": "v150",
+    "youtubeId": "CbxHqgmKne0",
+    "vertical": true,
+    "title": "BTN Strict Press, Snatch Grip — set 1",
+    "date": "2026-05-30",
+    "lift": "btn_strict_press_snatch_grip",
+    "weight": 20,
+    "bodyweight": 82,
+    "tags": ["week-3-c2", "primer", "technique", "lockout", "cycle-2", "loc-brunswick"],
+    "notes": "Working at RPE 7. Execution felt right."
+  },
+  {
     "id": "v149",
     "youtubeId": "dLQzoK21VeM",
     "vertical": true,
