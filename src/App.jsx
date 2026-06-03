@@ -865,9 +865,15 @@ function GroupModal({ group, onClose }) {
 }
 
 function SetSection({ video, setNumber, totalSets, isFirst }) {
+  const [collapsed, setCollapsed] = useState(true);
   return (
     <section style={{ ...styles.setSection, ...(isFirst ? styles.setSectionFirst : {}) }}>
-      <div style={styles.setHeader}>
+      <button
+        type="button"
+        onClick={() => setCollapsed(c => !c)}
+        style={styles.setHeader}
+        aria-expanded={!collapsed}
+      >
         <div style={styles.setIndex}>Set {setNumber} of {totalSets}</div>
         <div style={styles.setWeight}>
           <span style={styles.setWeightNum}>{video.weight}</span>
@@ -877,42 +883,55 @@ function SetSection({ video, setNumber, totalSets, isFirst }) {
           <span style={styles.setBwPct}>{Math.round((video.weight / video.bodyweight) * 100)}% BW</span>
         )}
         <div style={styles.setTitle}>{video.title}</div>
-      </div>
-
-      <div style={video.vertical ? styles.modalVideoWrapVertical : styles.modalVideoWrap}>
-        <iframe
-          src={`https://www.youtube.com/embed/${video.youtubeId}`}
-          style={video.vertical ? styles.modalVideoVertical : styles.modalVideo}
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowFullScreen
-          title={video.title}
+        <ChevronDown
+          size={16}
+          style={{
+            marginLeft: 'auto',
+            color: COLORS.textDim,
+            transform: collapsed ? 'rotate(-90deg)' : 'none',
+            transition: 'transform 0.18s ease',
+          }}
         />
-      </div>
+      </button>
 
-      {video.notes && (
-        <div style={styles.modalNotes}>
-          <div style={styles.modalNotesLabel}>Notes</div>
-          <div style={styles.modalNotesBody}>{video.notes}</div>
-        </div>
+      {!collapsed && (
+        <>
+          <div style={video.vertical ? styles.modalVideoWrapVertical : styles.modalVideoWrap}>
+            <iframe
+              src={`https://www.youtube.com/embed/${video.youtubeId}`}
+              style={video.vertical ? styles.modalVideoVertical : styles.modalVideo}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              title={video.title}
+            />
+          </div>
+
+          {video.notes && (
+            <div style={styles.modalNotes}>
+              <div style={styles.modalNotesLabel}>Notes</div>
+              <div style={styles.modalNotesBody}>{video.notes}</div>
+            </div>
+          )}
+
+          <Comments video={video} />
+
+          <div style={styles.modalTags}>
+            {video.tags.map(t => (
+              <span key={t} style={styles.modalTag}># {t}</span>
+            ))}
+          </div>
+
+          <a
+            href={`https://www.youtube.com/watch?v=${video.youtubeId}`}
+            target="_blank"
+            rel="noreferrer"
+            style={styles.modalDriveLink}
+          >
+            Open on YouTube
+            <ExternalLink size={13} />
+          </a>
+        </>
       )}
-
-      <Comments video={video} />
-
-      <div style={styles.modalTags}>
-        {video.tags.map(t => (
-          <span key={t} style={styles.modalTag}># {t}</span>
-        ))}
-      </div>
-
-      <a
-        href={`https://www.youtube.com/watch?v=${video.youtubeId}`}
-        target="_blank"
-        rel="noreferrer"
-        style={styles.modalDriveLink}
-      >
-        Open on YouTube
-        <ExternalLink size={13} />
-      </a>
     </section>
   );
 }
@@ -1517,10 +1536,21 @@ const styles = {
   },
   setHeader: {
     display: 'flex',
-    alignItems: 'baseline',
+    alignItems: 'center',
     flexWrap: 'wrap',
     gap: 14,
+    width: '100%',
+    background: 'transparent',
+    borderTop: 'none',
+    borderRight: 'none',
+    borderBottom: 'none',
+    borderLeft: 'none',
+    padding: 0,
     marginBottom: 14,
+    color: COLORS.text,
+    textAlign: 'left',
+    cursor: 'pointer',
+    fontFamily: 'inherit',
   },
   setIndex: {
     fontFamily: FONTS.mono,
