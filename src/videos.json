@@ -37,6 +37,55 @@
     "notes": "Drop snatch primer at 20kg."
   },
   {
+    "id": "v174",
+    "youtubeId": "U_ifzHT9NwI",
+    "vertical": true,
+    "title": "Floating Snatch, set 4",
+    "date": "2026-06-02",
+    "lift": "floating_snatch",
+    "weight": 30,
+    "bodyweight": 82,
+    "tags": ["week-4-c2", "working-set", "cycle-2", "loc-altona"],
+    "notes": "Strong set at 30kg — fast pull and clean receive.",
+    "summary": "Four sets of floating snatch progressing 25 → 27 → 27 → 30kg. Speed continues to improve. At 27kg the receive drifts forward; coach flagged the bar scratching the knee pads on the way up — the chest pull is rotating the bar inward toward the body rather than driving it vertically. 30kg felt strong with a fast pull and clean catch."
+  },
+  {
+    "id": "v173",
+    "youtubeId": "wv1KopM7XdE",
+    "vertical": true,
+    "title": "Floating Snatch, set 3",
+    "date": "2026-06-02",
+    "lift": "floating_snatch",
+    "weight": 27,
+    "bodyweight": 82,
+    "tags": ["week-4-c2", "working-set", "cycle-2", "loc-altona", "technique"],
+    "notes": "Coach: bar scratching the knee pads on the way up — chest pull is rotating the bar inward toward the body rather than driving it vertically. Keep the bar path vertical, close to the body without dragging the thigh."
+  },
+  {
+    "id": "v172",
+    "youtubeId": "pJE_WDmBNC8",
+    "vertical": true,
+    "title": "Floating Snatch, set 2",
+    "date": "2026-06-02",
+    "lift": "floating_snatch",
+    "weight": 27,
+    "bodyweight": 82,
+    "tags": ["week-4-c2", "working-set", "cycle-2", "loc-altona"],
+    "notes": "Receive drifts forward — landing forward of midfoot."
+  },
+  {
+    "id": "v171",
+    "youtubeId": "-rmEKwlwr7g",
+    "vertical": true,
+    "title": "Floating Snatch, set 1",
+    "date": "2026-06-02",
+    "lift": "floating_snatch",
+    "weight": 25,
+    "bodyweight": 82,
+    "tags": ["week-4-c2", "working-set", "cycle-2", "loc-altona"],
+    "notes": "Speed continues to improve at the lighter load."
+  },
+  {
     "id": "v167",
     "youtubeId": "p2gc0PEit-w",
     "vertical": true,
