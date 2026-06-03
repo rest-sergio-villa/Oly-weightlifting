@@ -2,6 +2,9 @@
   "2026-05-31": {
     "className": "CrossFit",
     "time": "9:00am",
+    "week": "week-3-c2",
+    "cycle": "cycle-2",
+    "location": "loc-altona",
     "strength": [
       { "name": "Bench Press", "scheme": "10-10-10-10, ascending to a moderate for the day. Rest 2:00 between sets.", "myWeight": "50kg start" },
       { "name": "Push Press", "scheme": "Programmed within the session.", "myWeight": "40kg start" }
