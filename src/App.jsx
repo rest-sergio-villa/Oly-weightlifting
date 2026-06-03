@@ -889,7 +889,14 @@ function formatCycle(cycleTag) {
   return `Cycle ${n}`;
 }
 
+const LOCATION_LABELS = {
+  'loc-brunswick': 'Brunswick',
+  'loc-altona': 'Altona',
+  'loc-brians': "Brian's",
+};
+
 function formatLocation(locTag) {
+  if (LOCATION_LABELS[locTag]) return LOCATION_LABELS[locTag];
   const name = locTag.slice('loc-'.length);
   return name.charAt(0).toUpperCase() + name.slice(1);
 }
