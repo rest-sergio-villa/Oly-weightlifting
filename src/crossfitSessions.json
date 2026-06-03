@@ -1,0 +1,19 @@
+{
+  "2026-05-31": {
+    "className": "CrossFit",
+    "time": "9:00am",
+    "strength": [
+      { "name": "Bench Press", "scheme": "10-10-10-10, ascending to a moderate for the day. Rest 2:00 between sets.", "myWeight": "50kg start" },
+      { "name": "Push Press", "scheme": "Programmed within the session.", "myWeight": "40kg start" }
+    ],
+    "metcon": {
+      "format": "EMOM x 12",
+      "details": "Min 1: 0:45 Double Tap Burpees\nMin 2: 0:45 Strict Pull-up\nMin 3: 0:45 Plank Hold",
+      "scoreType": "Reps"
+    },
+    "accessories": [
+      "3 x 1:00 Side Plank Holds per side"
+    ],
+    "notes": "Class workout slotted into Day 3 (continuation day at Altona). Bench started at 50kg, push press at 40kg."
+  }
+}

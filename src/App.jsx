@@ -2,6 +2,7 @@ import { useState, useMemo, useEffect } from 'react';
 import { Search, X, Calendar, ExternalLink, ChevronDown, Play } from 'lucide-react';
 import videos from './videos.json';
 import dayNotes from './dayNotes.json';
+import crossfitSessions from './crossfitSessions.json';
 import { supabase } from './supabase.js';
 
 const LIFT_LABELS = {
@@ -507,6 +508,9 @@ export default function App() {
                           <div style={styles.dayNoteBody}>{dayNotes[day.date]}</div>
                         </div>
                       )}
+                      {crossfitSessions[day.date] && (
+                        <CrossfitCard session={crossfitSessions[day.date]} />
+                      )}
                       {day.mainGroups.length > 0 && (
                         <div style={styles.grid}>
                           {day.mainGroups.map(g => (
@@ -726,6 +730,75 @@ function Comments({ video }) {
           {submitting ? 'Posting…' : 'Post comment'}
         </button>
       </form>
+    </div>
+  );
+}
+
+function CrossfitCard({ session }) {
+  const [open, setOpen] = useState(false);
+  const strengthItems = Array.isArray(session.strength) ? session.strength : (session.strength ? [session.strength] : []);
+  return (
+    <div style={styles.crossfitCard}>
+      <button
+        type="button"
+        onClick={() => setOpen(o => !o)}
+        style={styles.crossfitHeader}
+        aria-expanded={open}
+      >
+        <span style={styles.crossfitTag}>Class</span>
+        <span style={styles.crossfitTitle}>{session.className || 'CrossFit'}</span>
+        {session.time && <span style={styles.crossfitTime}>{session.time}</span>}
+        <ChevronDown
+          size={16}
+          style={{
+            marginLeft: 'auto',
+            color: COLORS.textDim,
+            transform: open ? 'none' : 'rotate(-90deg)',
+            transition: 'transform 0.18s ease',
+          }}
+        />
+      </button>
+      {open && (
+        <div style={styles.crossfitBody}>
+          {strengthItems.length > 0 && (
+            <div style={styles.crossfitSection}>
+              <div style={styles.crossfitSectionLabel}>Strength</div>
+              {strengthItems.map((s, i) => (
+                <div key={i} style={styles.crossfitStrengthRow}>
+                  <div style={styles.crossfitStrengthName}>{s.name}{s.myWeight && <span style={styles.crossfitMyWeight}> · {s.myWeight}</span>}</div>
+                  {s.scheme && <div style={styles.crossfitStrengthScheme}>{s.scheme}</div>}
+                </div>
+              ))}
+            </div>
+          )}
+          {session.metcon && (
+            <div style={styles.crossfitSection}>
+              <div style={styles.crossfitSectionLabel}>Metcon{session.metcon.format ? ` · ${session.metcon.format}` : ''}</div>
+              {session.metcon.details && <div style={styles.crossfitMetconBody}>{session.metcon.details}</div>}
+              {(session.metcon.scoreType || session.metcon.timeCap) && (
+                <div style={styles.crossfitMetconMeta}>
+                  {session.metcon.scoreType && <span>Score: {session.metcon.scoreType}</span>}
+                  {session.metcon.timeCap && <span> · Time cap: {session.metcon.timeCap}</span>}
+                </div>
+              )}
+            </div>
+          )}
+          {session.accessories && session.accessories.length > 0 && (
+            <div style={styles.crossfitSection}>
+              <div style={styles.crossfitSectionLabel}>Accessories</div>
+              <ul style={styles.crossfitAccessoryList}>
+                {session.accessories.map((a, i) => <li key={i}>{a}</li>)}
+              </ul>
+            </div>
+          )}
+          {session.notes && (
+            <div style={styles.crossfitSection}>
+              <div style={styles.crossfitSectionLabel}>Notes</div>
+              <div style={styles.crossfitNotes}>{session.notes}</div>
+            </div>
+          )}
+        </div>
+      )}
     </div>
   );
 }
@@ -1294,6 +1367,109 @@ const styles = {
     borderLeft: `3px solid ${COLORS.accent}`,
     borderRadius: 6,
     padding: '12px 16px',
+  },
+  crossfitCard: {
+    background: COLORS.surface,
+    border: `1px solid ${COLORS.border}`,
+    borderRadius: 8,
+    overflow: 'hidden',
+  },
+  crossfitHeader: {
+    display: 'flex',
+    alignItems: 'center',
+    gap: 10,
+    width: '100%',
+    padding: '12px 16px',
+    background: 'transparent',
+    borderTop: 'none',
+    borderRight: 'none',
+    borderBottom: 'none',
+    borderLeft: 'none',
+    cursor: 'pointer',
+    color: COLORS.text,
+    fontFamily: FONTS.body,
+    textAlign: 'left',
+  },
+  crossfitTag: {
+    fontFamily: FONTS.mono,
+    fontSize: 10,
+    letterSpacing: '0.14em',
+    textTransform: 'uppercase',
+    color: '#fff',
+    background: COLORS.accent,
+    padding: '3px 8px',
+    borderRadius: 4,
+  },
+  crossfitTitle: {
+    fontSize: 15,
+    fontWeight: 600,
+    color: COLORS.text,
+  },
+  crossfitTime: {
+    fontFamily: FONTS.mono,
+    fontSize: 12,
+    color: COLORS.textDim,
+  },
+  crossfitBody: {
+    padding: '4px 16px 16px',
+    display: 'flex',
+    flexDirection: 'column',
+    gap: 14,
+  },
+  crossfitSection: {
+    display: 'flex',
+    flexDirection: 'column',
+    gap: 6,
+  },
+  crossfitSectionLabel: {
+    fontFamily: FONTS.mono,
+    fontSize: 10,
+    letterSpacing: '0.12em',
+    textTransform: 'uppercase',
+    color: COLORS.textMute,
+  },
+  crossfitStrengthRow: {
+    display: 'flex',
+    flexDirection: 'column',
+    gap: 2,
+  },
+  crossfitStrengthName: {
+    fontSize: 14,
+    fontWeight: 500,
+    color: COLORS.text,
+  },
+  crossfitMyWeight: {
+    fontFamily: FONTS.mono,
+    fontWeight: 400,
+    color: COLORS.accent,
+  },
+  crossfitStrengthScheme: {
+    fontSize: 13,
+    color: COLORS.textDim,
+    lineHeight: 1.5,
+  },
+  crossfitMetconBody: {
+    fontSize: 13,
+    color: COLORS.text,
+    lineHeight: 1.55,
+    whiteSpace: 'pre-wrap',
+  },
+  crossfitMetconMeta: {
+    fontFamily: FONTS.mono,
+    fontSize: 11,
+    color: COLORS.textMute,
+  },
+  crossfitAccessoryList: {
+    margin: 0,
+    paddingLeft: 18,
+    fontSize: 13,
+    color: COLORS.textDim,
+    lineHeight: 1.6,
+  },
+  crossfitNotes: {
+    fontSize: 13,
+    color: COLORS.textDim,
+    lineHeight: 1.55,
   },
   dayNoteLabel: {
     fontFamily: FONTS.mono,
