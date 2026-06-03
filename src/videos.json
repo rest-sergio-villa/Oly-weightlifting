@@ -1,5 +1,17 @@
 [
   {
+    "id": "v161",
+    "youtubeId": "F9qPE_O6vmI",
+    "vertical": true,
+    "title": "BB Bent-Over Row (Supinated), set 1",
+    "date": "2026-05-31",
+    "lift": "bb_bent_over_row_supinated",
+    "weight": 50,
+    "bodyweight": 82,
+    "tags": ["week-3-c2", "working-set", "technique", "cycle-2", "loc-altona"],
+    "notes": "Bumped to 50kg from 40kg last week — form didn't feel right at this load. Likely too heavy for now; might need to drop weight to clean up the position."
+  },
+  {
     "id": "v160",
     "youtubeId": "WvFdC1rXe3I",
     "vertical": true,
