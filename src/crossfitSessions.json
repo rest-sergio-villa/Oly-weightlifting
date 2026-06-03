@@ -1,4 +1,28 @@
 {
+  "2026-05-27": {
+    "className": "CrossFit",
+    "time": "6:00am",
+    "week": "week-3-c2",
+    "cycle": "cycle-2",
+    "location": "loc-brunswick",
+    "strength": [
+      {
+        "name": "1 Snatch Balance + 2 Overhead Squat @ RPE 7/10",
+        "scheme": "Every 2:00 x 6 sets.",
+        "myWeight": "25kg (OHS load)"
+      }
+    ],
+    "metcon": {
+      "format": "5 Rounds For Time",
+      "details": "60 Double Unders (subbed 120 singles)\n15/12 Calorie Row or Bike\n10 Burpees",
+      "scoreType": "Time",
+      "timeCap": "16:00"
+    },
+    "accessories": [
+      "Adductor Rock Backs 3 × 10/10"
+    ],
+    "notes": "OHS at 25kg for the snatch balance complex. Subbed 120 singles for the 60 double unders in the metcon."
+  },
   "2026-05-29": {
     "className": "CrossFit",
     "time": "6:00am",
