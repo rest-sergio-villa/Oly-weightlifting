@@ -76,6 +76,18 @@ const LIFT_CATEGORY_LABELS = {
   accessory: 'Accessory',
 };
 
+// dayNotes entries can be a plain string (just a note) or an object
+// { note, dayLabel } where dayLabel overrides the auto-computed "Day N".
+function getDayNoteText(date) {
+  const entry = dayNotes[date];
+  if (!entry) return null;
+  return typeof entry === 'string' ? entry : entry.note || null;
+}
+function getDayLabelOverride(date) {
+  const entry = dayNotes[date];
+  return entry && typeof entry === 'object' ? entry.dayLabel || null : null;
+}
+
 export default function App() {
   const [search, setSearch] = useState('');
   const [selectedLifts, setSelectedLifts] = useState(new Set());
@@ -102,9 +114,11 @@ export default function App() {
   const [selectedCycles, setSelectedCycles] = useState(new Set());
   const [selectedLocations, setSelectedLocations] = useState(new Set());
   const [selectedTags, setSelectedTags] = useState(new Set());
+  const [selectedClasses, setSelectedClasses] = useState(new Set());
   const [activeGroup, setActiveGroup] = useState(null);
   const [filtersOpen, setFiltersOpen] = useState(true);
-  const [collapsedDays, setCollapsedDays] = useState(new Set());
+  // Days are collapsed by default; openDays tracks ones the user has opened.
+  const [openDays, setOpenDays] = useState(new Set());
 
   useEffect(() => {
     const link = document.createElement('link');
@@ -231,9 +245,10 @@ export default function App() {
       const week = g.videos[0].tags.find(t => t.startsWith('week-'));
       const dayKey = `${week || 'no-week'}|${g.date}`;
       const dayNum = week ? dayNumberByKey.get(`${week}|${g.date}`) : null;
+      const dayLabel = getDayLabelOverride(g.date) || (dayNum != null ? String(dayNum) : null);
       const isAccessory = g.videos.some(v => v.accessory);
       if (!buckets.has(dayKey)) {
-        buckets.set(dayKey, { dayKey, date: g.date, dayNum, week, mainGroups: [], accessoryGroups: [] });
+        buckets.set(dayKey, { dayKey, date: g.date, dayLabel, week, mainGroups: [], accessoryGroups: [] });
       }
       const bucket = buckets.get(dayKey);
       (isAccessory ? bucket.accessoryGroups : bucket.mainGroups).push(g);
@@ -252,13 +267,25 @@ export default function App() {
         if (selectedLocations.size > 0 && (!session.location || !selectedLocations.has(session.location))) continue;
         const dayKey = `${week || 'no-week'}|${date}`;
         if (!buckets.has(dayKey)) {
-          buckets.set(dayKey, { dayKey, date, dayNum: null, week, mainGroups: [], accessoryGroups: [] });
+          buckets.set(dayKey, { dayKey, date, dayLabel: getDayLabelOverride(date), week, mainGroups: [], accessoryGroups: [] });
         }
       }
     }
 
-    return Array.from(buckets.values()).sort((a, b) => b.date.localeCompare(a.date));
-  }, [groupedVideos, dayNumberByKey, selectedLifts, selectedTags, selectedWeeks, selectedCycles, selectedLocations]);
+    // Class filter: when active, only keep days whose date has a session of
+    // any selected class type. (We only model CrossFit today.)
+    let result = Array.from(buckets.values());
+    if (selectedClasses.size > 0) {
+      result = result.filter(d => {
+        const session = crossfitSessions[d.date];
+        if (!session) return false;
+        const className = (session.className || '').toLowerCase().replace(/\s+/g, '');
+        return selectedClasses.has(className);
+      });
+    }
+
+    return result.sort((a, b) => b.date.localeCompare(a.date));
+  }, [groupedVideos, dayNumberByKey, selectedLifts, selectedTags, selectedWeeks, selectedCycles, selectedLocations, selectedClasses]);
 
   // Bucket the day buckets by week so we can render a week separator
   // whenever multiple weeks are visible at once.
@@ -290,9 +317,10 @@ export default function App() {
     setSelectedCycles(new Set());
     setSelectedLocations(new Set());
     setSelectedTags(new Set());
+    setSelectedClasses(new Set());
   };
 
-  const hasActiveFilters = search || selectedLifts.size > 0 || selectedWeeks.size > 0 || selectedCycles.size > 0 || selectedLocations.size > 0 || selectedTags.size > 0;
+  const hasActiveFilters = search || selectedLifts.size > 0 || selectedWeeks.size > 0 || selectedCycles.size > 0 || selectedLocations.size > 0 || selectedTags.size > 0 || selectedClasses.size > 0;
 
   return (
     <div style={styles.root}>
@@ -446,6 +474,21 @@ export default function App() {
           </div>
 
           <div style={styles.filterGroup}>
+            <div style={styles.filterLabel}>Class</div>
+            <div style={styles.chipRow}>
+              <button
+                onClick={() => toggle(selectedClasses, 'crossfit', setSelectedClasses)}
+                style={{
+                  ...styles.chip,
+                  ...(selectedClasses.has('crossfit') ? styles.chipActive : {}),
+                }}
+              >
+                CrossFit
+              </button>
+            </div>
+          </div>
+
+          <div style={styles.filterGroup}>
             <div style={styles.filterLabel}>Tag</div>
             <div style={styles.chipRow}>
               {allTags.map(tag => (
@@ -488,14 +531,15 @@ export default function App() {
                 )}
                 <div style={styles.days}>
                   {weekBucket.days.map(day => {
-              const collapsed = collapsedDays.has(day.dayKey);
+              const collapsed = !openDays.has(day.dayKey);
               const totalCards = day.mainGroups.length + day.accessoryGroups.length;
+              const noteText = getDayNoteText(day.date);
               return (
                 <section key={day.dayKey} style={styles.daySection}>
                   <button
                     type="button"
                     onClick={() => {
-                      setCollapsedDays(prev => {
+                      setOpenDays(prev => {
                         const next = new Set(prev);
                         if (next.has(day.dayKey)) next.delete(day.dayKey);
                         else next.add(day.dayKey);
@@ -505,8 +549,8 @@ export default function App() {
                     style={styles.dayHeader}
                     aria-expanded={!collapsed}
                   >
-                    {day.dayNum != null && <span style={styles.dayLabel}>Day {day.dayNum}</span>}
-                    {day.dayNum != null && <span style={styles.daySep}>·</span>}
+                    {day.dayLabel != null && <span style={styles.dayLabel}>Day {day.dayLabel}</span>}
+                    {day.dayLabel != null && <span style={styles.daySep}>·</span>}
                     <span style={styles.dayDate}>{formatDayDate(day.date)}</span>
                     {totalCards > 0 ? (
                       <span style={styles.dayCount}>{totalCards} {totalCards === 1 ? 'lift' : 'lifts'}</span>
@@ -525,10 +569,10 @@ export default function App() {
                   </button>
                   {!collapsed && (
                     <>
-                      {dayNotes[day.date] && (
+                      {noteText && (
                         <div style={styles.dayNote}>
                           <div style={styles.dayNoteLabel}>Session note</div>
-                          <div style={styles.dayNoteBody}>{dayNotes[day.date]}</div>
+                          <div style={styles.dayNoteBody}>{noteText}</div>
                         </div>
                       )}
                       {crossfitSessions[day.date] && (
