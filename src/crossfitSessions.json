@@ -65,5 +65,25 @@
       "scoreType": "Reps"
     },
     "notes": "Class workout slotted into Day 3 (continuation day at Altona). Bench started at 50kg, push press at 40kg."
+  },
+  "2026-06-03": {
+    "className": "CrossFit",
+    "time": "6:00am",
+    "week": "week-4-c2",
+    "cycle": "cycle-2",
+    "location": "loc-brunswick",
+    "strength": [
+      {
+        "name": "Front Squat",
+        "scheme": "5x5 across @ 60% Best Back Squat. Rest 2:00. Time cap 16:00.",
+        "myWeight": "40kg"
+      }
+    ],
+    "metcon": {
+      "format": "AMRAP 10",
+      "details": "3-6-9-12-15...\nWall Balls\nDeadlifts",
+      "scoreType": "Rounds + Reps"
+    },
+    "notes": "Front squat at 40kg across all 5 sets. Deadlifts at 50kg in the metcon."
   }
 }
