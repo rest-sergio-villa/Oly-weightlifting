@@ -538,6 +538,7 @@ export default function App() {
                 <section key={day.dayKey} style={styles.daySection}>
                   <button
                     type="button"
+                    className="day-header"
                     onClick={() => {
                       setOpenDays(prev => {
                         const next = new Set(prev);
@@ -559,11 +560,12 @@ export default function App() {
                     )}
                     <ChevronDown
                       size={16}
+                      className="day-chevron"
                       style={{
                         marginLeft: 'auto',
                         color: COLORS.textDim,
                         transform: collapsed ? 'rotate(-90deg)' : 'none',
-                        transition: 'transform 0.18s ease',
+                        transition: 'transform 0.18s ease, color 0.15s ease',
                       }}
                     />
                   </button>
@@ -1110,6 +1112,8 @@ const globalCss = `
   .lift-card:hover { border-color: ${COLORS.borderStrong}; background: ${COLORS.surfaceLift}; }
   .lift-card-accessory:hover { border-color: ${COLORS.accent}; background: #221c18; }
   .lift-card:active { transform: scale(0.99); }
+  .day-header:hover { background: ${COLORS.surface}; }
+  .day-header:hover .day-chevron { color: ${COLORS.accent}; }
   button:focus-visible { outline: 2px solid ${COLORS.accent}; outline-offset: 2px; }
   ::-webkit-scrollbar { width: 8px; height: 8px; }
   ::-webkit-scrollbar-track { background: ${COLORS.bg}; }
@@ -1197,7 +1201,7 @@ const styles = {
   },
   header: {
     borderBottom: `1px solid ${COLORS.border}`,
-    padding: '32px 24px 24px',
+    padding: '44px 24px 32px',
   },
   titleRow: {
     display: 'flex',
@@ -1268,9 +1272,9 @@ const styles = {
   filterBar: {
     maxWidth: 1200,
     margin: '0 auto',
-    padding: '20px 24px 12px',
+    padding: '28px 24px 14px',
     display: 'flex',
-    gap: 12,
+    gap: 14,
     alignItems: 'center',
     flexWrap: 'wrap',
   },
@@ -1336,23 +1340,23 @@ const styles = {
   filterPanel: {
     maxWidth: 1200,
     margin: '0 auto',
-    padding: '4px 24px 16px',
+    padding: '8px 24px 24px',
   },
   filterGroup: {
-    marginBottom: 16,
+    marginBottom: 22,
   },
   filterLabel: {
     fontFamily: FONTS.mono,
     fontSize: 10,
-    letterSpacing: '0.12em',
+    letterSpacing: '0.14em',
     textTransform: 'uppercase',
     color: COLORS.textMute,
-    marginBottom: 8,
+    marginBottom: 10,
   },
   chipRow: {
     display: 'flex',
     flexWrap: 'wrap',
-    gap: 6,
+    gap: 8,
   },
   liftCategories: {
     display: 'flex',
@@ -1376,10 +1380,10 @@ const styles = {
     background: 'transparent',
     border: `1px solid ${COLORS.border}`,
     color: COLORS.textDim,
-    padding: '6px 12px',
+    padding: '7px 14px',
     borderRadius: 999,
     fontFamily: FONTS.body,
-    fontSize: 12,
+    fontSize: 12.5,
     cursor: 'pointer',
     transition: 'all 0.15s ease',
   },
@@ -1387,38 +1391,39 @@ const styles = {
     background: COLORS.accent,
     borderColor: COLORS.accent,
     color: '#fff',
+    boxShadow: '0 4px 14px rgba(233, 78, 27, 0.28)',
   },
   main: {
     maxWidth: 1200,
     margin: '0 auto',
-    padding: '20px 24px 0',
+    padding: '32px 24px 0',
   },
   grid: {
     display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
-    gap: 14,
+    gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
+    gap: 18,
   },
   days: {
     display: 'flex',
     flexDirection: 'column',
-    gap: 32,
+    gap: 44,
   },
   weekSection: {
     display: 'flex',
     flexDirection: 'column',
-    gap: 18,
+    gap: 24,
   },
   weekDivider: {
     display: 'flex',
     alignItems: 'center',
-    gap: 14,
-    marginTop: 12,
-    marginBottom: 4,
+    gap: 18,
+    marginTop: 16,
+    marginBottom: 6,
   },
   weekDividerLabel: {
     fontFamily: FONTS.mono,
     fontSize: 12,
-    letterSpacing: '0.16em',
+    letterSpacing: '0.22em',
     textTransform: 'uppercase',
     color: COLORS.accent,
     fontWeight: 700,
@@ -1426,14 +1431,13 @@ const styles = {
   },
   weekDividerLine: {
     flex: 1,
-    height: 2,
-    background: COLORS.accent,
-    opacity: 0.7,
+    height: 1,
+    background: `linear-gradient(90deg, ${COLORS.accent} 0%, ${COLORS.border} 70%, transparent 100%)`,
   },
   daySection: {
     display: 'flex',
     flexDirection: 'column',
-    gap: 14,
+    gap: 18,
   },
   dayNote: {
     background: COLORS.surfaceLift,
@@ -1560,46 +1564,51 @@ const styles = {
   },
   dayHeader: {
     display: 'flex',
-    alignItems: 'center',
-    gap: 12,
+    alignItems: 'baseline',
+    gap: 14,
     width: '100%',
-    paddingLeft: 14,
-    paddingRight: 12,
-    paddingTop: 8,
-    paddingBottom: 8,
+    paddingLeft: 18,
+    paddingRight: 14,
+    paddingTop: 14,
+    paddingBottom: 14,
     background: 'transparent',
     borderTop: 'none',
     borderRight: 'none',
     borderBottom: 'none',
-    borderLeft: `4px solid ${COLORS.accent}`,
-    borderTopRightRadius: 4,
-    borderBottomRightRadius: 4,
+    borderLeft: `3px solid ${COLORS.accent}`,
+    borderTopRightRadius: 6,
+    borderBottomRightRadius: 6,
     cursor: 'pointer',
     color: COLORS.text,
-    fontFamily: FONTS.mono,
-    letterSpacing: '0.12em',
-    textTransform: 'uppercase',
+    fontFamily: FONTS.body,
     textAlign: 'left',
-    transition: 'background 0.15s ease',
+    transition: 'background 0.15s ease, border-color 0.15s ease',
   },
   dayCount: {
+    fontFamily: FONTS.mono,
     color: COLORS.textMute,
     fontSize: 10,
-    letterSpacing: '0.1em',
+    letterSpacing: '0.14em',
+    textTransform: 'uppercase',
   },
   dayLabel: {
+    fontFamily: FONTS.display,
+    fontWeight: 800,
+    fontSize: 26,
+    letterSpacing: '-0.01em',
+    lineHeight: 1,
     color: COLORS.text,
-    fontWeight: 600,
-    fontSize: 16,
   },
   daySep: {
     color: COLORS.textMute,
-    opacity: 0.5,
+    opacity: 0.4,
     fontSize: 14,
   },
   dayDate: {
+    fontFamily: FONTS.mono,
     color: COLORS.textDim,
     fontSize: 12,
+    letterSpacing: '0.04em',
   },
   groups: {
     display: 'flex',
@@ -1645,14 +1654,14 @@ const styles = {
     textAlign: 'left',
     background: COLORS.surface,
     border: `1px solid ${COLORS.border}`,
-    borderRadius: 8,
-    padding: 18,
+    borderRadius: 10,
+    padding: 20,
     cursor: 'pointer',
     color: COLORS.text,
     fontFamily: FONTS.body,
     display: 'flex',
     flexDirection: 'column',
-    gap: 10,
+    gap: 12,
   },
   cardTop: {
     display: 'flex',
@@ -1754,20 +1763,20 @@ const styles = {
     color: COLORS.textMute,
   },
   accessoryBlock: {
-    marginTop: 8,
+    marginTop: 14,
   },
   accessoryLabel: {
     fontFamily: FONTS.mono,
     fontSize: 10,
-    letterSpacing: '0.12em',
+    letterSpacing: '0.14em',
     textTransform: 'uppercase',
     color: COLORS.textMute,
-    marginBottom: 8,
+    marginBottom: 12,
   },
   accessoryGrid: {
     display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
-    gap: 10,
+    gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))',
+    gap: 14,
   },
   setList: {
     display: 'flex',
