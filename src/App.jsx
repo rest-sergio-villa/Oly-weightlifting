@@ -226,24 +226,43 @@ export default function App() {
   // accessories so accessories can render in their own muted sub-grid
   // below the main lifts.
   const groupedByDay = useMemo(() => {
-    const result = [];
+    const buckets = new Map();
     for (const g of groupedVideos) {
       const week = g.videos[0].tags.find(t => t.startsWith('week-'));
       const dayKey = `${week || 'no-week'}|${g.date}`;
       const dayNum = week ? dayNumberByKey.get(`${week}|${g.date}`) : null;
       const isAccessory = g.videos.some(v => v.accessory);
-      let bucket = result[result.length - 1];
-      if (!bucket || bucket.dayKey !== dayKey) {
-        bucket = { dayKey, date: g.date, dayNum, week, mainGroups: [], accessoryGroups: [] };
-        result.push(bucket);
+      if (!buckets.has(dayKey)) {
+        buckets.set(dayKey, { dayKey, date: g.date, dayNum, week, mainGroups: [], accessoryGroups: [] });
       }
+      const bucket = buckets.get(dayKey);
       (isAccessory ? bucket.accessoryGroups : bucket.mainGroups).push(g);
     }
-    return result;
-  }, [groupedVideos, dayNumberByKey]);
+
+    // CrossFit-only dates: dates that have a class session but no OWL videos.
+    // Honour the active filters — lift/tag filters hide CrossFit-only days
+    // (no lifts/tags to match against). Week/cycle/location pull from the
+    // session's own fields.
+    if (selectedLifts.size === 0 && selectedTags.size === 0) {
+      for (const [date, session] of Object.entries(crossfitSessions)) {
+        if (videos.some(v => v.date === date)) continue; // already has an OWL bucket
+        const week = session.week || null;
+        if (selectedWeeks.size > 0 && (!week || !selectedWeeks.has(week))) continue;
+        if (selectedCycles.size > 0 && (!session.cycle || !selectedCycles.has(session.cycle))) continue;
+        if (selectedLocations.size > 0 && (!session.location || !selectedLocations.has(session.location))) continue;
+        const dayKey = `${week || 'no-week'}|${date}`;
+        if (!buckets.has(dayKey)) {
+          buckets.set(dayKey, { dayKey, date, dayNum: null, week, mainGroups: [], accessoryGroups: [] });
+        }
+      }
+    }
+
+    return Array.from(buckets.values()).sort((a, b) => b.date.localeCompare(a.date));
+  }, [groupedVideos, dayNumberByKey, selectedLifts, selectedTags, selectedWeeks, selectedCycles, selectedLocations]);
 
   // Bucket the day buckets by week so we can render a week separator
   // whenever multiple weeks are visible at once.
+  // (Pulled out so we can also pick up CrossFit-only dates below.)
   const groupedByWeek = useMemo(() => {
     const result = [];
     for (const day of groupedByDay) {
@@ -489,7 +508,11 @@ export default function App() {
                     {day.dayNum != null && <span style={styles.dayLabel}>Day {day.dayNum}</span>}
                     {day.dayNum != null && <span style={styles.daySep}>·</span>}
                     <span style={styles.dayDate}>{formatDayDate(day.date)}</span>
-                    <span style={styles.dayCount}>{totalCards} {totalCards === 1 ? 'lift' : 'lifts'}</span>
+                    {totalCards > 0 ? (
+                      <span style={styles.dayCount}>{totalCards} {totalCards === 1 ? 'lift' : 'lifts'}</span>
+                    ) : (
+                      crossfitSessions[day.date] && <span style={styles.dayCount}>Class only</span>
+                    )}
                     <ChevronDown
                       size={16}
                       style={{
