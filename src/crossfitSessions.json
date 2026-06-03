@@ -4,7 +4,7 @@
     "time": "6:00am",
     "week": "week-3-c2",
     "cycle": "cycle-2",
-    "location": "loc-altona",
+    "location": "loc-brians",
     "strength": [
       {
         "name": "Weightlifting: 2 Clean + 1 Jerk",
@@ -18,7 +18,9 @@
       "scoreType": "Time",
       "timeCap": "16:00"
     },
-    "accessories": ["Unscored"],
+    "accessories": [
+      "Unscored"
+    ],
     "notes": "Clean & Jerk went 40 → 45kg — form was really bad on the 45kg. Kettlebells at 20kg felt light on the metcon."
   },
   "2026-05-31": {
@@ -26,10 +28,18 @@
     "time": "9:00am",
     "week": "week-3-c2",
     "cycle": "cycle-2",
-    "location": "loc-altona",
+    "location": "loc-brians",
     "strength": [
-      { "name": "Bench Press", "scheme": "10-10-10-10, ascending to a moderate for the day. Rest 2:00 between sets.", "myWeight": "50kg start" },
-      { "name": "Push Press", "scheme": "Programmed within the session.", "myWeight": "40kg start" }
+      {
+        "name": "Bench Press",
+        "scheme": "10-10-10-10, ascending to a moderate for the day. Rest 2:00 between sets.",
+        "myWeight": "50kg start"
+      },
+      {
+        "name": "Push Press",
+        "scheme": "Programmed within the session.",
+        "myWeight": "40kg start"
+      }
     ],
     "metcon": {
       "format": "EMOM x 12",
