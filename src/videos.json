@@ -147,6 +147,19 @@
     "notes": "Torso centered between the feet; working the rear-foot 'ankle out' cue. Split shallow and a touch wide."
   },
   {
+    "id": "v183",
+    "youtubeId": "WMtWJncqzBg",
+    "vertical": true,
+    "title": "Pause Off-Floor Clean + 2 Jerks, set 4",
+    "date": "2026-06-02",
+    "lift": "pause_off_floor_clean_jerk",
+    "weight": 47,
+    "bodyweight": 82,
+    "tags": ["week-4-c2", "working-set", "complex", "split", "technique", "cycle-2", "loc-altona"],
+    "notes": "Still not catching deep enough. Split footwork breaks down — feet landing wrong. Torso leans forward in the receive (vertical that held at 45kg is gone).",
+    "summary": "Four working sets of pause off-floor clean + 2 jerks: 40 → 45 → 45 → 47kg. At 40kg the trunk loses vertical at the bottom. At 45kg the vertical position holds but the receive is too shallow; the second 45kg attempt improves the depth but still not catching low enough. At 47kg the depth is still shallow, the split footwork breaks down, and the torso leans forward again."
+  },
+  {
     "id": "v182",
     "youtubeId": "IfH-CV3Oocc",
     "vertical": true,
@@ -156,8 +169,7 @@
     "weight": 45,
     "bodyweight": 82,
     "tags": ["week-4-c2", "working-set", "complex", "split", "technique", "cycle-2", "loc-altona"],
-    "notes": "Improvement on depth — moving in the right direction but still not catching low enough.",
-    "summary": "Three working sets of pause off-floor clean + 2 jerks: 40kg, then two at 45kg. At 40kg the trunk loses vertical at the bottom of the clean. At 45kg the vertical position holds (good) but the receive is too shallow. The second 45kg set shows improvement on depth — heading the right way but still not catching low enough."
+    "notes": "Improvement on depth — moving in the right direction but still not catching low enough."
   },
   {
     "id": "v181",
