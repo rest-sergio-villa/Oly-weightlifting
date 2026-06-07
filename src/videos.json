@@ -1,5 +1,54 @@
 [
   {
+    "id": "v213",
+    "youtubeId": "AYXtJQHhVuA",
+    "vertical": true,
+    "title": "Front Squat, set 4",
+    "date": "2026-06-06",
+    "lift": "front_squat",
+    "weight": 60,
+    "bodyweight": 82,
+    "tags": ["week-4-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "60kg, fourth set.",
+    "summary": "Four sets of front squat at 60kg."
+  },
+  {
+    "id": "v212",
+    "youtubeId": "Jz6EUjK9UyI",
+    "vertical": true,
+    "title": "Front Squat, set 3",
+    "date": "2026-06-06",
+    "lift": "front_squat",
+    "weight": 60,
+    "bodyweight": 82,
+    "tags": ["week-4-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "60kg, third set."
+  },
+  {
+    "id": "v211",
+    "youtubeId": "ZJcnVkaxyGk",
+    "vertical": true,
+    "title": "Front Squat, set 2",
+    "date": "2026-06-06",
+    "lift": "front_squat",
+    "weight": 60,
+    "bodyweight": 82,
+    "tags": ["week-4-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "60kg, second set."
+  },
+  {
+    "id": "v210",
+    "youtubeId": "i_eQAlTgkvA",
+    "vertical": true,
+    "title": "Front Squat, set 1",
+    "date": "2026-06-06",
+    "lift": "front_squat",
+    "weight": 60,
+    "bodyweight": 82,
+    "tags": ["week-4-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "60kg, first set."
+  },
+  {
     "id": "v209",
     "youtubeId": "ZC4bq6FRMQQ",
     "vertical": true,
