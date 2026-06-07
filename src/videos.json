@@ -1,5 +1,30 @@
 [
   {
+    "id": "v194",
+    "youtubeId": "nHymhMX5Wtk",
+    "vertical": true,
+    "title": "Behind-the-Neck Jerk (split), set 6",
+    "date": "2026-06-04",
+    "lift": "behind_neck_jerk",
+    "weight": 45,
+    "bodyweight": 82,
+    "tags": ["week-4-c2", "working-set", "cycle-2", "loc-altona", "split", "technique"],
+    "notes": "45kg — improvement on the receive after the rough set 5. More controlled descent and a cleaner catch.",
+    "summary": "Six sets of BTN jerk in split: 40 × 2 → 45 × 4kg. Forward-lean pattern persisted at 45kg, with set 5 the worst of the day. Set 6 showed real improvement — slower descent and a cleaner catch. Self-cue: slow the descent, brace the core through the bottom, drive the feet apart into a wider, more stable split."
+  },
+  {
+    "id": "v193",
+    "youtubeId": "4vl9mKBFGpU",
+    "vertical": true,
+    "title": "Behind-the-Neck Jerk (split), set 5",
+    "date": "2026-06-04",
+    "lift": "behind_neck_jerk",
+    "weight": 45,
+    "bodyweight": 82,
+    "tags": ["week-4-c2", "working-set", "cycle-2", "loc-altona", "split", "technique"],
+    "notes": "45kg — rough set. Form noticeably worse than the prior 45kg attempts."
+  },
+  {
     "id": "v192",
     "youtubeId": "8OPZAcj9zNk",
     "vertical": true,
@@ -9,8 +34,7 @@
     "weight": 45,
     "bodyweight": 82,
     "tags": ["week-4-c2", "working-set", "cycle-2", "loc-altona", "split", "technique"],
-    "notes": "45kg — clearly leaning forward in the receive. Loses stability and drifts forward after the catch.",
-    "summary": "Four sets of BTN jerk in split: 40 × 2 → 45 × 2kg. Torso clearly leans forward in the receive at 45kg; loses stability and drifts forward after the catch. Self-cue: slow the descent into the split, brace the core through the bottom, and drive the feet apart into a wider, more stable split."
+    "notes": "45kg — clearly leaning forward in the receive. Loses stability and drifts forward after the catch."
   },
   {
     "id": "v191",
