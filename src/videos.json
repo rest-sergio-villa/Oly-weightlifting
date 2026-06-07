@@ -1,5 +1,54 @@
 [
   {
+    "id": "v209",
+    "youtubeId": "ZC4bq6FRMQQ",
+    "vertical": true,
+    "title": "Paused BTK + ATK Snatch Pull, set 4",
+    "date": "2026-06-06",
+    "lift": "paused_snatch_pull",
+    "weight": 40,
+    "bodyweight": 82,
+    "tags": ["week-4-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "40kg, fourth set.",
+    "summary": "Four sets of paused snatch pull (BTK + ATK) at 40kg."
+  },
+  {
+    "id": "v208",
+    "youtubeId": "UtdHSowGTc4",
+    "vertical": true,
+    "title": "Paused BTK + ATK Snatch Pull, set 3",
+    "date": "2026-06-06",
+    "lift": "paused_snatch_pull",
+    "weight": 40,
+    "bodyweight": 82,
+    "tags": ["week-4-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "40kg, third set."
+  },
+  {
+    "id": "v207",
+    "youtubeId": "jy2LRqvZouI",
+    "vertical": true,
+    "title": "Paused BTK + ATK Snatch Pull, set 2",
+    "date": "2026-06-06",
+    "lift": "paused_snatch_pull",
+    "weight": 40,
+    "bodyweight": 82,
+    "tags": ["week-4-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "40kg, second set."
+  },
+  {
+    "id": "v206",
+    "youtubeId": "8WGoUSxcQXc",
+    "vertical": true,
+    "title": "Paused BTK + ATK Snatch Pull, set 1",
+    "date": "2026-06-06",
+    "lift": "paused_snatch_pull",
+    "weight": 40,
+    "bodyweight": 82,
+    "tags": ["week-4-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "40kg, first set."
+  },
+  {
     "id": "v205",
     "youtubeId": "-uL1xHLOh0Y",
     "vertical": true,
