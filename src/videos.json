@@ -1,5 +1,18 @@
 [
   {
+    "id": "v201",
+    "youtubeId": "oEvFj1J4Jd4",
+    "vertical": true,
+    "title": "Pause Above-Knee Clean, set 5",
+    "date": "2026-06-04",
+    "lift": "pause_above_knee_clean",
+    "weight": 47,
+    "bodyweight": 82,
+    "tags": ["week-4-c2", "working-set", "cycle-2", "loc-altona", "technique"],
+    "notes": "47kg — third set at this load.",
+    "summary": "Five sets of pause above-knee clean: 45 × 2 → 47 × 3kg. Surfaced a timing cue mid-session: triple extension was firing too early — bar still below mid-thigh — causing the bar to drift forward and the body to chase / jump forward. Fix is to delay extension until the bar reaches just above mid-thigh."
+  },
+  {
     "id": "v200",
     "youtubeId": "JXuCMBR5AKE",
     "vertical": true,
@@ -9,8 +22,7 @@
     "weight": 47,
     "bodyweight": 82,
     "tags": ["week-4-c2", "working-set", "cycle-2", "loc-altona", "technique"],
-    "notes": "47kg — second set at this load.",
-    "summary": "Four sets of pause above-knee clean: 45 × 2 → 47 × 2kg. Surfaced a timing cue mid-session: triple extension was firing too early — bar still below mid-thigh — causing the bar to drift forward and the body to chase / jump forward. Fix is to delay extension until the bar reaches just above mid-thigh."
+    "notes": "47kg — second set at this load."
   },
   {
     "id": "v199",
