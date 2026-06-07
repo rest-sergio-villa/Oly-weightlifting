@@ -1,5 +1,17 @@
 [
   {
+    "id": "v202",
+    "youtubeId": "6M5c7VoCktM",
+    "vertical": true,
+    "title": "Tempo Clean-Grip Deadlift @ 55kg",
+    "date": "2026-06-04",
+    "lift": "tempo_clean_grip_deadlift",
+    "weight": 55,
+    "bodyweight": 82,
+    "tags": ["week-4-c2", "working-set", "cycle-2", "loc-altona", "technique"],
+    "notes": "55kg — lower back rounding through the pull. Losing the neutral spine; needs more bracing and a stronger lat pull to set the back before initiating."
+  },
+  {
     "id": "v201",
     "youtubeId": "oEvFj1J4Jd4",
     "vertical": true,
