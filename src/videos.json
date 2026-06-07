@@ -1,5 +1,18 @@
 [
   {
+    "id": "v191",
+    "youtubeId": "I3H6T6CvHIA",
+    "vertical": true,
+    "title": "Behind-the-Neck Jerk (split), set 3",
+    "date": "2026-06-04",
+    "lift": "behind_neck_jerk",
+    "weight": 45,
+    "bodyweight": 82,
+    "tags": ["week-4-c2", "working-set", "cycle-2", "loc-altona", "split", "technique"],
+    "notes": "45kg — still leaning forward in the receive. Fix: slow the descent into the split, brace the core through the bottom, and drive the feet apart into a wider, more stable split.",
+    "summary": "Three sets of BTN jerk in split: 40 × 2 → 45kg. Torso still leaning forward in the receive across all sets. Fix is to slow the descent, brace the core through the bottom, and drive the feet apart into a wider, more stable split."
+  },
+  {
     "id": "v190",
     "youtubeId": "Q6S6Uy3xJws",
     "vertical": true,
@@ -9,8 +22,7 @@
     "weight": 40,
     "bodyweight": 82,
     "tags": ["week-4-c2", "working-set", "cycle-2", "loc-altona", "split", "technique"],
-    "notes": "Second set at 40kg.",
-    "summary": "Two sets of BTN jerk in split at 40kg. Same pattern as Tuesday's clean+jerks — torso still leaning forward in the receive."
+    "notes": "Second set at 40kg."
   },
   {
     "id": "v189",
