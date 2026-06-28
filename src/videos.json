@@ -1,5 +1,42 @@
 [
   {
+    "id": "v231",
+    "youtubeId": "MhCwpYwJdRk",
+    "vertical": true,
+    "title": "Push Jerk in Split (primer), set 3",
+    "date": "2026-06-09",
+    "lift": "push_jerk_in_split",
+    "weight": 20,
+    "bodyweight": 82,
+    "tags": ["week-5-c2", "primer", "cycle-2", "loc-altona", "split", "technique"],
+    "notes": "20kg primer, third set. Starting the jerk setup from the floor (rather than the rack) made it easier to feel where the feet should land and the tension required in the core and glutes to lock the split position.",
+    "summary": "Three primer sets of push jerk in split at 20kg. Starting the setup from the floor (rather than the rack) helped surface where the feet should land and the tension needed in the core and glutes to lock the split position."
+  },
+  {
+    "id": "v230",
+    "youtubeId": "3gOQYzKrNsI",
+    "vertical": true,
+    "title": "Push Jerk in Split (primer), set 2",
+    "date": "2026-06-09",
+    "lift": "push_jerk_in_split",
+    "weight": 20,
+    "bodyweight": 82,
+    "tags": ["week-5-c2", "primer", "cycle-2", "loc-altona", "split", "technique"],
+    "notes": "20kg primer, second set."
+  },
+  {
+    "id": "v229",
+    "youtubeId": "gWLrkxcJsoc",
+    "vertical": true,
+    "title": "Push Jerk in Split (primer), set 1",
+    "date": "2026-06-09",
+    "lift": "push_jerk_in_split",
+    "weight": 20,
+    "bodyweight": 82,
+    "tags": ["week-5-c2", "primer", "cycle-2", "loc-altona", "split", "technique"],
+    "notes": "20kg primer, first set."
+  },
+  {
     "id": "v228",
     "youtubeId": "DV1u96EqerQ",
     "vertical": true,
