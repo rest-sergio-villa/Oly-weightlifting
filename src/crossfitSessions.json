@@ -120,5 +120,26 @@
       "scoreType": "Rounds + Reps"
     },
     "notes": "Goblet lunges at 22.5kg dumbbell. Finisher (Tabata L-hang / L-tuck hang, 8 rounds 0:20 on / 0:10 off) — couldn't do it at all."
+  },
+  "2026-06-10": {
+    "className": "CrossFit 3056",
+    "time": "6:00am",
+    "week": "week-5-c2",
+    "cycle": "cycle-2",
+    "location": "loc-brunswick",
+    "strength": [
+      {
+        "name": "Strict Chin Ups",
+        "scheme": "5 sets, max reps with 2 RIR each set. Rest 2:00. Time cap 13:00.",
+        "myWeight": "Bodyweight"
+      }
+    ],
+    "metcon": {
+      "format": "Every 2:00 x 8",
+      "details": "12/10 Cal Row\n5 Renegade Rows (15kg DBs)",
+      "scoreType": "Notes",
+      "timeCap": "16:00"
+    },
+    "notes": "Renegade rows at 15kg dumbbells."
   }
 }
