@@ -1,5 +1,19 @@
 [
   {
+    "id": "v244",
+    "youtubeId": "yLWQ5PCB33E",
+    "vertical": true,
+    "title": "Behind-the-Neck Jerk (split), set 4",
+    "date": "2026-06-11",
+    "lift": "behind_neck_jerk",
+    "weight": 45,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-5-c2", "working-set", "cycle-2", "loc-altona", "split", "technique"],
+    "notes": "45kg × 3. Diagnosed the forward lean: core isn't braced and glutes aren't engaged through the receive — torso collapses forward without that tension.",
+    "summary": "Four sets of BTN jerk in split: 40 × 3 × 2 → 45 × 3 × 2. Drive (jump) and overhead lockout improving across the session. Diagnosis on set 4: the forward-lean in the receive is caused by an unbraced core and disengaged glutes — torso collapses forward without that tension."
+  },
+  {
     "id": "v243",
     "youtubeId": "PYJZcmU3gf4",
     "vertical": true,
@@ -10,8 +24,7 @@
     "reps": 3,
     "bodyweight": 82,
     "tags": ["week-5-c2", "working-set", "cycle-2", "loc-altona", "split", "technique"],
-    "notes": "45kg × 3. Drive (jump) and overhead lockout improving.",
-    "summary": "Three sets of BTN jerk in split: 40 × 3, 40 × 3, 45 × 3. Drive (jump) and overhead lockout improving across the session. Torso still leaning forward in the receive (same pattern as week 4)."
+    "notes": "45kg × 3. Drive (jump) and overhead lockout improving."
   },
   {
     "id": "v242",
