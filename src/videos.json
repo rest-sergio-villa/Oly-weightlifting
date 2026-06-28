@@ -1,5 +1,17 @@
 [
   {
+    "id": "v245",
+    "youtubeId": "c8iJNLtY35U",
+    "vertical": true,
+    "title": "2 Hip Power Snatch + 2 OHS @ 30kg",
+    "date": "2026-06-11",
+    "lift": "hip_power_snatch_ohs",
+    "weight": 30,
+    "bodyweight": 82,
+    "tags": ["week-5-c2", "working-set", "complex", "cycle-2", "loc-altona", "technique"],
+    "notes": "30kg complex. Arms bending too early in the pull — taking over before the legs and hips finish driving."
+  },
+  {
     "id": "v244",
     "youtubeId": "yLWQ5PCB33E",
     "vertical": true,
