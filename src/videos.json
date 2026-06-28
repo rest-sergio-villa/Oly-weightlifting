@@ -1,9 +1,22 @@
 [
   {
+    "id": "v233",
+    "youtubeId": "Rq2zmgPqTiA",
+    "vertical": true,
+    "title": "Pause Off-Floor Clean + 2 Jerks, set 2",
+    "date": "2026-06-09",
+    "lift": "pause_off_floor_clean_jerk",
+    "weight": 45,
+    "bodyweight": 82,
+    "tags": ["week-5-c2", "working-set", "complex", "split", "technique", "cycle-2", "loc-altona"],
+    "notes": "45kg complex. Same forward-lean issue on the clean receive — but the second jerk's split position was much better.",
+    "summary": "Two working sets of pause off-floor clean + 2 jerks: 40 → 45kg. Clean receive still has the same forward-lean pattern as last week. Bright spot: at 45kg the second jerk's split position was much better."
+  },
+  {
     "id": "v232",
     "youtubeId": "OCHErluYHbw",
     "vertical": true,
-    "title": "Pause Off-Floor Clean + 2 Jerks @ 40kg",
+    "title": "Pause Off-Floor Clean + 2 Jerks, set 1",
     "date": "2026-06-09",
     "lift": "pause_off_floor_clean_jerk",
     "weight": 40,
