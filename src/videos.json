@@ -1,15 +1,30 @@
 [
   {
-    "id": "v241",
-    "youtubeId": "dyLBg7CV-gM",
+    "id": "v242",
+    "youtubeId": "6Cslr6o1rZI",
     "vertical": true,
-    "title": "Behind-the-Neck Jerk (split) @ 40kg",
+    "title": "Behind-the-Neck Jerk (split), set 2",
     "date": "2026-06-11",
     "lift": "behind_neck_jerk",
     "weight": 40,
+    "reps": 3,
     "bodyweight": 82,
     "tags": ["week-5-c2", "working-set", "cycle-2", "loc-altona", "split", "technique"],
-    "notes": "40kg. Good overhead lockout — still leaning forward in the receive (same pattern as last week)."
+    "notes": "40kg × 3, second set.",
+    "summary": "Two sets of BTN jerk in split at 40kg × 3. Overhead lockout is solid — torso still leaning forward in the receive (same pattern as week 4)."
+  },
+  {
+    "id": "v241",
+    "youtubeId": "dyLBg7CV-gM",
+    "vertical": true,
+    "title": "Behind-the-Neck Jerk (split), set 1",
+    "date": "2026-06-11",
+    "lift": "behind_neck_jerk",
+    "weight": 40,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-5-c2", "working-set", "cycle-2", "loc-altona", "split", "technique"],
+    "notes": "40kg × 3. Good overhead lockout — still leaning forward in the receive (same pattern as last week)."
   },
   {
     "id": "v240",
