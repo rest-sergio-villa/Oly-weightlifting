@@ -1,5 +1,19 @@
 [
   {
+    "id": "v263",
+    "youtubeId": "8PZLSuGQhlY",
+    "vertical": true,
+    "title": "Floating Snatch, set 3",
+    "date": "2026-06-16",
+    "lift": "floating_snatch",
+    "weight": 30,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-6-c2", "working-set", "cycle-2", "loc-brunswick", "technique"],
+    "notes": "30kg × 3. First rep clean. Reps 2–3: overshooting the bar (pulling too high) — bar drifting past the receive position, hard to stabilize overhead.",
+    "summary": "Three sets of floating snatch on 16 Jun: 25 × 3 → 27 × 3 → 30 × 3. Set 1 felt good; set 2 balance off; set 3 first rep clean but the next two had me overshooting the bar (pulling too high) — bar drifting past the receive position and hard to stabilize overhead."
+  },
+  {
     "id": "v262",
     "youtubeId": "42h1-bVFYHg",
     "vertical": true,
@@ -10,8 +24,7 @@
     "reps": 3,
     "bodyweight": 82,
     "tags": ["week-6-c2", "working-set", "cycle-2", "loc-brunswick"],
-    "notes": "27kg × 3. Balance felt a bit off.",
-    "summary": "Two sets of floating snatch on 16 Jun: 25 × 3 → 27 × 3. Set 1 felt good; balance went a bit off on the 27kg set."
+    "notes": "27kg × 3. Balance felt a bit off."
   },
   {
     "id": "v261",
