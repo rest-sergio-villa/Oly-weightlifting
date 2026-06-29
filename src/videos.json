@@ -1,5 +1,30 @@
 [
   {
+    "id": "v250",
+    "youtubeId": "H3ekX28VBJI",
+    "vertical": true,
+    "title": "Tempo Clean-Grip Deadlift (4s), set 2",
+    "date": "2026-06-11",
+    "lift": "tempo_clean_grip_deadlift",
+    "weight": 60,
+    "bodyweight": 82,
+    "tags": ["week-5-c2", "working-set", "cycle-2", "loc-altona", "technique"],
+    "notes": "60kg, 4-second tempo, second set.",
+    "summary": "Two sets of 4-second tempo clean-grip deadlift at 60kg. Self-cue: maintain back tension throughout the lift to keep the spine extended — otherwise the force the legs are transmitting to the bar leaks out through a soft back."
+  },
+  {
+    "id": "v249",
+    "youtubeId": "6m8FPMQhaew",
+    "vertical": true,
+    "title": "Tempo Clean-Grip Deadlift (4s), set 1",
+    "date": "2026-06-11",
+    "lift": "tempo_clean_grip_deadlift",
+    "weight": 60,
+    "bodyweight": 82,
+    "tags": ["week-5-c2", "working-set", "cycle-2", "loc-altona", "technique"],
+    "notes": "60kg, 4-second tempo, first set."
+  },
+  {
     "id": "v248",
     "vertical": true,
     "title": "2 Hip Power Snatch + 2 OHS, set 4",
