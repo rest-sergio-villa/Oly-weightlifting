@@ -1,5 +1,18 @@
 [
   {
+    "id": "v251",
+    "youtubeId": "GRwWWdQzOd4",
+    "vertical": true,
+    "title": "Paused BTK + ATK Snatch Pull @ 40kg",
+    "date": "2026-06-13",
+    "lift": "paused_snatch_pull",
+    "weight": 40,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-5-c2", "working-set", "cycle-2", "loc-brunswick", "technique"],
+    "notes": "40kg × 3. The lift I struggle with the most — but found a starting setup that feels natural. Back is still rounding; need to set the spine flat before initiating."
+  },
+  {
     "id": "v250",
     "youtubeId": "H3ekX28VBJI",
     "vertical": true,
