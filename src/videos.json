@@ -3,7 +3,7 @@
     "id": "v264",
     "youtubeId": "AcfypcmkhZY",
     "vertical": true,
-    "title": "Floating Snatch, set 4",
+    "title": "Floating Snatch, set 5",
     "date": "2026-06-16",
     "lift": "floating_snatch",
     "weight": 35,
@@ -11,13 +11,13 @@
     "bodyweight": 82,
     "tags": ["week-6-c2", "working-set", "cycle-2", "loc-brunswick", "technique"],
     "notes": "35kg × 2. Same overshoot pattern — pulling too high, bar drifting past the receive position, hard to stabilize overhead.",
-    "summary": "Four sets of floating snatch on 16 Jun: 25 × 3 → 27 × 3 → 30 × 3 → 35 × 2. Set 1 felt good; balance went off on set 2; sets 3 and 4 surfaced an overshoot pattern — pulling too high, bar drifting past the receive position and hard to stabilize overhead."
+    "summary": "Five sets of floating snatch on 16 Jun: 25 × 3 → 27 × 3 → 30 × 2 → 30 × 3 → 35 × 2. Set 1 felt good; balance went off on set 2; from the 30kg sets onward an overshoot pattern surfaced — pulling too high, bar drifting past the receive position and hard to stabilize overhead."
   },
   {
     "id": "v263",
     "youtubeId": "8PZLSuGQhlY",
     "vertical": true,
-    "title": "Floating Snatch, set 3",
+    "title": "Floating Snatch, set 4",
     "date": "2026-06-16",
     "lift": "floating_snatch",
     "weight": 30,
@@ -25,6 +25,19 @@
     "bodyweight": 82,
     "tags": ["week-6-c2", "working-set", "cycle-2", "loc-brunswick", "technique"],
     "notes": "30kg × 3. First rep clean. Reps 2–3: overshooting the bar (pulling too high) — bar drifting past the receive position, hard to stabilize overhead."
+  },
+  {
+    "id": "v265",
+    "youtubeId": "orxtr90blXw",
+    "vertical": true,
+    "title": "Floating Snatch, set 3",
+    "date": "2026-06-16",
+    "lift": "floating_snatch",
+    "weight": 30,
+    "reps": 2,
+    "bodyweight": 82,
+    "tags": ["week-6-c2", "working-set", "cycle-2", "loc-brunswick", "technique"],
+    "notes": "30kg × 2. Issues stabilizing the bar overhead here too — similar overshoot."
   },
   {
     "id": "v262",
