@@ -1,5 +1,42 @@
 [
   {
+    "id": "v258",
+    "youtubeId": "OaTZ41Avs-E",
+    "vertical": true,
+    "title": "BB Bent-Over Row (Supinated), set 3",
+    "date": "2026-06-14",
+    "lift": "bb_bent_over_row_supinated",
+    "weight": 45,
+    "bodyweight": 82,
+    "tags": ["week-5-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "45kg, third set.",
+    "summary": "Three sets of BB bent-over row, supinated grip, at 45kg. Done before the Sunday CrossFit class at Brunswick."
+  },
+  {
+    "id": "v257",
+    "youtubeId": "BjhPqhMgMWo",
+    "vertical": true,
+    "title": "BB Bent-Over Row (Supinated), set 2",
+    "date": "2026-06-14",
+    "lift": "bb_bent_over_row_supinated",
+    "weight": 45,
+    "bodyweight": 82,
+    "tags": ["week-5-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "45kg, second set."
+  },
+  {
+    "id": "v256",
+    "youtubeId": "mGXfqEY_N6o",
+    "vertical": true,
+    "title": "BB Bent-Over Row (Supinated), set 1",
+    "date": "2026-06-14",
+    "lift": "bb_bent_over_row_supinated",
+    "weight": 45,
+    "bodyweight": 82,
+    "tags": ["week-5-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "45kg, first set."
+  },
+  {
     "id": "v255",
     "youtubeId": "ZJRbhR4neZo",
     "vertical": true,
