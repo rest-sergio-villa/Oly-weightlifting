@@ -162,5 +162,20 @@
       "timeCap": "9:00"
     },
     "notes": "Push Press worked up to a 40kg max. OHS at 30kg in the metcon."
+  },
+  "2026-06-13": {
+    "className": "CrossFit 3056",
+    "time": "8:30am",
+    "week": "week-5-c2",
+    "cycle": "cycle-2",
+    "location": "loc-brunswick",
+    "strength": [],
+    "metcon": {
+      "format": "Partner WOD — In Pairs, For Time",
+      "details": "1000m Run\n150 Dumbbell Snatch (17.5kg)\n800m Run\n150 Burpees Over Dumbbell\n400m Run\n150 Plank Dumbbell Drag Through\n200m Run",
+      "scoreType": "Time",
+      "timeCap": "35:00"
+    },
+    "notes": "Partner WOD with 17.5kg dumbbells. Finished within the time cap."
   }
 }
