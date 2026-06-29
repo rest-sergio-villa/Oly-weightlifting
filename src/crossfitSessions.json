@@ -177,5 +177,20 @@
       "timeCap": "35:00"
     },
     "notes": "Partner WOD with 17.5kg dumbbells. Finished within the time cap."
+  },
+  "2026-06-14": {
+    "className": "CrossFit 3056",
+    "time": "9:00am",
+    "week": "week-5-c2",
+    "cycle": "cycle-2",
+    "location": "loc-brunswick",
+    "strength": [],
+    "metcon": {
+      "format": "5 Rounds for Reps",
+      "details": "1:00 V-ups\n1:00 Carry (32kg)\n1:00 Deadlifts (85kg)",
+      "scoreType": "Total Reps",
+      "timeCap": "15:00"
+    },
+    "notes": "Carry at 32kg, deadlift at 85kg in the metcon."
   }
 }
