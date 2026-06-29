@@ -1,5 +1,18 @@
 [
   {
+    "id": "v261",
+    "youtubeId": "83XLodTeVY0",
+    "vertical": true,
+    "title": "Floating Snatch @ 25kg",
+    "date": "2026-06-16",
+    "lift": "floating_snatch",
+    "weight": 25,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-6-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "25kg × 3. Felt good."
+  },
+  {
     "id": "v260",
     "youtubeId": "meIxFu5rVPA",
     "vertical": true,
