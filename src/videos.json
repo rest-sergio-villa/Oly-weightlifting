@@ -1,5 +1,45 @@
 [
   {
+    "id": "v255",
+    "youtubeId": "ZJRbhR4neZo",
+    "vertical": true,
+    "title": "Front Squat, set 3",
+    "date": "2026-06-13",
+    "lift": "front_squat",
+    "weight": 65,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-5-c2", "working-set", "cycle-2", "loc-brunswick", "technique"],
+    "notes": "65kg × 3, third set.",
+    "summary": "Three sets of front squat at 65kg × 3. Self-cue: could be more upright through the bottom (back rounding slightly) and depth could be deeper — not sitting fully into the hole."
+  },
+  {
+    "id": "v254",
+    "youtubeId": "GFGktERJjRc",
+    "vertical": true,
+    "title": "Front Squat, set 2",
+    "date": "2026-06-13",
+    "lift": "front_squat",
+    "weight": 65,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-5-c2", "working-set", "cycle-2", "loc-brunswick", "technique"],
+    "notes": "65kg × 3, second set."
+  },
+  {
+    "id": "v253",
+    "youtubeId": "36eHyhT_jF8",
+    "vertical": true,
+    "title": "Front Squat, set 1",
+    "date": "2026-06-13",
+    "lift": "front_squat",
+    "weight": 65,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-5-c2", "working-set", "cycle-2", "loc-brunswick", "technique"],
+    "notes": "65kg × 3, first set."
+  },
+  {
     "id": "v252",
     "youtubeId": "BzCnFfD5qAo",
     "vertical": true,
