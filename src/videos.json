@@ -1,9 +1,22 @@
 [
   {
+    "id": "v260",
+    "youtubeId": "meIxFu5rVPA",
+    "vertical": true,
+    "title": "Drop Snatch (primer), set 2",
+    "date": "2026-06-16",
+    "lift": "drop_snatch",
+    "weight": 20,
+    "bodyweight": 82,
+    "tags": ["week-6-c2", "primer", "cycle-2", "loc-brunswick", "technique"],
+    "notes": "20kg primer. Focused on staying aligned / stacked through the descent — helped the forward-lean issue.",
+    "summary": "Two primer sets of drop snatch at 20kg. Set 2 focused on staying aligned / stacked through the descent — that cue helped the forward-lean issue from previous sessions."
+  },
+  {
     "id": "v259",
     "youtubeId": "SOp6Txsyz3I",
     "vertical": true,
-    "title": "Drop Snatch (primer) @ 20kg",
+    "title": "Drop Snatch (primer), set 1",
     "date": "2026-06-16",
     "lift": "drop_snatch",
     "weight": 20,
