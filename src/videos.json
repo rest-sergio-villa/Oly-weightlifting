@@ -1,5 +1,19 @@
 [
   {
+    "id": "v267",
+    "youtubeId": "hqmOVqcAha8",
+    "vertical": true,
+    "title": "Floating Snatch, set 7 (failed)",
+    "date": "2026-06-16",
+    "lift": "floating_snatch",
+    "weight": 35,
+    "reps": 2,
+    "bodyweight": 82,
+    "tags": ["week-6-c2", "working-set", "cycle-2", "loc-brunswick", "technique"],
+    "notes": "35kg, tried one more — failed. Didn't lock out overhead and the bar drifted forward of midfoot. Dizziness from the fasted state had caught up by this point.",
+    "summary": "Seven sets of floating snatch on 16 Jun: 25 × 3 → 27 × 3 → 30 × 2 × 3 → 35 × 2 × 2 (last attempt failed). Set 1 felt good; balance off on set 2; from 30kg onward an overshoot pattern surfaced (first rep clean, second drifting past the receive). At 35kg the imbalance carried into the footwork; tried one more 35kg and failed — incomplete lockout, bar forward of midfoot. Dizziness from the fasted state caught up by then."
+  },
+  {
     "id": "v264",
     "youtubeId": "AcfypcmkhZY",
     "vertical": true,
@@ -10,8 +24,7 @@
     "reps": 2,
     "bodyweight": 82,
     "tags": ["week-6-c2", "working-set", "cycle-2", "loc-brunswick", "technique"],
-    "notes": "35kg × 2. Got even worse than the 30kg sets — overshoot pulled the bar past the receive AND the imbalance carried into the footwork (feet landing off / shifting in the receive).",
-    "summary": "Six sets of floating snatch on 16 Jun: 25 × 3 → 27 × 3 → 30 × 2 × 3 → 35 × 2. Set 1 felt good; balance went off on set 2; from the 30kg sets onward an overshoot pattern surfaced (first rep usually clean, second rep pulling past the receive). At 35kg it got worse — the imbalance also showed up in the footwork."
+    "notes": "35kg × 2. Got even worse than the 30kg sets — overshoot pulled the bar past the receive AND the imbalance carried into the footwork (feet landing off / shifting in the receive)."
   },
   {
     "id": "v266",
