@@ -1,9 +1,23 @@
 [
   {
+    "id": "v252",
+    "youtubeId": "BzCnFfD5qAo",
+    "vertical": true,
+    "title": "Paused BTK + ATK Snatch Pull, set 2",
+    "date": "2026-06-13",
+    "lift": "paused_snatch_pull",
+    "weight": 45,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-5-c2", "working-set", "cycle-2", "loc-brunswick", "technique"],
+    "notes": "45kg × 3. Shoulders feel too far forward over the bar — keep them just over without overreaching.",
+    "summary": "Two sets of paused snatch pull (BTK + ATK): 40 × 3 → 45 × 3. Found a starting setup that feels natural. Adjustment from set 2: shoulders feel too far over the bar — need to keep them just over without overreaching. Back still rounding."
+  },
+  {
     "id": "v251",
     "youtubeId": "GRwWWdQzOd4",
     "vertical": true,
-    "title": "Paused BTK + ATK Snatch Pull @ 40kg",
+    "title": "Paused BTK + ATK Snatch Pull, set 1",
     "date": "2026-06-13",
     "lift": "paused_snatch_pull",
     "weight": 40,
