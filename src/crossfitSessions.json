@@ -141,5 +141,26 @@
       "timeCap": "16:00"
     },
     "notes": "Renegade rows at 15kg dumbbells."
+  },
+  "2026-06-12": {
+    "className": "CrossFit 3056",
+    "time": "6:00am",
+    "week": "week-5-c2",
+    "cycle": "cycle-2",
+    "location": "loc-brunswick",
+    "strength": [
+      {
+        "name": "Push Press",
+        "scheme": "Every 2:00 x 8 — 1 Push Press. Working up to a max for the day.",
+        "myWeight": "40kg max"
+      }
+    ],
+    "metcon": {
+      "format": "For Time",
+      "details": "21-15-9\nOverhead Squat (30kg)\nToes to Bar",
+      "scoreType": "Time",
+      "timeCap": "9:00"
+    },
+    "notes": "Push Press worked up to a 40kg max. OHS at 30kg in the metcon."
   }
 }
