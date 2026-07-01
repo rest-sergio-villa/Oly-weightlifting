@@ -192,5 +192,12 @@
       "timeCap": "15:00"
     },
     "notes": "Carry at 32kg, deadlift at 85kg in the metcon."
+  },
+  "2026-06-17": {
+    "className": "Swim (travel)",
+    "week": "week-6-c2",
+    "cycle": "cycle-2",
+    "strength": [],
+    "notes": "Travelling for work — Wednesday CrossFit skipped. Swam 250m in the hotel pool instead."
   }
 }
