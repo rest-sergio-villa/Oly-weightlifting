@@ -1,5 +1,17 @@
 [
   {
+    "id": "v296",
+    "youtubeId": "rT8LlPSN3a4",
+    "vertical": true,
+    "title": "Tempo Clean-Grip Deadlift (4s) @ 60kg",
+    "date": "2026-06-18",
+    "lift": "tempo_clean_grip_deadlift",
+    "weight": 60,
+    "bodyweight": 82,
+    "tags": ["week-6-c2", "working-set", "cycle-2", "loc-altona", "technique"],
+    "notes": "4-second tempo. Lats not engaged — bar drifts forward off the shins instead of staying tight to the body."
+  },
+  {
     "id": "v295",
     "youtubeId": "eevagSzx4NA",
     "vertical": true,
