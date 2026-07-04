@@ -1,5 +1,18 @@
 [
   {
+    "id": "v291",
+    "youtubeId": "QJ8FA2elFAE",
+    "vertical": true,
+    "title": "Pause Above-Knee Clean @ 45kg",
+    "date": "2026-06-18",
+    "lift": "pause_above_knee_clean",
+    "weight": 45,
+    "reps": 2,
+    "bodyweight": 82,
+    "tags": ["week-6-c2", "working-set", "cycle-2", "loc-altona", "technique"],
+    "notes": "45kg × 2 attempted — failed the second rep. Setup issues: hips sitting too high off the floor, back not neutral, lats not engaged. Bar drifts away from body through the pull."
+  },
+  {
     "id": "v290",
     "youtubeId": "bpLRQsj5SfM",
     "vertical": true,
