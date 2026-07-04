@@ -1,5 +1,18 @@
 [
   {
+    "id": "v289",
+    "youtubeId": "qkiDMV4T2eg",
+    "vertical": true,
+    "title": "2 Hip Power Snatch + 2 OHS, set 3",
+    "date": "2026-06-18",
+    "lift": "hip_power_snatch_ohs",
+    "weight": 33,
+    "bodyweight": 82,
+    "tags": ["week-6-c2", "working-set", "complex", "cycle-2", "loc-altona", "technique"],
+    "notes": "33kg complex. Elbows not driving up to the sky during the turnover — creating space between the bar and body.",
+    "summary": "Three sets of 2 hip power snatch + 2 OHS on 18 Jun: 30 × 2 → 33kg. Elbow drive is the sticking point across the session — when elbows don't push up to the sky during the turnover, the bar tracks away from the body. Set 2 was the cleanest of the day."
+  },
+  {
     "id": "v288",
     "youtubeId": "U4VIB5INOZc",
     "vertical": true,
@@ -9,8 +22,7 @@
     "weight": 30,
     "bodyweight": 82,
     "tags": ["week-6-c2", "working-set", "complex", "cycle-2", "loc-altona", "technique"],
-    "notes": "30kg complex. A bit better — arms holding back longer, elbows starting to drive up during the turnover.",
-    "summary": "Two sets of 2 hip power snatch + 2 OHS at 30kg. Set 1: arms bending before triple extension completes, elbows not driving up (bar drifts away). Set 2: a bit better — arms holding back longer and elbows starting to drive up."
+    "notes": "30kg complex. A bit better — arms holding back longer, elbows starting to drive up during the turnover."
   },
   {
     "id": "v287",
