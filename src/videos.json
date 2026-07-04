@@ -1,5 +1,19 @@
 [
   {
+    "id": "v293",
+    "youtubeId": "jN1fvMR2b9o",
+    "vertical": true,
+    "title": "Pause Above-Knee Clean, set 3",
+    "date": "2026-06-18",
+    "lift": "pause_above_knee_clean",
+    "weight": 50,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-6-c2", "working-set", "cycle-2", "loc-altona", "technique"],
+    "notes": "50kg × 3. Extension complete and driving — good. But upper back / lats disengaged through the pull; spine not locked in tension, power leaks.",
+    "summary": "Three sets of pause above-knee clean on 18 Jun: 45 × 2 (failed rep 2) → 50 × 3 × 2. Set 1 setup was shaky. From set 2 onward the back position and extension cleaned up nicely — set 3 shows a strong drive but the upper back / lats aren't engaged through the pull, so power leaks. Elbow turnover still slow on the catch."
+  },
+  {
     "id": "v292",
     "youtubeId": "zGv2D0LcyMg",
     "vertical": true,
@@ -10,8 +24,7 @@
     "reps": 3,
     "bodyweight": 82,
     "tags": ["week-6-c2", "working-set", "cycle-2", "loc-altona", "technique"],
-    "notes": "50kg × 3. Back position a bit better than set 1. Elbow turnover still slow — not converting fast enough on the catch.",
-    "summary": "Two sets of pause above-knee clean on 18 Jun: 45 × 2 (failed rep 2) → 50 × 3. Set 1 had a shaky setup (hips too high, back not neutral, lats not engaged) that failed the second rep. Set 2 at heavier load: back position cleaner but elbow turnover still slow — not converting fast enough on the catch."
+    "notes": "50kg × 3. Back position a bit better than set 1. Elbow turnover still slow — not converting fast enough on the catch."
   },
   {
     "id": "v291",
