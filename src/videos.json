@@ -1,9 +1,23 @@
 [
   {
+    "id": "v283",
+    "youtubeId": "Q3H0MoI2EvI",
+    "vertical": true,
+    "title": "Behind-the-Neck Jerk (split), set 2",
+    "date": "2026-06-18",
+    "lift": "behind_neck_jerk",
+    "weight": 45,
+    "reps": 2,
+    "bodyweight": 82,
+    "tags": ["week-6-c2", "working-set", "cycle-2", "loc-altona", "split", "technique"],
+    "notes": "45kg × 2. More aggressive extension. Front leg still not fixed in the split — knee locking out instead of bending.",
+    "summary": "Two sets of BTN jerk in split on 18 Jun: 40 × 3 → 45 × 2. Extension getting more aggressive at 45kg but the split's front leg still locks out — not converting into the receive."
+  },
+  {
     "id": "v282",
     "youtubeId": "cnj6ZONaUmE",
     "vertical": true,
-    "title": "Behind-the-Neck Jerk (split) @ 40kg",
+    "title": "Behind-the-Neck Jerk (split), set 1",
     "date": "2026-06-18",
     "lift": "behind_neck_jerk",
     "weight": 40,
