@@ -1,5 +1,18 @@
 [
   {
+    "id": "v282",
+    "youtubeId": "cnj6ZONaUmE",
+    "vertical": true,
+    "title": "Behind-the-Neck Jerk (split) @ 40kg",
+    "date": "2026-06-18",
+    "lift": "behind_neck_jerk",
+    "weight": 40,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-6-c2", "working-set", "cycle-2", "loc-altona", "split", "technique"],
+    "notes": "40kg × 3. Extension is there but the catch is passive — no aggressive turnover / punch-under, no conversion. Front knee still locked out instead of bending into the split."
+  },
+  {
     "id": "v281",
     "youtubeId": "wyVNMhiTPGc",
     "vertical": true,
