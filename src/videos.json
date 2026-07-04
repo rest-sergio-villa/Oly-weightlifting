@@ -1,5 +1,19 @@
 [
   {
+    "id": "v295",
+    "youtubeId": "eevagSzx4NA",
+    "vertical": true,
+    "title": "Pause Above-Knee Clean, set 5",
+    "date": "2026-06-18",
+    "lift": "pause_above_knee_clean",
+    "weight": 50,
+    "reps": 2,
+    "bodyweight": 82,
+    "tags": ["week-6-c2", "working-set", "cycle-2", "loc-altona", "technique"],
+    "notes": "50kg × 2. Same hips-too-high issue — failed rep 2 on the first try, re-attempted and made it. Hip position still the sticking point.",
+    "summary": "Five sets of pause above-knee clean on 18 Jun: 45 × 2 (failed rep 2) → 50 × 3 × 2 → 50 × 2 × 2. Back and extension cleaned up nicely from set 2 onward but the hips-too-high setup is the recurring issue — set 5 failed the second rep first attempt, made it on the retry."
+  },
+  {
     "id": "v294",
     "youtubeId": "yFax1GsroRY",
     "vertical": true,
@@ -10,8 +24,7 @@
     "reps": 2,
     "bodyweight": 82,
     "tags": ["week-6-c2", "working-set", "cycle-2", "loc-altona", "technique"],
-    "notes": "50kg × 2. Improvement — turnover feeling better. Hips still sitting too high in the setup though.",
-    "summary": "Four sets of pause above-knee clean on 18 Jun: 45 × 2 (failed rep 2) → 50 × 3 × 2 → 50 × 2. Set 1 setup shaky; sets 2-3 cleaned up the back and extension; set 4 shows further improvement on the turnover but the hips are still sitting too high in the setup — recurring issue this session."
+    "notes": "50kg × 2. Improvement — turnover feeling better. Hips still sitting too high in the setup though."
   },
   {
     "id": "v293",
