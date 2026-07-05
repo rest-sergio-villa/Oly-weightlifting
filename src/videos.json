@@ -1,5 +1,19 @@
 [
   {
+    "id": "v314",
+    "youtubeId": "vP6oE6F2LcQ",
+    "vertical": true,
+    "title": "Floating Snatch, set 4",
+    "date": "2026-06-23",
+    "lift": "floating_snatch",
+    "weight": 35,
+    "reps": 2,
+    "bodyweight": 82,
+    "tags": ["week-7-c2", "working-set", "cycle-2", "loc-altona"],
+    "notes": "35kg × 2. Felt a bit better — receive settling in at this load.",
+    "summary": "Four sets of floating snatch on 23 Jun: 28 × 3 → 30 × 3 → 35 × 2 × 2. Turnover improving through the session (elbows to the sky, faster pull-under are the working points). Foot balance wobbled on set 3's second rep but set 4 at the same load felt better."
+  },
+  {
     "id": "v313",
     "youtubeId": "EyrNpO7h2UY",
     "vertical": true,
@@ -10,8 +24,7 @@
     "reps": 2,
     "bodyweight": 82,
     "tags": ["week-7-c2", "working-set", "cycle-2", "loc-altona", "technique"],
-    "notes": "35kg × 2. A bit better overall — but the foot balance in the receive felt off on the second rep; not landing solid on midfoot.",
-    "summary": "Three sets of floating snatch on 23 Jun: 28 × 3 → 30 × 3 → 35 × 2. Turnover improving through the session (elbows to the sky, faster pull-under are the working points), but at 35kg the foot balance in the receive went off on the second rep — not landing solid on midfoot."
+    "notes": "35kg × 2. A bit better overall — but the foot balance in the receive felt off on the second rep; not landing solid on midfoot."
   },
   {
     "id": "v312",
