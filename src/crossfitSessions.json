@@ -199,5 +199,26 @@
     "cycle": "cycle-2",
     "strength": [],
     "notes": "Travelling for work — Wednesday CrossFit skipped. Swam 250m in the hotel pool instead."
+  },
+  "2026-06-19": {
+    "className": "CrossFit 3056",
+    "time": "6:00am",
+    "week": "week-6-c2",
+    "cycle": "cycle-2",
+    "location": "loc-brunswick",
+    "strength": [
+      {
+        "name": "Strict Pull Ups (Wide Grip)",
+        "scheme": "Every 2:00 x 4 — 10 strict pull ups, wide grip.",
+        "myWeight": "Bodyweight"
+      }
+    ],
+    "metcon": {
+      "format": "For Time",
+      "details": "21-15-9\nCleans (53kg — power clean, hips a bit higher)\nRun 400m",
+      "scoreType": "Time",
+      "timeCap": "12:00"
+    },
+    "notes": "Cleans in the metcon at 53kg — used a power clean variation with hips a bit higher. Finished within the 12:00 cap."
   }
 }
