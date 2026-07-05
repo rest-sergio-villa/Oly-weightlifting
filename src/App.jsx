@@ -3,6 +3,7 @@ import { Search, X, Calendar, ExternalLink, ChevronDown, Play } from 'lucide-rea
 import videos from './videos.json';
 import dayNotes from './dayNotes.json';
 import crossfitSessions from './crossfitSessions.json';
+import whoopDays from './whoopDays.json';
 import { supabase } from './supabase.js';
 
 const LIFT_LABELS = {
@@ -88,6 +89,21 @@ function getDayNoteText(date) {
 function getDayLabelOverride(date) {
   const entry = dayNotes[date];
   return entry && typeof entry === 'object' ? entry.dayLabel || null : null;
+}
+
+// Whoop recovery color bands (matches Whoop's own convention).
+function recoveryColor(score) {
+  if (score == null) return null;
+  if (score >= 67) return '#3FBF7F';
+  if (score >= 34) return '#E8B84B';
+  return '#E4574F';
+}
+
+function formatSleep(min) {
+  if (min == null) return null;
+  const h = Math.floor(min / 60);
+  const m = Math.round(min % 60);
+  return `${h}h ${String(m).padStart(2, '0')}m`;
 }
 
 export default function App() {
@@ -577,6 +593,7 @@ export default function App() {
               const totalCards = day.mainGroups.length + day.accessoryGroups.length;
               const noteText = getDayNoteText(day.date);
               const isCrossfitOnly = totalCards === 0 && !!crossfitSessions[day.date];
+              const whoop = whoopDays[day.date];
               return (
                 <section key={day.dayKey} style={styles.daySection}>
                   <button
@@ -606,6 +623,12 @@ export default function App() {
                         <span style={{ ...styles.dayCount, color: COLORS.accentCool }}>Class only</span>
                       )
                     )}
+                    {whoop && whoop.recovery != null && (
+                      <span style={styles.recoveryPill}>
+                        <span style={{ ...styles.recoveryDot, background: recoveryColor(whoop.recovery) }} />
+                        {whoop.recovery}%
+                      </span>
+                    )}
                     <ChevronDown
                       size={16}
                       className="day-chevron"
@@ -619,6 +642,7 @@ export default function App() {
                   </button>
                   {!collapsed && (
                     <>
+                      {whoop && <WhoopStrip data={whoop} />}
                       {noteText && (
                         <div style={styles.dayNote}>
                           <div style={styles.dayNoteLabel}>Session note</div>
@@ -847,6 +871,41 @@ function Comments({ video }) {
           {submitting ? 'Posting…' : 'Post comment'}
         </button>
       </form>
+    </div>
+  );
+}
+
+// Compact per-day readiness strip from Whoop (src/whoopDays.json).
+// Shows the signals a coach cares about: recovery, HRV, RHR, sleep, strain.
+function WhoopStrip({ data }) {
+  const stats = [
+    data.recovery != null && {
+      label: 'Recovery',
+      value: `${data.recovery}%`,
+      color: recoveryColor(data.recovery),
+    },
+    data.hrv != null && { label: 'HRV', value: `${data.hrv} ms` },
+    data.rhr != null && { label: 'RHR', value: `${data.rhr} bpm` },
+    data.sleepMin != null && {
+      label: 'Sleep',
+      value: formatSleep(data.sleepMin),
+      sub: data.sleepPerf != null ? `${data.sleepPerf}%` : null,
+    },
+    data.strain != null && { label: 'Strain', value: data.strain.toFixed(1) },
+  ].filter(Boolean);
+  if (stats.length === 0) return null;
+  return (
+    <div style={styles.whoopStrip}>
+      <span style={styles.whoopTag}>Whoop</span>
+      {stats.map(s => (
+        <span key={s.label} style={styles.whoopStat}>
+          <span style={styles.whoopStatLabel}>{s.label}</span>
+          <span style={{ ...styles.whoopStatValue, ...(s.color ? { color: s.color } : {}) }}>
+            {s.value}
+            {s.sub && <span style={styles.whoopStatSub}> · {s.sub}</span>}
+          </span>
+        </span>
+      ))}
     </div>
   );
 }
@@ -1516,6 +1575,65 @@ const styles = {
     borderLeft: `3px solid ${COLORS.accent}`,
     borderRadius: 6,
     padding: '12px 16px',
+  },
+  recoveryPill: {
+    display: 'inline-flex',
+    alignItems: 'center',
+    gap: 6,
+    fontFamily: FONTS.mono,
+    fontSize: 11,
+    color: COLORS.textDim,
+    letterSpacing: '0.04em',
+    whiteSpace: 'nowrap',
+  },
+  recoveryDot: {
+    width: 7,
+    height: 7,
+    borderRadius: '50%',
+    display: 'inline-block',
+    flexShrink: 0,
+  },
+  whoopStrip: {
+    display: 'flex',
+    alignItems: 'baseline',
+    flexWrap: 'wrap',
+    gap: '10px 22px',
+    background: COLORS.surface,
+    border: `1px solid ${COLORS.border}`,
+    borderRadius: 8,
+    padding: '12px 16px',
+  },
+  whoopTag: {
+    fontFamily: FONTS.mono,
+    fontSize: 10,
+    letterSpacing: '0.14em',
+    textTransform: 'uppercase',
+    color: COLORS.textMute,
+    marginRight: 4,
+  },
+  whoopStat: {
+    display: 'inline-flex',
+    alignItems: 'baseline',
+    gap: 7,
+    whiteSpace: 'nowrap',
+  },
+  whoopStatLabel: {
+    fontFamily: FONTS.mono,
+    fontSize: 10,
+    letterSpacing: '0.08em',
+    textTransform: 'uppercase',
+    color: COLORS.textMute,
+  },
+  whoopStatValue: {
+    fontFamily: FONTS.mono,
+    fontSize: 13,
+    fontWeight: 600,
+    color: COLORS.text,
+  },
+  whoopStatSub: {
+    fontWeight: 400,
+    fontSize: 11,
+    color: COLORS.textDim,
   },
   crossfitCard: {
     background: COLORS.surface,
