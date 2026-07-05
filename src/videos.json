@@ -1,5 +1,66 @@
 [
   {
+    "id": "v303",
+    "youtubeId": "6kkFF5T5dYY",
+    "vertical": true,
+    "title": "BTN Strict Press, Snatch Grip, set 5",
+    "date": "2026-06-20",
+    "lift": "btn_strict_press_snatch_grip",
+    "weight": 25,
+    "bodyweight": 82,
+    "tags": ["week-6-c2", "primer", "cycle-2", "loc-brunswick"],
+    "notes": "25kg, RPE 8, fifth set.",
+    "summary": "Five primer sets of BTN strict press snatch grip at 25kg (RPE 8). Load a touch lighter than last week's 27kg but pushing higher intensity."
+  },
+  {
+    "id": "v302",
+    "youtubeId": "_5vOWAo_Gnc",
+    "vertical": true,
+    "title": "BTN Strict Press, Snatch Grip, set 4",
+    "date": "2026-06-20",
+    "lift": "btn_strict_press_snatch_grip",
+    "weight": 25,
+    "bodyweight": 82,
+    "tags": ["week-6-c2", "primer", "cycle-2", "loc-brunswick"],
+    "notes": "25kg, RPE 8, fourth set."
+  },
+  {
+    "id": "v301",
+    "youtubeId": "r4Sosy9xPuY",
+    "vertical": true,
+    "title": "BTN Strict Press, Snatch Grip, set 3",
+    "date": "2026-06-20",
+    "lift": "btn_strict_press_snatch_grip",
+    "weight": 25,
+    "bodyweight": 82,
+    "tags": ["week-6-c2", "primer", "cycle-2", "loc-brunswick"],
+    "notes": "25kg, RPE 8, third set."
+  },
+  {
+    "id": "v300",
+    "youtubeId": "MoFQ99QlYs4",
+    "vertical": true,
+    "title": "BTN Strict Press, Snatch Grip, set 2",
+    "date": "2026-06-20",
+    "lift": "btn_strict_press_snatch_grip",
+    "weight": 25,
+    "bodyweight": 82,
+    "tags": ["week-6-c2", "primer", "cycle-2", "loc-brunswick"],
+    "notes": "25kg, RPE 8, second set."
+  },
+  {
+    "id": "v299",
+    "youtubeId": "x-lOcYJNg10",
+    "vertical": true,
+    "title": "BTN Strict Press, Snatch Grip, set 1",
+    "date": "2026-06-20",
+    "lift": "btn_strict_press_snatch_grip",
+    "weight": 25,
+    "bodyweight": 82,
+    "tags": ["week-6-c2", "primer", "cycle-2", "loc-brunswick"],
+    "notes": "25kg, RPE 8, first set."
+  },
+  {
     "id": "v298",
     "youtubeId": "6OyTtFYHrKs",
     "vertical": true,
