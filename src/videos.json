@@ -1,5 +1,18 @@
 [
   {
+    "id": "v311",
+    "youtubeId": "YGa-ryyrQ5U",
+    "vertical": true,
+    "title": "Floating Snatch @ 28kg",
+    "date": "2026-06-23",
+    "lift": "floating_snatch",
+    "weight": 28,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-7-c2", "working-set", "cycle-2", "loc-altona"],
+    "notes": "28kg × 3."
+  },
+  {
     "id": "v310",
     "vertical": true,
     "title": "Front Squat, set 4",
