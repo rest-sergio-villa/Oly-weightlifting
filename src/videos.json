@@ -1,5 +1,43 @@
 [
   {
+    "id": "v325",
+    "vertical": true,
+    "title": "Paused Back Squat (3s), set 3",
+    "date": "2026-06-23",
+    "lift": "paused_back_squat",
+    "weight": 90,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-7-c2", "working-set", "paused", "cycle-2", "loc-altona"],
+    "notes": "90kg × 3, 3-second pause, set 3. Not recorded.",
+    "summary": "Three sets of paused back squat (3s) at 90kg × 3 — the program's weekly +5kg ladder continues (80 → 85 → 90). Only set 1 was filmed."
+  },
+  {
+    "id": "v324",
+    "vertical": true,
+    "title": "Paused Back Squat (3s), set 2",
+    "date": "2026-06-23",
+    "lift": "paused_back_squat",
+    "weight": 90,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-7-c2", "working-set", "paused", "cycle-2", "loc-altona"],
+    "notes": "90kg × 3, 3-second pause, set 2. Not recorded."
+  },
+  {
+    "id": "v323",
+    "youtubeId": "8Z3bxEPMz60",
+    "vertical": true,
+    "title": "Paused Back Squat (3s), set 1",
+    "date": "2026-06-23",
+    "lift": "paused_back_squat",
+    "weight": 90,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-7-c2", "working-set", "paused", "cycle-2", "loc-altona"],
+    "notes": "90kg × 3 with the 3-second pause, first set."
+  },
+  {
     "id": "v322",
     "youtubeId": "xQyUgynBfbk",
     "vertical": true,
