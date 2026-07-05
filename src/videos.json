@@ -1,5 +1,55 @@
 [
   {
+    "id": "v310",
+    "vertical": true,
+    "title": "Front Squat, set 4",
+    "date": "2026-06-27",
+    "lift": "front_squat",
+    "weight": 67,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-7-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "67kg × 3, set 4. Not recorded.",
+    "summary": "Four sets of front squat at 67kg × 3 — load up from last week's 65. Only set 1 was filmed; sets 2–4 logged for volume."
+  },
+  {
+    "id": "v309",
+    "vertical": true,
+    "title": "Front Squat, set 3",
+    "date": "2026-06-27",
+    "lift": "front_squat",
+    "weight": 67,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-7-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "67kg × 3, set 3. Not recorded."
+  },
+  {
+    "id": "v308",
+    "vertical": true,
+    "title": "Front Squat, set 2",
+    "date": "2026-06-27",
+    "lift": "front_squat",
+    "weight": 67,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-7-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "67kg × 3, set 2. Not recorded."
+  },
+  {
+    "id": "v307",
+    "youtubeId": "p2qe6AKv8a4",
+    "vertical": true,
+    "title": "Front Squat, set 1",
+    "date": "2026-06-27",
+    "lift": "front_squat",
+    "weight": 67,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-7-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "67kg × 3, first set."
+  },
+  {
     "id": "v306",
     "youtubeId": "bVkXomJBl00",
     "vertical": true,
