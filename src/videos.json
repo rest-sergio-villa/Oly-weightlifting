@@ -1,9 +1,22 @@
 [
   {
+    "id": "v332",
+    "youtubeId": "nfs6j0-IBuo",
+    "vertical": true,
+    "title": "2 Hip Power Snatch + 2 OHS, set 2",
+    "date": "2026-06-25",
+    "lift": "hip_power_snatch_ohs",
+    "weight": 30,
+    "bodyweight": 82,
+    "tags": ["week-7-c2", "working-set", "complex", "paused", "cycle-2", "loc-altona", "technique"],
+    "notes": "30kg complex — feels better. Bottom position not quite right though: feet landed wider than the squat stance, so the OHS bottom felt off.",
+    "summary": "Two sets of 2 hip power snatch + 2 OHS at 30kg (3s pause in the OHS bottom). Set 1: elbows not to the sky in the turnover. Set 2 felt better, but the feet landed wider than squat stance so the paused bottom felt off."
+  },
+  {
     "id": "v331",
     "youtubeId": "omJs03-5d7A",
     "vertical": true,
-    "title": "2 Hip Power Snatch + 2 OHS @ 30kg",
+    "title": "2 Hip Power Snatch + 2 OHS, set 1",
     "date": "2026-06-25",
     "lift": "hip_power_snatch_ohs",
     "weight": 30,
