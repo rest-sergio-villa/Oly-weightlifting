@@ -1,5 +1,19 @@
 [
   {
+    "id": "v337",
+    "youtubeId": "CXTBcZnWC_A",
+    "vertical": true,
+    "title": "Tempo Clean, set 4",
+    "date": "2026-06-25",
+    "lift": "tempo_clean",
+    "weight": 50,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-7-c2", "working-set", "cycle-2", "loc-altona", "technique"],
+    "notes": "50kg × 3. Single working cue this set: straight back — build more tension through the trunk before the bar leaves the floor.",
+    "summary": "Four sets of tempo clean at 50kg (1, 3, 3, 3). New movement this block, replacing the pause above-knee clean. Starting position improving; the cue distilled down to one thing by set 4: straight back, more trunk tension before the bar breaks the floor. Also working: staying over the bar longer, faster shoulder turnover."
+  },
+  {
     "id": "v336",
     "youtubeId": "TQMr_W1Klvo",
     "vertical": true,
@@ -10,8 +24,7 @@
     "reps": 3,
     "bodyweight": 82,
     "tags": ["week-7-c2", "working-set", "cycle-2", "loc-altona"],
-    "notes": "50kg × 3, third set.",
-    "summary": "Three sets of tempo clean at 50kg (1, 3, 3). New movement this block, replacing the pause above-knee clean. Starting position improving; next layers: tighter spine at setup, staying over the bar longer, faster shoulder turnover into the rack."
+    "notes": "50kg × 3, third set."
   },
   {
     "id": "v335",
