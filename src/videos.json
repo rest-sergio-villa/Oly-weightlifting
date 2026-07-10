@@ -1,15 +1,42 @@
 [
   {
+    "id": "v328",
+    "youtubeId": "quH2scvOT58",
+    "vertical": true,
+    "title": "Behind-the-Neck Jerk (split), set 3",
+    "date": "2026-06-25",
+    "lift": "behind_neck_jerk",
+    "weight": 50,
+    "reps": 1,
+    "bodyweight": 82,
+    "tags": ["week-7-c2", "working-set", "cycle-2", "loc-altona", "split", "technique"],
+    "notes": "50kg × 1. Not pulling under the bar quickly enough, and the torso leans forward in the receive.",
+    "summary": "Three sets of BTN jerk in split on 25 Jun: 40 → 45 × 2 → 50 × 1. Coach's head-position cue (eyes/head up to the ceiling) starting to click at 40kg. At 45 the drive isn't extending fully upward and the lean creeps in; at 50 the pull-under is slow and the forward lean returns."
+  },
+  {
     "id": "v326",
     "youtubeId": "Zaqetq2wIDw",
     "vertical": true,
-    "title": "Behind-the-Neck Jerk (split) @ 40kg",
+    "title": "Behind-the-Neck Jerk (split), set 2",
+    "date": "2026-06-25",
+    "lift": "behind_neck_jerk",
+    "weight": 45,
+    "reps": 2,
+    "bodyweight": 82,
+    "tags": ["week-7-c2", "working-set", "cycle-2", "loc-altona", "split", "technique"],
+    "notes": "45kg × 2. Not extending fully upward on the drive — still leaning a bit forward."
+  },
+  {
+    "id": "v327",
+    "youtubeId": "xq_8tccoRgE",
+    "vertical": true,
+    "title": "Behind-the-Neck Jerk (split), set 1",
     "date": "2026-06-25",
     "lift": "behind_neck_jerk",
     "weight": 40,
     "bodyweight": 82,
-    "tags": ["week-7-c2", "working-set", "cycle-2", "loc-altona", "split"],
-    "notes": "BTN jerk in split at 40kg to open Day 2."
+    "tags": ["week-7-c2", "working-set", "cycle-2", "loc-altona", "split", "technique"],
+    "notes": "40kg to open Day 2. Starting to feel what coach means about keeping the head up — eyes to the ceiling instead of dropping the head under the bar."
   },
   {
     "id": "v325",
