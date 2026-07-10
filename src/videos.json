@@ -1,5 +1,18 @@
 [
   {
+    "id": "v333",
+    "youtubeId": "l8yBJ5SrW28",
+    "vertical": true,
+    "title": "2 Hip Power Snatch + 2 OHS, set 3",
+    "date": "2026-06-25",
+    "lift": "hip_power_snatch_ohs",
+    "weight": 35,
+    "bodyweight": 82,
+    "tags": ["week-7-c2", "working-set", "complex", "paused", "cycle-2", "loc-altona", "technique"],
+    "notes": "35kg complex. Seb called it out live after the first rep — \"elbows to the sky\" — coaching cue applied mid-set.",
+    "summary": "Three sets of 2 hip power snatch + 2 OHS: 30 × 2 → 35kg (3s pause in the OHS bottom). Elbows-to-the-sky is the theme — Seb called it out live after set 3's first rep. Set 2's feet landed wider than squat stance, throwing off the paused bottom."
+  },
+  {
     "id": "v332",
     "youtubeId": "nfs6j0-IBuo",
     "vertical": true,
@@ -9,8 +22,7 @@
     "weight": 30,
     "bodyweight": 82,
     "tags": ["week-7-c2", "working-set", "complex", "paused", "cycle-2", "loc-altona", "technique"],
-    "notes": "30kg complex — feels better. Bottom position not quite right though: feet landed wider than the squat stance, so the OHS bottom felt off.",
-    "summary": "Two sets of 2 hip power snatch + 2 OHS at 30kg (3s pause in the OHS bottom). Set 1: elbows not to the sky in the turnover. Set 2 felt better, but the feet landed wider than squat stance so the paused bottom felt off."
+    "notes": "30kg complex — feels better. Bottom position not quite right though: feet landed wider than the squat stance, so the OHS bottom felt off."
   },
   {
     "id": "v331",
