@@ -1,5 +1,19 @@
 [
   {
+    "id": "v329",
+    "youtubeId": "HKsmvfFBzn0",
+    "vertical": true,
+    "title": "Behind-the-Neck Jerk (split), set 4",
+    "date": "2026-06-25",
+    "lift": "behind_neck_jerk",
+    "weight": 50,
+    "reps": 1,
+    "bodyweight": 82,
+    "tags": ["week-7-c2", "working-set", "cycle-2", "loc-altona", "split", "technique"],
+    "notes": "50kg × 1 — an improvement on the first single. Pull-under quicker and the receive more upright.",
+    "summary": "Four sets of BTN jerk in split on 25 Jun: 40 → 45 × 2 → 50 × 1 × 2. Coach's head-position cue (eyes/head up to the ceiling) starting to click at 40kg. First 50kg single had a slow pull-under and forward lean; the second was a clear improvement — quicker under the bar, more upright receive."
+  },
+  {
     "id": "v328",
     "youtubeId": "quH2scvOT58",
     "vertical": true,
@@ -10,8 +24,7 @@
     "reps": 1,
     "bodyweight": 82,
     "tags": ["week-7-c2", "working-set", "cycle-2", "loc-altona", "split", "technique"],
-    "notes": "50kg × 1. Not pulling under the bar quickly enough, and the torso leans forward in the receive.",
-    "summary": "Three sets of BTN jerk in split on 25 Jun: 40 → 45 × 2 → 50 × 1. Coach's head-position cue (eyes/head up to the ceiling) starting to click at 40kg. At 45 the drive isn't extending fully upward and the lean creeps in; at 50 the pull-under is slow and the forward lean returns."
+    "notes": "50kg × 1. Not pulling under the bar quickly enough, and the torso leans forward in the receive."
   },
   {
     "id": "v326",
