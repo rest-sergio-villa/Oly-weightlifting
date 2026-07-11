@@ -333,5 +333,25 @@
       "timeCap": "15:00"
     },
     "notes": "Back rack reverse lunges at 60kg across all five sets."
+  },
+  "2026-07-03": {
+    "className": "CrossFit 3056",
+    "time": "6:00am",
+    "week": "week-8-c2",
+    "cycle": "cycle-2",
+    "location": "loc-brunswick",
+    "strength": [
+      {
+        "name": "Strict Chin Ups",
+        "scheme": "Muscle endurance: 5 x 5, rest 1:30-2:00 between sets, weight as needed. Time cap 12:00.",
+        "myWeight": "Bodyweight — felt really good"
+      }
+    ],
+    "metcon": {
+      "format": "AMRAP 2 x 5 sets (rest 1:00)",
+      "details": "8 Russian Kettlebell Swings (24kg)\n4/4 Single Arm Front Rack Step Ups @ 20\"\n(pick up where you left off each round)",
+      "scoreType": "Rounds + Reps"
+    },
+    "notes": "Chin ups felt really good. Kettlebell at 24kg for the metcon."
   }
 }
