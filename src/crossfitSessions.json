@@ -312,5 +312,26 @@
       "scoreType": "Unscored"
     },
     "notes": "Pause back squats at 80kg felt really good — hitting depth comfortably."
+  },
+  "2026-07-01": {
+    "className": "CrossFit 3056",
+    "time": "6:00am",
+    "week": "week-8-c2",
+    "cycle": "cycle-2",
+    "location": "loc-brunswick",
+    "strength": [
+      {
+        "name": "Alternating Back Rack Reverse Lunge",
+        "scheme": "Every 2:00 x 5 — 6 reps @ RPE 8/10, across all sets.",
+        "myWeight": "60kg"
+      }
+    ],
+    "metcon": {
+      "format": "For Time",
+      "details": "21-15-9 Front Squats + Calorie Machine\n— into —\n21-15-9 Wall Balls + Calorie Machine",
+      "scoreType": "Time",
+      "timeCap": "15:00"
+    },
+    "notes": "Back rack reverse lunges at 60kg across all five sets."
   }
 }
