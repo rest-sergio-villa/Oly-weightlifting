@@ -1,5 +1,18 @@
 [
   {
+    "id": "v338",
+    "youtubeId": "sQaCQU3BaHY",
+    "vertical": true,
+    "title": "Tempo Clean-Grip Deadlift @ 70kg",
+    "date": "2026-06-25",
+    "lift": "tempo_clean_grip_deadlift",
+    "weight": 70,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-7-c2", "working-set", "cycle-2", "loc-altona", "technique"],
+    "notes": "70kg × 3. Lats disengage midway up the pull — bar drifts off the body. Seb's cue: keep the shoulders over the bar on the way up; hips rising slightly before the shoulders."
+  },
+  {
     "id": "v337",
     "youtubeId": "CXTBcZnWC_A",
     "vertical": true,
