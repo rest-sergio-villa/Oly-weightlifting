@@ -1,9 +1,22 @@
 [
   {
+    "id": "v357",
+    "youtubeId": "1ybOfPeoxZw",
+    "vertical": true,
+    "title": "2 Hip Power Snatch + 2 OHS, set 2",
+    "date": "2026-07-02",
+    "lift": "hip_power_snatch_ohs",
+    "weight": 35,
+    "bodyweight": 82,
+    "tags": ["week-8-c2", "working-set", "complex", "cycle-2", "loc-altona", "technique"],
+    "notes": "35kg complex. Feels like the bar is getting kicked back off the hips at contact instead of brushing up vertically — bar looping behind rather than staying close.",
+    "summary": "Two sets of 2 hip power snatch + 2 OHS at 35kg on 2 Jul. Working the elbows-up and fast-conversion cues; on set 2 the hip contact is kicking the bar back instead of brushing it vertically."
+  },
+  {
     "id": "v356",
     "youtubeId": "MmoJtd-9zbU",
     "vertical": true,
-    "title": "2 Hip Power Snatch + 2 OHS @ 35kg",
+    "title": "2 Hip Power Snatch + 2 OHS, set 1",
     "date": "2026-07-02",
     "lift": "hip_power_snatch_ohs",
     "weight": 35,
