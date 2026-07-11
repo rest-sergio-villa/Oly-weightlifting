@@ -1,9 +1,22 @@
 [
   {
+    "id": "v349",
+    "youtubeId": "C56_PZJWJiE",
+    "vertical": true,
+    "title": "Pause Off-Floor Clean + 2 Jerks, set 2",
+    "date": "2026-06-30",
+    "lift": "pause_off_floor_clean_jerk",
+    "weight": 45,
+    "bodyweight": 82,
+    "tags": ["week-8-c2", "working-set", "complex", "split", "technique", "cycle-2", "loc-altona"],
+    "notes": "45kg — pause is 2 inches off the floor this block. Receiving high (not riding the clean down), which is fine at these loads but will matter as the weight climbs.",
+    "summary": "Two sets of pause off-floor clean (2\" pause) + 2 jerks on 30 Jun: 40 → 45kg. Seb's cue at 40: faster, more aggressive arms. At 45 the catch is high — not a problem at these weights, but the depth will matter as the load climbs."
+  },
+  {
     "id": "v348",
     "youtubeId": "oBiv7exJPgQ",
     "vertical": true,
-    "title": "Pause Off-Floor Clean + 2 Jerks @ 40kg",
+    "title": "Pause Off-Floor Clean + 2 Jerks, set 1",
     "date": "2026-06-30",
     "lift": "pause_off_floor_clean_jerk",
     "weight": 40,
