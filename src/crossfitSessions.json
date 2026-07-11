@@ -407,5 +407,25 @@
       "timeCap": "16:00"
     },
     "notes": "Scaled the gymnastics: no double unders yet, so higher single unders; no toes-to-bar yet, so hanging leg raises with legs extended as high as possible."
+  },
+  "2026-07-10": {
+    "className": "CrossFit 3056",
+    "time": "6:00am",
+    "week": "week-9-c2",
+    "cycle": "cycle-2",
+    "location": "loc-brunswick",
+    "strength": [
+      {
+        "name": "Push Press 1RM Test",
+        "scheme": "15:00 to work up to a 1RM — 1 push press every 1:30-2:00 until failure, starting @ 50%.",
+        "myWeight": "60kg — new 1RM (up from 50 eight weeks ago)"
+      }
+    ],
+    "metcon": {
+      "format": "AMRAP 10:00",
+      "details": "Max Rep Strict Pull Ups (2-3 RIR)\n400m Bike, Recovery",
+      "scoreType": "Reps"
+    },
+    "notes": "Push press 1RM test day: hit 60kg, +10 on the 50 from the start of the cycle. Pull ups at 4-5 reps per round."
   }
 }
