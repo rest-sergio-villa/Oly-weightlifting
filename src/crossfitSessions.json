@@ -367,5 +367,25 @@
       "scoreType": "Rounds + Reps"
     },
     "notes": "Deadlifts at 85kg — back wasn't staying tight, lower back muscles sore afterwards. Got to the round of 30 burpees. Accessory (single-leg RDL 3-way) skipped."
+  },
+  "2026-07-05": {
+    "className": "CrossFit 3056",
+    "time": "9:00am",
+    "week": "week-8-c2",
+    "cycle": "cycle-2",
+    "location": "loc-brunswick",
+    "strength": [
+      {
+        "name": "Back Rack Standing March",
+        "scheme": "4 sets — 1:00 march @ 75% of best back squat, rest 1:00.",
+        "myWeight": "80kg"
+      }
+    ],
+    "metcon": {
+      "format": "Every 2:30 x 6",
+      "details": "600/500m Row — did the 500m each round.",
+      "scoreType": "Each set for time"
+    },
+    "notes": "Back rack standing march at 80kg. Rowed 500m per interval."
   }
 }
