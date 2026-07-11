@@ -387,5 +387,25 @@
       "scoreType": "Each set for time"
     },
     "notes": "Back rack standing march at 80kg. Rowed 500m per interval."
+  },
+  "2026-07-08": {
+    "className": "CrossFit 3056",
+    "time": "6:00am",
+    "week": "week-9-c2",
+    "cycle": "cycle-2",
+    "location": "loc-brunswick",
+    "strength": [
+      {
+        "name": "Power intervals",
+        "scheme": "5 sets — 0:20 ski or bike + 0:15 max rep shoulder press (light band), rest 1:00."
+      }
+    ],
+    "metcon": {
+      "format": "10 Rounds For Time (rest 0:30)",
+      "details": "4 Toes to Bar (subbed: hanging leg raises, legs as extended and high as possible)\n8 Wall Balls\n30 Double Unders (subbed: higher single unders)",
+      "scoreType": "Time",
+      "timeCap": "16:00"
+    },
+    "notes": "Scaled the gymnastics: no double unders yet, so higher single unders; no toes-to-bar yet, so hanging leg raises with legs extended as high as possible."
   }
 }
