@@ -1014,9 +1014,9 @@ function WhoopStrip({ data }) {
 // Single-series bar chart (inline SVG, no library). Bars grow from a
 // zero baseline, rounded 3px at the data end, square at the base, with
 // a surface gap between bars and a per-bar hover tooltip.
-function BarChart({ points, color, colorFor, unit }) {
+function BarChart({ points, color, colorFor, unit, showXLabels }) {
   const [hoverI, setHoverI] = useState(null);
-  const W = 260, H = 72, PAD = 6, BASE = H - 2;
+  const W = 260, H = showXLabels ? 84 : 72, PAD = 6, BASE = showXLabels ? H - 14 : H - 2;
   const n = points.length;
   const max = Math.max(...points.map(p => p.value)) || 1;
   const slot = (W - PAD * 2) / n;
@@ -1050,6 +1050,19 @@ function BarChart({ points, color, colorFor, unit }) {
             opacity={hoverI == null || hoverI === i ? 1 : 0.45}
           />
         ))}
+        {showXLabels && points.map((p, i) => (
+          <text
+            key={`l${i}`}
+            x={x(i) + bw / 2}
+            y={H - 3}
+            textAnchor="middle"
+            fontFamily="JetBrains Mono, monospace"
+            fontSize="8"
+            fill={COLORS.textMute}
+          >
+            {p.short || p.label || ''}
+          </text>
+        ))}
       </svg>
       {hoverI != null && (
         <div
@@ -1059,7 +1072,7 @@ function BarChart({ points, color, colorFor, unit }) {
             transform: x(hoverI) > W * 0.6 ? 'translateX(-100%)' : 'none',
           }}
         >
-          {formatDayDate(points[hoverI].date)} · {points[hoverI].value}{unit}
+          {points[hoverI].label || formatDayDate(points[hoverI].date)} · {points[hoverI].value}{unit}
         </div>
       )}
     </div>
@@ -1119,28 +1132,60 @@ function MaxBoard() {
 }
 
 // Whoop recovery, last 30 days, as one compact band-colored bar chart.
+// Whoop weekly averages, bucketed by cycle week (week 1 = 11 May 2026,
+// matching the week-N-c2 tags used across the log).
+const CYCLE2_START_MS = Date.UTC(2026, 4, 11);
 function RecoveryPanel() {
-  const recoverySeries = useMemo(() => (
-    Object.entries(whoopDays)
-      .filter(([, d]) => d.recovery != null)
-      .sort((a, b) => a[0].localeCompare(b[0]))
-      .map(([date, d]) => ({ date, value: d.recovery }))
-      .slice(-30)
-  ), []);
-  if (recoverySeries.length < 3) return null;
-  const last = recoverySeries[recoverySeries.length - 1].value;
+  const weekly = useMemo(() => {
+    const buckets = new Map();
+    for (const [date, d] of Object.entries(whoopDays)) {
+      const [y, m, day] = date.split('-').map(Number);
+      const idx = Math.floor((Date.UTC(y, m - 1, day) - CYCLE2_START_MS) / (7 * 86400000)) + 1;
+      if (idx < 1) continue;
+      if (!buckets.has(idx)) buckets.set(idx, { rec: [], strain: [] });
+      const b = buckets.get(idx);
+      if (d.recovery != null) b.rec.push(d.recovery);
+      if (d.strain != null) b.strain.push(d.strain);
+    }
+    const weeks = Array.from(buckets.keys()).sort((a, b) => a - b);
+    const avg = arr => arr.length ? arr.reduce((s, v) => s + v, 0) / arr.length : null;
+    return {
+      recovery: weeks
+        .map(w => ({ label: `Week ${w}`, short: `W${w}`, value: avg(buckets.get(w).rec) }))
+        .filter(p => p.value != null)
+        .map(p => ({ ...p, value: Math.round(p.value) })),
+      strain: weeks
+        .map(w => ({ label: `Week ${w}`, short: `W${w}`, value: avg(buckets.get(w).strain) }))
+        .filter(p => p.value != null)
+        .map(p => ({ ...p, value: Math.round(p.value * 10) / 10 })),
+    };
+  }, []);
+  if (weekly.recovery.length < 2) return null;
+  const lastRec = weekly.recovery[weekly.recovery.length - 1];
+  const lastStrain = weekly.strain[weekly.strain.length - 1];
   return (
     <section style={styles.trendsPanel}>
       <div style={styles.coachSectionHead}>
-        <span style={styles.filterLabel}>Recovery</span>
-        <span style={styles.trendsSub}>whoop, last 30 days</span>
+        <span style={styles.filterLabel}>Whoop</span>
+        <span style={styles.trendsSub}>weekly averages, cycle 2 (week 1 = 11 may)</span>
       </div>
-      <div style={{ ...styles.trendCell, maxWidth: 560 }}>
-        <div style={styles.trendCellHead}>
-          <span style={styles.trendCellLabel}>Daily recovery</span>
-          <span style={styles.trendCellValue}>{last}%</span>
+      <div style={styles.trendsGrid}>
+        <div style={styles.trendCell}>
+          <div style={styles.trendCellHead}>
+            <span style={styles.trendCellLabel}>Avg recovery / week</span>
+            <span style={styles.trendCellValue}>{lastRec.value}%</span>
+          </div>
+          <BarChart points={weekly.recovery} colorFor={recoveryColor} unit="%" showXLabels />
         </div>
-        <BarChart points={recoverySeries} colorFor={recoveryColor} unit="%" />
+        {weekly.strain.length >= 2 && (
+          <div style={styles.trendCell}>
+            <div style={styles.trendCellHead}>
+              <span style={styles.trendCellLabel}>Avg strain / week</span>
+              <span style={styles.trendCellValue}>{lastStrain.value}</span>
+            </div>
+            <BarChart points={weekly.strain} color={COLORS.accentCool} unit="" showXLabels />
+          </div>
+        )}
       </div>
     </section>
   );
