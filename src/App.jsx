@@ -382,6 +382,7 @@ export default function App() {
       <nav style={styles.viewTabs}>
         {[
           { key: 'log', label: 'Training log' },
+          { key: 'feed', label: 'Feed' },
           { key: 'coach', label: 'Coach summary' },
         ].map(t => (
           <button
@@ -595,6 +596,8 @@ export default function App() {
       <main style={styles.main}>
         {view === 'coach' ? (
           <CoachPage />
+        ) : view === 'feed' ? (
+          <FeedPage />
         ) : visibleVideos.length === 0 ? (
           <div style={styles.empty}>
             <div style={styles.emptyTitle}>No lifts match.</div>
@@ -1182,6 +1185,102 @@ function CoachPage() {
   );
 }
 
+// Instagram-style feed: a tight grid of video thumbnails (newest first);
+// tapping a tile opens a single-set post view with caption + comments.
+function FeedPage() {
+  const [activePost, setActivePost] = useState(null);
+  const posts = useMemo(() => (
+    videos
+      .filter(v => v.youtubeId)
+      .slice()
+      .sort((a, b) => b.date.localeCompare(a.date))
+  ), []);
+  useEffect(() => {
+    document.body.style.overflow = activePost ? 'hidden' : '';
+    return () => { document.body.style.overflow = ''; };
+  }, [activePost]);
+  return (
+    <div>
+      <div style={styles.feedGrid}>
+        {posts.map(v => (
+          <button
+            key={v.id}
+            type="button"
+            style={styles.feedTile}
+            onClick={() => setActivePost(v)}
+            aria-label={v.title}
+          >
+            <img
+              src={`https://i.ytimg.com/vi/${v.youtubeId}/hqdefault.jpg`}
+              alt=""
+              style={styles.feedTileImg}
+              loading="lazy"
+              onError={e => { e.currentTarget.style.visibility = 'hidden'; }}
+            />
+            <span style={styles.feedTileOverlay}>
+              <span style={styles.feedTileWeight}>{v.weight}kg</span>
+              <span style={styles.feedTileLift}>{LIFT_LABELS[v.lift] || v.lift}</span>
+            </span>
+          </button>
+        ))}
+      </div>
+      {activePost && <PostModal video={activePost} onClose={() => setActivePost(null)} />}
+    </div>
+  );
+}
+
+function PostModal({ video, onClose }) {
+  useEffect(() => {
+    const handler = e => { if (e.key === 'Escape') onClose(); };
+    window.addEventListener('keydown', handler);
+    return () => window.removeEventListener('keydown', handler);
+  }, [onClose]);
+  return (
+    <div style={styles.modalBackdrop} onClick={onClose}>
+      <div style={{ ...styles.modal, maxWidth: 560 }} onClick={e => e.stopPropagation()}>
+        <button onClick={onClose} style={styles.modalClose} aria-label="Close">
+          <X size={18} />
+        </button>
+        <div style={styles.postHead}>
+          <span style={styles.cardLift}>{LIFT_LABELS[video.lift] || video.lift}</span>
+          <span style={styles.postDate}>{formatDayDate(video.date)}</span>
+        </div>
+        <div style={styles.postWeightRow}>
+          <span style={styles.postWeightNum}>{video.weight}</span>
+          <span style={styles.postWeightUnit}>kg</span>
+          {video.bodyweight && (
+            <span style={styles.postBwPct}>{Math.round((video.weight / video.bodyweight) * 100)}% BW</span>
+          )}
+        </div>
+        <div style={video.vertical ? styles.modalVideoWrapVertical : styles.modalVideoWrap}>
+          <iframe
+            src={`https://www.youtube.com/embed/${video.youtubeId}`}
+            style={video.vertical ? styles.modalVideoVertical : styles.modalVideo}
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+            title={video.title}
+          />
+        </div>
+        {video.notes && <p style={styles.postCaption}>{video.notes}</p>}
+        <div style={styles.modalTags}>
+          {video.tags.map(t => (
+            <span key={t} style={styles.modalTag}># {t}</span>
+          ))}
+        </div>
+        <Comments video={video} />
+        <a
+          href={`https://www.youtube.com/watch?v=${video.youtubeId}`}
+          target="_blank"
+          rel="noreferrer"
+          style={styles.modalDriveLink}
+        >
+          Open on YouTube
+          <ExternalLink size={13} />
+        </a>
+      </div>
+    </div>
+  );
+}
 
 function CrossfitCard({ session }) {
   const [open, setOpen] = useState(false);
@@ -2080,6 +2179,100 @@ const styles = {
     width: 2,
     background: COLORS.text,
     opacity: 0.55,
+  },
+  feedGrid: {
+    display: 'grid',
+    gridTemplateColumns: 'repeat(auto-fill, minmax(100px, 1fr))',
+    gap: 4,
+  },
+  feedTile: {
+    position: 'relative',
+    padding: 0,
+    border: 'none',
+    background: COLORS.surface,
+    aspectRatio: '3 / 4',
+    overflow: 'hidden',
+    borderRadius: 4,
+    cursor: 'pointer',
+    display: 'block',
+  },
+  feedTileImg: {
+    width: '100%',
+    height: '100%',
+    objectFit: 'cover',
+    display: 'block',
+  },
+  feedTileOverlay: {
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    bottom: 0,
+    padding: '20px 8px 7px',
+    background: 'linear-gradient(transparent, rgba(0, 0, 0, 0.8))',
+    display: 'flex',
+    alignItems: 'baseline',
+    gap: 6,
+    textAlign: 'left',
+    minWidth: 0,
+  },
+  feedTileWeight: {
+    fontFamily: FONTS.mono,
+    fontSize: 12,
+    fontWeight: 600,
+    color: '#fff',
+    flexShrink: 0,
+  },
+  feedTileLift: {
+    fontFamily: FONTS.mono,
+    fontSize: 9.5,
+    letterSpacing: '0.04em',
+    color: 'rgba(255, 255, 255, 0.75)',
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+    whiteSpace: 'nowrap',
+  },
+  postHead: {
+    display: 'flex',
+    alignItems: 'baseline',
+    gap: 10,
+    marginBottom: 10,
+    paddingRight: 44,
+  },
+  postDate: {
+    fontFamily: FONTS.mono,
+    fontSize: 11,
+    color: COLORS.textMute,
+  },
+  postWeightRow: {
+    display: 'flex',
+    alignItems: 'baseline',
+    gap: 6,
+    marginBottom: 14,
+  },
+  postWeightNum: {
+    fontFamily: FONTS.display,
+    fontWeight: 800,
+    fontSize: 44,
+    lineHeight: 0.9,
+    letterSpacing: '-0.02em',
+    color: COLORS.text,
+  },
+  postWeightUnit: {
+    fontFamily: FONTS.mono,
+    fontSize: 14,
+    color: COLORS.textDim,
+  },
+  postBwPct: {
+    fontFamily: FONTS.mono,
+    fontSize: 11,
+    color: COLORS.textMute,
+    marginLeft: 6,
+  },
+  postCaption: {
+    margin: '0 0 14px',
+    fontSize: 14,
+    lineHeight: 1.55,
+    color: COLORS.text,
   },
   trendsSub: {
     fontFamily: FONTS.mono,
