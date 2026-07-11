@@ -1,5 +1,18 @@
 [
   {
+    "id": "v350",
+    "youtubeId": "UqME_TysIl4",
+    "vertical": true,
+    "title": "Pause Off-Floor Clean + 2 Jerks, set 3",
+    "date": "2026-06-30",
+    "lift": "pause_off_floor_clean_jerk",
+    "weight": 50,
+    "bodyweight": 82,
+    "tags": ["week-8-c2", "working-set", "complex", "split", "technique", "cycle-2", "loc-altona", "lockout"],
+    "notes": "50kg. Seb: not driving fast enough into the lockout on jerk 1. Jerk 2 failed — bar forward; the re-rack between jerks was wrong (hips left open), which tipped the torso back and set up the miss.",
+    "summary": "Three sets of pause off-floor clean (2\" pause) + 2 jerks on 30 Jun: 40 → 45 → 50kg. Seb's arm-speed cue runs through the session — at 50 the first jerk's lockout drive was slow and the second failed forward after a bad re-rack (hips left open, torso tipped back). Re-racking between jerks is becoming its own skill to train."
+  },
+  {
     "id": "v349",
     "youtubeId": "C56_PZJWJiE",
     "vertical": true,
@@ -9,8 +22,7 @@
     "weight": 45,
     "bodyweight": 82,
     "tags": ["week-8-c2", "working-set", "complex", "split", "technique", "cycle-2", "loc-altona"],
-    "notes": "45kg — pause is 2 inches off the floor this block. Receiving high (not riding the clean down), which is fine at these loads but will matter as the weight climbs.",
-    "summary": "Two sets of pause off-floor clean (2\" pause) + 2 jerks on 30 Jun: 40 → 45kg. Seb's cue at 40: faster, more aggressive arms. At 45 the catch is high — not a problem at these weights, but the depth will matter as the load climbs."
+    "notes": "45kg — pause is 2 inches off the floor this block. Receiving high (not riding the clean down), which is fine at these loads but will matter as the weight climbs."
   },
   {
     "id": "v348",
