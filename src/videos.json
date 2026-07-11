@@ -1,5 +1,18 @@
 [
   {
+    "id": "v389",
+    "youtubeId": "5COFZt1X6T8",
+    "vertical": true,
+    "title": "Clean + 2 Jerks, set 3",
+    "date": "2026-07-07",
+    "lift": "clean_2_jerks",
+    "weight": 53,
+    "bodyweight": 82,
+    "tags": ["week-9-c2", "working-set", "complex", "split", "technique", "cycle-2", "loc-altona", "lockout"],
+    "notes": "53kg. Drive not aggressive enough, split needs work, and there was a bit of a press-out at the top.",
+    "summary": "Three sets of clean + 2 jerks (no pause this block) on 7 Jul: 40 → 50 → 53kg. 40 and 50 felt really good; at 53 the drive lost aggression, the split needs work, and the lockout finished with a slight press-out — same top-end pattern as the BTN jerks."
+  },
+  {
     "id": "v388",
     "youtubeId": "QNuCqE8Ps-4",
     "vertical": true,
@@ -9,8 +22,7 @@
     "weight": 50,
     "bodyweight": 82,
     "tags": ["week-9-c2", "working-set", "complex", "split", "cycle-2", "loc-altona"],
-    "notes": "50kg — felt really good.",
-    "summary": "Two sets of clean + 2 jerks (no pause this block): 40 → 50kg on 7 Jul, both feeling really good — a clear step up from the paused version's struggles at these loads."
+    "notes": "50kg — felt really good."
   },
   {
     "id": "v387",
