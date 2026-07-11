@@ -142,6 +142,8 @@ export default function App() {
   const [activeGroup, setActiveGroup] = useState(null);
   const [filtersOpen, setFiltersOpen] = useState(true);
   const [liftFilterOpen, setLiftFilterOpen] = useState(false);
+  const [tagFilterOpen, setTagFilterOpen] = useState(false);
+  const [weeksExpanded, setWeeksExpanded] = useState(false);
   const [view, setView] = useState('log');
   // Days are open by default; collapsedDays tracks ones the user has folded.
   const [collapsedDays, setCollapsedDays] = useState(new Set());
@@ -436,25 +438,40 @@ export default function App() {
 
       {view === 'log' && filtersOpen && (
         <section style={styles.filterPanel}>
-          {allWeeks.length > 0 && (
-            <div style={styles.filterGroup}>
-              <div style={styles.filterLabel}>Week</div>
-              <div style={styles.chipRow}>
-                {allWeeks.map(week => (
-                  <button
-                    key={week}
-                    onClick={() => toggle(selectedWeeks, week, setSelectedWeeks)}
-                    style={{
-                      ...styles.chip,
-                      ...(selectedWeeks.has(week) ? styles.chipActive : {}),
-                    }}
-                  >
-                    {formatWeek(week)}
-                  </button>
-                ))}
+          {allWeeks.length > 0 && (() => {
+            // Latest 3 weeks (plus any selected outside that window) unless expanded.
+            const visibleWeeks = weeksExpanded
+              ? allWeeks
+              : allWeeks.filter((w, i) => i < 3 || selectedWeeks.has(w));
+            const hiddenCount = allWeeks.length - visibleWeeks.length;
+            return (
+              <div style={styles.filterGroup}>
+                <div style={styles.filterLabel}>Week</div>
+                <div style={styles.chipRow}>
+                  {visibleWeeks.map(week => (
+                    <button
+                      key={week}
+                      onClick={() => toggle(selectedWeeks, week, setSelectedWeeks)}
+                      style={{
+                        ...styles.chip,
+                        ...(selectedWeeks.has(week) ? styles.chipActive : {}),
+                      }}
+                    >
+                      {formatWeek(week)}
+                    </button>
+                  ))}
+                  {(hiddenCount > 0 || weeksExpanded) && (
+                    <button
+                      onClick={() => setWeeksExpanded(e => !e)}
+                      style={{ ...styles.chip, color: COLORS.textMute, borderStyle: 'dashed' }}
+                    >
+                      {weeksExpanded ? 'less' : `+${hiddenCount} more`}
+                    </button>
+                  )}
+                </div>
               </div>
-            </div>
-          )}
+            );
+          })()}
 
           {allCycles.length > 0 && (
             <div style={styles.filterGroup}>
@@ -576,21 +593,42 @@ export default function App() {
           </div>
 
           <div style={styles.filterGroup}>
-            <div style={styles.filterLabel}>Tag</div>
-            <div style={styles.chipRow}>
-              {allTags.map(tag => (
-                <button
-                  key={tag}
-                  onClick={() => toggle(selectedTags, tag, setSelectedTags)}
-                  style={{
-                    ...styles.chip,
-                    ...(selectedTags.has(tag) ? styles.chipActive : {}),
-                  }}
-                >
-                  {tag}
-                </button>
-              ))}
-            </div>
+            <button
+              type="button"
+              onClick={() => setTagFilterOpen(o => !o)}
+              style={styles.filterSectionToggle}
+              aria-expanded={tagFilterOpen}
+            >
+              <span style={{ ...styles.filterLabel, marginBottom: 0 }}>Tag</span>
+              {selectedTags.size > 0 && (
+                <span style={{ ...styles.filterSectionCount, marginBottom: 0 }}>{selectedTags.size} selected</span>
+              )}
+              <ChevronDown
+                size={12}
+                style={{
+                  color: COLORS.textMute,
+                  transform: tagFilterOpen ? 'none' : 'rotate(-90deg)',
+                  transition: 'transform 0.18s ease',
+                  marginLeft: 'auto',
+                }}
+              />
+            </button>
+            {tagFilterOpen && (
+              <div style={{ ...styles.chipRow, marginTop: 12 }}>
+                {allTags.map(tag => (
+                  <button
+                    key={tag}
+                    onClick={() => toggle(selectedTags, tag, setSelectedTags)}
+                    style={{
+                      ...styles.chip,
+                      ...(selectedTags.has(tag) ? styles.chipActive : {}),
+                    }}
+                  >
+                    {tag}
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
         </section>
       )}
