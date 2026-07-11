@@ -1,5 +1,17 @@
 [
   {
+    "id": "v343",
+    "youtubeId": "gfK6h5anNtI",
+    "vertical": true,
+    "title": "Drop Snatch (primer) @ 20kg",
+    "date": "2026-06-30",
+    "lift": "drop_snatch",
+    "weight": 20,
+    "bodyweight": 82,
+    "tags": ["week-8-c2", "primer", "cycle-2", "loc-altona", "technique"],
+    "notes": "20kg drop snatch primer to open Day 1 of week 8. Not dropping under fast enough — the descent needs to be more aggressive."
+  },
+  {
     "id": "v342",
     "youtubeId": "-dIxnL2B9GE",
     "vertical": true,
