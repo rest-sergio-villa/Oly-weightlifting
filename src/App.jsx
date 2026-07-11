@@ -1498,26 +1498,50 @@ function GroupModal({ group, onClose }) {
   const dateStr = date.toLocaleDateString('en-AU', { weekday: 'long', day: '2-digit', month: 'long', year: 'numeric' });
   const top = group.videos[0];
   const setCount = group.videos.length;
+  const heroVideo = group.videos.find(v => v.youtubeId);
 
   return (
     <div style={styles.modalBackdrop} onClick={onClose}>
       <div style={styles.modal} onClick={e => e.stopPropagation()}>
-        <button onClick={onClose} style={styles.modalClose} aria-label="Close">
+        <button onClick={onClose} style={{ ...styles.modalClose, zIndex: 2 }} aria-label="Close">
           <X size={18} />
         </button>
 
-        <div style={styles.modalHeader}>
-          <div style={styles.modalLift}>{LIFT_LABELS[group.lift] || group.lift}</div>
-          <div style={styles.modalWeight}>
-            <span style={styles.modalWeightNum}>{top.weight}</span>
-            <span style={styles.modalWeightUnit}>kg top</span>
+        {heroVideo ? (
+          <div style={styles.modalHero}>
+            <img
+              src={`https://i.ytimg.com/vi/${heroVideo.youtubeId}/hqdefault.jpg`}
+              alt=""
+              style={styles.cardHeroImg}
+              onError={e => { e.currentTarget.style.visibility = 'hidden'; }}
+            />
+            <div style={styles.cardHeroShade} />
+            <div style={styles.modalHeroText}>
+              <div style={styles.modalHeroName}>{LIFT_LABELS[group.lift] || group.lift}</div>
+              <div style={styles.modalHeroWeight}>
+                {top.weight}<span style={styles.modalHeroUnit}>kg top</span>
+              </div>
+              <div style={styles.modalHeroMeta}>
+                {setCount} {setCount === 1 ? 'set' : 'sets'}
+                {top.bodyweight && top.weight > 0 && ` · ${Math.round((top.weight / top.bodyweight) * 100)}% bodyweight`}
+                {` · ${dateStr}`}
+              </div>
+            </div>
           </div>
-          <h2 style={styles.modalTitle}>{setCount} {setCount === 1 ? 'set' : 'sets'}</h2>
-          <div style={styles.modalDate}>
-            <Calendar size={13} style={{ marginRight: 6, opacity: 0.6 }} />
-            {dateStr}
+        ) : (
+          <div style={styles.modalHeader}>
+            <div style={styles.modalLift}>{LIFT_LABELS[group.lift] || group.lift}</div>
+            <div style={styles.modalWeight}>
+              <span style={styles.modalWeightNum}>{top.weight}</span>
+              <span style={styles.modalWeightUnit}>kg top</span>
+            </div>
+            <h2 style={styles.modalTitle}>{setCount} {setCount === 1 ? 'set' : 'sets'}</h2>
+            <div style={styles.modalDate}>
+              <Calendar size={13} style={{ marginRight: 6, opacity: 0.6 }} />
+              {dateStr}
+            </div>
           </div>
-        </div>
+        )}
 
         <div style={styles.setList}>
           {group.videos.map((v, i) => (
@@ -1545,15 +1569,29 @@ function SetSection({ video, setNumber, totalSets, isFirst }) {
         style={styles.setHeader}
         aria-expanded={!collapsed}
       >
-        <div style={styles.setIndex}>Set {setNumber} of {totalSets}</div>
-        <div style={styles.setWeight}>
-          <span style={styles.setWeightNum}>{video.weight}</span>
-          <span style={styles.setWeightUnit}>kg</span>
+        <div style={styles.setThumb}>
+          {video.youtubeId ? (
+            <img
+              src={`https://i.ytimg.com/vi/${video.youtubeId}/default.jpg`}
+              alt=""
+              style={styles.setThumbImg}
+              loading="lazy"
+              onError={e => { e.currentTarget.style.visibility = 'hidden'; }}
+            />
+          ) : (
+            <Play size={14} style={{ color: COLORS.textMute, opacity: 0.5 }} />
+          )}
         </div>
-        {video.bodyweight && (
-          <span style={styles.setBwPct}>{Math.round((video.weight / video.bodyweight) * 100)}% BW</span>
-        )}
-        <div style={styles.setTitle}>{video.title}</div>
+        <div style={styles.setHeadText}>
+          <div style={styles.setIndex}>Set {setNumber} of {totalSets}</div>
+          <div style={styles.setHeadRow}>
+            <span style={styles.setWeightNum}>{video.weight}</span>
+            <span style={styles.setWeightUnit}>kg</span>
+            {video.bodyweight && (
+              <span style={styles.setBwPct}>{Math.round((video.weight / video.bodyweight) * 100)}% BW</span>
+            )}
+          </div>
+        </div>
         <ChevronDown
           size={16}
           style={{
@@ -2824,6 +2862,83 @@ const styles = {
     cursor: 'pointer',
     fontFamily: 'inherit',
   },
+  modalHero: {
+    position: 'relative',
+    margin: 'calc(clamp(18px, 4vw, 32px) * -1) calc(clamp(18px, 4vw, 32px) * -1) 20px',
+    height: 210,
+    background: '#000',
+    overflow: 'hidden',
+    borderTopLeftRadius: 10,
+    borderTopRightRadius: 10,
+  },
+  modalHeroText: {
+    position: 'absolute',
+    left: 18,
+    right: 18,
+    bottom: 14,
+    display: 'flex',
+    flexDirection: 'column',
+    gap: 5,
+  },
+  modalHeroName: {
+    fontFamily: FONTS.mono,
+    fontSize: 11,
+    letterSpacing: '0.12em',
+    textTransform: 'uppercase',
+    lineHeight: 1.5,
+    color: 'rgba(255, 255, 255, 0.85)',
+  },
+  modalHeroWeight: {
+    display: 'flex',
+    alignItems: 'baseline',
+    gap: 6,
+    fontFamily: FONTS.display,
+    fontWeight: 800,
+    fontSize: 52,
+    lineHeight: 0.95,
+    letterSpacing: '-0.02em',
+    color: '#fff',
+  },
+  modalHeroUnit: {
+    fontFamily: FONTS.mono,
+    fontSize: 14,
+    color: 'rgba(255, 255, 255, 0.8)',
+  },
+  modalHeroMeta: {
+    fontFamily: FONTS.mono,
+    fontSize: 10.5,
+    letterSpacing: '0.05em',
+    color: 'rgba(255, 255, 255, 0.65)',
+  },
+  setThumb: {
+    width: 72,
+    height: 54,
+    borderRadius: 6,
+    overflow: 'hidden',
+    background: COLORS.surfaceLift,
+    border: `1px solid ${COLORS.border}`,
+    flexShrink: 0,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  setThumbImg: {
+    width: '100%',
+    height: '100%',
+    objectFit: 'cover',
+    display: 'block',
+  },
+  setHeadText: {
+    display: 'flex',
+    flexDirection: 'column',
+    gap: 4,
+    minWidth: 0,
+  },
+  setHeadRow: {
+    display: 'flex',
+    alignItems: 'baseline',
+    gap: 5,
+  },
   setIndex: {
     fontFamily: FONTS.mono,
     fontSize: 11,
@@ -2839,7 +2954,7 @@ const styles = {
   setWeightNum: {
     fontFamily: FONTS.display,
     fontWeight: 800,
-    fontSize: 36,
+    fontSize: 26,
     lineHeight: 0.9,
     letterSpacing: '-0.02em',
     color: COLORS.text,
