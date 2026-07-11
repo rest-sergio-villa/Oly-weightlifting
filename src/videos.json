@@ -1,5 +1,54 @@
 [
   {
+    "id": "v399",
+    "youtubeId": "n3zOSxxqSTU",
+    "vertical": true,
+    "title": "2 Hip Power Snatch + 2 OHS, set 4",
+    "date": "2026-07-09",
+    "lift": "hip_power_snatch_ohs",
+    "weight": 35,
+    "bodyweight": 82,
+    "tags": ["week-9-c2", "working-set", "complex", "cycle-2", "loc-altona"],
+    "notes": "35kg, fourth set.",
+    "summary": "Four sets of 2 hip power snatch + 2 OHS at 35kg on 9 Jul — all felt pretty good. A clean session on the complex after last week's bar-path and elbow issues."
+  },
+  {
+    "id": "v398",
+    "youtubeId": "fGaQbIXAr1g",
+    "vertical": true,
+    "title": "2 Hip Power Snatch + 2 OHS, set 3",
+    "date": "2026-07-09",
+    "lift": "hip_power_snatch_ohs",
+    "weight": 35,
+    "bodyweight": 82,
+    "tags": ["week-9-c2", "working-set", "complex", "cycle-2", "loc-altona"],
+    "notes": "35kg, third set."
+  },
+  {
+    "id": "v397",
+    "youtubeId": "ODB1b964f0U",
+    "vertical": true,
+    "title": "2 Hip Power Snatch + 2 OHS, set 2",
+    "date": "2026-07-09",
+    "lift": "hip_power_snatch_ohs",
+    "weight": 35,
+    "bodyweight": 82,
+    "tags": ["week-9-c2", "working-set", "complex", "cycle-2", "loc-altona"],
+    "notes": "35kg, second set."
+  },
+  {
+    "id": "v396",
+    "youtubeId": "ZfLEZqWegV4",
+    "vertical": true,
+    "title": "2 Hip Power Snatch + 2 OHS, set 1",
+    "date": "2026-07-09",
+    "lift": "hip_power_snatch_ohs",
+    "weight": 35,
+    "bodyweight": 82,
+    "tags": ["week-9-c2", "working-set", "complex", "cycle-2", "loc-altona"],
+    "notes": "35kg, first set."
+  },
+  {
     "id": "v395",
     "youtubeId": "eCznBBuNYyc",
     "vertical": true,
