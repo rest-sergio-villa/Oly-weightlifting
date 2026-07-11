@@ -1,5 +1,45 @@
 [
   {
+    "id": "v406",
+    "youtubeId": "S2IIqNccI8E",
+    "vertical": true,
+    "title": "Tempo Clean-Grip Deadlift, set 3",
+    "date": "2026-07-09",
+    "lift": "tempo_clean_grip_deadlift",
+    "weight": 75,
+    "reps": 2,
+    "bodyweight": 82,
+    "tags": ["week-9-c2", "working-set", "cycle-2", "loc-altona"],
+    "notes": "75kg × 2, third set.",
+    "summary": "Three sets of tempo clean-grip deadlift at 75kg × 2 on 9 Jul (up from 70 last week) — looking really good, with the back staying engaged through the pull. The block's biggest recurring issue is finally turning."
+  },
+  {
+    "id": "v405",
+    "youtubeId": "buCwzaoxx1g",
+    "vertical": true,
+    "title": "Tempo Clean-Grip Deadlift, set 2",
+    "date": "2026-07-09",
+    "lift": "tempo_clean_grip_deadlift",
+    "weight": 75,
+    "reps": 2,
+    "bodyweight": 82,
+    "tags": ["week-9-c2", "working-set", "cycle-2", "loc-altona"],
+    "notes": "75kg × 2, second set."
+  },
+  {
+    "id": "v404",
+    "youtubeId": "74GM-pY1Wag",
+    "vertical": true,
+    "title": "Tempo Clean-Grip Deadlift, set 1",
+    "date": "2026-07-09",
+    "lift": "tempo_clean_grip_deadlift",
+    "weight": 75,
+    "reps": 2,
+    "bodyweight": 82,
+    "tags": ["week-9-c2", "working-set", "cycle-2", "loc-altona"],
+    "notes": "75kg × 2 — looking really good, back more engaged."
+  },
+  {
     "id": "v401",
     "youtubeId": "w3kaVv68LiI",
     "vertical": true,
