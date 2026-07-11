@@ -1,9 +1,23 @@
 [
   {
+    "id": "v341",
+    "youtubeId": "OXNFvFw2luE",
+    "vertical": true,
+    "title": "Paused BTK + ATK Snatch Pull, set 2",
+    "date": "2026-06-27",
+    "lift": "paused_snatch_pull",
+    "weight": 45,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-7-c2", "working-set", "cycle-2", "loc-brunswick", "technique"],
+    "notes": "45kg × 3. Lat engagement is the limiter — need to learn to switch them on (or build lat strength) so the bar stays pinned to the body through the pull.",
+    "summary": "Two sets of paused snatch pull (BTK + ATK) on 27 Jun: 40 × 3 → 45 × 3. Chest not staying up, pull off the pauses could be more aggressive, and lat engagement is the recurring limiter — same leak as the tempo deadlifts. Learning to switch the lats on (or building their strength) is the takeaway."
+  },
+  {
     "id": "v340",
     "youtubeId": "am5EUe4XtIg",
     "vertical": true,
-    "title": "Paused BTK + ATK Snatch Pull @ 40kg",
+    "title": "Paused BTK + ATK Snatch Pull, set 1",
     "date": "2026-06-27",
     "lift": "paused_snatch_pull",
     "weight": 40,
