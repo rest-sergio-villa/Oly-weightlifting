@@ -1,9 +1,34 @@
 [
   {
+    "id": "v402",
+    "youtubeId": "ZG2qi97F7Uk",
+    "vertical": true,
+    "title": "Clean, set 3",
+    "date": "2026-07-09",
+    "lift": "clean",
+    "weight": 55,
+    "bodyweight": 82,
+    "tags": ["week-9-c2", "working-set", "cycle-2", "loc-altona"],
+    "notes": "55kg clean.",
+    "summary": "Three full cleans on 9 Jul: 50 → 50 → 55kg. First non-tempo cleans of the block and they're flowing — set 2 was a very good clean. (Sergio really likes cleans.)"
+  },
+  {
+    "id": "v401",
+    "youtubeId": "w3kaVv68LiI",
+    "vertical": true,
+    "title": "Clean, set 2",
+    "date": "2026-07-09",
+    "lift": "clean",
+    "weight": 50,
+    "bodyweight": 82,
+    "tags": ["week-9-c2", "working-set", "cycle-2", "loc-altona"],
+    "notes": "Very good clean at 50kg."
+  },
+  {
     "id": "v400",
     "youtubeId": "46RVlPc6ix8",
     "vertical": true,
-    "title": "Clean @ 50kg",
+    "title": "Clean, set 1",
     "date": "2026-07-09",
     "lift": "clean",
     "weight": 50,
