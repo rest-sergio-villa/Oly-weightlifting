@@ -1,5 +1,18 @@
 [
   {
+    "id": "v340",
+    "youtubeId": "am5EUe4XtIg",
+    "vertical": true,
+    "title": "Paused BTK + ATK Snatch Pull @ 40kg",
+    "date": "2026-06-27",
+    "lift": "paused_snatch_pull",
+    "weight": 40,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-7-c2", "working-set", "cycle-2", "loc-brunswick", "technique"],
+    "notes": "40kg × 3. Chest not staying up through the positions, and the pull off each pause could be more aggressive."
+  },
+  {
     "id": "v339",
     "youtubeId": "YNablY4X-h8",
     "vertical": true,
