@@ -427,5 +427,20 @@
       "scoreType": "Reps"
     },
     "notes": "Push press 1RM test day: hit 60kg, +10 on the 50 from the start of the cycle. Pull ups at 4-5 reps per round."
+  },
+  "2026-07-11": {
+    "className": "CrossFit 3056",
+    "time": "8:30am",
+    "week": "week-9-c2",
+    "cycle": "cycle-2",
+    "location": "loc-brunswick",
+    "strength": [],
+    "metcon": {
+      "format": "Partner WOD — In Pairs, 10 Rounds For Time",
+      "details": "200m Run, together holding band\n12 Alternating Dumbbell Hang Clean & Jerk, synchro (22.5kg)\n6 Dumbbell Plank Drag Throughs, together\n6 Burpee Over Box, you go I go @ 30/24\"",
+      "scoreType": "Time",
+      "timeCap": "35:00"
+    },
+    "notes": "Not a good session — shoulders were fatigued (day after the push press 1RM test, plus the morning's Day 3 work). Dumbbell reps at 22.5kg."
   }
 }
