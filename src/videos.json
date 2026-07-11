@@ -1,9 +1,23 @@
 [
   {
+    "id": "v339",
+    "youtubeId": "YNablY4X-h8",
+    "vertical": true,
+    "title": "Tempo Clean-Grip Deadlift, set 2",
+    "date": "2026-06-25",
+    "lift": "tempo_clean_grip_deadlift",
+    "weight": 70,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-7-c2", "working-set", "cycle-2", "loc-altona", "technique"],
+    "notes": "70kg × 3. Shoulders staying over the bar and hip timing improving — lat engagement still dropping midway up.",
+    "summary": "Two sets of tempo clean-grip deadlift at 70kg × 3 (up from 65 last week). Seb's cues: shoulders over the bar on the way up, hips not first. Set 2 improved on both — lat engagement is the remaining leak."
+  },
+  {
     "id": "v338",
     "youtubeId": "sQaCQU3BaHY",
     "vertical": true,
-    "title": "Tempo Clean-Grip Deadlift @ 70kg",
+    "title": "Tempo Clean-Grip Deadlift, set 1",
     "date": "2026-06-25",
     "lift": "tempo_clean_grip_deadlift",
     "weight": 70,
