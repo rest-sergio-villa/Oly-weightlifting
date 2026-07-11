@@ -1,16 +1,40 @@
 [
   {
+    "id": "v382",
+    "youtubeId": "WP-8kX2sxS4",
+    "vertical": true,
+    "title": "Snatch, set 3",
+    "date": "2026-07-07",
+    "lift": "snatch",
+    "weight": 37,
+    "reps": 1,
+    "bodyweight": 82,
+    "tags": ["week-9-c2", "working-set", "cycle-2", "loc-altona"],
+    "notes": "37kg × 1 — felt really good.",
+    "summary": "First full snatch session of the block on 7 Jul: 35 × 2 sets → 37 × 1 (30kg warm-up not logged). Set 1 worked through Seb's cues live — hips-shooting fixed, catch-depth fail repeated and improved. The 37 single felt really good."
+  },
+  {
+    "id": "v381",
+    "vertical": true,
+    "title": "Snatch, set 2",
+    "date": "2026-07-07",
+    "lift": "snatch",
+    "weight": 35,
+    "bodyweight": 82,
+    "tags": ["week-9-c2", "working-set", "cycle-2", "loc-altona"],
+    "notes": "Same as set 1 at 35kg. Not recorded."
+  },
+  {
     "id": "v380",
     "youtubeId": "mNoupvTCQnk",
     "vertical": true,
-    "title": "Snatch @ 35kg",
+    "title": "Snatch, set 1",
     "date": "2026-07-07",
     "lift": "snatch",
     "weight": 35,
     "bodyweight": 82,
     "tags": ["week-9-c2", "working-set", "cycle-2", "loc-altona", "technique"],
-    "notes": "35kg. Rep 1: fixed the hips shooting up in the second pull per Seb's cue. Rep 2 failed — didn't catch deep enough. Seb had me repeat both and both improved.",
-    "summary": "First full snatch work of the block — 35kg on 7 Jul (30kg warm-up not logged). Rep 1 fixed Seb’s hips-shooting-in-the-second-pull cue; rep 2 failed on catch depth; repeated both with improvement under Seb’s eye."
+    "notes": "35kg. Rep 1: fixed the hips shooting up in the second pull per Seb's cue. Rep 2 failed — didn't catch deep enough. Seb had me repeat both and both improved."
   },
   {
     "id": "v378",
