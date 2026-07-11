@@ -1,5 +1,19 @@
 [
   {
+    "id": "v362",
+    "youtubeId": "l-0Kix_U7ok",
+    "vertical": true,
+    "title": "Tempo Clean, set 3",
+    "date": "2026-07-02",
+    "lift": "tempo_clean",
+    "weight": 56,
+    "reps": 2,
+    "bodyweight": 82,
+    "tags": ["week-8-c2", "working-set", "heavy", "cycle-2", "loc-altona", "technique"],
+    "notes": "56kg × 2. Rep 1 good. Rep 2: elbows slow into the rack, trunk not braced — drifted forward and the back rounded in the receive, but stood it up anyway.",
+    "summary": "Three sets of tempo clean on 2 Jul: 50 × 3 → 53 × 2 → 56 × 2 — heaviest tempo cleans of the block. The exact failure chain shows on 56's second rep: slow elbows into the rack + unbraced trunk → forward drift → rounded back in the receive. Still fought it up. Faster shoulder/elbow turnover is the fix."
+  },
+  {
     "id": "v361",
     "youtubeId": "vWsnXMtwl7s",
     "vertical": true,
@@ -10,8 +24,7 @@
     "reps": 2,
     "bodyweight": 82,
     "tags": ["week-8-c2", "working-set", "cycle-2", "loc-altona", "technique"],
-    "notes": "53kg × 2 — feels good. Next refinement: faster shoulder turnover to help the receive.",
-    "summary": "Two sets of tempo clean on 2 Jul: 50 × 3 → 53 × 2 (load up from last week's 50s). Both felt good — positions holding through the tempo pull; faster shoulder turnover into the rack is the next refinement for the receive."
+    "notes": "53kg × 2 — feels good. Next refinement: faster shoulder turnover to help the receive."
   },
   {
     "id": "v360",
