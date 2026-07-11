@@ -1,5 +1,18 @@
 [
   {
+    "id": "v344",
+    "youtubeId": "Pp21jYOgq4Q",
+    "vertical": true,
+    "title": "Floating Snatch @ 30kg",
+    "date": "2026-06-30",
+    "lift": "floating_snatch",
+    "weight": 30,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-8-c2", "working-set", "cycle-2", "loc-altona", "technique"],
+    "notes": "30kg × 3. Hips rising slightly early, elbows not driving up in the turnover, and the conversion under the bar isn't aggressive enough."
+  },
+  {
     "id": "v343",
     "youtubeId": "gfK6h5anNtI",
     "vertical": true,
