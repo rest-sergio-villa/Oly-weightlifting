@@ -257,6 +257,27 @@
     },
     "notes": "Push press at 40kg for all six EMOM sets."
   },
+  "2026-06-26": {
+    "className": "CrossFit 3056",
+    "time": "6:00am",
+    "week": "week-7-c2",
+    "cycle": "cycle-2",
+    "location": "loc-brunswick",
+    "strength": [
+      {
+        "name": "1¼ Bench Press",
+        "scheme": "6 sets every 2:00 — 1¼ bench press @ RPE 6/10, hold the ¼ position 4 seconds.",
+        "myWeight": "45kg"
+      }
+    ],
+    "metcon": {
+      "format": "5 Rounds For Time",
+      "details": "12 Burpees\n12 Hang Dumbbell Snatch (17.5kg)\n12 Overhead Walking Lunge Steps (17.5kg)",
+      "scoreType": "Time",
+      "timeCap": "13:00"
+    },
+    "notes": "Bench at 45kg for all six sets. Dumbbell work at 17.5kg — completed under the 13:00 cap."
+  },
   "2026-06-27": {
     "className": "CrossFit 3056",
     "time": "8:30am",
