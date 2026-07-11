@@ -1,5 +1,45 @@
 [
   {
+    "id": "v369",
+    "youtubeId": "qMe3uHfpWgU",
+    "vertical": true,
+    "title": "Paused BTK + ATK Snatch Pull, set 3",
+    "date": "2026-07-04",
+    "lift": "paused_snatch_pull",
+    "weight": 45,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-8-c2", "working-set", "cycle-2", "loc-brunswick", "technique"],
+    "notes": "45kg × 3 — good reps. Could lead with the chest a bit more out of each pause.",
+    "summary": "Three sets of paused snatch pull (BTK + ATK) on 4 Jul: 40 → 45 × 3 × 2. Back wasn't fully tight at 40; the 45s were good reps — the refinement is leading with the chest out of each pause."
+  },
+  {
+    "id": "v368",
+    "youtubeId": "JoosKDJLSNA",
+    "vertical": true,
+    "title": "Paused BTK + ATK Snatch Pull, set 2",
+    "date": "2026-07-04",
+    "lift": "paused_snatch_pull",
+    "weight": 45,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-8-c2", "working-set", "cycle-2", "loc-brunswick", "technique"],
+    "notes": "45kg × 3 — good reps. Chest could lead a bit more."
+  },
+  {
+    "id": "v367",
+    "youtubeId": "8LH1OU30ZKA",
+    "vertical": true,
+    "title": "Paused BTK + ATK Snatch Pull, set 1",
+    "date": "2026-07-04",
+    "lift": "paused_snatch_pull",
+    "weight": 40,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-8-c2", "working-set", "cycle-2", "loc-brunswick", "technique"],
+    "notes": "40kg × 3. Back not staying fully tight through the positions."
+  },
+  {
     "id": "v366",
     "youtubeId": "-aCGmtZ3Y68",
     "vertical": true,
