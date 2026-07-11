@@ -1,5 +1,18 @@
 [
   {
+    "id": "v379",
+    "youtubeId": "w9_Cd4HtCJY",
+    "vertical": true,
+    "title": "Snatch @ 30kg",
+    "date": "2026-07-07",
+    "lift": "snatch",
+    "weight": 30,
+    "reps": 1,
+    "bodyweight": 82,
+    "tags": ["week-9-c2", "working-set", "cycle-2", "loc-altona", "technique", "lockout"],
+    "notes": "First full snatch of the block, 30kg × 1. Bar not stabilized overhead — back not set straight, and the punch up needs to be more aggressive to lock the bar in."
+  },
+  {
     "id": "v378",
     "youtubeId": "q5dKeqISAQA",
     "vertical": true,
