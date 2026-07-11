@@ -1333,21 +1333,35 @@ function CrossfitCard({ session }) {
       <button
         type="button"
         onClick={() => setOpen(o => !o)}
-        style={styles.crossfitHeader}
+        style={styles.cfHero}
         aria-expanded={open}
       >
-        <span style={styles.crossfitTag}>Class</span>
-        <span style={styles.crossfitTitle}>{session.className || 'CrossFit'}</span>
-        {session.time && <span style={styles.crossfitTime}>{session.time}</span>}
+        <span style={styles.cfHeroPill}>Class</span>
         <ChevronDown
           size={16}
           style={{
-            marginLeft: 'auto',
-            color: COLORS.textDim,
+            position: 'absolute',
+            right: 14,
+            bottom: 14,
+            color: 'rgba(255, 255, 255, 0.7)',
             transform: open ? 'none' : 'rotate(-90deg)',
             transition: 'transform 0.18s ease',
           }}
         />
+        <div style={styles.cfHeroText}>
+          <div style={styles.cfHeroKicker}>
+            {session.className || 'CrossFit'}
+            {session.time && ` · ${session.time}`}
+          </div>
+          <div style={styles.cfHeroTitle}>
+            {(session.metcon && session.metcon.format) || 'Class workout'}
+          </div>
+          <div style={styles.cfHeroMeta}>
+            {strengthItems.length > 0
+              ? strengthItems.map(s => s.myWeight ? `${s.name} — ${s.myWeight}` : s.name).join(' · ')
+              : 'No strength block'}
+          </div>
+        </div>
       </button>
       {open && (
         <div style={styles.crossfitBody}>
@@ -2441,6 +2455,68 @@ const styles = {
     color: COLORS.text,
     fontFamily: FONTS.body,
     textAlign: 'left',
+  },
+  cfHero: {
+    position: 'relative',
+    display: 'block',
+    width: '100%',
+    minHeight: 110,
+    padding: '14px 16px 14px',
+    background: `
+      radial-gradient(ellipse at 85% -20%, rgba(45, 182, 196, 0.35), transparent 55%),
+      linear-gradient(135deg, #0E3A40 0%, #16282C 55%, #141210 100%)
+    `,
+    borderTop: 'none',
+    borderRight: 'none',
+    borderBottom: 'none',
+    borderLeft: 'none',
+    cursor: 'pointer',
+    textAlign: 'left',
+    color: '#fff',
+    fontFamily: FONTS.body,
+  },
+  cfHeroPill: {
+    position: 'absolute',
+    right: 12,
+    top: 12,
+    fontFamily: FONTS.mono,
+    fontSize: 9.5,
+    letterSpacing: '0.12em',
+    textTransform: 'uppercase',
+    color: '#fff',
+    background: 'rgba(45, 182, 196, 0.35)',
+    border: '1px solid rgba(45, 182, 196, 0.6)',
+    padding: '3px 8px',
+    borderRadius: 999,
+  },
+  cfHeroText: {
+    display: 'flex',
+    flexDirection: 'column',
+    gap: 5,
+    paddingRight: 60,
+  },
+  cfHeroKicker: {
+    fontFamily: FONTS.mono,
+    fontSize: 10,
+    letterSpacing: '0.12em',
+    textTransform: 'uppercase',
+    color: COLORS.accentCool,
+  },
+  cfHeroTitle: {
+    fontFamily: FONTS.display,
+    fontWeight: 800,
+    fontSize: 26,
+    lineHeight: 1,
+    letterSpacing: '0.01em',
+    textTransform: 'uppercase',
+    color: '#fff',
+  },
+  cfHeroMeta: {
+    fontFamily: FONTS.mono,
+    fontSize: 10,
+    letterSpacing: '0.04em',
+    lineHeight: 1.6,
+    color: 'rgba(255, 255, 255, 0.65)',
   },
   crossfitTag: {
     fontFamily: FONTS.mono,
