@@ -1,5 +1,54 @@
 [
   {
+    "id": "v415",
+    "youtubeId": "jAnUTPS8eX0",
+    "vertical": true,
+    "title": "Paused BTK + ATK Snatch Pull, set 4",
+    "date": "2026-07-11",
+    "lift": "paused_snatch_pull",
+    "weight": 50,
+    "bodyweight": 82,
+    "tags": ["week-9-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "50kg, fourth set.",
+    "summary": "Four sets of paused snatch pull (BTK + ATK) on 11 Jul: 40 → 45 → 50 × 2 — heaviest pulls of the block and looking good. Confidence building; the setup work (chest, lats, hip position) is paying off."
+  },
+  {
+    "id": "v414",
+    "youtubeId": "bYEfSv9-tSk",
+    "vertical": true,
+    "title": "Paused BTK + ATK Snatch Pull, set 3",
+    "date": "2026-07-11",
+    "lift": "paused_snatch_pull",
+    "weight": 50,
+    "bodyweight": 82,
+    "tags": ["week-9-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "50kg, third set."
+  },
+  {
+    "id": "v413",
+    "youtubeId": "aS_b_5jMMDs",
+    "vertical": true,
+    "title": "Paused BTK + ATK Snatch Pull, set 2",
+    "date": "2026-07-11",
+    "lift": "paused_snatch_pull",
+    "weight": 45,
+    "bodyweight": 82,
+    "tags": ["week-9-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "45kg, second set."
+  },
+  {
+    "id": "v412",
+    "youtubeId": "NAaOmzzhEwM",
+    "vertical": true,
+    "title": "Paused BTK + ATK Snatch Pull, set 1",
+    "date": "2026-07-11",
+    "lift": "paused_snatch_pull",
+    "weight": 40,
+    "bodyweight": 82,
+    "tags": ["week-9-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "40kg opener."
+  },
+  {
     "id": "v411",
     "youtubeId": "ZnMHpXdK-CM",
     "vertical": true,
