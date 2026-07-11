@@ -1,5 +1,45 @@
 [
   {
+    "id": "v366",
+    "youtubeId": "-aCGmtZ3Y68",
+    "vertical": true,
+    "title": "Tempo Clean-Grip Deadlift, set 3",
+    "date": "2026-07-02",
+    "lift": "tempo_clean_grip_deadlift",
+    "weight": 70,
+    "reps": 2,
+    "bodyweight": 82,
+    "tags": ["week-8-c2", "working-set", "cycle-2", "loc-altona"],
+    "notes": "70kg × 2, third set.",
+    "summary": "Three sets of tempo clean-grip deadlift at 70kg × 2 on 2 Jul — same load as last week at lower reps."
+  },
+  {
+    "id": "v365",
+    "youtubeId": "xFVrRYqZ1fs",
+    "vertical": true,
+    "title": "Tempo Clean-Grip Deadlift, set 2",
+    "date": "2026-07-02",
+    "lift": "tempo_clean_grip_deadlift",
+    "weight": 70,
+    "reps": 2,
+    "bodyweight": 82,
+    "tags": ["week-8-c2", "working-set", "cycle-2", "loc-altona"],
+    "notes": "70kg × 2, second set."
+  },
+  {
+    "id": "v364",
+    "youtubeId": "cVKoSnYbHmw",
+    "vertical": true,
+    "title": "Tempo Clean-Grip Deadlift, set 1",
+    "date": "2026-07-02",
+    "lift": "tempo_clean_grip_deadlift",
+    "weight": 70,
+    "reps": 2,
+    "bodyweight": 82,
+    "tags": ["week-8-c2", "working-set", "cycle-2", "loc-altona"],
+    "notes": "70kg × 2, first set."
+  },
+  {
     "id": "v363",
     "youtubeId": "pi_ySBetYE0",
     "vertical": true,
