@@ -256,5 +256,40 @@
       "timeCap": "11:00"
     },
     "notes": "Push press at 40kg for all six EMOM sets."
+  },
+  "2026-06-27": {
+    "className": "CrossFit 3056",
+    "time": "8:30am",
+    "week": "week-7-c2",
+    "cycle": "cycle-2",
+    "location": "loc-brunswick",
+    "strength": [],
+    "metcon": {
+      "format": "Partner WOD — In Pairs, 6 Rounds For Time",
+      "details": "10 Synchro Single Arm Russian Kettlebell Swings (17.5kg)\n20 Medicine Ball Pass Ab Mat Sit Ups\n10 Synchro Single Arm Russian Kettlebell Swings (17.5kg)\n400m Partner Run, Holding Band",
+      "scoreType": "Time",
+      "timeCap": "28:00"
+    },
+    "notes": "Jumped into the class after the Day 3 Oly work. Kettlebell at 17.5kg; finished within the 28:00 cap."
+  },
+  "2026-06-28": {
+    "className": "CrossFit 3056",
+    "time": "9:00am",
+    "week": "week-7-c2",
+    "cycle": "cycle-2",
+    "location": "loc-brunswick",
+    "strength": [
+      {
+        "name": "Pause Back Squat",
+        "scheme": "4 x 3 @ 80%, 4-second pause in the bottom. Time cap 13:00.",
+        "myWeight": "80kg — felt really good and deep"
+      }
+    ],
+    "metcon": {
+      "format": "EMOM 15",
+      "details": "Min 1: 25 Air Squats\nMin 2: 12/10 Calorie Machine\nMin 3: Rest",
+      "scoreType": "Unscored"
+    },
+    "notes": "Pause back squats at 80kg felt really good — hitting depth comfortably."
   }
 }
