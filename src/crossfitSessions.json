@@ -353,5 +353,19 @@
       "scoreType": "Rounds + Reps"
     },
     "notes": "Chin ups felt really good. Kettlebell at 24kg for the metcon."
+  },
+  "2026-07-04": {
+    "className": "CrossFit 3056",
+    "time": "8:30am",
+    "week": "week-8-c2",
+    "cycle": "cycle-2",
+    "location": "loc-brunswick",
+    "strength": [],
+    "metcon": {
+      "format": "Super Saturday — AMRAP 25",
+      "details": "5, 10, 15, 20... ladder:\nBurpees\nDeadlifts (85kg)\n400m Run",
+      "scoreType": "Rounds + Reps"
+    },
+    "notes": "Deadlifts at 85kg — back wasn't staying tight, lower back muscles sore afterwards. Got to the round of 30 burpees. Accessory (single-leg RDL 3-way) skipped."
   }
 }
