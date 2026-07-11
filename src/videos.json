@@ -1,5 +1,67 @@
 [
   {
+    "id": "v374",
+    "youtubeId": "q0_re2JzAKg",
+    "vertical": true,
+    "title": "Front Squat, set 5",
+    "date": "2026-07-04",
+    "lift": "front_squat",
+    "weight": 75,
+    "reps": 2,
+    "bodyweight": 82,
+    "tags": ["week-8-c2", "working-set", "heavy", "cycle-2", "loc-brunswick"],
+    "notes": "75kg × 2 — heaviest front squat of the cycle so far.",
+    "summary": "Five sets of front squat on 4 Jul climbing 63 → 65 → 65 → 70 → 75 × 2 — the 75 double is the heaviest front squat of the cycle (67 was the previous top set)."
+  },
+  {
+    "id": "v373",
+    "youtubeId": "gewLMh8AYtg",
+    "vertical": true,
+    "title": "Front Squat, set 4",
+    "date": "2026-07-04",
+    "lift": "front_squat",
+    "weight": 70,
+    "bodyweight": 82,
+    "tags": ["week-8-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "70kg, fourth set."
+  },
+  {
+    "id": "v372",
+    "youtubeId": "CRQFne3Co_M",
+    "vertical": true,
+    "title": "Front Squat, set 3",
+    "date": "2026-07-04",
+    "lift": "front_squat",
+    "weight": 65,
+    "bodyweight": 82,
+    "tags": ["week-8-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "65kg, third set."
+  },
+  {
+    "id": "v371",
+    "youtubeId": "lpqqo-3aSa8",
+    "vertical": true,
+    "title": "Front Squat, set 2",
+    "date": "2026-07-04",
+    "lift": "front_squat",
+    "weight": 65,
+    "bodyweight": 82,
+    "tags": ["week-8-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "65kg, second set."
+  },
+  {
+    "id": "v370",
+    "youtubeId": "s3VLZ2mpaSQ",
+    "vertical": true,
+    "title": "Front Squat, set 1",
+    "date": "2026-07-04",
+    "lift": "front_squat",
+    "weight": 63,
+    "bodyweight": 82,
+    "tags": ["week-8-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "63kg opener."
+  },
+  {
     "id": "v369",
     "youtubeId": "qMe3uHfpWgU",
     "vertical": true,
