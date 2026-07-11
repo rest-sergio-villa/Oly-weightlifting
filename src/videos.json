@@ -1,9 +1,23 @@
 [
   {
+    "id": "v345",
+    "youtubeId": "67GTRrpDrf8",
+    "vertical": true,
+    "title": "Floating Snatch, set 2",
+    "date": "2026-06-30",
+    "lift": "floating_snatch",
+    "weight": 30,
+    "reps": 3,
+    "bodyweight": 82,
+    "tags": ["week-8-c2", "working-set", "cycle-2", "loc-altona", "technique"],
+    "notes": "30kg × 3. Staying over the bar longer fixed the early hip rise — but the receiving position wasn't strong and balance was lost in the catch.",
+    "summary": "Two sets of floating snatch at 30kg × 3 on 30 Jun. Set 1: hips early, elbows flat, passive conversion. Set 2: staying over the bar fixed the hips, but the receive wasn't strong — balance lost in the catch. The fix upstream is exposing the receive as the next weak link."
+  },
+  {
     "id": "v344",
     "youtubeId": "Pp21jYOgq4Q",
     "vertical": true,
-    "title": "Floating Snatch @ 30kg",
+    "title": "Floating Snatch, set 1",
     "date": "2026-06-30",
     "lift": "floating_snatch",
     "weight": 30,
