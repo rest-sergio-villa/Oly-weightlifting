@@ -1149,7 +1149,7 @@ function MaxBoard() {
               <div style={styles.maxRowHead}>
                 <span style={styles.maxRowLabel}>{e.label}</span>
                 <span style={styles.maxRowMeta}>
-                  {e.cur.ref ? 'program ref' : `tested ${formatDayDate(e.cur.date)}`}
+                  {e.cur.ref ? 'program ref' : e.cur.est ? 'estimated' : `tested ${formatDayDate(e.cur.date)}`}
                 </span>
                 <span style={styles.maxRowValue}>
                   {e.prev && <span style={styles.maxRowPrev}>{e.prev.kg} → </span>}
