@@ -4,8 +4,8 @@ import videos from './videos.json';
 import dayNotes from './dayNotes.json';
 import crossfitSessions from './crossfitSessions.json';
 import whoopDays from './whoopDays.json';
-import program from './program.json';
 import maxes from './maxes.json';
+import coachNotes from './coachNotes.json';
 import { supabase } from './supabase.js';
 
 const LIFT_LABELS = {
@@ -1256,84 +1256,36 @@ function RecoveryPanel() {
   );
 }
 
-// Condense a program exercise's set list into "2×3 @ 25.2kg (63%)" runs.
-function condenseSets(sets) {
-  const runs = [];
-  for (const s of sets) {
-    const key = `${s.pct}|${s.kg}|${s.reps}`;
-    const last = runs[runs.length - 1];
-    if (last && last.key === key) last.count += 1;
-    else runs.push({ key, count: 1, s });
-  }
-  return runs.map(({ count, s }) => {
-    const reps = s.reps != null ? `${count}×${s.reps}` : `${count} sets`;
-    const load = s.kg != null ? ` @ ${s.kg}kg` : '';
-    const pct = typeof s.pct === 'number' ? ` (${s.pct}%)` : (typeof s.pct === 'string' && !s.kg ? ` ${s.pct}` : '');
-    return `${reps}${load}${pct}`;
-  }).join(' · ');
-}
-
-// The prescribed program (src/program.json, extracted from the coach's
-// spreadsheet). Week chips select a week; each day lists its exercises.
-function ProgramPanel() {
-  const [week, setWeek] = useState(program.weeks[program.weeks.length - 1].week);
-  const current = program.weeks.find(w => w.week === week);
+// Athlete notes (src/coachNotes.json): Sergio's own read on where each
+// main lift is at — struggles in his words, not coaching prescriptions.
+function AthleteNotes() {
+  if (!coachNotes.length) return null;
   return (
-    <section style={styles.programPanel}>
+    <section style={styles.trendsPanel}>
       <div style={styles.coachSectionHead}>
-        <span style={styles.filterLabel}>Program</span>
-        <span style={styles.trendsSub}>{program.label} — {program.focus.toLowerCase()}</span>
+        <span style={styles.filterLabel}>Athlete notes</span>
+        <span style={styles.trendsSub}>where each lift is at, in my own words</span>
       </div>
-      <div style={{ ...styles.chipRow, marginBottom: 18 }}>
-        {program.weeks.map(w => (
-          <button
-            key={w.week}
-            onClick={() => setWeek(w.week)}
-            style={{
-              ...styles.chip,
-              ...(week === w.week ? styles.chipActive : {}),
-            }}
-          >
-            Week {w.week}
-          </button>
+      <div style={styles.noteGrid}>
+        {coachNotes.map(n => (
+          <div key={n.lift} style={styles.noteCard}>
+            <div style={styles.noteLift}>{n.lift}</div>
+            <div style={styles.noteBody}>{n.body}</div>
+          </div>
         ))}
       </div>
-      {current && (
-        <div style={styles.programGrid}>
-          {current.days.map(d => (
-            <div key={d.day} style={styles.programDay}>
-              <div style={styles.programDayLabel}>Day {d.day}</div>
-              {d.exercises.map((ex, i) => (
-                <div key={i} style={styles.programExercise}>
-                  <div style={styles.programExerciseName}>{ex.name}</div>
-                  <div style={styles.programExerciseSets}>{condenseSets(ex.sets)}</div>
-                  {ex.note && <div style={styles.programExerciseNote}>{ex.note}</div>}
-                </div>
-              ))}
-              {d.accessories.length > 0 && (
-                <div style={styles.programExercise}>
-                  <div style={styles.programExerciseName}>Accessories</div>
-                  {d.accessories.map((a, i) => (
-                    <div key={i} style={styles.programExerciseSets}>{a.scheme} — {a.name}</div>
-                  ))}
-                </div>
-              )}
-            </div>
-          ))}
-        </div>
-      )}
     </section>
   );
 }
 
-// Coach summary view: trends + the prescribed program. The training
+// Coach summary view: maxes, athlete notes, Whoop trends. The training
 // feed stays clean; this page is the birds-eye read for Seb.
 function CoachPage() {
   return (
     <div>
       <MaxBoard />
+      <AthleteNotes />
       <RecoveryPanel />
-      <ProgramPanel />
     </div>
   );
 }
@@ -2258,25 +2210,23 @@ const styles = {
   trendsPanel: {
     marginBottom: 44,
   },
-  programPanel: {
-    marginBottom: 44,
-  },
-  programGrid: {
+  noteGrid: {
     display: 'grid',
-    gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
+    gridTemplateColumns: 'repeat(auto-fit, minmax(290px, 1fr))',
     gap: 18,
     alignItems: 'start',
   },
-  programDay: {
+  noteCard: {
     background: COLORS.surface,
     border: `1px solid ${COLORS.border}`,
+    borderLeft: `3px solid ${COLORS.accent}`,
     borderRadius: 10,
     padding: '16px 18px',
     display: 'flex',
     flexDirection: 'column',
-    gap: 14,
+    gap: 10,
   },
-  programDayLabel: {
+  noteLift: {
     fontFamily: FONTS.display,
     fontWeight: 800,
     fontSize: 20,
@@ -2285,26 +2235,10 @@ const styles = {
     color: COLORS.accent,
     lineHeight: 1,
   },
-  programExercise: {
-    display: 'flex',
-    flexDirection: 'column',
-    gap: 3,
-  },
-  programExerciseName: {
+  noteBody: {
     fontSize: 13.5,
-    fontWeight: 600,
-    color: COLORS.text,
-  },
-  programExerciseSets: {
-    fontFamily: FONTS.mono,
-    fontSize: 11.5,
+    lineHeight: 1.65,
     color: COLORS.textDim,
-    lineHeight: 1.6,
-  },
-  programExerciseNote: {
-    fontSize: 12,
-    color: COLORS.textMute,
-    fontStyle: 'italic',
   },
   maxBoard: {
     display: 'flex',
