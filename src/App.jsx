@@ -39,7 +39,6 @@ const LIFT_LABELS = {
   deadlift: 'Deadlift',
   bb_bent_over_row_supinated: 'BB Bent-Over Row, Supinated',
   snatch_grip_rdl: 'Snatch-Grip RDL',
-  bench_press: 'Bench Press',
   dips: 'Dips',
   pull_ups: 'Pull-Ups',
 };
@@ -78,7 +77,6 @@ const LIFT_CATEGORIES = {
   bulgarian_split_squat: 'accessory',
   single_leg_glute_bridge: 'accessory',
   snatch_grip_rdl: 'accessory',
-  bench_press: 'accessory',
 };
 
 const LIFT_CATEGORY_ORDER = ['snatch', 'clean_jerk', 'squat_pull', 'accessory'];
