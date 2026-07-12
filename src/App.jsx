@@ -1079,15 +1079,19 @@ function WhoopStrip({ data }) {
 // Single-series bar chart (inline SVG, no library). Bars grow from a
 // zero baseline, rounded 3px at the data end, square at the base, with
 // a surface gap between bars and a per-bar hover tooltip.
-function BarChart({ points, color, colorFor, unit, showXLabels }) {
+function BarChart({ points, color, colorFor, unit, showXLabels, domainMax, ticks }) {
   const [hoverI, setHoverI] = useState(null);
-  const W = 260, H = showXLabels ? 84 : 72, PAD = 6, BASE = showXLabels ? H - 14 : H - 2;
+  const W = 260, H = showXLabels ? 92 : 72, TOP = 6;
+  const PADL = ticks ? 26 : 6, PADR = 6;
+  const BASE = showXLabels ? H - 14 : H - 2;
   const n = points.length;
-  const max = Math.max(...points.map(p => p.value)) || 1;
-  const slot = (W - PAD * 2) / n;
+  // Fixed domain (0-100 for recovery %, 0-21 for Whoop strain) so bar
+  // height is honest; falls back to the data max for unbounded metrics.
+  const max = domainMax || Math.max(...points.map(p => p.value)) || 1;
+  const slot = (W - PADL - PADR) / n;
   const bw = Math.max(1.5, Math.min(24, slot - 2));
-  const x = i => PAD + i * slot + (slot - bw) / 2;
-  const y = v => BASE - (v / max) * (H - PAD - 8);
+  const x = i => PADL + i * slot + (slot - bw) / 2;
+  const y = v => BASE - (v / max) * (BASE - TOP);
   const bar = (i, v) => {
     const bx = x(i), by = y(v), r = Math.min(3, bw / 2);
     return `M${bx},${BASE} V${(by + r).toFixed(1)} Q${bx},${by.toFixed(1)} ${(bx + r).toFixed(1)},${by.toFixed(1)} H${(bx + bw - r).toFixed(1)} Q${(bx + bw).toFixed(1)},${by.toFixed(1)} ${(bx + bw).toFixed(1)},${(by + r).toFixed(1)} V${BASE} Z`;
@@ -1095,7 +1099,7 @@ function BarChart({ points, color, colorFor, unit, showXLabels }) {
   const onMove = (e) => {
     const rect = e.currentTarget.getBoundingClientRect();
     const px = (e.clientX - rect.left) * (W / rect.width);
-    const i = Math.max(0, Math.min(n - 1, Math.floor((px - PAD) / slot)));
+    const i = Math.max(0, Math.min(n - 1, Math.floor((px - PADL) / slot)));
     setHoverI(i);
   };
   return (
@@ -1106,7 +1110,21 @@ function BarChart({ points, color, colorFor, unit, showXLabels }) {
         onMouseMove={onMove}
         onMouseLeave={() => setHoverI(null)}
       >
-        <line x1={PAD} y1={BASE} x2={W - PAD} y2={BASE} stroke={COLORS.border} strokeWidth="1" />
+        {ticks && ticks.map(t => (
+          <g key={`t${t}`}>
+            <line
+              x1={PADL} y1={y(t)} x2={W - PADR} y2={y(t)}
+              stroke={COLORS.border} strokeWidth="1" opacity="0.55"
+            />
+            <text
+              x={PADL - 5} y={y(t) + 2.5} textAnchor="end"
+              fontFamily="JetBrains Mono, monospace" fontSize="7" fill={COLORS.textMute}
+            >
+              {t}{unit}
+            </text>
+          </g>
+        ))}
+        <line x1={PADL} y1={BASE} x2={W - PADR} y2={BASE} stroke={COLORS.border} strokeWidth="1" />
         {points.map((p, i) => (
           <path
             key={i}
@@ -1240,7 +1258,7 @@ function RecoveryPanel() {
             <span style={styles.trendCellLabel}>Avg recovery / week</span>
             <span style={styles.trendCellValue}>{lastRec.value}%</span>
           </div>
-          <BarChart points={weekly.recovery} colorFor={recoveryColor} unit="%" showXLabels />
+          <BarChart points={weekly.recovery} colorFor={recoveryColor} unit="%" showXLabels domainMax={100} ticks={[50, 100]} />
         </div>
         {weekly.strain.length >= 2 && (
           <div style={styles.trendCell}>
@@ -1248,7 +1266,7 @@ function RecoveryPanel() {
               <span style={styles.trendCellLabel}>Avg strain / week</span>
               <span style={styles.trendCellValue}>{lastStrain.value}</span>
             </div>
-            <BarChart points={weekly.strain} color={COLORS.accentCool} unit="" showXLabels />
+            <BarChart points={weekly.strain} color={COLORS.accentCool} unit="" showXLabels domainMax={21} ticks={[7, 14, 21]} />
           </div>
         )}
       </div>
