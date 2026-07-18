@@ -1,9 +1,22 @@
 [
   {
+    "id": "v422",
+    "youtubeId": "b-45oqwiJxU",
+    "vertical": true,
+    "title": "Drop Snatch (primer), set 2",
+    "date": "2026-07-14",
+    "lift": "drop_snatch",
+    "weight": 20,
+    "bodyweight": 82,
+    "tags": ["week-10-c2", "primer", "cycle-2", "loc-altona", "technique"],
+    "notes": "A bit faster under the bar. Noticed the brace is going into the rib cage — chest inflating — instead of 360° into the core.",
+    "summary": "Two drop snatch primer sets at 20kg to open Day 1 of week 10. Set 1: punch against the bar not aggressive enough, drop lacking speed. Set 2 was a bit faster — and surfaced a bracing cue: inflating the rib cage instead of the core."
+  },
+  {
     "id": "v421",
     "youtubeId": "Sdl-OuLlBJY",
     "vertical": true,
-    "title": "Drop Snatch (primer) @ 20kg",
+    "title": "Drop Snatch (primer), set 1",
     "date": "2026-07-14",
     "lift": "drop_snatch",
     "weight": 20,
