@@ -1,5 +1,45 @@
 [
   {
+    "id": "v449",
+    "youtubeId": "MLqLP3fK5Y4",
+    "vertical": true,
+    "title": "Tempo Clean-Grip Deadlift, set 3",
+    "date": "2026-07-16",
+    "lift": "tempo_clean_grip_deadlift",
+    "weight": 75,
+    "reps": 2,
+    "bodyweight": 82,
+    "tags": ["week-10-c2", "working-set", "cycle-2", "loc-altona"],
+    "notes": "75kg, third set.",
+    "summary": "Three tempo clean-grip deadlift doubles at 75 on Day 2 of week 10 — holding last week's top weight across all sets."
+  },
+  {
+    "id": "v448",
+    "youtubeId": "oyh8CgOc-io",
+    "vertical": true,
+    "title": "Tempo Clean-Grip Deadlift, set 2",
+    "date": "2026-07-16",
+    "lift": "tempo_clean_grip_deadlift",
+    "weight": 75,
+    "reps": 2,
+    "bodyweight": 82,
+    "tags": ["week-10-c2", "working-set", "cycle-2", "loc-altona"],
+    "notes": "75kg, second set."
+  },
+  {
+    "id": "v447",
+    "youtubeId": "7Po9EWaESIQ",
+    "vertical": true,
+    "title": "Tempo Clean-Grip Deadlift, set 1",
+    "date": "2026-07-16",
+    "lift": "tempo_clean_grip_deadlift",
+    "weight": 75,
+    "reps": 2,
+    "bodyweight": 82,
+    "tags": ["week-10-c2", "working-set", "cycle-2", "loc-altona"],
+    "notes": "75kg double to open the deadlifts."
+  },
+  {
     "id": "v446",
     "youtubeId": "SxQmXT_-N1s",
     "vertical": true,
