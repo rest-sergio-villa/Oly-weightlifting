@@ -1,5 +1,16 @@
 [
   {
+    "id": "v436",
+    "vertical": true,
+    "title": "Back Squat, 100kg × 2",
+    "date": "2026-07-14",
+    "lift": "back_squat",
+    "weight": 100,
+    "bodyweight": 82,
+    "tags": ["week-10-c2", "working-set", "heavy", "cycle-2", "loc-altona"],
+    "notes": "Double at 100 — really bad form: core not engaged, knees not tracking out, and the hips twisting on the way up. Not recorded."
+  },
+  {
     "id": "v435",
     "youtubeId": "VgUvdVxUaZw",
     "vertical": true,
