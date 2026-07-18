@@ -462,5 +462,26 @@
       "scoreType": "Reps"
     },
     "notes": "Bench press at 60kg across all four sets."
+  },
+  "2026-07-17": {
+    "className": "CrossFit 3056",
+    "time": "6:00am",
+    "week": "week-10-c2",
+    "cycle": "cycle-2",
+    "location": "loc-brunswick",
+    "strength": [
+      {
+        "name": "Back Squat",
+        "scheme": "5 x 3 @ 75%.",
+        "myWeight": "80kg"
+      }
+    ],
+    "metcon": {
+      "format": "4 Rounds for Reps (0:30 work / 0:30 rest)",
+      "details": "Max Rep Dumbbell Power Clean (50/35 lbs)\nMax Rep Calorie Machine\nMax Rep Air Squats",
+      "scoreType": "Reps",
+      "timeCap": "12:00"
+    },
+    "notes": "Dumbbell power cleans at 20kg, ~8 reps per round. Calories: at least 10 on the bike, 13 on the rower. Back squats at 80kg."
   }
 }
