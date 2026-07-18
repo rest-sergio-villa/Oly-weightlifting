@@ -1,5 +1,18 @@
 [
   {
+    "id": "v467",
+    "youtubeId": "RlfI3OK3nYg",
+    "vertical": true,
+    "title": "BB Bent-Over Row (Supinated), set 3",
+    "date": "2026-07-18",
+    "lift": "bb_bent_over_row_supinated",
+    "weight": 60,
+    "bodyweight": 82,
+    "tags": ["week-10-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "60kg, third set.",
+    "summary": "Three sets of supinated bent-over rows at 60kg on Day 3 of week 10 — a big jump from the 45s of weeks 8–9."
+  },
+  {
     "id": "v466",
     "youtubeId": "_xHrz3DmK_Q",
     "vertical": true,
@@ -9,8 +22,7 @@
     "weight": 60,
     "bodyweight": 82,
     "tags": ["week-10-c2", "working-set", "cycle-2", "loc-brunswick"],
-    "notes": "60kg, second set.",
-    "summary": "Supinated bent-over rows at 60kg on Day 3 of week 10 — a big jump from the 45s of weeks 8–9."
+    "notes": "60kg, second set."
   },
   {
     "id": "v465",
