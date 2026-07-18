@@ -1,5 +1,18 @@
 [
   {
+    "id": "v464",
+    "youtubeId": "FSGsmu7FnVk",
+    "vertical": true,
+    "title": "Front Squat, set 5",
+    "date": "2026-07-18",
+    "lift": "front_squat",
+    "weight": 75,
+    "bodyweight": 82,
+    "tags": ["week-10-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "75kg, fifth set.",
+    "summary": "Front squats on Day 3 of week 10: 70, 70, then three at 75 — holding last week's top weight."
+  },
+  {
     "id": "v463",
     "youtubeId": "15aX1tOZnRM",
     "vertical": true,
@@ -9,8 +22,7 @@
     "weight": 75,
     "bodyweight": 82,
     "tags": ["week-10-c2", "working-set", "cycle-2", "loc-brunswick"],
-    "notes": "75kg, fourth set.",
-    "summary": "Front squats on Day 3 of week 10: 70, 70, then two at 75 — holding last week's top weight."
+    "notes": "75kg, fourth set."
   },
   {
     "id": "v462",
