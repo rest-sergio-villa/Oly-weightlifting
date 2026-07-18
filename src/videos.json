@@ -1,5 +1,19 @@
 [
   {
+    "id": "v440",
+    "youtubeId": "VqEBmOVxAq0",
+    "vertical": true,
+    "title": "Behind-the-Neck Jerk (split), set 4",
+    "date": "2026-07-16",
+    "lift": "behind_neck_jerk",
+    "weight": 57,
+    "reps": 1,
+    "bodyweight": 82,
+    "tags": ["week-10-c2", "working-set", "heavy", "cycle-2", "loc-altona", "split"],
+    "notes": "57kg single — felt so much better. Heaviest BTN jerk so far.",
+    "summary": "BTN jerk in split on Day 2 of week 10: 50 × 2, 50, 55, then a single at 57 — the heaviest BTN jerk to date. The 55 still landed with the weight on the front leg, but the 57 felt much better."
+  },
+  {
     "id": "v439",
     "youtubeId": "nRzu9xKNR_o",
     "vertical": true,
@@ -10,8 +24,7 @@
     "reps": 1,
     "bodyweight": 82,
     "tags": ["week-10-c2", "working-set", "heavy", "cycle-2", "loc-altona", "split"],
-    "notes": "55kg single — not improving; still landing with the weight on the front leg.",
-    "summary": "BTN jerk in split on Day 2 of week 10: 50 × 2, 50, then a single at 55. The split fault from Day 1 is persisting at the top end — landing with the weight on the front leg, back leg not carrying its share."
+    "notes": "55kg single — not improving; still landing with the weight on the front leg."
   },
   {
     "id": "v438",
