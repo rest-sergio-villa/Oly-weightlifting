@@ -498,5 +498,20 @@
       "timeCap": "35:00"
     },
     "notes": "400s started around 1:45 and progressively dropped to ~1:25. Logged result in the app: 1:21 average."
+  },
+  "2026-07-19": {
+    "className": "CrossFit 3056",
+    "time": "9:00am",
+    "week": "week-10-c2",
+    "cycle": "cycle-2",
+    "location": "loc-brunswick",
+    "strength": [],
+    "metcon": {
+      "format": "3 Rounds For Time",
+      "details": "2000m Bike\n1000m Row\n600m Run",
+      "scoreType": "Time",
+      "timeCap": "35:00"
+    },
+    "notes": "Finished in 35 minutes — right on the time cap."
   }
 }
