@@ -1,5 +1,58 @@
 [
   {
+    "id": "v503",
+    "youtubeId": "Kg3qR-q6jBI",
+    "vertical": true,
+    "title": "Paused BTK + ATK Snatch Pull, set 4",
+    "date": "2026-07-26",
+    "lift": "paused_snatch_pull",
+    "weight": 50,
+    "reps": 2,
+    "bodyweight": 82,
+    "tags": ["week-11-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "50kg, second main double.",
+    "summary": "Paused snatch pull doubles on Day 3 of week 11: 40, 45, then the main work — two doubles at 50. Clear improvement in engaging the lats and back this week, and the bar feels lighter for it — the wider-stance setup from last week is paying off."
+  },
+  {
+    "id": "v502",
+    "youtubeId": "v2wb_bxAahQ",
+    "vertical": true,
+    "title": "Paused BTK + ATK Snatch Pull, set 3",
+    "date": "2026-07-26",
+    "lift": "paused_snatch_pull",
+    "weight": 50,
+    "reps": 2,
+    "bodyweight": 82,
+    "tags": ["week-11-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "50kg, first main double — lats and back engaging noticeably better; the bar feels lighter."
+  },
+  {
+    "id": "v501",
+    "youtubeId": "x8ky5ZkdeeE",
+    "vertical": true,
+    "title": "Paused BTK + ATK Snatch Pull, set 2",
+    "date": "2026-07-26",
+    "lift": "paused_snatch_pull",
+    "weight": 45,
+    "reps": 2,
+    "bodyweight": 82,
+    "tags": ["week-11-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "45kg double."
+  },
+  {
+    "id": "v500",
+    "youtubeId": "3Sn9p6H4cqw",
+    "vertical": true,
+    "title": "Paused BTK + ATK Snatch Pull, set 1",
+    "date": "2026-07-26",
+    "lift": "paused_snatch_pull",
+    "weight": 40,
+    "reps": 2,
+    "bodyweight": 82,
+    "tags": ["week-11-c2", "working-set", "cycle-2", "loc-brunswick"],
+    "notes": "40kg double to open the pulls."
+  },
+  {
     "id": "v499",
     "youtubeId": "RVRdIdwWnOE",
     "vertical": true,
