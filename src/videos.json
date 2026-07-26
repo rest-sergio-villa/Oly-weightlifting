@@ -1,5 +1,17 @@
 [
   {
+    "id": "v468",
+    "vertical": true,
+    "title": "Snatch, 37kg × 1",
+    "date": "2026-07-21",
+    "lift": "snatch",
+    "weight": 37,
+    "reps": 1,
+    "bodyweight": 82,
+    "tags": ["week-11-c2", "working-set", "cycle-2", "loc-altona"],
+    "notes": "Single at 37. The lockout feels wrong — not letting the wrists settle back into the overhead position, so the bar isn't sitting stacked over the palm heel. Something is off up top."
+  },
+  {
     "id": "v467",
     "youtubeId": "RlfI3OK3nYg",
     "vertical": true,
