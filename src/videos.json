@@ -1,15 +1,29 @@
 [
   {
-    "id": "v468",
-    "youtubeId": "efB1uLmhjNc",
+    "id": "v469",
+    "youtubeId": "qLLTQKRN6MY",
     "vertical": true,
-    "title": "Snatch, 37kg × 1",
+    "title": "Snatch, set 2",
     "date": "2026-07-21",
     "lift": "snatch",
     "weight": 37,
     "reps": 1,
     "bodyweight": 82,
-    "tags": ["week-11-c2", "working-set", "cycle-2", "loc-altona"],
+    "tags": ["week-11-c2", "working-set", "cycle-2", "loc-altona", "lockout"],
+    "notes": "Same at 37: the third pull isn't fast enough, the lockout is incomplete, and the wrists are staying vertical instead of settling back under the bar.",
+    "summary": "Snatch singles at 37 on Day 1 of week 11. The overhead position is the story: wrists staying vertical instead of settling back, so the lockout feels wrong and incomplete — plus the pull-under (third pull) isn't fast enough yet."
+  },
+  {
+    "id": "v468",
+    "youtubeId": "efB1uLmhjNc",
+    "vertical": true,
+    "title": "Snatch, set 1",
+    "date": "2026-07-21",
+    "lift": "snatch",
+    "weight": 37,
+    "reps": 1,
+    "bodyweight": 82,
+    "tags": ["week-11-c2", "working-set", "cycle-2", "loc-altona", "lockout"],
     "notes": "Single at 37. The lockout feels wrong — not letting the wrists settle back into the overhead position, so the bar isn't sitting stacked over the palm heel. Something is off up top."
   },
   {
