@@ -1,5 +1,58 @@
 [
   {
+    "id": "v507",
+    "youtubeId": "gbyNcPuZrpc",
+    "vertical": true,
+    "title": "Back Squat, set 4",
+    "date": "2026-07-26",
+    "lift": "back_squat",
+    "weight": 100,
+    "reps": 1,
+    "bodyweight": 82,
+    "tags": ["week-11-c2", "working-set", "heavy", "cycle-2", "loc-brunswick"],
+    "notes": "Third single at 100.",
+    "summary": "Back squats moved from Tuesday to Sunday this week: 90 × 2 to warm up, then three singles at 100. Concern on the day: not convinced the 100s are breaking parallel."
+  },
+  {
+    "id": "v506",
+    "youtubeId": "aCTYZu949hI",
+    "vertical": true,
+    "title": "Back Squat, set 3",
+    "date": "2026-07-26",
+    "lift": "back_squat",
+    "weight": 100,
+    "reps": 1,
+    "bodyweight": 82,
+    "tags": ["week-11-c2", "working-set", "heavy", "cycle-2", "loc-brunswick"],
+    "notes": "Second single at 100."
+  },
+  {
+    "id": "v505",
+    "youtubeId": "v2UioLV7RjY",
+    "vertical": true,
+    "title": "Back Squat, set 2",
+    "date": "2026-07-26",
+    "lift": "back_squat",
+    "weight": 100,
+    "reps": 1,
+    "bodyweight": 82,
+    "tags": ["week-11-c2", "working-set", "heavy", "cycle-2", "loc-brunswick"],
+    "notes": "First single at 100 — not convinced I'm breaking parallel at this weight."
+  },
+  {
+    "id": "v504",
+    "youtubeId": "v7NqQr2iXY8",
+    "vertical": true,
+    "title": "Back Squat, set 1",
+    "date": "2026-07-26",
+    "lift": "back_squat",
+    "weight": 90,
+    "reps": 2,
+    "bodyweight": 82,
+    "tags": ["week-11-c2", "cycle-2", "loc-brunswick"],
+    "notes": "90kg double to warm up."
+  },
+  {
     "id": "v503",
     "youtubeId": "Kg3qR-q6jBI",
     "vertical": true,
