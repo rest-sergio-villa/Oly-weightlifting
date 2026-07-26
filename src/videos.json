@@ -1,5 +1,19 @@
 [
   {
+    "id": "v471",
+    "youtubeId": "GddONtwMFmg",
+    "vertical": true,
+    "title": "Snatch, set 4",
+    "date": "2026-07-21",
+    "lift": "snatch",
+    "weight": 37,
+    "reps": 1,
+    "bodyweight": 82,
+    "tags": ["week-11-c2", "working-set", "cycle-2", "loc-altona", "lockout"],
+    "notes": "Failed the first attempt at 37 — the bar drifted forward and the wrists never settled back. Took a second go and it went okay.",
+    "summary": "Four snatch singles at 37 on Day 1 of week 11. The overhead position is the story: wrists staying vertical instead of settling back, so the lockout feels wrong and incomplete — plus the pull-under (third pull) isn't fast enough. The faults were consistent all session and cost a rep on set 4 (bar forward, missed; repeated and made it)."
+  },
+  {
     "id": "v470",
     "youtubeId": "-uHYHgXtSlA",
     "vertical": true,
@@ -10,8 +24,7 @@
     "reps": 1,
     "bodyweight": 82,
     "tags": ["week-11-c2", "working-set", "cycle-2", "loc-altona", "lockout"],
-    "notes": "Third single at 37 — same problems carry: slow third pull, incomplete lockout, wrists staying vertical.",
-    "summary": "Three snatch singles at 37 on Day 1 of week 11. The overhead position is the story: wrists staying vertical instead of settling back, so the lockout feels wrong and incomplete — plus the pull-under (third pull) isn't fast enough yet. Faults consistent across all three singles."
+    "notes": "Third single at 37 — same problems carry: slow third pull, incomplete lockout, wrists staying vertical."
   },
   {
     "id": "v469",
