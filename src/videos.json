@@ -1,5 +1,17 @@
 [
   {
+    "id": "v479",
+    "vertical": true,
+    "title": "Clean & Jerk, set 4",
+    "date": "2026-07-21",
+    "lift": "clean_and_jerk",
+    "weight": 57,
+    "bodyweight": 82,
+    "tags": ["week-11-c2", "working-set", "split", "heavy", "lockout", "cycle-2", "loc-altona"],
+    "notes": "57kg. A soft press-out in the jerk — likely connected to the glutes not engaging and the back leg staying stiff: without a stable split under the bar, the arms finish the job.",
+    "summary": "Clean & jerk (first week without the complex) on Day 1 of week 11: 45, 50, 53, 57. The split is the work-on — glutes not engaging so the back leg isn't bending; better by 53 but the feet need to hit the split faster, and at 57 a soft press-out showed up, likely downstream of the same split instability."
+  },
+  {
     "id": "v478",
     "youtubeId": "alLEL5EGWxA",
     "vertical": true,
@@ -9,8 +21,7 @@
     "weight": 53,
     "bodyweight": 82,
     "tags": ["week-11-c2", "working-set", "split", "heavy", "cycle-2", "loc-altona"],
-    "notes": "53kg. Better in the back leg, but not right yet — need to get into the split faster.",
-    "summary": "Clean & jerk (first week without the complex) on Day 1 of week 11: 45, 50, 53. The split is the work-on — glutes not engaging so the back leg isn't bending; better on the 53 but still not right, and the feet need to hit the split faster. Drive could be more aggressive at 50+."
+    "notes": "53kg. Better in the back leg, but not right yet — need to get into the split faster."
   },
   {
     "id": "v477",
