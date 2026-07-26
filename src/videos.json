@@ -1,5 +1,19 @@
 [
   {
+    "id": "v485",
+    "youtubeId": "XsI7pcCd-VA",
+    "vertical": true,
+    "title": "Behind-the-Neck Jerk (split), set 4",
+    "date": "2026-07-23",
+    "lift": "behind_neck_jerk",
+    "weight": 50,
+    "reps": 1,
+    "bodyweight": 82,
+    "tags": ["week-11-c2", "working-set", "cycle-2", "loc-altona", "split"],
+    "notes": "Single at 50 — consciously engaging the glute in the split, and it's better.",
+    "summary": "BTN jerk in split on Day 2 of week 11: three doubles then a single, all at 50. Back leg not dropping on the first two sets, so the rest of the session became a glute-engagement experiment — and on the last single, consciously switching the glute on made the split noticeably better."
+  },
+  {
     "id": "v484",
     "youtubeId": "1dgvDPiqIWM",
     "vertical": true,
@@ -10,8 +24,7 @@
     "reps": 2,
     "bodyweight": 82,
     "tags": ["week-11-c2", "working-set", "cycle-2", "loc-altona", "split"],
-    "notes": "Took a third double at 50 specifically to test the glute engagement in the split.",
-    "summary": "BTN jerk in split on Day 2 of week 11: three doubles at 50 — back leg not dropping on the first two, so the third was taken deliberately to test glute engagement in the split."
+    "notes": "Took a third double at 50 specifically to test the glute engagement in the split."
   },
   {
     "id": "v483",
