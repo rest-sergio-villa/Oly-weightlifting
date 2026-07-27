@@ -513,5 +513,26 @@
       "timeCap": "35:00"
     },
     "notes": "Finished in 35 minutes — right on the time cap."
+  },
+  "2026-07-22": {
+    "className": "CrossFit 3056",
+    "time": "6:00am",
+    "week": "week-11-c2",
+    "cycle": "cycle-2",
+    "location": "loc-brunswick",
+    "strength": [
+      {
+        "name": "1 Power Clean + 1 Front Squat + 1 Hang Squat Clean",
+        "scheme": "Every 1:30 x 6, building to moderate-heavy.",
+        "myWeight": "built in 2.5kg jumps to 60kg"
+      }
+    ],
+    "metcon": {
+      "format": "AMRAP 2:30 x 4 (rest 1:00)",
+      "details": "25 Air Squats\n10 Power Cleans (45kg)\n15 Air Squats\nMax Rep Power Cleans (55kg)",
+      "scoreType": "Reps",
+      "timeCap": "14:00"
+    },
+    "notes": "Complex built to 60kg in 2.5kg jumps — legs were cooked early on (day after Day 1), so couldn't hit full depth on the hang squat clean at the beginning. Metcon at 45/55kg, completed all four sets."
   }
 }
