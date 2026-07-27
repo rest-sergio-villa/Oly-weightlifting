@@ -534,5 +534,20 @@
       "timeCap": "14:00"
     },
     "notes": "Complex built to 60kg in 2.5kg jumps — legs were cooked early on (day after Day 1), so couldn't hit full depth on the hang squat clean at the beginning. Metcon at 45/55kg, completed all four sets."
+  },
+  "2026-07-24": {
+    "className": "CrossFit 3056",
+    "time": "6:00am",
+    "week": "week-11-c2",
+    "cycle": "cycle-2",
+    "location": "loc-brunswick",
+    "strength": [],
+    "metcon": {
+      "format": "Legacy Day — 5 Rounds For Time",
+      "details": "24/18 Cal Row\n20 Thrusters (40kg)\n16 Bar Facing Burpees",
+      "scoreType": "Time",
+      "timeCap": "28:00"
+    },
+    "notes": "Felt off — pacing was off, still learning how to pace the burpees, and 40kg on the thrusters was probably too heavy. Reached round 5 but only finished the row before the cap."
   }
 }
