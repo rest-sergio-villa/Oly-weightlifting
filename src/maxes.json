@@ -9,7 +9,10 @@
   },
   "clean_and_jerk": {
     "label": "Clean & Jerk",
-    "history": [{ "date": "2026-05-11", "kg": 60, "ref": true }]
+    "history": [
+      { "date": "2026-05-11", "kg": 60, "ref": true },
+      { "date": "2026-07-28", "kg": 65 }
+    ]
   },
   "push_press": {
     "label": "Push Press",
@@ -20,7 +23,10 @@
   },
   "snatch": {
     "label": "Snatch",
-    "history": [{ "date": "2026-04-20", "kg": 40 }]
+    "history": [
+      { "date": "2026-04-20", "kg": 40 },
+      { "date": "2026-07-28", "kg": 44 }
+    ]
   },
   "deadlift": {
     "label": "Deadlift",
