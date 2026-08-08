@@ -591,5 +591,20 @@
       "timeCap": "15:00"
     },
     "notes": "Dead-stop deadlifts at 100 — exactly the defined 80%. Finished the metcon; double unders subbed for 200 single unders per block."
+  },
+  "2026-08-01": {
+    "className": "CrossFit 3056",
+    "time": "8:30am",
+    "week": "week-12-c2",
+    "cycle": "cycle-2",
+    "location": "loc-brunswick",
+    "strength": [],
+    "metcon": {
+      "format": "Super Saturday — For Time",
+      "details": "3 Rounds:\n9 Hang Power Snatches (35kg)\n12 Pull-ups (subbed: jumping pull-ups)\n15 Back Rack Lunges (35kg)\nRest 2:00\n3 Rounds:\n15 Hang Power Snatches (30kg)\n12 Pull-ups (subbed: jumping pull-ups)\n9 Overhead Squats (30kg)",
+      "scoreType": "Time",
+      "timeCap": "22:00"
+    },
+    "notes": "35kg on part one, 30kg on part two — got to the last round before the cap. Form got really poor as it went; no kipping pull-ups yet, so subbed jumping pull-ups."
   }
 }
