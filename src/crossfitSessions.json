@@ -549,5 +549,26 @@
       "timeCap": "28:00"
     },
     "notes": "Felt off — pacing was off, still learning how to pace the burpees, and 40kg on the thrusters was probably too heavy. Reached round 5 but only finished the row before the cap."
+  },
+  "2026-07-29": {
+    "className": "CrossFit 3056",
+    "time": "evening",
+    "week": "week-12-c2",
+    "cycle": "cycle-2",
+    "location": "loc-brunswick",
+    "strength": [
+      {
+        "name": "Power: Row + 2 Power Clean + 1 Hang Power Clean",
+        "scheme": "Every 2:00 x 6 — 12/10 cal row, then the clean complex @ 30-40% of best deadlift. Time cap 12:00.",
+        "myWeight": "55kg"
+      }
+    ],
+    "metcon": {
+      "format": "10 Rounds For Time",
+      "details": "3 Shoulder to Overhead (50kg)\n5 Toes to Bar (scaled: leg raises)\n7 Burpees Over Bar",
+      "scoreType": "Time",
+      "timeCap": "15:00"
+    },
+    "notes": "Evening class the day after test day. Cleans at 55 in the power piece; metcon overhead at 50kg — 30 total shoulder-to-overhead reps at 83% of the push press 1RM — and finished under the cap. Toes to bar scaled to leg raises."
   }
 }
