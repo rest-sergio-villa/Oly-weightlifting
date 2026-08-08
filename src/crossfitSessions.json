@@ -621,5 +621,20 @@
       "timeCap": "36:00"
     },
     "notes": "Kettlebells at 12 and 12.5kg. Finished right on the 36:00 cap."
+  },
+  "2026-08-07": {
+    "className": "CrossFit 3056",
+    "time": "6:00am",
+    "week": "week-13-c2",
+    "cycle": "cycle-2",
+    "location": "loc-brunswick",
+    "strength": [],
+    "metcon": {
+      "format": "5 Rounds Not For Time",
+      "details": "750/500m Row / 1000-1600m Bike\n20 Wall Balls (subbed: KB swings @ 24kg)\n200m Carry of Choice (2 x 12kg — front rack & overhead)",
+      "scoreType": "Notes",
+      "timeCap": "30:00"
+    },
+    "notes": "Deload week class, kept deliberately easy. Wall balls subbed for kettlebell swings at 24kg to spare the knee; carries with double 12s, front rack and overhead. Plus the weighted deadbug midline piece."
   }
 }
