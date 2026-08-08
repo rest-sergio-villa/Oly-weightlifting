@@ -570,5 +570,26 @@
       "timeCap": "15:00"
     },
     "notes": "Evening class the day after test day. Cleans at 55 in the power piece; metcon overhead at 50kg — 30 total shoulder-to-overhead reps at 83% of the push press 1RM — and finished under the cap. Toes to bar scaled to leg raises."
+  },
+  "2026-07-31": {
+    "className": "CrossFit 3056",
+    "time": "6:00am",
+    "week": "week-12-c2",
+    "cycle": "cycle-2",
+    "location": "loc-brunswick",
+    "strength": [
+      {
+        "name": "Dead Stop Deadlift",
+        "scheme": "Every 2:00 x 5 — 2 dead-stop deadlifts @ 80%. Time cap 10:00.",
+        "myWeight": "100kg"
+      }
+    ],
+    "metcon": {
+      "format": "For Time",
+      "details": "150 Double Unders (subbed: 200 single unders)\n100 Air Squats\n100 Sit-ups\n150 Double Unders (subbed: 200 single unders)",
+      "scoreType": "Time",
+      "timeCap": "15:00"
+    },
+    "notes": "Dead-stop deadlifts at 100 — exactly the defined 80%. Finished the metcon; double unders subbed for 200 single unders per block."
   }
 }
