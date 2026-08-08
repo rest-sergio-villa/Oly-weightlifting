@@ -606,5 +606,20 @@
       "timeCap": "22:00"
     },
     "notes": "35kg on part one, 30kg on part two — got to the last round before the cap. Form got really poor as it went; no kipping pull-ups yet, so subbed jumping pull-ups."
+  },
+  "2026-08-02": {
+    "className": "CrossFit 3056",
+    "time": "9:00am",
+    "week": "week-12-c2",
+    "cycle": "cycle-2",
+    "location": "loc-brunswick",
+    "strength": [],
+    "metcon": {
+      "format": "3 Sets For Time",
+      "details": "2:00 Row / Bike\n1/1 Kettlebell Turkish Get-ups\n100m Single Arm Front Rack KB Carry\n2:00 Row / Bike\n20 Weighted Sit-ups\n100m Single Arm Overhead KB Carry",
+      "scoreType": "Time",
+      "timeCap": "36:00"
+    },
+    "notes": "Kettlebells at 12 and 12.5kg. Finished right on the 36:00 cap."
   }
 }
