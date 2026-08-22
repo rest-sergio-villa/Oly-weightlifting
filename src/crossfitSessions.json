@@ -651,5 +651,20 @@
       "timeCap": "34:00"
     },
     "notes": "Re-entry day closing the deload week. Broke it up as 9 sets of 10 of each movement with ~150m run segments. Snatches done as hang snatches at 20kg; toes to bar scaled to leg raises."
+  },
+  "2026-08-09": {
+    "className": "CrossFit 3056",
+    "time": "9:00am",
+    "week": "week-13-c2",
+    "cycle": "cycle-2",
+    "location": "loc-brunswick",
+    "strength": [],
+    "metcon": {
+      "format": "Every 5:00 x 6",
+      "details": "1600m Bike // 800m Row\n20 Ring Rows (dropped to 15 after two sets)\nLateral Box Step Overs in remaining time\nRest 1:00",
+      "scoreType": "Notes",
+      "timeCap": "30:00"
+    },
+    "notes": "First day of getting sick — intervals didn't feel okay. Dropped the ring rows from 20 to 15 after the first two sets; everything else held. Illness took over from here."
   }
 }
