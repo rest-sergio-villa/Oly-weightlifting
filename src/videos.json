@@ -1,5 +1,30 @@
 [
   {
+    "id": "v526",
+    "vertical": true,
+    "title": "Jerk, 5×2 @ 45kg",
+    "date": "2026-08-13",
+    "lift": "jerk",
+    "weight": 45,
+    "sets": 5,
+    "reps": 2,
+    "bodyweight": 80,
+    "tags": ["week-1-c3", "working-set", "split", "cycle-3", "loc-altona"],
+    "notes": "Five doubles at 45 (69%), as prescribed. Not recorded."
+  },
+  {
+    "id": "v525",
+    "vertical": true,
+    "title": "Above-Knee Hang Clean, 40 → 50kg",
+    "date": "2026-08-13",
+    "lift": "above_knee_hang_clean",
+    "weight": 50,
+    "reps": 3,
+    "bodyweight": 80,
+    "tags": ["week-1-c3", "working-set", "cycle-3", "loc-altona"],
+    "notes": "Triples up the prescribed ladder: 40, 43, 47, 50 (61-77%). As prescribed; not recorded."
+  },
+  {
     "id": "v524",
     "youtubeId": "cWrDxVBMkDM",
     "vertical": true,
