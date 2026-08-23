@@ -1,5 +1,66 @@
 [
   {
+    "id": "v533",
+    "vertical": true,
+    "title": "Barbell Strict Press, set 5",
+    "date": "2026-08-16",
+    "lift": "barbell_strict_press",
+    "weight": 35,
+    "reps": 5,
+    "bodyweight": 80,
+    "tags": ["week-1-c3", "working-set", "heavy", "cycle-3", "loc-brunswick"],
+    "notes": "35kg — the RPE 9 set. Not recorded.",
+    "summary": "First strict press RPE calibration of the block: 25 (RPE 7) → 28 (7.5) → 30 (8) → 33 (8.5) → 35 (RPE 9), all fives. These anchor the Day 3 pressing slot for the rest of the cycle."
+  },
+  {
+    "id": "v532",
+    "vertical": true,
+    "title": "Barbell Strict Press, set 4",
+    "date": "2026-08-16",
+    "lift": "barbell_strict_press",
+    "weight": 33,
+    "reps": 5,
+    "bodyweight": 80,
+    "tags": ["week-1-c3", "working-set", "cycle-3", "loc-brunswick"],
+    "notes": "33kg — the RPE 8.5 set. Not recorded."
+  },
+  {
+    "id": "v531",
+    "vertical": true,
+    "title": "Barbell Strict Press, set 3",
+    "date": "2026-08-16",
+    "lift": "barbell_strict_press",
+    "weight": 30,
+    "reps": 5,
+    "bodyweight": 80,
+    "tags": ["week-1-c3", "working-set", "cycle-3", "loc-brunswick"],
+    "notes": "30kg — the RPE 8 set. Not recorded."
+  },
+  {
+    "id": "v530",
+    "vertical": true,
+    "title": "Barbell Strict Press, set 2",
+    "date": "2026-08-16",
+    "lift": "barbell_strict_press",
+    "weight": 28,
+    "reps": 5,
+    "bodyweight": 80,
+    "tags": ["week-1-c3", "working-set", "cycle-3", "loc-brunswick"],
+    "notes": "28kg — the RPE 7.5 set. Not recorded."
+  },
+  {
+    "id": "v529",
+    "vertical": true,
+    "title": "Barbell Strict Press, set 1",
+    "date": "2026-08-16",
+    "lift": "barbell_strict_press",
+    "weight": 25,
+    "reps": 5,
+    "bodyweight": 80,
+    "tags": ["week-1-c3", "working-set", "cycle-3", "loc-brunswick"],
+    "notes": "25kg — the RPE 7 opener of the calibration ladder. Not recorded."
+  },
+  {
     "id": "v528",
     "vertical": true,
     "accessory": true,
