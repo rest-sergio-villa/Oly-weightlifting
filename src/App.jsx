@@ -43,6 +43,8 @@ const LIFT_LABELS = {
   bulgarian_split_squat: 'Bulgarian Split Squat',
   ssb_split_squat: 'SSB Split Squat',
   knee_raises: 'Knee Raises (Dip Bar)',
+  cossack_squat: 'Cossack Squat',
+  sunrise_situps: 'Sunrise Sit-ups',
   single_leg_glute_bridge: 'Single-Leg Glute Bridge',
   deadlift: 'Deadlift',
   bb_bent_over_row_supinated: 'BB Bent-Over Row, Supinated',
@@ -91,6 +93,8 @@ const LIFT_CATEGORIES = {
   bulgarian_split_squat: 'accessory',
   ssb_split_squat: 'squat_pull',
   knee_raises: 'accessory',
+  cossack_squat: 'accessory',
+  sunrise_situps: 'accessory',
   single_leg_glute_bridge: 'accessory',
   snatch_grip_rdl: 'accessory',
 };
