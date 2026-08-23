@@ -1,5 +1,18 @@
 [
   {
+    "id": "v524",
+    "youtubeId": "cWrDxVBMkDM",
+    "vertical": true,
+    "title": "Back Squat, 70kg × 8",
+    "date": "2026-08-13",
+    "lift": "back_squat",
+    "weight": 70,
+    "reps": 8,
+    "bodyweight": 80,
+    "tags": ["week-1-c3", "working-set", "cycle-3", "loc-altona"],
+    "notes": "From the 3 x 8 at 70 (70%). Rushing the reps — next cue: reset, brace, then go on every rep instead of bouncing straight into the next one."
+  },
+  {
     "id": "v523",
     "youtubeId": "WvLPDtGZTxU",
     "vertical": true,
