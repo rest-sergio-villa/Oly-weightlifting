@@ -1,5 +1,45 @@
 [
   {
+    "id": "v544",
+    "youtubeId": "zvYehbEe8jo",
+    "vertical": true,
+    "title": "Snatch-Grip RDL, set 3",
+    "date": "2026-08-16",
+    "lift": "snatch_grip_rdl",
+    "weight": 40,
+    "reps": 10,
+    "bodyweight": 80,
+    "tags": ["week-1-c3", "working-set", "cycle-3", "loc-brunswick"],
+    "notes": "40kg, third ten.",
+    "summary": "Snatch-grip RDLs 3 x 10 at 40 (prescribed 30 — went heavier). Feeling really good: lats engaged, back tension held all the way down until the hamstrings take over. To check with Seb whether that's the intended feel and load."
+  },
+  {
+    "id": "v543",
+    "youtubeId": "4CY4HNbSOgc",
+    "vertical": true,
+    "title": "Snatch-Grip RDL, set 2",
+    "date": "2026-08-16",
+    "lift": "snatch_grip_rdl",
+    "weight": 40,
+    "reps": 10,
+    "bodyweight": 80,
+    "tags": ["week-1-c3", "working-set", "cycle-3", "loc-brunswick"],
+    "notes": "40kg, second ten."
+  },
+  {
+    "id": "v542",
+    "youtubeId": "Z13a4qcxRRM",
+    "vertical": true,
+    "title": "Snatch-Grip RDL, set 1",
+    "date": "2026-08-16",
+    "lift": "snatch_grip_rdl",
+    "weight": 40,
+    "reps": 10,
+    "bodyweight": 80,
+    "tags": ["week-1-c3", "working-set", "cycle-3", "loc-brunswick"],
+    "notes": "40kg to open — lats engaged, back tension holding until the hamstrings load up."
+  },
+  {
     "id": "v541",
     "youtubeId": "POdJkZAUKVo",
     "vertical": true,
