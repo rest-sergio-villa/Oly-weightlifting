@@ -1,5 +1,17 @@
 [
   {
+    "id": "v523",
+    "youtubeId": "WvLPDtGZTxU",
+    "vertical": true,
+    "title": "Power Snatch + OHS @ 33kg",
+    "date": "2026-08-13",
+    "lift": "power_snatch_ohs",
+    "weight": 33,
+    "bodyweight": 80,
+    "tags": ["week-1-c3", "working-set", "complex", "cycle-3", "loc-altona"],
+    "notes": "Top set of the complex at 33 (75%) — the biggest issue is the chest facing downward in the catch, and Seb has called it out. Rest of the day's sets not recorded."
+  },
+  {
     "id": "v522",
     "vertical": true,
     "accessory": true,
