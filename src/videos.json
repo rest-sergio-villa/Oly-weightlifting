@@ -1,5 +1,18 @@
 [
   {
+    "id": "v512",
+    "youtubeId": "ZFVCNt24wZk",
+    "vertical": true,
+    "title": "Above-Knee Hang Snatch, set 1",
+    "date": "2026-08-11",
+    "lift": "above_knee_hang_snatch",
+    "weight": 30,
+    "reps": 3,
+    "bodyweight": 80,
+    "tags": ["week-1-c3", "working-set", "cycle-3", "loc-altona", "technique"],
+    "notes": "30kg from above the knee — speed under the bar has improved, but at this weight it should be faster still."
+  },
+  {
     "id": "v511",
     "youtubeId": "GkqHfoju_o8",
     "vertical": true,
