@@ -120,6 +120,18 @@
     "notes": "6 reps at RPE 7 — noticing the core should be bracing through the chin-ups too."
   },
   {
+    "id": "v545",
+    "vertical": true,
+    "accessory": true,
+    "title": "Chin-Ups, set 4",
+    "date": "2026-08-16",
+    "lift": "chin_ups",
+    "weight": 0,
+    "bodyweight": 80,
+    "tags": ["week-1-c3", "working-set", "cycle-3", "loc-brunswick"],
+    "notes": "Fourth set at RPE 7, bodyweight. Not recorded."
+  },
+  {
     "id": "v535",
     "youtubeId": "wPzjn3stmZE",
     "vertical": true,
