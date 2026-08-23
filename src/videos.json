@@ -1,5 +1,19 @@
 [
   {
+    "id": "v511",
+    "youtubeId": "GkqHfoju_o8",
+    "vertical": true,
+    "title": "Paused Overhead Squat, set 2",
+    "date": "2026-08-11",
+    "lift": "paused_overhead_squat",
+    "weight": 35,
+    "reps": 3,
+    "bodyweight": 80,
+    "tags": ["week-1-c3", "working-set", "cycle-3", "loc-altona", "lockout"],
+    "notes": "Second set at 35 — good balance, depth and lockout both okay this time.",
+    "summary": "First paused overhead squats of cycle 3 (3-sec bottom hold) at 35kg, done while still recovering from being sick. Depth is there from the start; the lockout was soft on set 1 (elbows visibly working) and tightened up by set 2."
+  },
+  {
     "id": "v510",
     "youtubeId": "-3W5rf6jkJc",
     "vertical": true,
