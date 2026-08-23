@@ -666,5 +666,26 @@
       "timeCap": "30:00"
     },
     "notes": "First day of getting sick — intervals didn't feel okay. Dropped the ring rows from 20 to 15 after the first two sets; everything else held. Illness took over from here."
+  },
+  "2026-08-14": {
+    "className": "CrossFit 3056",
+    "time": "6:00am",
+    "week": "week-1-c3",
+    "cycle": "cycle-3",
+    "location": "loc-brunswick",
+    "strength": [
+      {
+        "name": "Back Squat",
+        "scheme": "4 sets: 5-5-3-3, ascending, rest 2:00. Time cap 15:00.",
+        "myWeight": "50 → 60kg (kept light coming off illness)"
+      }
+    ],
+    "metcon": {
+      "format": "For Time",
+      "details": "40 Front Squats (40kg)\n30 Kettlebell Box Step Overs (20kg)\n40 Kettlebell Swings (20kg)\n30 Box Jump Overs, Step Down\n40 Burpee Over Bar",
+      "scoreType": "Time",
+      "timeCap": "16:00"
+    },
+    "notes": "First class back after the illness — felt good. Squats deliberately capped at 60 to not overdo it; front squats at 40, kettlebell at 20. Jumps and burpees both good, pace held throughout."
   }
 }
