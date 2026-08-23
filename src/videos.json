@@ -6,12 +6,12 @@
     "title": "Sunrise Sit-ups, 3×20",
     "date": "2026-08-14",
     "lift": "sunrise_situps",
-    "weight": 0,
+    "weight": 2.5,
     "sets": 3,
     "reps": 20,
     "bodyweight": 80,
     "tags": ["week-1-c3", "accessory", "cycle-3", "loc-brunswick"],
-    "notes": "Day 2 accessory moved to Friday — 3 x 20 @ RPE 8. Not recorded."
+    "notes": "Day 2 accessory moved to Friday — 3 x 20 @ 2.5kg (RPE 8). Not recorded."
   },
   {
     "id": "v527",
@@ -20,12 +20,12 @@
     "title": "Cossack Squats, 3×16",
     "date": "2026-08-14",
     "lift": "cossack_squat",
-    "weight": 0,
+    "weight": 5,
     "sets": 3,
     "reps": 16,
     "bodyweight": 80,
     "tags": ["week-1-c3", "accessory", "cycle-3", "loc-brunswick"],
-    "notes": "Day 2 accessory moved to Friday — 3 x 16 @ RPE 7. Not recorded."
+    "notes": "Day 2 accessory moved to Friday — 3 x 16 @ 5kg (RPE 7). Depth isn't good yet; will record next time to check it."
   },
   {
     "id": "v526",
