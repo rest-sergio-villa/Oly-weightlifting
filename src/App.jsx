@@ -52,6 +52,7 @@ const LIFT_LABELS = {
   snatch_grip_rdl: 'Snatch-Grip RDL',
   dips: 'Dips',
   pull_ups: 'Pull-Ups',
+  chin_ups: 'Chin-Ups',
 };
 
 // Movement family of each lift, for grouping chips in the Lift filter.
@@ -92,6 +93,7 @@ const LIFT_CATEGORIES = {
   bb_bent_over_row_supinated: 'squat_pull',
   dips: 'accessory',
   pull_ups: 'accessory',
+  chin_ups: 'accessory',
   bulgarian_split_squat: 'accessory',
   ssb_split_squat: 'squat_pull',
   knee_raises: 'accessory',
