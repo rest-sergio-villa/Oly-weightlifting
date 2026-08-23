@@ -702,5 +702,20 @@
       "timeCap": "22:00"
     },
     "notes": "3 rounds + 3 rounds. Went 40 then 45 on the shoulder-to-overhead — in hindsight 35/40 would have been the right call, six days into recovering from illness. Push-ups from the knees, ring dips on boxes. Frustrating one: these metcons bring the feeling of not progressing."
+  },
+  "2026-08-16": {
+    "className": "CrossFit 3056",
+    "time": "9:00am",
+    "week": "week-1-c3",
+    "cycle": "cycle-3",
+    "location": "loc-brunswick",
+    "strength": [],
+    "metcon": {
+      "format": "3 Sets, Not For Time",
+      "details": "3:00 Row / Bike / Ski\n20 Sit-ups\n2:00 Row / Bike / Ski\n15 Tuck-ups\n1:00 Row / Bike / Ski\n10 V-ups\nRest 1:00",
+      "scoreType": "Notes",
+      "timeCap": "30:00"
+    },
+    "notes": "Done alongside Day 3 of Seb's program (strict press RPE calibration). Plus the MacKenzie press accessory, 2 x 10 with 10s hold on the last rep."
   }
 }
