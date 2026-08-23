@@ -39,6 +39,8 @@ const LIFT_LABELS = {
   back_squat: 'Back Squat',
   paused_back_squat: 'Paused Back Squat',
   bulgarian_split_squat: 'Bulgarian Split Squat',
+  ssb_split_squat: 'SSB Split Squat',
+  knee_raises: 'Knee Raises (Dip Bar)',
   single_leg_glute_bridge: 'Single-Leg Glute Bridge',
   deadlift: 'Deadlift',
   bb_bent_over_row_supinated: 'BB Bent-Over Row, Supinated',
@@ -83,6 +85,8 @@ const LIFT_CATEGORIES = {
   dips: 'accessory',
   pull_ups: 'accessory',
   bulgarian_split_squat: 'accessory',
+  ssb_split_squat: 'squat_pull',
+  knee_raises: 'accessory',
   single_leg_glute_bridge: 'accessory',
   snatch_grip_rdl: 'accessory',
 };

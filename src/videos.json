@@ -1,5 +1,45 @@
 [
   {
+    "id": "v522",
+    "vertical": true,
+    "accessory": true,
+    "title": "Knee Raises (Dip Bar), 3 × AMRAP",
+    "date": "2026-08-11",
+    "lift": "knee_raises",
+    "weight": 0,
+    "sets": 3,
+    "bodyweight": 80,
+    "tags": ["week-1-c3", "accessory", "cycle-3", "loc-altona"],
+    "notes": "Knee raises subbed for the prescribed leg raises — 3 sets of max reps, superset with the dips. Not recorded."
+  },
+  {
+    "id": "v521",
+    "vertical": true,
+    "accessory": true,
+    "title": "Dips (banded), 3×5",
+    "date": "2026-08-11",
+    "lift": "dips",
+    "weight": 0,
+    "sets": 3,
+    "reps": 5,
+    "bodyweight": 80,
+    "tags": ["week-1-c3", "accessory", "cycle-3", "loc-altona"],
+    "notes": "3 x 5 with band assistance, superset with knee raises. Not recorded."
+  },
+  {
+    "id": "v520",
+    "vertical": true,
+    "title": "SSB Split Squat, 3×8/side @ 70kg",
+    "date": "2026-08-11",
+    "lift": "ssb_split_squat",
+    "weight": 70,
+    "sets": 3,
+    "reps": 8,
+    "bodyweight": 80,
+    "tags": ["week-1-c3", "working-set", "split", "cycle-3", "loc-altona"],
+    "notes": "First SSB split squats of the block — 3 x 8 each side at 70kg (prescribed RPE 7). Not recorded."
+  },
+  {
     "id": "v519",
     "youtubeId": "QVtinjG7Xi4",
     "vertical": true,
