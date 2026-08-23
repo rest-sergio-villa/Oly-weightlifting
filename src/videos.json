@@ -1,5 +1,33 @@
 [
   {
+    "id": "v535",
+    "youtubeId": "wPzjn3stmZE",
+    "vertical": true,
+    "accessory": true,
+    "title": "Chin-Ups, set 2",
+    "date": "2026-08-16",
+    "lift": "chin_ups",
+    "weight": 0,
+    "reps": 4,
+    "bodyweight": 80,
+    "tags": ["week-1-c3", "working-set", "cycle-3", "loc-brunswick"],
+    "notes": "4 reps at RPE 7, bodyweight."
+  },
+  {
+    "id": "v534",
+    "youtubeId": "vHGC6NsDD1E",
+    "vertical": true,
+    "accessory": true,
+    "title": "Chin-Ups, set 1",
+    "date": "2026-08-16",
+    "lift": "chin_ups",
+    "weight": 0,
+    "reps": 5,
+    "bodyweight": 80,
+    "tags": ["week-1-c3", "working-set", "cycle-3", "loc-brunswick"],
+    "notes": "5 reps at RPE 7, bodyweight (prescribed 4 x 5-7, add weight if possible)."
+  },
+  {
     "id": "v533",
     "vertical": true,
     "title": "Barbell Strict Press, set 5",
