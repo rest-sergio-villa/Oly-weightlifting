@@ -25,7 +25,14 @@ Seb via WhatsApp at the end of the week.
 ## Daily log
 
 ### Tue 25 Aug — Day 1 (Oly Day 1 evening)
-*(pending)*
+
+| Item | kcal | P | C | F |
+|---|---|---|---|---|
+| Coffee: 125ml barista oat milk + 1 shot | 75 | 1 | 9 | 4 |
+| Breakfast smoothie: 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens | 600 | 38 | 90 | 9 |
+| **Running total** | **675** | **39** | **99** | **13** |
+
+*(liquid base of smoothie TBC — almond milk or water?)*
 
 ### Wed 26 Aug — 6am class
 *(pending)*
