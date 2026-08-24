@@ -29,8 +29,8 @@ Seb via WhatsApp at the end of the week.
 | Item | kcal | P | C | F |
 |---|---|---|---|---|
 | Coffee: 125ml barista oat milk + 1 shot | 75 | 1 | 9 | 4 |
-| Breakfast smoothie: 400ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens | 640 | 39 | 91 | 12 |
-| **Running total** | **715** | **40** | **100** | **16** |
+| Breakfast smoothie: 300ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens | 630 | 39 | 91 | 11 |
+| **Running total** | **705** | **40** | **100** | **15** |
 
 ### Wed 26 Aug — 6am class
 *(pending)*
