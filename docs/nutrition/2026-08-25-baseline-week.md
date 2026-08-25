@@ -49,7 +49,8 @@ normal", leaning into the carb push.
 | Pre-workout, caffeine-free (10g boost blend) | 25 | 5 | 0 | 0 | 0 |
 | INTRA-TRAINING: Gatorade, 2 scoops in 750ml | 130 | 0 | 30 | 0 | 0 |
 | POST-TRAINING: WPI shake (25g) + purée pouch | 170 | 24 | 14 | 1 | 2 |
-| **Running total** | **2119** | **175** | **264** | **25** | **37** |
+| Dinner: F4F BBQ honey chicken, basmati rice & beans (label, 350g) | 453 | 49 | 44 | 8 | 5 |
+| **Running total** | **2572** | **224** | **308** | **33** | **42** |
 
 **Fluids:** 750ml (PW#1) + 750ml (plain) + 375ml (yerba mate) + 750ml (plain) + 750ml (PW#2) + 750ml (Gatorade) = **4.1L so far**
 
