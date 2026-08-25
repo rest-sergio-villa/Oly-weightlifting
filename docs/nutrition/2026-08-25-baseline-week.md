@@ -44,9 +44,10 @@ normal", leaning into the carb push.
 | Lunch: F4F chicken meal (label: 617 kcal, chicken/wrap/beans chipotle) | 617 | 63 | 50 | 9 | 8 |
 | Grapes ×5 | 17 | 0 | 4 | 0 | 0 |
 | Yerba mate sparkling can, 375ml (70mg caffeine) | 10 | 0 | 2 | 0 | 1 |
-| **Running total** | **1529** | **124** | **179** | **24** | **30** |
+| Protein water #2: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
+| **Running total** | **1624** | **144** | **180** | **24** | **30** |
 
-**Fluids:** 750ml (protein water) + 750ml (plain) + 375ml (yerba mate) + 750ml (plain) = **2.6L so far**
+**Fluids:** 750ml (PW#1) + 750ml (plain) + 375ml (yerba mate) + 750ml (plain) + 750ml (PW#2) = **3.4L so far**
 
 ### Wed 26 Aug — 6am class
 *(pending)*
