@@ -54,6 +54,11 @@ normal", leaning into the carb push.
 
 **Fluids:** 750ml (PW#1) + 750ml (plain) + 375ml (yerba mate) + 750ml (plain) + 750ml (PW#2) + 750ml (Gatorade) = **4.1L so far**
 
+**Session note (first fully-fuelled session):** Energy levels were fine throughout —
+no crash — but strength felt down; a challenging session strength-wise (consistent
+with two weeks of illness, not fuelling). Post-session dip was caught by the purée
+pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI issues.
+
 ### Wed 26 Aug — 6am class
 *(pending)*
 
