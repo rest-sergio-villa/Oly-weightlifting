@@ -47,10 +47,11 @@ normal", leaning into the carb push.
 | Protein water #2: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
 | PRE-TRAINING (40 min out): banana + purée pouch | 170 | 2 | 40 | 0 | 5 |
 | Pre-workout, caffeine-free (10g boost blend) | 25 | 5 | 0 | 0 | 0 |
+| INTRA-TRAINING: Gatorade, 2 scoops in 750ml | 130 | 0 | 30 | 0 | 0 |
 | POST-TRAINING: WPI shake (25g) + purée pouch | 170 | 24 | 14 | 1 | 2 |
-| **Running total** | **1989** | **175** | **234** | **25** | **37** |
+| **Running total** | **2119** | **175** | **264** | **25** | **37** |
 
-**Fluids:** 750ml (PW#1) + 750ml (plain) + 375ml (yerba mate) + 750ml (plain) + 750ml (PW#2) = **3.4L so far**
+**Fluids:** 750ml (PW#1) + 750ml (plain) + 375ml (yerba mate) + 750ml (plain) + 750ml (PW#2) + 750ml (Gatorade) = **4.1L so far**
 
 ### Wed 26 Aug — 6am class
 *(pending)*
