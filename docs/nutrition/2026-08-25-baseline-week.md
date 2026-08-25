@@ -45,7 +45,8 @@ normal", leaning into the carb push.
 | Grapes ×5 | 17 | 0 | 4 | 0 | 0 |
 | Yerba mate sparkling can, 375ml (70mg caffeine) | 10 | 0 | 2 | 0 | 1 |
 | Protein water #2: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
-| **Running total** | **1624** | **144** | **180** | **24** | **30** |
+| PRE-TRAINING (40 min out): banana + purée pouch | 170 | 2 | 40 | 0 | 5 |
+| **Running total** | **1794** | **146** | **220** | **24** | **35** |
 
 **Fluids:** 750ml (PW#1) + 750ml (plain) + 375ml (yerba mate) + 750ml (plain) + 750ml (PW#2) = **3.4L so far**
 
