@@ -8,6 +8,11 @@ Seb via WhatsApp at the end of the week.
 Fluid intake tracked per day alongside the food (counts all drinks, including
 the protein waters and intra-training Gatorade).
 
+Note for Seb: this week's Food4Fitness order is deliberately the higher-carb
+meal variants (~617 kcal / 63P / 50C per label) rather than the usual lower-carb
+ones (~450 / 35 / 25 est.) — a small intentional deviation from "baseline as
+normal", leaning into the carb push.
+
 ## Standard items (estimates used throughout)
 
 | Item | kcal | P | C | F |
