@@ -13,7 +13,7 @@ the protein waters and intra-training Gatorade).
 | Item | kcal | P | C | F |
 |---|---|---|---|---|
 | Breakfast oats bowl (400ml unsw. almond milk, 80g oats, banana, 25g WPI, greens) | ~600 | 36 | 85 | 11 |
-| Food4Fitness chicken meal | ~450 | 35 | 25 | 15 |
+| Food4Fitness chicken meal — label values (chicken burrito-style meal) | 617 | 63 | 50 | 9 |
 | Karaage skewers ×2 | ~280 | 18 | 14 | 16 |
 | Protein water (25g Bulk Nutrients collagen/WPI blend, 750ml) — label values | 95 | 20 | 1 | 0 |
 | Post-training WPI shake (25g) | ~105 | 24 | 1 | 1 |
@@ -35,7 +35,9 @@ the protein waters and intra-training Gatorade).
 | Breakfast smoothie: 300ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens | 630 | 39 | 91 | 11 |
 | Protein water #1: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 |
 | Pear (small–medium) | 85 | 1 | 22 | 0 |
-| **Running total** | **885** | **61** | **123** | **15** |
+| Lunch: F4F chicken meal (label: 617 kcal, chicken/wrap/beans chipotle) | 617 | 63 | 50 | 9 |
+| Grapes ×5 | 17 | 0 | 4 | 0 |
+| **Running total** | **1519** | **124** | **177** | **24** |
 
 **Fluids:** 750ml (protein water) + 750ml (plain) = **1.5L so far**
 
