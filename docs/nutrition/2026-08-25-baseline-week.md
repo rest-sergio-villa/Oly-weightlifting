@@ -67,9 +67,10 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 | PRE-CLASS (45 min out): purée pouch + banana | 170 | 2 | 40 | 0 | 5 |
 | Pre-workout, caffeinated (8.3g high-stim: 199mg caffeine) | 25 | 4 | 0 | 0 | 0 |
 | Post-class coffee: regular oat milk latte (barista), 1 shot | 140 | 2 | 15 | 7 | 1 |
-| **Running total** | **335** | **8** | **55** | **7** | **6** |
+| Breakfast smoothie: 350ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens | 635 | 39 | 91 | 12 | 15 |
+| **Running total** | **970** | **47** | **146** | **19** | **21** |
 
-**Fluids:** 250ml (coffee)
+**Fluids:** 250ml (coffee) + 350ml (smoothie) = 600ml
 
 ### Thu 27 Aug — Oly Day 2 evening
 *(pending)*
