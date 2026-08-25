@@ -5,6 +5,9 @@ everything including weekends, rough estimates fine, no rounding down, base diet
 unchanged EXCEPT adding pre/intra/post-training carbs. Compiled summary goes to
 Seb via WhatsApp at the end of the week.
 
+Fluid intake tracked per day alongside the food (counts all drinks, including
+the protein waters and intra-training Gatorade).
+
 ## Standard items (estimates used throughout)
 
 | Item | kcal | P | C | F |
@@ -34,6 +37,8 @@ Seb via WhatsApp at the end of the week.
 | Pear (small–medium) | 85 | 1 | 22 | 0 |
 | **Running total** | **885** | **61** | **123** | **15** |
 
+**Fluids:** 750ml (protein water) + 750ml (plain) = **1.5L so far**
+
 ### Wed 26 Aug — 6am class
 *(pending)*
 
@@ -53,4 +58,4 @@ Seb via WhatsApp at the end of the week.
 *(pending)*
 
 ## Week summary (for Seb)
-*(compiled at end of week: daily kcal/P/C/F, 7-day averages, training-window carbs adherence)*
+*(compiled at end of week: daily kcal/P/C/F, daily fluids, 7-day averages, training-window carbs adherence)*
