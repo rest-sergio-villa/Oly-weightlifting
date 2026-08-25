@@ -61,7 +61,13 @@ with two weeks of illness, not fuelling). Post-session dip was caught by the pur
 pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI issues.
 
 ### Wed 26 Aug — 6am class
-*(pending)*
+
+| Item | kcal | P | C | F | Fibre |
+|---|---|---|---|---|---|
+| PRE-CLASS (45 min out): purée pouch + banana | 170 | 2 | 40 | 0 | 5 |
+| **Running total** | **170** | **2** | **40** | **0** | **5** |
+
+**Fluids:** —
 
 ### Thu 27 Aug — Oly Day 2 evening
 *(pending)*
