@@ -50,7 +50,8 @@ normal", leaning into the carb push.
 | INTRA-TRAINING: Gatorade, 2 scoops in 750ml | 130 | 0 | 30 | 0 | 0 |
 | POST-TRAINING: WPI shake (25g) + purée pouch | 170 | 24 | 14 | 1 | 2 |
 | Dinner: F4F BBQ honey chicken, basmati rice & beans (label, 350g) | 453 | 49 | 44 | 8 | 5 |
-| **Running total** | **2572** | **224** | **308** | **33** | **42** |
+| Night stack: psyllium husk 6g (~3.4g fibre) + 2 sleep tablets (valerian/ziziphus/hops, 150mg Mg) + 2 Mg glycinate caps (180mg Mg) | 15 | 0 | 1 | 0 | 3 |
+| **DAY TOTAL** | **2587** | **224** | **309** | **33** | **45** |
 
 **Fluids:** 750ml (PW#1) + 750ml (plain) + 375ml (yerba mate) + 750ml (plain) + 750ml (PW#2) + 750ml (Gatorade) = **4.1L so far**
 
