@@ -42,9 +42,10 @@ normal", leaning into the carb push.
 | Pear (small–medium) | 85 | 1 | 22 | 0 |
 | Lunch: F4F chicken meal (label: 617 kcal, chicken/wrap/beans chipotle) | 617 | 63 | 50 | 9 |
 | Grapes ×5 | 17 | 0 | 4 | 0 |
-| **Running total** | **1519** | **124** | **177** | **24** |
+| Yerba mate sparkling can, 375ml (70mg caffeine) | 10 | 0 | 2 | 0 |
+| **Running total** | **1529** | **124** | **179** | **24** |
 
-**Fluids:** 750ml (protein water) + 750ml (plain) = **1.5L so far**
+**Fluids:** 750ml (protein water) + 750ml (plain) + 375ml (yerba mate) = **1.9L so far**
 
 ### Wed 26 Aug — 6am class
 *(pending)*
