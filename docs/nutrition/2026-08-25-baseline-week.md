@@ -6,7 +6,8 @@ unchanged EXCEPT adding pre/intra/post-training carbs. Compiled summary goes to
 Seb via WhatsApp at the end of the week.
 
 Fluid intake tracked per day alongside the food (counts all drinks, including
-the protein waters and intra-training Gatorade).
+the protein waters and intra-training Gatorade). Fibre tracked per item —
+Seb's directional target is 30–35g/day.
 
 Note for Seb: this week's Food4Fitness order is deliberately the higher-carb
 meal variants (~617 kcal / 63P / 50C per label) rather than the usual lower-carb
@@ -34,18 +35,18 @@ normal", leaning into the carb push.
 
 ### Tue 25 Aug — Day 1 (Oly Day 1 evening)
 
-| Item | kcal | P | C | F |
-|---|---|---|---|---|
-| Coffee: 125ml barista oat milk + 1 shot | 75 | 1 | 9 | 4 |
-| Breakfast smoothie: 300ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens | 630 | 39 | 91 | 11 |
-| Protein water #1: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 |
-| Pear (small–medium) | 85 | 1 | 22 | 0 |
-| Lunch: F4F chicken meal (label: 617 kcal, chicken/wrap/beans chipotle) | 617 | 63 | 50 | 9 |
-| Grapes ×5 | 17 | 0 | 4 | 0 |
-| Yerba mate sparkling can, 375ml (70mg caffeine) | 10 | 0 | 2 | 0 |
-| **Running total** | **1529** | **124** | **179** | **24** |
+| Item | kcal | P | C | F | Fibre |
+|---|---|---|---|---|---|
+| Coffee: 125ml barista oat milk + 1 shot | 75 | 1 | 9 | 4 | 1 |
+| Breakfast smoothie: 300ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens | 630 | 39 | 91 | 11 | 15 |
+| Protein water #1: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
+| Pear (small–medium) | 85 | 1 | 22 | 0 | 5 |
+| Lunch: F4F chicken meal (label: 617 kcal, chicken/wrap/beans chipotle) | 617 | 63 | 50 | 9 | 8 |
+| Grapes ×5 | 17 | 0 | 4 | 0 | 0 |
+| Yerba mate sparkling can, 375ml (70mg caffeine) | 10 | 0 | 2 | 0 | 1 |
+| **Running total** | **1529** | **124** | **179** | **24** | **30** |
 
-**Fluids:** 750ml (protein water) + 750ml (plain) + 375ml (yerba mate) = **1.9L so far**
+**Fluids:** 750ml (protein water) + 750ml (plain) + 375ml (yerba mate) + 750ml (plain) = **2.6L so far**
 
 ### Wed 26 Aug — 6am class
 *(pending)*
