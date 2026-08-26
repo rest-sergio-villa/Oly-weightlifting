@@ -70,9 +70,10 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 | Breakfast smoothie: 350ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens | 635 | 39 | 91 | 12 | 15 |
 | Lunch: F4F honey soy chicken thigh + basmati rice (label, 565 kcal) | 565 | 47 | 53 | 15 | 3 |
 | Café deli sandwich, HALF: ham/salami, cheese, spinach, relish on white (photo est.) | 240 | 11 | 23 | 11 | 2 |
-| **Running total** | **1775** | **105** | **222** | **45** | **26** |
+| Protein water #1: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
+| **Running total** | **1870** | **125** | **223** | **45** | **26** |
 
-**Fluids:** 250ml (coffee) + 350ml (smoothie) = 600ml
+**Fluids:** 250ml (coffee) + 350ml (smoothie) + 750ml (PW#1) = 1.35L
 
 ### Thu 27 Aug — Oly Day 2 evening
 *(pending)*
