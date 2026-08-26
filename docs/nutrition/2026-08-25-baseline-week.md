@@ -71,9 +71,10 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 | Lunch: F4F honey soy chicken thigh + basmati rice (label, 565 kcal) | 565 | 47 | 53 | 15 | 3 |
 | Café deli sandwich, HALF: ham/salami, cheese, spinach, relish on white (photo est.) | 240 | 11 | 23 | 11 | 2 |
 | Protein water #1: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
-| **Running total** | **1870** | **125** | **223** | **45** | **26** |
+| Oat flat white, half-strength shot (9:30am, backfilled) | 140 | 2 | 15 | 7 | 1 |
+| **Running total** | **2010** | **127** | **238** | **52** | **27** |
 
-**Fluids:** 250ml (coffee) + 350ml (smoothie) + 750ml (plain, 11am) + 750ml (PW#1) = 2.1L
+**Fluids:** 250ml (coffee) + 250ml (flat white, 9:30) + 350ml (smoothie) + 750ml (plain, 11am) + 750ml (PW#1) = 2.35L
 
 ### Thu 27 Aug — Oly Day 2 evening
 *(pending)*
