@@ -74,7 +74,8 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 | Oat flat white, half-strength shot (9:30am, backfilled) | 140 | 2 | 15 | 7 | 1 |
 | Half Glick's everything bagel | 145 | 5 | 27 | 2 | 1 |
 | Frozen mixed vegetables, 175g (Birds Eye — label) | 70 | 4 | 10 | 1 | 5 |
-| **Running total** | **2225** | **136** | **275** | **55** | **33** |
+| Dinner: F4F chicken thigh stir-fry, basmati + cashews (label, 522 kcal) | 522 | 31 | 61 | 17 | 4 |
+| **Running total** | **2747** | **167** | **336** | **72** | **37** |
 
 **Fluids:** 250ml (coffee) + 250ml (flat white, 9:30) + 350ml (smoothie) + 750ml (plain, 11am) + 750ml (PW#1) = 2.35L
 
