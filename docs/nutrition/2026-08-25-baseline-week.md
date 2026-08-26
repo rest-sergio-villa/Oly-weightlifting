@@ -76,7 +76,8 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 | Frozen mixed vegetables, 175g (Birds Eye — label) | 70 | 4 | 10 | 1 | 5 |
 | Dinner: F4F chicken thigh stir-fry, basmati + cashews (label, 522 kcal) | 522 | 31 | 61 | 17 | 4 |
 | Protein water #2: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
-| **Running total** | **2842** | **187** | **337** | **72** | **37** |
+| Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate | 15 | 0 | 1 | 0 | 3 |
+| **DAY TOTAL** | **2857** | **187** | **338** | **72** | **40** |
 
 **Fluids:** 250ml (coffee) + 250ml (flat white, 9:30) + 350ml (smoothie) + 750ml (plain, 11am) + 750ml (PW#1) + 750ml (PW#2) = 3.1L
 
