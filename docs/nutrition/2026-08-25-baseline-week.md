@@ -75,9 +75,10 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 | Half Glick's everything bagel | 145 | 5 | 27 | 2 | 1 |
 | Frozen mixed vegetables, 175g (Birds Eye — label) | 70 | 4 | 10 | 1 | 5 |
 | Dinner: F4F chicken thigh stir-fry, basmati + cashews (label, 522 kcal) | 522 | 31 | 61 | 17 | 4 |
-| **Running total** | **2747** | **167** | **336** | **72** | **37** |
+| Protein water #2: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
+| **Running total** | **2842** | **187** | **337** | **72** | **37** |
 
-**Fluids:** 250ml (coffee) + 250ml (flat white, 9:30) + 350ml (smoothie) + 750ml (plain, 11am) + 750ml (PW#1) = 2.35L
+**Fluids:** 250ml (coffee) + 250ml (flat white, 9:30) + 350ml (smoothie) + 750ml (plain, 11am) + 750ml (PW#1) + 750ml (PW#2) = 3.1L
 
 ### Thu 27 Aug — Oly Day 2 evening
 *(pending)*
