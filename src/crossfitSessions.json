@@ -703,6 +703,26 @@
     },
     "notes": "3 rounds + 3 rounds. Went 40 then 45 on the shoulder-to-overhead — in hindsight 35/40 would have been the right call, six days into recovering from illness. Push-ups from the knees, ring dips on boxes. Frustrating one: these metcons bring the feeling of not progressing."
   },
+  "2026-08-26": {
+    "className": "CrossFit 3056",
+    "time": "6:00am",
+    "week": "week-3-c3",
+    "cycle": "cycle-3",
+    "location": "loc-brunswick",
+    "strength": [
+      {
+        "name": "Band Resisted Body Rows",
+        "scheme": "5 x 5-7, make this hard. Rest 1:00-1:30. Time cap 12:00."
+      }
+    ],
+    "metcon": {
+      "format": "3 Rounds For Time",
+      "details": "15 Shoulder to Overhead (40kg)\n9 Burpee Pull-ups\n6 Hang Power Cleans (40kg)",
+      "scoreType": "Time",
+      "timeCap": "12:00"
+    },
+    "notes": "First fuelled 6am class (pouch + banana 45 min before). Felt definitely different — more focus, and didn't end destroyed. Barbell at 40kg — start of a deliberate policy: scale CrossFit weights down so classes don't impact the Oly days."
+  },
   "2026-08-16": {
     "className": "CrossFit 3056",
     "time": "9:00am",
