@@ -68,7 +68,8 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 | Pre-workout, caffeinated (8.3g high-stim: 199mg caffeine) | 25 | 4 | 0 | 0 | 0 |
 | Post-class coffee: regular oat milk latte (barista), 1 shot | 140 | 2 | 15 | 7 | 1 |
 | Breakfast smoothie: 350ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens | 635 | 39 | 91 | 12 | 15 |
-| **Running total** | **970** | **47** | **146** | **19** | **21** |
+| Lunch: F4F honey soy chicken thigh + basmati rice (label, 565 kcal) | 565 | 47 | 53 | 15 | 3 |
+| **Running total** | **1535** | **94** | **199** | **34** | **24** |
 
 **Fluids:** 250ml (coffee) + 350ml (smoothie) = 600ml
 
