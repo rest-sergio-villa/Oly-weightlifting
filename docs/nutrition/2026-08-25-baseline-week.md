@@ -88,9 +88,10 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 | Breakfast smoothie: 350ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens | 635 | 39 | 91 | 12 | 15 |
 | Protein water #1: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
 | Lunch out: meatball bowl combo — 5 meatballs in sugo + garlic bread + SP Limonata (menu est.) | 860 | 35 | 80 | 42 | 4 |
-| **Running total** | **1590** | **94** | **172** | **54** | **19** |
+| Coke Zero, 375ml can (~32mg caffeine) | 1 | 0 | 0 | 0 | 0 |
+| **Running total** | **1591** | **94** | **172** | **54** | **19** |
 
-**Fluids:** 350ml (smoothie) + 750ml (PW#1) + 750ml (plain) + 330ml (Limonata) = 2.2L
+**Fluids:** 350ml (smoothie) + 750ml (PW#1) + 750ml (plain) + 330ml (Limonata) + 375ml (Coke Zero) = 2.6L
 
 ### Fri 28 Aug — 6am class
 *(pending)*
