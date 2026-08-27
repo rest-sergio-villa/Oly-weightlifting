@@ -82,7 +82,13 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 **Fluids:** 250ml (coffee) + 250ml (flat white, 9:30) + 350ml (smoothie) + 750ml (plain, 11am) + 750ml (PW#1) + 750ml (PW#2) = 3.1L
 
 ### Thu 27 Aug — Oly Day 2 evening
-*(pending)*
+
+| Item | kcal | P | C | F | Fibre |
+|---|---|---|---|---|---|
+| Protein water #1: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
+| **Running total** | **95** | **20** | **1** | **0** | **0** |
+
+**Fluids:** 750ml (PW#1) + 750ml (plain) = 1.5L
 
 ### Fri 28 Aug — 6am class
 *(pending)*
