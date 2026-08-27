@@ -86,9 +86,10 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 | Item | kcal | P | C | F | Fibre |
 |---|---|---|---|---|---|
 | Protein water #1: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
-| **Running total** | **95** | **20** | **1** | **0** | **0** |
+| Lunch out: meatball bowl combo — 5 meatballs in sugo + garlic bread + SP Limonata (menu est.) | 860 | 35 | 80 | 42 | 4 |
+| **Running total** | **955** | **55** | **81** | **42** | **4** |
 
-**Fluids:** 750ml (PW#1) + 750ml (plain) = 1.5L
+**Fluids:** 750ml (PW#1) + 750ml (plain) + 330ml (Limonata) = 1.8L
 
 ### Fri 28 Aug — 6am class
 *(pending)*
