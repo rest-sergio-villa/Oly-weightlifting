@@ -94,8 +94,9 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 | INTRA-TRAINING: Gatorade, 2 scoops in 750ml | 130 | 0 | 30 | 0 | 0 |
 | POST-TRAINING: WPI shake (25g) + purée pouch | 170 | 24 | 14 | 1 | 2 |
 | Dinner: F4F chicken laksa w/ vermicelli (label, 507 kcal) | 507 | 29 | 40 | 22 | 3 |
+| Frozen mixed vegetables, 100g (with dinner) | 41 | 2 | 6 | 0 | 3 |
 | Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate | 15 | 0 | 1 | 0 | 3 |
-| **DAY TOTAL** | **2663** | **149** | **318** | **77** | **36** |
+| **DAY TOTAL** | **2704** | **151** | **324** | **77** | **39** |
 
 **Fluids:** 350ml (smoothie) + 750ml (PW#1) + 750ml (plain) + 330ml (Limonata) + 375ml (Coke Zero) + 750ml (Gatorade) = 3.3L
 
