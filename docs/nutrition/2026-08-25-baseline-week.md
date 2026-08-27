@@ -90,7 +90,8 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 | Lunch out: meatball bowl combo — 5 meatballs in sugo + garlic bread + SP Limonata (menu est.) | 860 | 35 | 80 | 42 | 4 |
 | Coke Zero, 375ml can (~32mg caffeine) | 1 | 0 | 0 | 0 | 0 |
 | Granny Smith apple | 80 | 0 | 21 | 0 | 4 |
-| **Running total** | **1671** | **94** | **193** | **54** | **23** |
+| PRE-TRAINING (40 min out): banana + purée pouch | 170 | 2 | 40 | 0 | 5 |
+| **Running total** | **1841** | **96** | **233** | **54** | **28** |
 
 **Fluids:** 350ml (smoothie) + 750ml (PW#1) + 750ml (plain) + 330ml (Limonata) + 375ml (Coke Zero) = 2.6L
 
