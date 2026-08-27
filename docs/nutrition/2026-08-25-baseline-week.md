@@ -91,9 +91,12 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 | Coke Zero, 375ml can (~32mg caffeine) | 1 | 0 | 0 | 0 | 0 |
 | Granny Smith apple | 80 | 0 | 21 | 0 | 4 |
 | PRE-TRAINING (40 min out): banana + purée pouch | 170 | 2 | 40 | 0 | 5 |
-| **Running total** | **1841** | **96** | **233** | **54** | **28** |
+| INTRA-TRAINING: Gatorade, 2 scoops in 750ml | 130 | 0 | 30 | 0 | 0 |
+| POST-TRAINING: WPI shake (25g) + purée pouch | 170 | 24 | 14 | 1 | 2 |
+| Dinner: F4F chicken laksa w/ vermicelli (label, 507 kcal) | 507 | 29 | 40 | 22 | 3 |
+| **Running total** | **2648** | **149** | **317** | **77** | **33** |
 
-**Fluids:** 350ml (smoothie) + 750ml (PW#1) + 750ml (plain) + 330ml (Limonata) + 375ml (Coke Zero) = 2.6L
+**Fluids:** 350ml (smoothie) + 750ml (PW#1) + 750ml (plain) + 330ml (Limonata) + 375ml (Coke Zero) + 750ml (Gatorade) = 3.3L
 
 ### Fri 28 Aug — 6am class
 *(pending)*
