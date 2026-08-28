@@ -101,7 +101,14 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 **Fluids:** 350ml (smoothie) + 750ml (PW#1) + 750ml (plain) + 330ml (Limonata) + 375ml (Coke Zero) + 750ml (Gatorade) = 3.3L
 
 ### Fri 28 Aug — 6am class
-*(pending)*
+
+| Item | kcal | P | C | F | Fibre |
+|---|---|---|---|---|---|
+| PRE-CLASS: purée pouch + banana | 170 | 2 | 40 | 0 | 5 |
+| Breakfast smoothie right after class: 350ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens | 635 | 39 | 91 | 12 | 15 |
+| **Running total** | **805** | **41** | **131** | **12** | **20** |
+
+**Fluids:** 350ml (smoothie)
 
 ### Sat 29 Aug
 *(pending)*
