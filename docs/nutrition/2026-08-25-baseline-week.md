@@ -114,8 +114,8 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 | Granny Smith apple | 80 | 0 | 21 | 0 | 4 |
 | Protein water #2: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
 | Dinner: F4F meal (label, 350g: 505 kcal / 55.1P / 48.2C / 10.7F) | 505 | 55 | 48 | 11 | 4 |
-| Turkish pide bread (Alasya), 136g (weighed) | 360 | 12 | 71 | 2 | 3 |
-| **Running total** | **3021** | **209** | **401** | **56** | **35** |
+| Turkish pide bread (Alasya), 68g (half of a weighed 136g piece) | 180 | 6 | 36 | 1 | 2 |
+| **Running total** | **2841** | **203** | **366** | **55** | **34** |
 
 **Fluids:** 350ml (smoothie) + 750ml (Gatorade) + 500ml (coffees) + 750ml (PW#1) + 750ml (PW#2) = 3.1L
 
