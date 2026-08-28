@@ -115,7 +115,8 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 | Protein water #2: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
 | Dinner: F4F meal (label, 350g: 505 kcal / 55.1P / 48.2C / 10.7F) | 505 | 55 | 48 | 11 | 4 |
 | Turkish pide bread (Alasya), 68g (half of a weighed 136g piece) | 180 | 6 | 36 | 1 | 2 |
-| **Running total** | **2841** | **203** | **366** | **55** | **34** |
+| Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate | 15 | 0 | 1 | 0 | 3 |
+| **DAY TOTAL** | **2856** | **203** | **367** | **55** | **37** |
 
 **Fluids:** 350ml (smoothie) + 750ml (Gatorade) + 500ml (coffees) + 750ml (PW#1) + 750ml (PW#2) + 750ml (plain, evening) = 3.9L
 
