@@ -117,7 +117,7 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 | Turkish pide bread (Alasya), 68g (half of a weighed 136g piece) | 180 | 6 | 36 | 1 | 2 |
 | **Running total** | **2841** | **203** | **366** | **55** | **34** |
 
-**Fluids:** 350ml (smoothie) + 750ml (Gatorade) + 500ml (coffees) + 750ml (PW#1) + 750ml (PW#2) = 3.1L
+**Fluids:** 350ml (smoothie) + 750ml (Gatorade) + 500ml (coffees) + 750ml (PW#1) + 750ml (PW#2) + 750ml (plain, evening) = 3.9L
 
 ### Sat 29 Aug
 *(pending)*
