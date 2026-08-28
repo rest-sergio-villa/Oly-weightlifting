@@ -106,9 +106,11 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 |---|---|---|---|---|---|
 | PRE-CLASS: purée pouch + banana | 170 | 2 | 40 | 0 | 5 |
 | Breakfast smoothie right after class: 350ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens | 635 | 39 | 91 | 12 | 15 |
-| **Running total** | **805** | **41** | **131** | **12** | **20** |
+| INTRA-CLASS: Gatorade, 2 scoops in 750ml | 130 | 0 | 30 | 0 | 0 |
+| Oat flat whites, half-strength × 2 | 280 | 4 | 30 | 14 | 2 |
+| **Running total** | **1215** | **45** | **191** | **26** | **22** |
 
-**Fluids:** 350ml (smoothie)
+**Fluids:** 350ml (smoothie) + 750ml (Gatorade) + 500ml (coffees) = 1.6L
 
 ### Sat 29 Aug
 *(pending)*
