@@ -111,9 +111,10 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 | Protein water #1: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
 | Lunch: F4F chicken thigh w/ jasmine rice (label: 646 kcal; carbs est. from energy) | 646 | 53 | 68 | 17 | 2 |
 | Granny Smith apple | 80 | 0 | 21 | 0 | 4 |
-| **Running total** | **2036** | **118** | **281** | **43** | **28** |
+| Protein water #2: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
+| **Running total** | **2131** | **138** | **282** | **43** | **28** |
 
-**Fluids:** 350ml (smoothie) + 750ml (Gatorade) + 500ml (coffees) + 750ml (PW#1) = 2.35L
+**Fluids:** 350ml (smoothie) + 750ml (Gatorade) + 500ml (coffees) + 750ml (PW#1) + 750ml (PW#2) = 3.1L
 
 ### Sat 29 Aug
 *(pending)*
