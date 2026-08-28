@@ -109,8 +109,8 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 | INTRA-CLASS: Gatorade, 2 scoops in 750ml | 130 | 0 | 30 | 0 | 0 |
 | Oat flat whites, half-strength × 2 | 280 | 4 | 30 | 14 | 2 |
 | Protein water #1: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
-| Karaage chicken skewers ×2 | 280 | 18 | 14 | 16 | 1 |
-| **Running total** | **1590** | **83** | **206** | **42** | **23** |
+| Lunch: F4F chicken thigh w/ jasmine rice (label: 646 kcal; carbs est. from energy) | 646 | 53 | 68 | 17 | 2 |
+| **Running total** | **1956** | **118** | **260** | **43** | **24** |
 
 **Fluids:** 350ml (smoothie) + 750ml (Gatorade) + 500ml (coffees) + 750ml (PW#1) = 2.35L
 
