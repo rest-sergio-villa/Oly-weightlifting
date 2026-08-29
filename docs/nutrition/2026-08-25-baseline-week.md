@@ -129,7 +129,8 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 | Protein water #1: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
 | Corn chips (Health Magic, lightly salted), ~20 chips ≈45g (label est.) | 215 | 4 | 32 | 8 | 2 |
 | Falafel ×4 (fried, ~30g each — est.) | 350 | 13 | 30 | 20 | 6 |
-| **Running total** | **1435** | **78** | **169** | **47** | **24** |
+| Ham bagel, quarter (est.) | 100 | 5 | 14 | 2 | 1 |
+| **Running total** | **1535** | **83** | **183** | **49** | **25** |
 
 **Fluids:** 250ml (flat white) + 350ml (smoothie) + 750ml (PW#1) = 1.35L so far
 
