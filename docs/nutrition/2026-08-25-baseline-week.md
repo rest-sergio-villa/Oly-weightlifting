@@ -121,7 +121,15 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 **Fluids:** 350ml (smoothie) + 750ml (Gatorade) + 500ml (coffees) + 750ml (PW#1) + 750ml (PW#2) + 750ml (plain, evening) = 3.9L
 
 ### Sat 29 Aug
-*(pending)*
+
+| Item | kcal | P | C | F | Fibre |
+|---|---|---|---|---|---|
+| Oat milk flat white | 140 | 2 | 15 | 7 | 1 |
+| Breakfast smoothie: 350ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens | 635 | 39 | 91 | 12 | 15 |
+| Protein water #1: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
+| **Running total** | **870** | **61** | **107** | **19** | **16** |
+
+**Fluids:** 250ml (flat white) + 350ml (smoothie) + 750ml (PW#1) = 1.35L so far
 
 ### Sun 30 Aug — Day 3 (+ class?)
 *(pending)*
