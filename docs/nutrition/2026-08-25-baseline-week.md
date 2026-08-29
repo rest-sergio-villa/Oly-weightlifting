@@ -131,7 +131,8 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 | Falafel ×4 (fried, ~30g each — est.) | 350 | 13 | 30 | 20 | 6 |
 | Ham bagel, quarter (est.) | 100 | 5 | 14 | 2 | 1 |
 | Flavoured sparkling water, slim can 250ml (no sugar) | 2 | 0 | 0 | 0 | 0 |
-| **Running total** | **1537** | **83** | **183** | **49** | **25** |
+| Watermelon, 2 wedge slices (~300g flesh — est.) | 90 | 2 | 22 | 0 | 1 |
+| **Running total** | **1627** | **85** | **205** | **49** | **26** |
 
 **Fluids:** 250ml (flat white) + 350ml (smoothie) + 750ml (PW#1) + 250ml (sparkling) = 1.6L so far
 
