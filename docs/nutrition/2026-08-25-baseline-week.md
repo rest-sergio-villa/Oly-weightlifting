@@ -137,9 +137,10 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 | Dinner: grilled chicken burger, takeaway (brioche, grilled chicken, cheese, guac, lettuce — photo est.) | 650 | 45 | 50 | 30 | 3 |
 | Hot chips, ~15 (est. 100g) | 300 | 4 | 38 | 15 | 3 |
 | Pepsi Max, half can (no sugar) | 1 | 0 | 0 | 0 | 0 |
-| **Running total** | **2697** | **150** | **304** | **94** | **33** |
+| Protein water #3: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
+| **Running total** | **2792** | **170** | **305** | **94** | **33** |
 
-**Fluids:** 250ml (flat white) + 350ml (smoothie) + 750ml (PW#1) + 250ml (sparkling) + 750ml (PW#2) + 190ml (Pepsi Max) = 2.5L so far
+**Fluids:** 250ml (flat white) + 350ml (smoothie) + 750ml (PW#1) + 250ml (sparkling) + 750ml (PW#2) + 190ml (Pepsi Max) + 750ml (PW#3) = 3.25L so far
 
 ### Sun 30 Aug — Day 3 (+ class?)
 *(pending)*
