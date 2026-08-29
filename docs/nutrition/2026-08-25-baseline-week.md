@@ -127,7 +127,8 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 | Oat milk flat white | 140 | 2 | 15 | 7 | 1 |
 | Breakfast smoothie: 350ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens | 635 | 39 | 91 | 12 | 15 |
 | Protein water #1: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
-| **Running total** | **870** | **61** | **107** | **19** | **16** |
+| Corn chips (Health Magic, lightly salted), ~20 chips ≈45g (label est.) | 215 | 4 | 32 | 8 | 2 |
+| **Running total** | **1085** | **65** | **139** | **27** | **18** |
 
 **Fluids:** 250ml (flat white) + 350ml (smoothie) + 750ml (PW#1) = 1.35L so far
 
