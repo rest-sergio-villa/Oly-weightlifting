@@ -130,9 +130,10 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 | Corn chips (Health Magic, lightly salted), ~20 chips ≈45g (label est.) | 215 | 4 | 32 | 8 | 2 |
 | Falafel ×4 (fried, ~30g each — est.) | 350 | 13 | 30 | 20 | 6 |
 | Ham bagel, quarter (est.) | 100 | 5 | 14 | 2 | 1 |
-| **Running total** | **1535** | **83** | **183** | **49** | **25** |
+| Flavoured sparkling water, slim can 250ml (no sugar) | 2 | 0 | 0 | 0 | 0 |
+| **Running total** | **1537** | **83** | **183** | **49** | **25** |
 
-**Fluids:** 250ml (flat white) + 350ml (smoothie) + 750ml (PW#1) = 1.35L so far
+**Fluids:** 250ml (flat white) + 350ml (smoothie) + 750ml (PW#1) + 250ml (sparkling) = 1.6L so far
 
 ### Sun 30 Aug — Day 3 (+ class?)
 *(pending)*
