@@ -138,7 +138,11 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 | Hot chips, ~15 (est. 100g) | 300 | 4 | 38 | 15 | 3 |
 | Pepsi Max, half can (no sugar) | 1 | 0 | 0 | 0 | 0 |
 | Protein water #3: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
-| **Running total** | **2792** | **170** | **305** | **94** | **33** |
+| Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate | 15 | 0 | 1 | 0 | 3 |
+| **DAY TOTAL** | **2807** | **170** | **306** | **94** | **36** |
+
+**Note:** rest day (no training). Off-script eating — takeaway dinner, chips, snacks —
+but landed inside the maintenance window anyway.
 
 **Fluids:** 250ml (flat white) + 350ml (smoothie) + 750ml (PW#1) + 250ml (sparkling) + 750ml (PW#2) + 190ml (Pepsi Max) + 750ml (PW#3) = 3.25L so far
 
