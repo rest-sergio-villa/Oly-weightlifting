@@ -132,9 +132,11 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 | Ham bagel, quarter (est.) | 100 | 5 | 14 | 2 | 1 |
 | Flavoured sparkling water, slim can 250ml (no sugar) | 2 | 0 | 0 | 0 | 0 |
 | Watermelon, 2 wedge slices (~300g flesh — est.) | 90 | 2 | 22 | 0 | 1 |
-| **Running total** | **1627** | **85** | **205** | **49** | **26** |
+| Protein water #2: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
+| Corn Thin ×1 | 25 | 1 | 5 | 0 | 1 |
+| **Running total** | **1747** | **106** | **211** | **49** | **27** |
 
-**Fluids:** 250ml (flat white) + 350ml (smoothie) + 750ml (PW#1) + 250ml (sparkling) = 1.6L so far
+**Fluids:** 250ml (flat white) + 350ml (smoothie) + 750ml (PW#1) + 250ml (sparkling) + 750ml (PW#2) = 2.35L so far
 
 ### Sun 30 Aug — Day 3 (+ class?)
 *(pending)*
