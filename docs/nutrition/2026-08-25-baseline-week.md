@@ -134,7 +134,8 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 | Watermelon, 2 wedge slices (~300g flesh — est.) | 90 | 2 | 22 | 0 | 1 |
 | Protein water #2: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
 | Corn Thin ×1 | 25 | 1 | 5 | 0 | 1 |
-| **Running total** | **1747** | **106** | **211** | **49** | **27** |
+| Dinner: fried chicken burger, takeaway (brioche, crumbed chicken, cheese, guac, lettuce — photo est.) | 750 | 40 | 55 | 40 | 3 |
+| **Running total** | **2497** | **146** | **266** | **89** | **30** |
 
 **Fluids:** 250ml (flat white) + 350ml (smoothie) + 750ml (PW#1) + 250ml (sparkling) + 750ml (PW#2) = 2.35L so far
 
