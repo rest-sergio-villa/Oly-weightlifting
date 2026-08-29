@@ -146,8 +146,20 @@ but landed inside the maintenance window anyway.
 
 **Fluids:** 250ml (flat white) + 350ml (smoothie) + 750ml (PW#1) + 250ml (sparkling) + 750ml (PW#2) + 190ml (Pepsi Max) + 750ml (PW#3) = 3.25L so far
 
-### Sun 30 Aug — Day 3 (+ class?)
-*(pending)*
+### Sun 30 Aug — DOUBLE: Oly Day 3 + class
+
+| Item | kcal | P | C | F | Fibre |
+|---|---|---|---|---|---|
+| PRE-TRAINING: purée pouch | 65 | 1 | 13 | 0 | 2 |
+| PRE-TRAINING: Granny Smith apple | 80 | 0 | 21 | 0 | 4 |
+| PRE-TRAINING: Turkish pide bread (Alasya), ~68g | 180 | 6 | 36 | 1 | 2 |
+| Pre-workout, caffeinated (8.3g high-stim: 199mg caffeine) | 25 | 4 | 0 | 0 | 0 |
+| **Running total** | **350** | **11** | **70** | **1** | **8** |
+
+**Fluids:** —
+
+*(Pre-training carbs ~70g — top of Seb's 40–80g range, sized for the double session.
+Plan: 3-scoop Gatorade intra across both sessions, spare pouch between them.)*
 
 ### Mon 31 Aug
 *(pending)*
