@@ -163,9 +163,11 @@ but landed inside the maintenance window anyway.
 | Yum cha: chicken feet ×1 | 50 | 4 | 1 | 3 | 0 |
 | Dinner: enfrijoladas ×3 (corn tortillas in bean sauce, chicken, cheese — est.) | 630 | 40 | 60 | 22 | 9 |
 | Esquites, half cup (corn, mayo, cotija — est.) | 150 | 4 | 18 | 8 | 2 |
-| **Running total** | **2745** | **138** | **313** | **97** | **25** |
+| Protein water #1: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
+| Orange juice, half glass (~125ml) | 55 | 1 | 13 | 0 | 0 |
+| **Running total** | **2895** | **159** | **327** | **97** | **25** |
 
-**Fluids:** 750ml (Gatorade) + 350ml (shake) = 1.1L so far
+**Fluids:** 750ml (Gatorade) + 350ml (shake) + 750ml (PW#1) + 125ml (OJ) = 2.0L so far
 
 *(Pre-training carbs ~70g — top of Seb's 40–80g range, sized for the double session.
 Plan: 3-scoop Gatorade intra across both sessions, spare pouch between them.)*
