@@ -157,7 +157,11 @@ but landed inside the maintenance window anyway.
 | INTRA-TRAINING: Gatorade, 3 scoops in 750ml (double session) | 195 | 0 | 45 | 0 | 0 |
 | BETWEEN SESSIONS: purée pouch | 65 | 1 | 13 | 0 | 2 |
 | POST-TRAINING: WPI shake (25g) in 350ml water + 3g creatine | 105 | 24 | 1 | 1 | 0 |
-| **Running total** | **715** | **36** | **129** | **2** | **10** |
+| Yum cha: assorted steamed dumplings ×~7 (est.) | 490 | 30 | 45 | 20 | 2 |
+| Yum cha: fried salt & pepper calamari (share portion, est.) | 350 | 20 | 20 | 22 | 1 |
+| Yum cha: egg custard tarts ×2 | 360 | 4 | 40 | 20 | 1 |
+| Yum cha: chicken feet ×1 | 50 | 4 | 1 | 3 | 0 |
+| **Running total** | **1965** | **94** | **235** | **67** | **14** |
 
 **Fluids:** 750ml (Gatorade) + 350ml (shake) = 1.1L so far
 
