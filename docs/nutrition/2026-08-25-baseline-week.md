@@ -156,8 +156,8 @@ but landed inside the maintenance window anyway.
 | Pre-workout, caffeinated (8.3g high-stim: 199mg caffeine) | 25 | 4 | 0 | 0 | 0 |
 | INTRA-TRAINING: Gatorade, 3 scoops in 750ml (double session) | 195 | 0 | 45 | 0 | 0 |
 | BETWEEN SESSIONS: purée pouch | 65 | 1 | 13 | 0 | 2 |
-| POST-TRAINING: WPI shake (25g) + 350ml unsw. almond milk + 3g creatine | 150 | 25 | 2 | 5 | 1 |
-| **Running total** | **760** | **37** | **130** | **6** | **11** |
+| POST-TRAINING: WPI shake (25g) in 350ml water + 3g creatine | 105 | 24 | 1 | 1 | 0 |
+| **Running total** | **715** | **36** | **129** | **2** | **10** |
 
 **Fluids:** 750ml (Gatorade) + 350ml (shake) = 1.1L so far
 
