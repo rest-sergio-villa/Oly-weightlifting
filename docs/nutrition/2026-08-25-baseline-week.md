@@ -165,7 +165,15 @@ but landed inside the maintenance window anyway.
 | Esquites, half cup (corn, mayo, cotija — est.) | 150 | 4 | 18 | 8 | 2 |
 | Protein water #1: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
 | Orange juice, half glass (~125ml) | 55 | 1 | 13 | 0 | 0 |
-| **Running total** | **2895** | **159** | **327** | **97** | **25** |
+| Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate | 15 | 0 | 1 | 0 | 3 |
+| **DAY TOTAL** | **2910** | **159** | **328** | **97** | **28** |
+
+**Session note (double: Oly Day 3 + CrossFit class):** fully fuelled — ~70g carbs pre
+(pouch, apple, half Turkish pide), 3-scoop Gatorade intra across both sessions, pouch
+between them, WPI after. Oly done first; the class (28-min EMOM: double-unders as
+singles, KB swings, box jump-overs, echo bike) came after and ate the back of Day 3 —
+front squats cut to 3×5 of the prescribed 5×5, RDLs dropped. Cut sets left cut rather
+than chased after the class.
 
 **Fluids:** 750ml (Gatorade) + 350ml (shake) + 750ml (PW#1) + 125ml (OJ) + 500ml (plain) = 2.5L so far
 
