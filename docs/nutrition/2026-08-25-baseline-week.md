@@ -156,9 +156,10 @@ but landed inside the maintenance window anyway.
 | Pre-workout, caffeinated (8.3g high-stim: 199mg caffeine) | 25 | 4 | 0 | 0 | 0 |
 | INTRA-TRAINING: Gatorade, 3 scoops in 750ml (double session) | 195 | 0 | 45 | 0 | 0 |
 | BETWEEN SESSIONS: purée pouch | 65 | 1 | 13 | 0 | 2 |
-| **Running total** | **610** | **12** | **128** | **1** | **10** |
+| POST-TRAINING: WPI shake (25g) + 350ml unsw. almond milk + 3g creatine | 150 | 25 | 2 | 5 | 1 |
+| **Running total** | **760** | **37** | **130** | **6** | **11** |
 
-**Fluids:** 750ml (Gatorade) = 0.75L so far
+**Fluids:** 750ml (Gatorade) + 350ml (shake) = 1.1L so far
 
 *(Pre-training carbs ~70g — top of Seb's 40–80g range, sized for the double session.
 Plan: 3-scoop Gatorade intra across both sessions, spare pouch between them.)*
