@@ -161,7 +161,9 @@ but landed inside the maintenance window anyway.
 | Yum cha: fried salt & pepper calamari (share portion, est.) | 350 | 20 | 20 | 22 | 1 |
 | Yum cha: egg custard tarts ×2 | 360 | 4 | 40 | 20 | 1 |
 | Yum cha: chicken feet ×1 | 50 | 4 | 1 | 3 | 0 |
-| **Running total** | **1965** | **94** | **235** | **67** | **14** |
+| Dinner: enfrijoladas ×3 (corn tortillas in bean sauce, chicken, cheese — est.) | 630 | 40 | 60 | 22 | 9 |
+| Esquites, half cup (corn, mayo, cotija — est.) | 150 | 4 | 18 | 8 | 2 |
+| **Running total** | **2745** | **138** | **313** | **97** | **25** |
 
 **Fluids:** 750ml (Gatorade) + 350ml (shake) = 1.1L so far
 
