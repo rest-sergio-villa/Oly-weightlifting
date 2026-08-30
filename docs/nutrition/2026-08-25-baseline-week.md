@@ -167,7 +167,7 @@ but landed inside the maintenance window anyway.
 | Orange juice, half glass (~125ml) | 55 | 1 | 13 | 0 | 0 |
 | **Running total** | **2895** | **159** | **327** | **97** | **25** |
 
-**Fluids:** 750ml (Gatorade) + 350ml (shake) + 750ml (PW#1) + 125ml (OJ) = 2.0L so far
+**Fluids:** 750ml (Gatorade) + 350ml (shake) + 750ml (PW#1) + 125ml (OJ) + 500ml (plain) = 2.5L so far
 
 *(Pre-training carbs ~70g — top of Seb's 40–80g range, sized for the double session.
 Plan: 3-scoop Gatorade intra across both sessions, spare pouch between them.)*
