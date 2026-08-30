@@ -154,9 +154,11 @@ but landed inside the maintenance window anyway.
 | PRE-TRAINING: Granny Smith apple | 80 | 0 | 21 | 0 | 4 |
 | PRE-TRAINING: Turkish pide bread (Alasya), ~68g | 180 | 6 | 36 | 1 | 2 |
 | Pre-workout, caffeinated (8.3g high-stim: 199mg caffeine) | 25 | 4 | 0 | 0 | 0 |
-| **Running total** | **350** | **11** | **70** | **1** | **8** |
+| INTRA-TRAINING: Gatorade, 3 scoops in 750ml (double session) | 195 | 0 | 45 | 0 | 0 |
+| BETWEEN SESSIONS: purée pouch | 65 | 1 | 13 | 0 | 2 |
+| **Running total** | **610** | **12** | **128** | **1** | **10** |
 
-**Fluids:** —
+**Fluids:** 750ml (Gatorade) = 0.75L so far
 
 *(Pre-training carbs ~70g — top of Seb's 40–80g range, sized for the double session.
 Plan: 3-scoop Gatorade intra across both sessions, spare pouch between them.)*
