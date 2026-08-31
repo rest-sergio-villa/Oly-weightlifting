@@ -191,7 +191,9 @@ Plan: 3-scoop Gatorade intra across both sessions, spare pouch between them.)*
 | Breakfast smoothie: 350ml unsw. almond milk, **90g** rolled oats, banana, 25g WPI, 3g creatine, 5g greens | 597 | 38 | 85 | 11 | 14 |
 | Lunch: chicken meal, single-serve pack (label: 611 kcal / 59P / 41.3C / 22.2F) | 611 | 59 | 41 | 22 | 3 |
 | Protein water #2: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
-| **Running total** | **1698** | **141** | **174** | **44** | **24** |
+| Dinner: F4F meal (label, 350g: 466 kcal / 32.2P / 45.3C / 8.8F) | 466 | 32 | 45 | 9 | 4 |
+| Frozen mixed vegetables, 100g (with dinner) | 41 | 2 | 6 | 0 | 3 |
+| **Running total** | **2205** | **175** | **225** | **53** | **31** |
 
 **Fluids:** 750ml (PW#1) + 250ml (flat white) + 125ml (home coffee) + 350ml (smoothie) + 750ml (plain) + 750ml (PW#2) = 3.0L so far
 
