@@ -180,8 +180,16 @@ than chased after the class.
 *(Pre-training carbs ~70g — top of Seb's 40–80g range, sized for the double session.
 Plan: 3-scoop Gatorade intra across both sessions, spare pouch between them.)*
 
-### Mon 31 Aug
-*(pending)*
+### Mon 31 Aug — Day 7 (final day)
+
+| Item | kcal | P | C | F | Fibre |
+|---|---|---|---|---|---|
+| Protein water #1: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
+| Pear (small–medium) | 85 | 1 | 22 | 0 | 5 |
+| Oat milk flat white | 140 | 2 | 15 | 7 | 1 |
+| **Running total** | **320** | **23** | **38** | **7** | **6** |
+
+**Fluids:** 750ml (PW#1) + 250ml (flat white) = 1.0L so far
 
 ## Week summary (for Seb)
 *(compiled at end of week: daily kcal/P/C/F, daily fluids, 7-day averages, training-window carbs adherence)*
