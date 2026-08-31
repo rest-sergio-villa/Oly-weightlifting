@@ -189,7 +189,8 @@ Plan: 3-scoop Gatorade intra across both sessions, spare pouch between them.)*
 | Oat milk flat white | 140 | 2 | 15 | 7 | 1 |
 | Coffee at home: 125ml barista oat milk + 1 shot | 75 | 1 | 9 | 4 | 1 |
 | Breakfast smoothie: 350ml unsw. almond milk, **90g** rolled oats, banana, 25g WPI, 3g creatine, 5g greens | 597 | 38 | 85 | 11 | 14 |
-| **Running total** | **992** | **62** | **132** | **22** | **21** |
+| Lunch: chicken meal, single-serve pack (label: 611 kcal / 59P / 41.3C / 22.2F) | 611 | 59 | 41 | 22 | 3 |
+| **Running total** | **1603** | **121** | **173** | **44** | **24** |
 
 **Fluids:** 750ml (PW#1) + 250ml (flat white) + 125ml (home coffee) + 350ml (smoothie) = 1.5L so far
 
