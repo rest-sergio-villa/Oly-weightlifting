@@ -193,9 +193,41 @@ Plan: 3-scoop Gatorade intra across both sessions, spare pouch between them.)*
 | Protein water #2: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
 | Dinner: F4F meal (label, 350g: 466 kcal / 32.2P / 45.3C / 8.8F) | 466 | 32 | 45 | 9 | 4 |
 | Frozen mixed vegetables, 100g (with dinner) | 41 | 2 | 6 | 0 | 3 |
-| **Running total** | **2205** | **175** | **225** | **53** | **31** |
+| Protein water #3: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
+| Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate | 15 | 0 | 1 | 0 | 3 |
+| **DAY TOTAL** | **2315** | **195** | **227** | **53** | **37** |
 
-**Fluids:** 750ml (PW#1) + 250ml (flat white) + 125ml (home coffee) + 350ml (smoothie) + 750ml (plain) + 750ml (PW#2) = 3.0L so far
+**Fluids:** 750ml (PW#1) + 250ml (flat white) + 125ml (home coffee) + 350ml (smoothie) + 750ml (plain) + 750ml (PW#2) + 750ml (PW#3) = 3.75L
 
 ## Week summary (for Seb)
-*(compiled at end of week: daily kcal/P/C/F, daily fluids, 7-day averages, training-window carbs adherence)*
+
+| Day | Training | kcal | P | C | F | Fibre | Fluids |
+|---|---|---|---|---|---|---|---|
+| Tue 25 | Oly Day 1 (pm) | 2,587 | 224 | 309 | 33 | 45 | 4.1L |
+| Wed 26 | 6am class | 2,857 | 187 | 338 | 72 | 40 | 3.1L |
+| Thu 27 | Oly Day 2 (pm) | 2,704 | 151 | 324 | 77 | 39 | 3.3L |
+| Fri 28 | 6am class | 2,856 | 203 | 367 | 55 | 37 | 3.9L |
+| Sat 29 | Rest | 2,807 | 170 | 306 | 94 | 36 | 3.25L |
+| Sun 30 | Double: Oly Day 3 + class | 2,910 | 159 | 328 | 97 | 28 | 2.5L |
+| Mon 31 | Rest | 2,315 | 195 | 227 | 53 | 37 | 3.75L |
+| **7-day avg** | | **2,719** | **184** | **314** | **69** | **37** | **3.4L** |
+
+**Training-window additions (Seb's protocol):** avg ~375 kcal/day over the week
+(~430 kcal on training days), 91% of it carbohydrate (~85g/day). Pre-training carbs
+hit the 40–80g window every session (70g for the Sunday double); intra Gatorade
+every Oly session + the double; post-training pouch on evening sessions.
+
+**Adherence notes:** evening veg landed only 3 of 7 days (fibre still averaged 37g
+via oats/beans/fruit). Extra fruit most days. No GI issues at any point.
+
+**Weight (RENPHO, daily wake weigh-in):** 81.3kg (24 Aug, day before start) →
+80.25kg (31 Aug). Week average 80.6kg. Flat-to-slightly-down while eating
+~2,700+/day — no regain.
+
+**Whoop:** recoveries 63 / 38 / 69 / 57 / 79 / 84 / 34 — the Sat+Sun greens (79, 84)
+were the first back-to-back greens since late July, on days 5–6 of the experiment.
+Monday's 34 followed the double (17.9 strain) + biggest social eating day.
+
+**Subjective:** energy held in every session; "able to focus more and didn't end
+destroyed" (Wed class); strength still lagging post-illness but no intra-session
+crashes; post-session dips caught by the pouch each time.
