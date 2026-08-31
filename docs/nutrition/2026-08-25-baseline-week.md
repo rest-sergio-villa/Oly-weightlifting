@@ -190,9 +190,10 @@ Plan: 3-scoop Gatorade intra across both sessions, spare pouch between them.)*
 | Coffee at home: 125ml barista oat milk + 1 shot | 75 | 1 | 9 | 4 | 1 |
 | Breakfast smoothie: 350ml unsw. almond milk, **90g** rolled oats, banana, 25g WPI, 3g creatine, 5g greens | 597 | 38 | 85 | 11 | 14 |
 | Lunch: chicken meal, single-serve pack (label: 611 kcal / 59P / 41.3C / 22.2F) | 611 | 59 | 41 | 22 | 3 |
-| **Running total** | **1603** | **121** | **173** | **44** | **24** |
+| Protein water #2: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
+| **Running total** | **1698** | **141** | **174** | **44** | **24** |
 
-**Fluids:** 750ml (PW#1) + 250ml (flat white) + 125ml (home coffee) + 350ml (smoothie) + 750ml (plain) = 2.25L so far
+**Fluids:** 750ml (PW#1) + 250ml (flat white) + 125ml (home coffee) + 350ml (smoothie) + 750ml (plain) + 750ml (PW#2) = 3.0L so far
 
 ## Week summary (for Seb)
 *(compiled at end of week: daily kcal/P/C/F, daily fluids, 7-day averages, training-window carbs adherence)*
