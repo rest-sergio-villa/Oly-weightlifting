@@ -139,7 +139,7 @@ pouch, which gave a noticeable boost. Gatorade (2 scoops) sat fine — no GI iss
 | Pepsi Max, half can (no sugar) | 1 | 0 | 0 | 0 | 0 |
 | Protein water #3: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
 | Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate | 15 | 0 | 1 | 0 | 3 |
-| **DAY TOTAL** | **2807** | **170** | **306** | **94** | **36** |
+| **DAY TOTAL** | **2808** | **175** | **301** | **94** | **36** |
 
 **Note:** rest day (no training). Off-script eating — takeaway dinner, chips, snacks —
 but landed inside the maintenance window anyway.
@@ -195,7 +195,7 @@ Plan: 3-scoop Gatorade intra across both sessions, spare pouch between them.)*
 | Frozen mixed vegetables, 100g (with dinner) | 41 | 2 | 6 | 0 | 3 |
 | Protein water #3: 25g Bulk collagen/WPI blend in 750ml water | 95 | 20 | 1 | 0 | 0 |
 | Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate | 15 | 0 | 1 | 0 | 3 |
-| **DAY TOTAL** | **2315** | **195** | **227** | **53** | **37** |
+| **DAY TOTAL** | **2315** | **195** | **227** | **53** | **34** |
 
 **Fluids:** 750ml (PW#1) + 250ml (flat white) + 125ml (home coffee) + 350ml (smoothie) + 750ml (plain) + 750ml (PW#2) + 750ml (PW#3) = 3.75L
 
@@ -207,10 +207,10 @@ Plan: 3-scoop Gatorade intra across both sessions, spare pouch between them.)*
 | Wed 26 | 6am class | 2,857 | 187 | 338 | 72 | 40 | 3.1L |
 | Thu 27 | Oly Day 2 (pm) | 2,704 | 151 | 324 | 77 | 39 | 3.3L |
 | Fri 28 | 6am class | 2,856 | 203 | 367 | 55 | 37 | 3.9L |
-| Sat 29 | Rest | 2,807 | 170 | 306 | 94 | 36 | 3.25L |
+| Sat 29 | Rest | 2,808 | 175 | 301 | 94 | 36 | 3.25L |
 | Sun 30 | Double: Oly Day 3 + class | 2,910 | 159 | 328 | 97 | 28 | 2.5L |
-| Mon 31 | Rest | 2,315 | 195 | 227 | 53 | 37 | 3.75L |
-| **7-day avg** | | **2,719** | **184** | **314** | **69** | **37** | **3.4L** |
+| Mon 31 | Rest | 2,315 | 195 | 227 | 53 | 34 | 3.75L |
+| **7-day avg** | | **2,720** | **185** | **313** | **69** | **37** | **3.4L** |
 
 **Training-window additions (Seb's protocol):** avg ~375 kcal/day over the week
 (~430 kcal on training days), 91% of it carbohydrate (~85g/day). Pre-training carbs
