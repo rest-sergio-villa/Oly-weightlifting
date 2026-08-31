@@ -192,7 +192,7 @@ Plan: 3-scoop Gatorade intra across both sessions, spare pouch between them.)*
 | Lunch: chicken meal, single-serve pack (label: 611 kcal / 59P / 41.3C / 22.2F) | 611 | 59 | 41 | 22 | 3 |
 | **Running total** | **1603** | **121** | **173** | **44** | **24** |
 
-**Fluids:** 750ml (PW#1) + 250ml (flat white) + 125ml (home coffee) + 350ml (smoothie) = 1.5L so far
+**Fluids:** 750ml (PW#1) + 250ml (flat white) + 125ml (home coffee) + 350ml (smoothie) + 750ml (plain) = 2.25L so far
 
 ## Week summary (for Seb)
 *(compiled at end of week: daily kcal/P/C/F, daily fluids, 7-day averages, training-window carbs adherence)*
