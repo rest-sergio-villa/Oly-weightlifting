@@ -188,8 +188,8 @@ Plan: 3-scoop Gatorade intra across both sessions, spare pouch between them.)*
 | Pear (small–medium) | 85 | 1 | 22 | 0 | 5 |
 | Oat milk flat white | 140 | 2 | 15 | 7 | 1 |
 | Coffee at home: 125ml barista oat milk + 1 shot | 75 | 1 | 9 | 4 | 1 |
-| Breakfast smoothie: 350ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens | 635 | 39 | 91 | 12 | 15 |
-| **Running total** | **1030** | **63** | **138** | **23** | **22** |
+| Breakfast smoothie: 350ml unsw. almond milk, **90g** rolled oats, banana, 25g WPI, 3g creatine, 5g greens | 597 | 38 | 85 | 11 | 14 |
+| **Running total** | **992** | **62** | **132** | **22** | **21** |
 
 **Fluids:** 750ml (PW#1) + 250ml (flat white) + 125ml (home coffee) + 350ml (smoothie) = 1.5L so far
 
