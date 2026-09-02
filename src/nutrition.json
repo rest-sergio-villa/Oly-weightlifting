@@ -1037,9 +1037,26 @@
           "c": 35,
           "f": 14,
           "fibre": 5
+        },
+        {
+          "name": "Half Glick's everything bagel",
+          "kcal": 145,
+          "p": 5,
+          "c": 27,
+          "f": 2,
+          "fibre": 1
+        },
+        {
+          "name": "Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate",
+          "kcal": 15,
+          "p": 0,
+          "c": 1,
+          "f": 0,
+          "fibre": 3,
+          "slot": "supp"
         }
       ],
-      "closed": false
+      "closed": true
     }
   }
 }
