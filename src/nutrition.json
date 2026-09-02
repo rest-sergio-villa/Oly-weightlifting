@@ -1039,6 +1039,15 @@
           "fibre": 5
         },
         {
+          "name": "Frozen mixed vegetables, 100g (with dinner)",
+          "kcal": 41,
+          "p": 2,
+          "c": 6,
+          "f": 0,
+          "fibre": 3,
+          "slot": "veg"
+        },
+        {
           "name": "Half Glick's everything bagel",
           "kcal": 145,
           "p": 5,
