@@ -1029,6 +1029,14 @@
           "c": 1,
           "f": 0,
           "fibre": 0
+        },
+        {
+          "name": "Dinner: F4F chicken cacciatora, basmati & veg (label, 350g: 472 kcal / 49.3P / 34.8C / 14.3F)",
+          "kcal": 472,
+          "p": 49,
+          "c": 35,
+          "f": 14,
+          "fibre": 5
         }
       ],
       "closed": false
