@@ -961,7 +961,7 @@
     },
     "2026-09-02": {
       "training": "6am class",
-      "fluidsMl": 2500,
+      "fluidsMl": 3250,
       "items": [
         {
           "name": "PRE-CLASS: purée pouch + banana",
@@ -1024,6 +1024,14 @@
         },
         {
           "name": "Protein water #1: 25g Bulk collagen/WPI blend in 750ml water",
+          "kcal": 95,
+          "p": 20,
+          "c": 1,
+          "f": 0,
+          "fibre": 0
+        },
+        {
+          "name": "Protein water #2: 25g Bulk collagen/WPI blend in 750ml water",
           "kcal": 95,
           "p": 20,
           "c": 1,
