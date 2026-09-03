@@ -1078,7 +1078,7 @@
     "2026-09-03": {
       "training": "Oly Day 2 (pm)",
       "fluidsMl": 3175,
-      "closed": false,
+      "closed": true,
       "items": [
         {
           "name": "Coffee at home: 125ml barista oat milk + 1 shot",
@@ -1154,6 +1154,15 @@
           "f": 1,
           "fibre": 2,
           "slot": "post"
+        },
+        {
+          "name": "Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate",
+          "kcal": 15,
+          "p": 0,
+          "c": 1,
+          "f": 0,
+          "fibre": 3,
+          "slot": "supp"
         }
       ]
     }
