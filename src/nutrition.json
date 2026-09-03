@@ -1077,7 +1077,7 @@
     },
     "2026-09-03": {
       "training": "Oly Day 2 (pm)",
-      "fluidsMl": 725,
+      "fluidsMl": 1675,
       "closed": false,
       "items": [
         {
@@ -1103,6 +1103,30 @@
           "c": 15,
           "f": 7,
           "fibre": 1
+        },
+        {
+          "name": "Small flat white, regular dairy milk",
+          "kcal": 90,
+          "p": 5,
+          "c": 7,
+          "f": 5,
+          "fibre": 0
+        },
+        {
+          "name": "Protein water #1: 25g Bulk collagen/WPI blend in 750ml water",
+          "kcal": 95,
+          "p": 20,
+          "c": 1,
+          "f": 0,
+          "fibre": 0
+        },
+        {
+          "name": "Lunch: F4F chargrilled chicken thigh, brown rice, capsicum, corn & carrot (label, 450g: 598 kcal / 55.9P / 48.8C / 18.8F)",
+          "kcal": 598,
+          "p": 56,
+          "c": 49,
+          "f": 19,
+          "fibre": 6
         }
       ]
     }
