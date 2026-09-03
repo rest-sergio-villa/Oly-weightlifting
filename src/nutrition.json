@@ -1156,6 +1156,14 @@
           "slot": "post"
         },
         {
+          "name": "Dinner: F4F meal (label: 658 kcal / 72.4P / 62.3C / 13.8F)",
+          "kcal": 658,
+          "p": 72,
+          "c": 62,
+          "f": 14,
+          "fibre": 4
+        },
+        {
           "name": "Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate",
           "kcal": 15,
           "p": 0,
