@@ -1077,7 +1077,7 @@
     },
     "2026-09-03": {
       "training": "Oly Day 2 (pm)",
-      "fluidsMl": 1675,
+      "fluidsMl": 3175,
       "closed": false,
       "items": [
         {
@@ -1127,6 +1127,33 @@
           "c": 49,
           "f": 19,
           "fibre": 6
+        },
+        {
+          "name": "PRE-TRAINING: banana + purée pouch",
+          "kcal": 170,
+          "p": 2,
+          "c": 40,
+          "f": 0,
+          "fibre": 5,
+          "slot": "pre"
+        },
+        {
+          "name": "INTRA-TRAINING: Gatorade, 2 scoops in 750ml",
+          "kcal": 130,
+          "p": 0,
+          "c": 30,
+          "f": 0,
+          "fibre": 0,
+          "slot": "intra"
+        },
+        {
+          "name": "POST-TRAINING: WPI shake (25g) + purée pouch",
+          "kcal": 170,
+          "p": 24,
+          "c": 14,
+          "f": 1,
+          "fibre": 2,
+          "slot": "post"
         }
       ]
     }
