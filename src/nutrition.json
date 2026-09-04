@@ -1173,6 +1173,55 @@
           "slot": "supp"
         }
       ]
+    },
+    "2026-09-04": {
+      "training": "6am class",
+      "fluidsMl": 1350,
+      "closed": false,
+      "items": [
+        {
+          "name": "PRE-CLASS: banana + purée pouch",
+          "kcal": 170,
+          "p": 2,
+          "c": 40,
+          "f": 0,
+          "fibre": 5,
+          "slot": "pre"
+        },
+        {
+          "name": "INTRA-CLASS: Gatorade, 2 scoops in 750ml",
+          "kcal": 130,
+          "p": 0,
+          "c": 30,
+          "f": 0,
+          "fibre": 0,
+          "slot": "intra"
+        },
+        {
+          "name": "Oat milk flat white",
+          "kcal": 140,
+          "p": 2,
+          "c": 15,
+          "f": 7,
+          "fibre": 1
+        },
+        {
+          "name": "Breakfast smoothie: 350ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens",
+          "kcal": 635,
+          "p": 39,
+          "c": 91,
+          "f": 12,
+          "fibre": 15
+        },
+        {
+          "name": "Purée pouch (mid-morning)",
+          "kcal": 65,
+          "p": 1,
+          "c": 13,
+          "f": 0,
+          "fibre": 2
+        }
+      ]
     }
   }
 }
