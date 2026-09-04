@@ -1,12 +1,35 @@
 {
   "targets": {
-    "kcalLow": 2680,
-    "kcalHigh": 2982,
-    "carbsG": 350,
-    "proteinG": 145,
+    "kcal": 2846,
+    "kcalLow": 2760,
+    "kcalHigh": 2960,
+    "proteinG": 160,
+    "carbsG": 371,
+    "fatG": 80,
     "fibreLowG": 30,
     "fibreHighG": 35,
-    "source": "Seb, nutrition follow-up email 25 Aug 2026 (calorie range); carbs/protein direction from the 24 Aug consult"
+    "preTrainingCarbsG": 80,
+    "byDay": {
+      "training": {
+        "p": 160,
+        "c": 375,
+        "f": 80,
+        "kcal": 2860
+      },
+      "rest": {
+        "p": 160,
+        "c": 350,
+        "f": 80,
+        "kcal": 2760
+      },
+      "double": {
+        "p": 160,
+        "c": 400,
+        "f": 80,
+        "kcal": 2960
+      }
+    },
+    "source": "Seb, WhatsApp 4 Sep 2026 — macro split after reviewing the tracked fortnight. Protein down, carbs up, explicit focus on raising fat to 80g/day. Pre-training carbs raised to bodyweight in grams (80g)."
   },
   "days": {
     "2026-08-25": {
