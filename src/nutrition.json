@@ -1294,6 +1294,22 @@
           "fibre": 3
         }
       ]
+    },
+    "2026-09-05": {
+      "training": "8.30am class",
+      "fluidsMl": 0,
+      "closed": false,
+      "items": [
+        {
+          "name": "PRE-CLASS: Granny Smith apple + purée pouch",
+          "kcal": 145,
+          "p": 1,
+          "c": 34,
+          "f": 0,
+          "fibre": 6,
+          "slot": "pre"
+        }
+      ]
     }
   }
 }
