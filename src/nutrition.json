@@ -1199,7 +1199,7 @@
     },
     "2026-09-04": {
       "training": "6am class",
-      "fluidsMl": 2100,
+      "fluidsMl": 2850,
       "closed": false,
       "items": [
         {
@@ -1284,6 +1284,14 @@
           "c": 1,
           "f": 0,
           "fibre": 0
+        },
+        {
+          "name": "Dinner: F4F chicken breast & basmati rice (label, 350g: 537 kcal / 55.9P / 58.7C / 9.1F)",
+          "kcal": 537,
+          "p": 56,
+          "c": 59,
+          "f": 9,
+          "fibre": 3
         }
       ]
     }
