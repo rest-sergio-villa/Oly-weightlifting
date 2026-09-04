@@ -1236,6 +1236,15 @@
           "c": 60,
           "f": 17,
           "fibre": 4
+        },
+        {
+          "name": "Frozen mixed vegetables, 100g (with lunch)",
+          "kcal": 41,
+          "p": 2,
+          "c": 6,
+          "f": 0,
+          "fibre": 3,
+          "slot": "veg"
         }
       ]
     }
