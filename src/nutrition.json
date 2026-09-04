@@ -1228,6 +1228,14 @@
           "c": 5,
           "f": 0,
           "fibre": 1
+        },
+        {
+          "name": "Lunch: F4F meal (label: 646 kcal / 52.6P / 60.0C / 16.5F)",
+          "kcal": 646,
+          "p": 53,
+          "c": 60,
+          "f": 17,
+          "fibre": 4
         }
       ]
     }
