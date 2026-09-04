@@ -1297,17 +1297,34 @@
     },
     "2026-09-05": {
       "training": "8.30am class",
-      "fluidsMl": 0,
+      "fluidsMl": 125,
       "closed": false,
       "items": [
         {
-          "name": "PRE-CLASS: Granny Smith apple + purée pouch",
-          "kcal": 145,
-          "p": 1,
-          "c": 34,
+          "name": "PRE-CLASS: Granny Smith apple + 2 purée pouches",
+          "kcal": 210,
+          "p": 2,
+          "c": 47,
           "f": 0,
-          "fibre": 6,
+          "fibre": 8,
           "slot": "pre"
+        },
+        {
+          "name": "PRE-CLASS: Corn Thins x2",
+          "kcal": 50,
+          "p": 2,
+          "c": 10,
+          "f": 0,
+          "fibre": 2,
+          "slot": "pre"
+        },
+        {
+          "name": "Oat milk flat white, half (drunk with the corn thins)",
+          "kcal": 70,
+          "p": 1,
+          "c": 8,
+          "f": 4,
+          "fibre": 1
         }
       ]
     }
