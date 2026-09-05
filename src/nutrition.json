@@ -1353,12 +1353,29 @@
           "fibre": 1
         },
         {
-          "name": "Ice cream, single serve (est. ~2 scoops)",
-          "kcal": 300,
+          "name": "Gelato, single scoop in waffle cone (photo est.)",
+          "kcal": 310,
           "p": 5,
-          "c": 33,
-          "f": 16,
+          "c": 40,
+          "f": 13,
           "fibre": 1
+        },
+        {
+          "name": "Lunch: F4F chicken thigh & stir-fry basmati (label: 715 kcal / 57.9P / 78.0C / 18.7F)",
+          "kcal": 715,
+          "p": 58,
+          "c": 78,
+          "f": 19,
+          "fibre": 5
+        },
+        {
+          "name": "Broccoli, 100g",
+          "kcal": 34,
+          "p": 3,
+          "c": 7,
+          "f": 0,
+          "fibre": 3,
+          "slot": "veg"
         }
       ]
     }
