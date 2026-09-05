@@ -1460,6 +1460,31 @@
           "slot": "supp"
         }
       ]
+    },
+    "2026-09-06": {
+      "training": "TBC",
+      "fluidsMl": 0,
+      "closed": false,
+      "items": [
+        {
+          "name": "PRE-TRAINING: purée pouch",
+          "kcal": 65,
+          "p": 1,
+          "c": 13,
+          "f": 0,
+          "fibre": 2,
+          "slot": "pre"
+        },
+        {
+          "name": "PRE-TRAINING: Corn Thin ×1",
+          "kcal": 25,
+          "p": 1,
+          "c": 5,
+          "f": 0,
+          "fibre": 1,
+          "slot": "pre"
+        }
+      ]
     }
   }
 }
