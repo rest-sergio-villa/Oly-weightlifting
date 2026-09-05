@@ -1394,20 +1394,44 @@
           "fibre": 0
         },
         {
-          "name": "Dinner: The Smoker meatworks platter, my share not finished — brisket, pulled pork, sausage, ribs (~220g meat, photo est.)",
-          "kcal": 590,
-          "p": 46,
-          "c": 8,
-          "f": 44,
+          "name": "Dinner (The Smoker): smoked sausage x1",
+          "kcal": 300,
+          "p": 15,
+          "c": 2,
+          "f": 26,
           "fibre": 0
         },
         {
-          "name": "Big Fat Boy fries w/ garlic aioli, most of a side (~180g, est.)",
-          "kcal": 500,
-          "p": 6,
-          "c": 60,
-          "f": 25,
-          "fibre": 5
+          "name": "Dinner: smoked chicken drumstick x1",
+          "kcal": 180,
+          "p": 22,
+          "c": 0,
+          "f": 10,
+          "fibre": 0
+        },
+        {
+          "name": "Dinner: St Louis pork ribs, half the serve (est.)",
+          "kcal": 260,
+          "p": 18,
+          "c": 9,
+          "f": 18,
+          "fibre": 0
+        },
+        {
+          "name": "Dinner: Big Fat Boy fries w/ aioli, half a side (~120g est.)",
+          "kcal": 340,
+          "p": 4,
+          "c": 42,
+          "f": 17,
+          "fibre": 4
+        },
+        {
+          "name": "Dill pickles",
+          "kcal": 10,
+          "p": 0,
+          "c": 2,
+          "f": 0,
+          "fibre": 1
         }
       ]
     }
