@@ -1297,7 +1297,7 @@
     },
     "2026-09-05": {
       "training": "8.30am class",
-      "fluidsMl": 125,
+      "fluidsMl": 1125,
       "closed": false,
       "items": [
         {
@@ -1324,6 +1324,32 @@
           "p": 1,
           "c": 8,
           "f": 4,
+          "fibre": 1
+        },
+        {
+          "name": "Pre-workout, caffeinated (8.3g high-stim: 199mg caffeine)",
+          "kcal": 25,
+          "p": 4,
+          "c": 0,
+          "f": 0,
+          "fibre": 0,
+          "slot": "supp"
+        },
+        {
+          "name": "INTRA-CLASS: Gatorade, 2 scoops in 750ml",
+          "kcal": 130,
+          "p": 0,
+          "c": 30,
+          "f": 0,
+          "fibre": 0,
+          "slot": "intra"
+        },
+        {
+          "name": "Oat milk flat white (regular)",
+          "kcal": 140,
+          "p": 2,
+          "c": 15,
+          "f": 7,
           "fibre": 1
         }
       ]
