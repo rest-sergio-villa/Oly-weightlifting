@@ -1501,6 +1501,15 @@
           "f": 11,
           "fibre": 1,
           "slot": "pre"
+        },
+        {
+          "name": "PRE-TRAINING: Froot Loops, ~45g dry (label 30g = 120 kcal / 25.2C)",
+          "kcal": 180,
+          "p": 3,
+          "c": 38,
+          "f": 2,
+          "fibre": 1,
+          "slot": "pre"
         }
       ]
     }
