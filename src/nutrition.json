@@ -1297,7 +1297,7 @@
     },
     "2026-09-05": {
       "training": "8.30am class",
-      "fluidsMl": 1125,
+      "fluidsMl": 1500,
       "closed": false,
       "items": [
         {
@@ -1376,6 +1376,14 @@
           "f": 0,
           "fibre": 3,
           "slot": "veg"
+        },
+        {
+          "name": "Coke Zero, 375ml can (~32mg caffeine)",
+          "kcal": 1,
+          "p": 0,
+          "c": 0,
+          "f": 0,
+          "fibre": 0
         }
       ]
     }
