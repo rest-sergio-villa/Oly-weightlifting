@@ -1483,6 +1483,15 @@
           "f": 0,
           "fibre": 1,
           "slot": "pre"
+        },
+        {
+          "name": "PRE-TRAINING: Granny Smith apple",
+          "kcal": 80,
+          "p": 0,
+          "c": 21,
+          "f": 0,
+          "fibre": 4,
+          "slot": "pre"
         }
       ]
     }
