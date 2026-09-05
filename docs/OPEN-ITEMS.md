@@ -1,7 +1,12 @@
 # Open items
 
 Running list of things owed or outstanding, so they survive a cleared conversation.
-Last updated 5 Sep 2026.
+Last updated 5 Sep 2026 (evening).
+
+**Nutrition ledger is fully caught up** — 12 days logged and closed, 25 Aug → 5 Sep,
+no open days. Rolling 7: 2,816 kcal / P199 / C319 / F71 against a target of
+2,846 / 160 / 371 / 80. Standing adjustments: carbs up ~50, protein down ~40
+(dropping one protein water does it), fat up ~10 (avocado or olive oil).
 
 ## Training log — the big gap
 
@@ -51,9 +56,11 @@ singles, KB swings, box jump-overs, echo bike) came straight after Day 3.
 
 - **Reply to Seb** owed — see `docs/nutrition/2026-09-04-seb-macro-targets.md`,
   "Reply still owed" (serving-sizes question; whether 2,846 is high enough).
-- **Fri 4 Sep and Sat 5 Sep are still open** in `src/nutrition.json` — Friday needs its
-  night stack, Saturday is mid-day.
-- **Gap week**: Food4Fitness meals arrive Fri 11 Sep. Sat 5 → Thu 11 needs improvising,
-  roughly 12 meals. Plan not yet made.
-- **Buy**: bananas (the pre-training 80g depends on them), avocado and/or olive oil
-  (the daily fat gap).
+- **Gap week**: Food4Fitness meals arrive Fri 11 Sep. Sun 6 → Thu 11 needs improvising,
+  roughly 10 meals. Plan not yet made — rice, pasta and a couple of fat sources are
+  most of the answer.
+- **Buy**: bananas (the pre-training 80g depends on them — Sat 5 fell short at 57g
+  because there were none in the house), avocado and/or olive oil (the daily fat gap).
+- **Saturday classes**: Sergio did the 8:30am on Sat 5 Sep, which Seb had programmed as
+  a rest day — six sessions in a week planned for five. Fine once; if it becomes
+  standard, tell Seb, because it changes the calorie maths rather than just the label.
