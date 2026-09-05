@@ -1297,7 +1297,7 @@
     },
     "2026-09-05": {
       "training": "8.30am class",
-      "fluidsMl": 1500,
+      "fluidsMl": 1850,
       "closed": false,
       "items": [
         {
@@ -1351,6 +1351,14 @@
           "c": 15,
           "f": 7,
           "fibre": 1
+        },
+        {
+          "name": "Breakfast smoothie: 350ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens",
+          "kcal": 635,
+          "p": 39,
+          "c": 91,
+          "f": 12,
+          "fibre": 15
         },
         {
           "name": "Gelato, single scoop in waffle cone (photo est.)",
