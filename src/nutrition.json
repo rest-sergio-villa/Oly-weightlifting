@@ -1463,7 +1463,7 @@
     },
     "2026-09-06": {
       "training": "TBC",
-      "fluidsMl": 0,
+      "fluidsMl": 100,
       "closed": false,
       "items": [
         {
@@ -1494,20 +1494,11 @@
           "slot": "pre"
         },
         {
-          "name": "PRE-TRAINING: Chinese sponge cake/bun, 1 piece (~50g est.; label 435 kcal/100g, 56C, 21F)",
-          "kcal": 218,
-          "p": 3,
-          "c": 28,
-          "f": 11,
-          "fibre": 1,
-          "slot": "pre"
-        },
-        {
-          "name": "PRE-TRAINING: Froot Loops, ~45g dry (label 30g = 120 kcal / 25.2C)",
-          "kcal": 180,
-          "p": 3,
-          "c": 38,
-          "f": 2,
+          "name": "PRE-TRAINING: Froot Loops 45g + 100ml Liddells low-fat milk",
+          "kcal": 223,
+          "p": 6,
+          "c": 43,
+          "f": 3,
           "fibre": 1,
           "slot": "pre"
         }
