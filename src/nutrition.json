@@ -1351,6 +1351,14 @@
           "c": 15,
           "f": 7,
           "fibre": 1
+        },
+        {
+          "name": "Ice cream, single serve (est. ~2 scoops)",
+          "kcal": 300,
+          "p": 5,
+          "c": 33,
+          "f": 16,
+          "fibre": 1
         }
       ]
     }
