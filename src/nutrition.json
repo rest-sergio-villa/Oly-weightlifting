@@ -1200,7 +1200,7 @@
     "2026-09-04": {
       "training": "6am class",
       "fluidsMl": 3600,
-      "closed": false,
+      "closed": true,
       "items": [
         {
           "name": "PRE-CLASS: banana + purée pouch",
@@ -1292,13 +1292,22 @@
           "c": 59,
           "f": 9,
           "fibre": 3
+        },
+        {
+          "name": "Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate",
+          "kcal": 15,
+          "p": 0,
+          "c": 1,
+          "f": 0,
+          "fibre": 3,
+          "slot": "supp"
         }
       ]
     },
     "2026-09-05": {
       "training": "8.30am class",
       "fluidsMl": 1850,
-      "closed": false,
+      "closed": true,
       "items": [
         {
           "name": "PRE-CLASS: Granny Smith apple + 2 purée pouches",
@@ -1440,6 +1449,15 @@
           "c": 2,
           "f": 0,
           "fibre": 1
+        },
+        {
+          "name": "Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate",
+          "kcal": 15,
+          "p": 0,
+          "c": 1,
+          "f": 0,
+          "fibre": 3,
+          "slot": "supp"
         }
       ]
     }
