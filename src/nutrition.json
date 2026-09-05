@@ -1492,6 +1492,15 @@
           "f": 0,
           "fibre": 4,
           "slot": "pre"
+        },
+        {
+          "name": "PRE-TRAINING: Chinese sponge cake/bun, 1 piece (~50g est.; label 435 kcal/100g, 56C, 21F)",
+          "kcal": 218,
+          "p": 3,
+          "c": 28,
+          "f": 11,
+          "fibre": 1,
+          "slot": "pre"
         }
       ]
     }
