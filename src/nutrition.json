@@ -1463,7 +1463,7 @@
     },
     "2026-09-06": {
       "training": "Oly Day 3 (am)",
-      "fluidsMl": 1700,
+      "fluidsMl": 2450,
       "closed": true,
       "items": [
         {
@@ -1501,6 +1501,15 @@
           "f": 3,
           "fibre": 1,
           "slot": "pre"
+        },
+        {
+          "name": "INTRA-TRAINING: Gatorade, 2 scoops in 750ml",
+          "kcal": 130,
+          "p": 0,
+          "c": 30,
+          "f": 0,
+          "fibre": 0,
+          "slot": "intra"
         },
         {
           "name": "Breakfast smoothie + PB: 350ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens, 40g peanut butter",
