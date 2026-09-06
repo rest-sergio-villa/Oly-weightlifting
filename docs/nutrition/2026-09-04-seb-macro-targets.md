@@ -122,3 +122,24 @@ Two points to make:
    the scale has been drifting down ~0.7 kg/week at that average (7-day avg 80.8 →
    80.1, low of 79.0 on 3 Sep). Worth asking whether to start here and reassess in a
    fortnight, or go higher now.
+
+## Standing takeaway order — Guzman y Gomez
+
+**"Grilled chicken burrito — extra chicken, extra rice, add guacamole."**
+
+Rice and black beans come standard; only mention them if you want extra.
+Say no to sour cream and chipotle mayo — with guac on, they overshoot fat.
+
+| Choice | Reason |
+|---|---|
+| Burrito, not a bowl | the tortilla is ~57g of carbs |
+| Extra chicken | 200g total, ~56g protein |
+| Extra rice | GYG's standard serve is only 90g; +26g carbs for 117 kcal |
+| Guacamole 70g | 10g fat toward the 80g target |
+
+Roughly **1,240 kcal / 80P / 127C / 45F** as ordered above.
+
+GYG's published component weights, useful for logging: standard burrito ~480g
+total; rice 90g, grilled chicken 100g per portion, black beans 30g, guacamole
+70g, burrito tortilla ~110g. Chicken + extra chicken + guac comes to ~650g.
+Logged on 6 Sep (without the extra rice) at 1,125 kcal / 78P / 101C / 44F.
