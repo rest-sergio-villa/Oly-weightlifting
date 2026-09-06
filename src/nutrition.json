@@ -1463,7 +1463,7 @@
     },
     "2026-09-06": {
       "training": "TBC",
-      "fluidsMl": 100,
+      "fluidsMl": 450,
       "closed": false,
       "items": [
         {
@@ -1501,6 +1501,14 @@
           "f": 3,
           "fibre": 1,
           "slot": "pre"
+        },
+        {
+          "name": "Breakfast smoothie + PB: 350ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens, 40g peanut butter",
+          "kcal": 867,
+          "p": 49,
+          "c": 96,
+          "f": 32,
+          "fibre": 18
         }
       ],
       "note": "First session at Seb's full 80g pre-training load (apple, pouch, corn thin, 45g Froot Loops with 100ml low-fat milk = 82g carbs, 3g fat). Energy levels good throughout, stomach fine — no GI issues at double the previous 40g load."
