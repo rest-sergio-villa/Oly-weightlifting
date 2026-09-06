@@ -1462,9 +1462,9 @@
       ]
     },
     "2026-09-06": {
-      "training": "TBC",
-      "fluidsMl": 450,
-      "closed": false,
+      "training": "Oly Day 3 (am)",
+      "fluidsMl": 1700,
+      "closed": true,
       "items": [
         {
           "name": "PRE-TRAINING: purée pouch",
@@ -1517,6 +1517,32 @@
           "c": 101,
           "f": 44,
           "fibre": 10
+        },
+        {
+          "name": "Dinner: bolognese, 520g of a 3-way split batch (480g mince + 500g sauce + 350g dry pasta)",
+          "kcal": 769,
+          "p": 53,
+          "c": 90,
+          "f": 18,
+          "fibre": 6
+        },
+        {
+          "name": "Frozen broccoli, 100g",
+          "kcal": 31,
+          "p": 3,
+          "c": 2,
+          "f": 0,
+          "fibre": 3,
+          "slot": "veg"
+        },
+        {
+          "name": "Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate",
+          "kcal": 15,
+          "p": 0,
+          "c": 1,
+          "f": 0,
+          "fibre": 3,
+          "slot": "supp"
         }
       ],
       "note": "First session at Seb's full 80g pre-training load (apple, pouch, corn thin, 45g Froot Loops with 100ml low-fat milk = 82g carbs, 3g fat). Energy levels good throughout, stomach fine — no GI issues at double the previous 40g load."
