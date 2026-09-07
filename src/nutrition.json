@@ -1618,6 +1618,47 @@
           "c": 22,
           "f": 2,
           "fibre": 1
+        },
+        {
+          "name": "Dinner: SunRice long grain white rice, 225g",
+          "kcal": 378,
+          "p": 8,
+          "c": 77,
+          "f": 2,
+          "fibre": 6
+        },
+        {
+          "name": "Dinner: tuna in springwater, 1 full can drained (~120g)",
+          "kcal": 136,
+          "p": 31,
+          "c": 0,
+          "f": 1,
+          "fibre": 0
+        },
+        {
+          "name": "Frozen mixed vegetables, 125g",
+          "kcal": 34,
+          "p": 2,
+          "c": 4,
+          "f": 0,
+          "fibre": 3,
+          "slot": "veg"
+        },
+        {
+          "name": "Avocado, half",
+          "kcal": 160,
+          "p": 2,
+          "c": 9,
+          "f": 15,
+          "fibre": 7
+        },
+        {
+          "name": "Dill pickles",
+          "kcal": 10,
+          "p": 0,
+          "c": 2,
+          "f": 0,
+          "fibre": 1
         }
       ]
     }
