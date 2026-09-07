@@ -1576,6 +1576,23 @@
           "c": 9,
           "f": 4,
           "fibre": 1
+        },
+        {
+          "name": "Lunch: bolognese, 580g of Sunday's 3-way split batch",
+          "kcal": 858,
+          "p": 59,
+          "c": 100,
+          "f": 20,
+          "fibre": 7
+        },
+        {
+          "name": "Frozen mixed vegetables (carrot, cauliflower, broccoli), 100g",
+          "kcal": 27,
+          "p": 2,
+          "c": 3,
+          "f": 0,
+          "fibre": 2,
+          "slot": "veg"
         }
       ]
     }
