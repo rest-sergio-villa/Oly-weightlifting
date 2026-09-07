@@ -1601,6 +1601,23 @@
           "c": 1,
           "f": 0,
           "fibre": 0
+        },
+        {
+          "name": "Banana",
+          "kcal": 105,
+          "p": 1,
+          "c": 27,
+          "f": 0,
+          "fibre": 3,
+          "slot": "fruit"
+        },
+        {
+          "name": "Half Glick's bagel",
+          "kcal": 124,
+          "p": 4,
+          "c": 22,
+          "f": 2,
+          "fibre": 1
         }
       ]
     }
