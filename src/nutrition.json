@@ -1691,6 +1691,39 @@
           "c": 1,
           "f": 0,
           "fibre": 0
+        },
+        {
+          "name": "Lunch: SunRice long grain white rice, 250g",
+          "kcal": 420,
+          "p": 9,
+          "c": 86,
+          "f": 3,
+          "fibre": 7
+        },
+        {
+          "name": "Lunch: tuna in springwater, half a tin (~60g drained)",
+          "kcal": 68,
+          "p": 15,
+          "c": 0,
+          "f": 1,
+          "fibre": 0
+        },
+        {
+          "name": "Frozen mixed vegetables, 125g",
+          "kcal": 34,
+          "p": 2,
+          "c": 4,
+          "f": 0,
+          "fibre": 3,
+          "slot": "veg"
+        },
+        {
+          "name": "Garlic aioli, 20ml (1 tbsp, label values)",
+          "kcal": 124,
+          "p": 0,
+          "c": 1,
+          "f": 13,
+          "fibre": 0
         }
       ]
     }
