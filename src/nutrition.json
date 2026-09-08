@@ -1856,12 +1856,13 @@
           "slot": "intra"
         },
         {
-          "name": "Breakfast smoothie + PB: 400ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens, 40g peanut butter",
+          "name": "POST-TRAINING: breakfast smoothie + PB: 400ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens, 40g peanut butter",
           "kcal": 879,
           "p": 50,
           "c": 95,
           "f": 32,
-          "fibre": 18
+          "fibre": 18,
+          "slot": "post"
         },
         {
           "name": "Coffee from the shop: oat milk flat white",
