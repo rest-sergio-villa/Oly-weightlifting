@@ -1673,7 +1673,7 @@
     },
     "2026-09-08": {
       "training": "Oly Day 1 (pm)",
-      "fluidsMl": 2050,
+      "fluidsMl": 2800,
       "closed": false,
       "items": [
         {
@@ -1741,6 +1741,42 @@
           "f": 0,
           "fibre": 1,
           "slot": "pre"
+        },
+        {
+          "name": "PRE-TRAINING: Glick's bagel (90g)",
+          "kcal": 248,
+          "p": 8,
+          "c": 44,
+          "f": 3,
+          "fibre": 2,
+          "slot": "pre"
+        },
+        {
+          "name": "PRE-TRAINING: banana",
+          "kcal": 105,
+          "p": 1,
+          "c": 27,
+          "f": 0,
+          "fibre": 3,
+          "slot": "pre"
+        },
+        {
+          "name": "INTRA-TRAINING: Gatorade, 2 scoops in 750ml",
+          "kcal": 130,
+          "p": 0,
+          "c": 30,
+          "f": 0,
+          "fibre": 0,
+          "slot": "intra"
+        },
+        {
+          "name": "POST-TRAINING: purée pouch",
+          "kcal": 60,
+          "p": 1,
+          "c": 12,
+          "f": 0,
+          "fibre": 1,
+          "slot": "post"
         }
       ]
     }
