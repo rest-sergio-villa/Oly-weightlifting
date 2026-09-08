@@ -1777,6 +1777,22 @@
           "f": 0,
           "fibre": 1,
           "slot": "post"
+        },
+        {
+          "name": "Dinner: 3 scrambled eggs with a knob of butter (~8g)",
+          "kcal": 270,
+          "p": 19,
+          "c": 2,
+          "f": 21,
+          "fibre": 0
+        },
+        {
+          "name": "Dinner: Glick's bagel (90g)",
+          "kcal": 248,
+          "p": 8,
+          "c": 44,
+          "f": 3,
+          "fibre": 2
         }
       ]
     }
