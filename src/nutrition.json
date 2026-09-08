@@ -1732,6 +1732,15 @@
           "c": 1,
           "f": 13,
           "fibre": 0
+        },
+        {
+          "name": "PRE-TRAINING: purée pouch",
+          "kcal": 60,
+          "p": 1,
+          "c": 12,
+          "f": 0,
+          "fibre": 1,
+          "slot": "pre"
         }
       ]
     }
