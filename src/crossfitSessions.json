@@ -737,5 +737,26 @@
       "timeCap": "30:00"
     },
     "notes": "Done alongside Day 3 of Seb's program (strict press RPE calibration). Plus the MacKenzie press accessory, 2 x 10 with 10s hold on the last rep."
+  },
+  "2026-09-09": {
+    "className": "CrossFit 3056",
+    "time": "6:00am",
+    "week": "week-5-c3",
+    "cycle": "cycle-3",
+    "location": "loc-brunswick",
+    "strength": [
+      {
+        "name": "Power intervals — Row / Toes to Bar / Power Snatch",
+        "scheme": "4 sets, each for reps: 0:20 max calorie row (RPE 9/10) — rest 0:20 — 0:20 max rep toes to bar, unbroken — rest 0:20 — 0:20 max rep power snatch @ 60% or RPE 7/10 — rest 1:40. Score: reps on the snatches. Time cap 12:00.",
+        "myWeight": "Snatch 30kg, ~4 reps a set. Toes to bar scaled to raised legs, ~5 a set."
+      }
+    ],
+    "metcon": {
+      "format": "Teams of 3 — Max Calorie Row in 10:00",
+      "details": "P1: Row\nP2: Dual dumbbell / kettlebell front rack hold (24kg)\nP3: Rest\nSwitch as needed.",
+      "scoreType": "Total Calories",
+      "timeCap": "10:00"
+    },
+    "notes": "Felt really good — the first class done on the full 80g pre-load (bagel + purée pouch + banana, 84g carbs, 45 min before). Toes to bar scaled to raised legs, ~5 a set; power snatch kept light at 30kg for ~4 a set; 24kg dumbbells on the front rack hold."
   }
 }
