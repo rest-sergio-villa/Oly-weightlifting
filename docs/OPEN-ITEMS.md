@@ -1,23 +1,30 @@
 # Open items
 
 Running list of things owed or outstanding, so they survive a cleared conversation.
-Last updated 7 Sep 2026 (evening).
+Last updated 8 Sep 2026 (evening).
 
-**Nutrition ledger is fully caught up** — 14 days logged and closed, 25 Aug → 7 Sep,
-no open days. Rolling 7: 2,957 kcal / P202 / C347 / F75 against a target of
+**Nutrition ledger is fully caught up** — 15 days logged and closed, 25 Aug → 8 Sep,
+no open days. Rolling 7: 2,953 kcal / P187 / C351 / F80 against a target of
 2,846 / 160 / 371 / 80.
 
-Carbs and fat have both moved the right way since Seb's 4 Sep targets landed (carbs
-316 → 347, fat 64 → 75), driven by two habits that now work: **40g peanut butter in the
-morning smoothie** (~20g fat in one move) and **half an avocado** with an evening meal.
-Protein is the remaining problem at 202 vs 160 — mostly protein waters and a tendency
-to order double-chicken. One protein water a day, not two or three.
+**Tue 8 Sep was the best-executed day of the fifteen**: 2,896 / P136 / C374 / F83 —
+carbs within 1g, fat within 3, calories within 36. Pre-training landed at 83g carbs
+with 3g fat (bagel + banana + pouch), which is now the settled formula.
 
-**Open question Sergio raised 7 Sep: "are we eating more than necessary?"** Over ten
-days intake is only +32 kcal/day against target, but the last three were +1,404
-combined (BBQ platter, a burrito day, and a rest day at +109). Cannot be answered
-without fresh weigh-ins — the scale data stops 3 Sep, before any of those days.
-**Get a RENPHO export and check whether the 7-day average has flattened.**
+Progress against Seb's 4 Sep targets:
+- **Carbs 313 → 351.** Nearly closed. Driven by rice/pasta portions at 100g dry or
+  250g cooked, and by the 80g pre-training load.
+- **Fat 69 → 80, now exactly on target.** Two habits did it: **40g peanut butter in
+  the morning smoothie** (~20g fat) and a deliberate fat source with an evening meal
+  (half an avocado, 20ml garlic aioli, or butter in scrambled eggs).
+- **Protein 202 → 187**, and 136 on 8 Sep alone. The lever is powder, not food:
+  smoothie WPI + protein water + post-training WPI is 69g before any meal.
+  **One protein water a day, and skip the post-training WPI when dinner is within
+  an hour.** That alone is the difference between 200 and 165.
+
+**Still open from 7 Sep: "are we eating more than necessary?"** Rolling 7 runs
+~107 kcal/day above target. **This cannot be answered without fresh weigh-ins** —
+the scale data still stops on 3 Sep, before every one of the higher days.
 
 ## Training log — the big gap
 
@@ -35,6 +42,7 @@ The lift log stops at **16 Aug** (cycle 3, week 1). Everything since is missing:
 | Sun 30 Aug | Double: Day 3 + class | partly captured in the Fuel session note only |
 | Tue 1, Wed 2, Thu 3, Fri 4, Sat 5 Sep | sessions + classes | nothing logged |
 | Sun 6 Sep | Oly Day 3 (am) | nothing logged |
+| Tue 8 Sep | Wk? Day 1 (pm) | nothing logged |
 
 Screenshots are enough for classes. Oly days need weights and sets per exercise;
 videos only if they were taken. Rough recall beats a blank week.
