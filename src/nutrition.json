@@ -1674,7 +1674,7 @@
     "2026-09-08": {
       "training": "Oly Day 1 (pm)",
       "fluidsMl": 2800,
-      "closed": false,
+      "closed": true,
       "items": [
         {
           "name": "Breakfast smoothie + PB: 400ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens, 40g peanut butter",
@@ -1793,6 +1793,15 @@
           "c": 44,
           "f": 3,
           "fibre": 2
+        },
+        {
+          "name": "Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate",
+          "kcal": 15,
+          "p": 0,
+          "c": 1,
+          "f": 0,
+          "fibre": 3,
+          "slot": "supp"
         }
       ]
     }
