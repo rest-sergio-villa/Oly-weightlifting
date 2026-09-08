@@ -1673,7 +1673,7 @@
     },
     "2026-09-08": {
       "training": "Oly Day 1 (pm)",
-      "fluidsMl": 1800,
+      "fluidsMl": 2050,
       "closed": false,
       "items": [
         {
@@ -1691,6 +1691,14 @@
           "c": 1,
           "f": 0,
           "fibre": 0
+        },
+        {
+          "name": "Oat milk flat white (10am)",
+          "kcal": 140,
+          "p": 2,
+          "c": 15,
+          "f": 7,
+          "fibre": 1
         },
         {
           "name": "Lunch: SunRice long grain white rice, 250g",
