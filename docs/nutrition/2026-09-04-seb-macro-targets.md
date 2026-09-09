@@ -118,10 +118,33 @@ Two points to make:
    portions corrected unprompted, bread weighed — the need isn't being told what to
    eat, it's knowing how much. Serving sizes survive yum cha and Turkish bakeries in
    a way a meal plan doesn't.
-2. **2,846 may still be short.** It's only ~115 kcal above the fortnight average, and
-   the scale has been drifting down ~0.7 kg/week at that average (7-day avg 80.8 →
-   80.1, low of 79.0 on 3 Sep). Worth asking whether to start here and reassess in a
-   fortnight, or go higher now.
+2. ~~**2,846 may still be short.**~~ **Superseded — see below.** Say instead that
+   fifteen days at 2,842 produced a 1.2 kg fall that has since flattened, so the
+   number looks about right, and propose reassessing after another clean fortnight.
+
+## 9 Sep — the weight data settles it
+
+The RENPHO export through 9 Sep closed the gap that made the "is 2,846 enough"
+question unanswerable. Over the 15 closed days:
+
+- Mean intake **2,842 kcal/day** — within 4 kcal of target.
+- Rolling-7 weight **80.83 → 79.59 kg** (−0.61 kg/week overall).
+
+Split in half, though, it is two different stories:
+
+| | Intake | Weight slope |
+|---|---|---|
+| 25 Aug – 1 Sep | 2,745 kcal/day | −1.07 kg/week |
+| 2 – 8 Sep | 2,953 kcal/day | **+0.60 kg/week** |
+
+208 kcal/day is worth about 0.19 kg/week, not 1.67 — so most of that swing is
+glycogen and bound water, tracking the carb rise from 313 to 351 g/day. The early
+drop was the same effect in reverse.
+
+Interpolating for a flat trend puts break-even near **2,880 kcal/day**. Seb's number
+is close to right, and the argument for raising it has evaporated: **the loss has
+already stopped.** Hold at 2,846 and reassess after another fortnight with fewer
+outlier days.
 
 ## Standing takeaway order — Guzman y Gomez
 
