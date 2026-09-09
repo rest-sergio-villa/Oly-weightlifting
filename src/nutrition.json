@@ -1889,36 +1889,36 @@
           "fibre": 0
         },
         {
-          "name": "Lunch (Poppa's bowl, est.): braised pork belly, ~130g",
-          "kcal": 430,
-          "p": 26,
-          "c": 6,
-          "f": 34,
+          "name": "Lunch (Poppa's bowl, est.): braised pork belly, ~140g",
+          "kcal": 470,
+          "p": 28,
+          "c": 7,
+          "f": 37,
           "fibre": 0
         },
         {
-          "name": "Lunch (est.): steamed white rice, ~180g cooked",
-          "kcal": 235,
-          "p": 4,
-          "c": 52,
-          "f": 1,
+          "name": "Lunch (est.): steamed white rice, ~140g cooked",
+          "kcal": 182,
+          "p": 3,
+          "c": 40,
+          "f": 0,
           "fibre": 1
         },
         {
-          "name": "Lunch (est.): roast potato wedges, ~90g",
-          "kcal": 135,
+          "name": "Lunch (est.): roast potato wedges, ~95g",
+          "kcal": 143,
           "p": 2,
-          "c": 18,
+          "c": 19,
           "f": 5,
           "fibre": 2
         },
         {
-          "name": "Lunch (est.): steamed broccoli, ~80g",
-          "kcal": 27,
-          "p": 3,
-          "c": 3,
+          "name": "Lunch (est.): steamed broccoli, ~50g",
+          "kcal": 17,
+          "p": 2,
+          "c": 2,
           "f": 0,
-          "fibre": 3,
+          "fibre": 2,
           "slot": "veg"
         },
         {
