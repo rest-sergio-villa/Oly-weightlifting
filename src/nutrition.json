@@ -1871,6 +1871,14 @@
           "c": 15,
           "f": 7,
           "fibre": 1
+        },
+        {
+          "name": "Purée pouch (mid-morning, hunger)",
+          "kcal": 60,
+          "p": 1,
+          "c": 12,
+          "f": 0,
+          "fibre": 1
         }
       ]
     }
