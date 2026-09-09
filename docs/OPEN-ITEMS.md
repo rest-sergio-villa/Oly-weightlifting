@@ -1,67 +1,100 @@
 # Open items
 
 Running list of things owed or outstanding, so they survive a cleared conversation.
-Last updated 8 Sep 2026 (evening).
+Last updated 9 Sep 2026.
 
-**Nutrition ledger is fully caught up** — 15 days logged and closed, 25 Aug → 8 Sep,
-no open days. Rolling 7: 2,953 kcal / P187 / C351 / F80 against a target of
-2,846 / 160 / 371 / 80.
+## The energy question — answered
 
-**Tue 8 Sep was the best-executed day of the fifteen**: 2,896 / P136 / C374 / F83 —
-carbs within 1g, fat within 3, calories within 36. Pre-training landed at 83g carbs
-with 3g fat (bagel + banana + pouch), which is now the settled formula.
+**"Are we eating more than necessary?" No.** The 9 Sep RENPHO export closed the gap
+that made this unanswerable. Over the 15 closed days, 25 Aug – 8 Sep:
 
-Progress against Seb's 4 Sep targets:
-- **Carbs 313 → 351.** Nearly closed. Driven by rice/pasta portions at 100g dry or
-  250g cooked, and by the 80g pre-training load.
-- **Fat 69 → 80, now exactly on target.** Two habits did it: **40g peanut butter in
-  the morning smoothie** (~20g fat) and a deliberate fat source with an evening meal
-  (half an avocado, 20ml garlic aioli, or butter in scrambled eggs).
-- **Protein 202 → 187**, and 136 on 8 Sep alone. The lever is powder, not food:
-  smoothie WPI + protein water + post-training WPI is 69g before any meal.
-  **One protein water a day, and skip the post-training WPI when dinner is within
-  an hour.** That alone is the difference between 200 and 165.
+- **Mean intake 2,842 kcal/day** against Seb's 2,846 target — within 4 kcal.
+- **Rolling-7 weight 80.83 → 79.59 kg**, a fall of 1.24 kg across the window
+  (−0.61 kg/week by least squares).
+- Body fat 27.0% → 26.5%; fat mass 21.91 → 21.20 kg.
 
-**Still open from 7 Sep: "are we eating more than necessary?"** Rolling 7 runs
-~107 kcal/day above target. **This cannot be answered without fresh weigh-ins** —
-the scale data still stops on 3 Sep, before every one of the higher days.
+But the window is not one trend, it is two:
 
-## Training log — the big gap
+| | Intake | Weight slope |
+|---|---|---|
+| 25 Aug – 1 Sep | 2,745 kcal/day | **−1.07 kg/week** |
+| 2 – 8 Sep | 2,953 kcal/day | **+0.60 kg/week** |
 
-The lift log stops at **16 Aug** (cycle 3, week 1). Everything since is missing:
+208 kcal/day cannot physiologically account for a 1.67 kg/week swing (it is worth
+about 0.19). **Most of that reversal is glycogen and the water bound to it** —
+carbs went 313 → 351 g/day over the same period, and every gram of stored glycogen
+carries roughly 3 g of water. The early drop was partly the same effect running the
+other way.
+
+**Reading it straight:** interpolating for a flat trend puts break-even near
+**2,880 kcal/day**. Seb's 2,846 looks close to right, possibly a shade under.
+**Do not add calories yet** — the loss has already stopped. Reassess after another
+fortnight of clean data, ideally with fewer outlier days (5 Sep was 3,685 and
+6 Sep 3,330; the other five days of that week averaged 2,772).
+
+Caveat on the body-composition split: the scale attributes ~0.7 kg of the loss to
+fat and ~0.5 kg to lean mass. Bioimpedance cannot actually separate those — the
+readings track hydration more than tissue. Don't act on the lean figure.
+
+## Nutrition
+
+- **Ledger**: 16 days logged, 25 Aug – 9 Sep. **9 Sep is still open** (lunch in, dinner
+  and night stack outstanding).
+- Rolling 7 as of 8 Sep close: 2,953 kcal / P187 / C351 / F80 against 2,846 / 160 / 371 / 80.
+- **Reply to Seb** still owed — see `docs/nutrition/2026-09-04-seb-macro-targets.md`.
+  Note that the "2,846 may be short" argument is now **superseded** by the weight data.
+- **Fat solved**: 69 → 80 g/day, via 40g peanut butter in the morning smoothie (~20g)
+  plus a deliberate fat source at an evening meal (half avocado, 20ml garlic aioli,
+  or butter in scrambled eggs).
+- **Protein**: 202 → 187. The lever is powder, not food — smoothie WPI + protein water
+  + post-training WPI is 69g before any meal. One protein water a day, and skip the
+  post-training WPI when dinner is within an hour.
+- **Pre-training, settled**: bagel + banana + pouch = 84g carbs, 3.4g fat. Run at
+  Seb's full 80g load on 6, 8 and 9 Sep with no GI issues.
+- **Food4Fitness meals arrive Fri 11 Sep.** Thu 10 Sep still needs improvising from
+  what's left: tuna, bagels, bananas, rice, frozen veg. Eggs and mince are gone.
+
+## Training log — the remaining gap
+
+Classes logged so far in the catch-up: **19 Aug** (EMOM 28) and **28 Aug**
+(power intervals). Still missing:
 
 | Date | Session | Status |
 |---|---|---|
 | Tue 18 Aug | Wk2 Day 1 | nothing logged |
 | Thu 20 Aug | Wk2 Day 2 | nothing logged |
+| Fri 21, Sat 22, Sun 23 Aug | classes | nothing logged |
 | Sun 23 Aug | Wk2 Day 3 | nothing logged |
-| Wed 19, Fri 21, Sat 22, Sun 23 Aug | classes | nothing logged |
 | Tue 25 Aug | Wk3 Day 1 | food logged, training not |
 | Thu 27 Aug | Wk3 Day 2 | food logged, training not |
-| Fri 28 Aug | class | not logged |
-| Sun 30 Aug | Double: Day 3 + class | partly captured in the Fuel session note only |
+| Sun 30 Aug | Double: Day 3 + class | movements known, need weights and score |
 | Tue 1, Wed 2, Thu 3, Fri 4, Sat 5 Sep | sessions + classes | nothing logged |
 | Sun 6 Sep | Oly Day 3 (am) | nothing logged |
-| Tue 8 Sep | Wk? Day 1 (pm) | nothing logged |
+| Tue 8 Sep | Day 1 (pm) | nothing logged |
+| Wed 9 Sep | 6am class | nothing logged |
 
-Screenshots are enough for classes. Oly days need weights and sets per exercise;
-videos only if they were taken. Rough recall beats a blank week.
+Screenshots are enough for classes. Oly days need weights and sets per exercise.
+Rough recall beats a blank week.
 
 Known detail not yet in `videos.json`: **Sun 30 Aug** — front squats cut to 3×5 of the
 prescribed 5×5 and RDLs dropped, because the 8:30 class (28-min EMOM: double-unders as
 singles, KB swings, box jump-overs, echo bike) came straight after Day 3.
 
+**Open question on the 28 Aug entry.** It was logged there because it ran on 40g of
+carbs and 28 Aug is the oldest unlogged 6am class that fits. Sergio described it as
+"the first class I got with carbs in", which is the note already on **26 Aug**. If the
+26 Aug entry is the misdated one, the two sessions should swap.
+
 ## Data refreshes
 
+- **RENPHO weight** — current through **9 Sep** (`src/weightDays.json`, 307 readings).
 - **Cycle 3 spreadsheet** — `src/program.json` only holds week 1. The first upload was
   Intune-encrypted (MSMAMARPCRYPT) and unreadable; needs a fresh export from Google
-  Sheets (File → Download → .xlsx). Without it the Coach summary shows a block that
-  ended weeks ago.
+  Sheets (File → Download → .xlsx). **This is now the priority refresh** — without it
+  the Coach summary shows a block that ended weeks ago.
 - **Whoop** — current through 31 Aug (`src/whoopDays.json`, 123 days from 1 May).
-  Refresh from a new `my_whoop_data_*.zip`.
-- **RENPHO weight** — current through 3 Sep (`src/weightDays.json`, 302 readings).
-  Refresh from a new `RENPHO_HealthSergio*.csv`. **This is the priority refresh** — it
-  is the only thing that answers whether the current intake is too high.
+  Refresh from a new `my_whoop_data_*.zip`. Would also corroborate the energy maths
+  above, since strain is the missing term.
 
 ## Health
 
@@ -73,18 +106,10 @@ singles, KB swings, box jump-overs, echo bike) came straight after Day 3.
 - Deadlift and bench in `src/maxes.json` are estimates (`est: true`). Replace with real
   numbers whenever they get tested.
 
-## Nutrition
+## Scheduling
 
-- **Reply to Seb** owed — see `docs/nutrition/2026-09-04-seb-macro-targets.md`,
-  "Reply still owed" (serving-sizes question; whether 2,846 is high enough).
-- **Gap week**: Food4Fitness meals arrive Fri 11 Sep. Shopping done 6 Sep and it covers
-  it — pasta (finished Mon), 2 packs microwave rice, 480g mince (all cooked Sun into a
-  3-way bolognese split), 4 tins tuna, 4 bagels, ~11 bananas, 12 pouches, 2 avocados,
-  1.5kg frozen veg, 2 jars tomato-basil sauce. Eggs were the one thing not bought.
-- **Pre-training, settled**: **bagel + banana + pouch = 84g carbs, 3.4g fat.** Proven
-  6 Sep at 82g (via Froot Loops) with energy good and no GI issues — the first session
-  at Seb's full 80g load. For 6am classes, cereal-and-milk or pouches are easier than
-  bread.
 - **Saturday classes**: Sergio did the 8:30am on Sat 5 Sep, which Seb had programmed as
   a rest day — six sessions in a week planned for five. Fine once; if it becomes
   standard, tell Seb, because it changes the calorie maths rather than just the label.
+- **Evening classes cost more.** The 19 Aug 6:30pm class is logged as feeling heavy,
+  and it ran unfuelled. The classes rated well are all the fuelled ones.
