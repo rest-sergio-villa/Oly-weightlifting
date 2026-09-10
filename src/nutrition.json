@@ -1967,7 +1967,7 @@
     "2026-09-10": {
       "training": "Rest — Oly Day 2 missed (infected chin wound)",
       "fluidsMl": 1225,
-      "closed": false,
+      "closed": true,
       "items": [
         {
           "name": "Breakfast smoothie + PB: 400ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens, 40g peanut butter",
@@ -2065,6 +2065,24 @@
           "f": 0,
           "fibre": 2,
           "slot": "veg"
+        },
+        {
+          "name": "Banana x2 (evening)",
+          "kcal": 210,
+          "p": 2,
+          "c": 54,
+          "f": 0,
+          "fibre": 6,
+          "slot": "fruit"
+        },
+        {
+          "name": "Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate",
+          "kcal": 15,
+          "p": 0,
+          "c": 1,
+          "f": 0,
+          "fibre": 3,
+          "slot": "supp"
         }
       ],
       "note": "Oly Day 2 not done. Chin cut on a box ~31 Aug has become infected. Pre-training feed was already eaten, so the day carries the carbs without the session."
