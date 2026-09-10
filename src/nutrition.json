@@ -1984,6 +1984,14 @@
           "c": 9,
           "f": 4,
           "fibre": 1
+        },
+        {
+          "name": "Pita bread x2 (20g carbs each, label)",
+          "kcal": 200,
+          "p": 7,
+          "c": 40,
+          "f": 1,
+          "fibre": 2
         }
       ]
     }
