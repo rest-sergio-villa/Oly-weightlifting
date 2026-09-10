@@ -2040,6 +2040,31 @@
           "c": 0,
           "f": 0,
           "fibre": 0
+        },
+        {
+          "name": "Dinner (est.): beef burger patty, ~150g cooked",
+          "kcal": 340,
+          "p": 33,
+          "c": 1,
+          "f": 22,
+          "fibre": 0
+        },
+        {
+          "name": "Dinner (est.): mashed potato, ~200g",
+          "kcal": 220,
+          "p": 4,
+          "c": 30,
+          "f": 8,
+          "fibre": 3
+        },
+        {
+          "name": "Dinner (est.): fresh salad, ~150g undressed",
+          "kcal": 30,
+          "p": 2,
+          "c": 5,
+          "f": 0,
+          "fibre": 2,
+          "slot": "veg"
         }
       ],
       "note": "Oly Day 2 not done. Chin cut on a box ~31 Aug has become infected. Pre-training feed was already eaten, so the day carries the carbs without the session."
