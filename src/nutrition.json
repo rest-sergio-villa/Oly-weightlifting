@@ -2000,6 +2000,22 @@
           "c": 1,
           "f": 0,
           "fibre": 0
+        },
+        {
+          "name": "Lunch (est.): focaccia bread, ~140g",
+          "kcal": 410,
+          "p": 11,
+          "c": 54,
+          "f": 16,
+          "fibre": 3
+        },
+        {
+          "name": "Lunch (est.): salami, ~50g",
+          "kcal": 205,
+          "p": 11,
+          "c": 1,
+          "f": 18,
+          "fibre": 0
         }
       ]
     }
