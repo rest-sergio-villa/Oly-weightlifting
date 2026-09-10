@@ -1938,20 +1938,28 @@
           "fibre": 0
         },
         {
-          "name": "Dinner (est.): chips, ~115g (about half a regular serve)",
-          "kcal": 330,
-          "p": 4,
-          "c": 40,
-          "f": 16,
+          "name": "Dinner (est.): small chips",
+          "kcal": 250,
+          "p": 3,
+          "c": 30,
+          "f": 12,
           "fibre": 3
         },
         {
-          "name": "Dinner (est.): coleslaw, ~85g",
-          "kcal": 120,
+          "name": "Dinner: half a regular coleslaw (full serve labelled 1,876kJ / 448kcal)",
+          "kcal": 224,
           "p": 1,
-          "c": 6,
-          "f": 10,
+          "c": 10,
+          "f": 20,
           "fibre": 2
+        },
+        {
+          "name": "Dinner (est.): garlic sauce (toum), ~30g",
+          "kcal": 200,
+          "p": 1,
+          "c": 1,
+          "f": 21,
+          "fibre": 0
         },
         {
           "name": "Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate",
