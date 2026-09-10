@@ -2086,6 +2086,31 @@
         }
       ],
       "note": "Oly Day 2 not done. Chin cut on a box ~31 Aug has become infected. Pre-training feed was already eaten, so the day carries the carbs without the session."
+    },
+    "2026-09-11": {
+      "training": "6am class",
+      "fluidsMl": 0,
+      "closed": false,
+      "items": [
+        {
+          "name": "PRE-TRAINING: purée pouch",
+          "kcal": 60,
+          "p": 1,
+          "c": 12,
+          "f": 0,
+          "fibre": 1,
+          "slot": "pre"
+        },
+        {
+          "name": "PRE-TRAINING: banana x2",
+          "kcal": 210,
+          "p": 2,
+          "c": 54,
+          "f": 0,
+          "fibre": 6,
+          "slot": "pre"
+        }
+      ]
     }
   }
 }
