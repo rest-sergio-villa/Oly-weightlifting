@@ -1963,6 +1963,29 @@
           "slot": "supp"
         }
       ]
+    },
+    "2026-09-10": {
+      "training": "Oly Day 2 (pm)",
+      "fluidsMl": 525,
+      "closed": false,
+      "items": [
+        {
+          "name": "Breakfast smoothie + PB: 400ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens, 40g peanut butter",
+          "kcal": 879,
+          "p": 50,
+          "c": 95,
+          "f": 32,
+          "fibre": 18
+        },
+        {
+          "name": "Coffee at home: 125ml barista oat milk + 1 shot",
+          "kcal": 75,
+          "p": 1,
+          "c": 9,
+          "f": 4,
+          "fibre": 1
+        }
+      ]
     }
   }
 }
