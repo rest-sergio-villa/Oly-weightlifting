@@ -2102,12 +2102,12 @@
           "slot": "pre"
         },
         {
-          "name": "PRE-TRAINING: banana x2",
-          "kcal": 210,
-          "p": 2,
-          "c": 54,
+          "name": "PRE-TRAINING: banana x3",
+          "kcal": 315,
+          "p": 3,
+          "c": 81,
           "f": 0,
-          "fibre": 6,
+          "fibre": 9,
           "slot": "pre"
         }
       ]
