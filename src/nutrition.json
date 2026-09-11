@@ -2089,7 +2089,7 @@
     },
     "2026-09-11": {
       "training": "6am class",
-      "fluidsMl": 2675,
+      "fluidsMl": 3275,
       "closed": false,
       "items": [
         {
@@ -2166,6 +2166,14 @@
           "c": 64,
           "f": 7,
           "fibre": 9
+        },
+        {
+          "name": "Powerade Zero ION4, 600ml (label: 10.4 kcal, 254mg Na, 201mg K, 47mg Mg)",
+          "kcal": 10,
+          "p": 0,
+          "c": 0,
+          "f": 0,
+          "fibre": 0
         }
       ],
       "note": "Three bananas in the pre-training feed (93g carbs but 10g fibre) caused GI discomfort late in the session. Carbs weren't the problem, fibre was — cap the pre-feed at two bananas and take the balance from a bagel."
