@@ -2089,7 +2089,7 @@
     },
     "2026-09-11": {
       "training": "6am class",
-      "fluidsMl": 1275,
+      "fluidsMl": 1975,
       "closed": false,
       "items": [
         {
@@ -2142,6 +2142,14 @@
           "c": 9,
           "f": 4,
           "fibre": 1
+        },
+        {
+          "name": "Protein water #1: 25g Bulk collagen/WPI blend in 700ml water",
+          "kcal": 95,
+          "p": 20,
+          "c": 1,
+          "f": 0,
+          "fibre": 0
         }
       ],
       "note": "Three bananas in the pre-training feed (93g carbs but 10g fibre) caused GI discomfort late in the session. Carbs weren't the problem, fibre was — cap the pre-feed at two bananas and take the balance from a bagel."
