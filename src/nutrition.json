@@ -2089,7 +2089,7 @@
     },
     "2026-09-11": {
       "training": "6am class",
-      "fluidsMl": 0,
+      "fluidsMl": 750,
       "closed": false,
       "items": [
         {
@@ -2109,6 +2109,23 @@
           "f": 0,
           "fibre": 9,
           "slot": "pre"
+        },
+        {
+          "name": "INTRA-TRAINING: Gatorade, 2 scoops in 750ml",
+          "kcal": 130,
+          "p": 0,
+          "c": 30,
+          "f": 0,
+          "fibre": 0,
+          "slot": "intra"
+        },
+        {
+          "name": "Lunch: F4F Singapore Chicken Noodle Stir-Fry (label, 598.5 kcal / 41.4P / 71.6C / 11.3F, 1143mg Na)",
+          "kcal": 598,
+          "p": 41,
+          "c": 72,
+          "f": 11,
+          "fibre": 6
         }
       ]
     }
