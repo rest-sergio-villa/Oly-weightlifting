@@ -2158,6 +2158,15 @@
           "c": 12,
           "f": 0,
           "fibre": 1
+        },
+        {
+          "name": "Frozen mixed vegetables (carrot, cauliflower, broccoli), 100g (with lunch)",
+          "kcal": 27,
+          "p": 2,
+          "c": 3,
+          "f": 0,
+          "fibre": 2,
+          "slot": "veg"
         }
       ],
       "note": "Three bananas in the pre-training feed (93g carbs but 10g fibre) caused GI discomfort late in the session. Carbs weren't the problem, fibre was — cap the pre-feed at two bananas and take the balance from a bagel."
