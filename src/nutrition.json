@@ -2089,7 +2089,7 @@
     },
     "2026-09-11": {
       "training": "6am class",
-      "fluidsMl": 750,
+      "fluidsMl": 1275,
       "closed": false,
       "items": [
         {
@@ -2126,8 +2126,25 @@
           "c": 72,
           "f": 11,
           "fibre": 6
+        },
+        {
+          "name": "Breakfast smoothie + PB: 400ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens, 40g peanut butter",
+          "kcal": 879,
+          "p": 50,
+          "c": 95,
+          "f": 32,
+          "fibre": 18
+        },
+        {
+          "name": "Coffee at home: 125ml barista oat milk + 1 shot",
+          "kcal": 75,
+          "p": 1,
+          "c": 9,
+          "f": 4,
+          "fibre": 1
         }
-      ]
+      ],
+      "note": "Three bananas in the pre-training feed (93g carbs but 10g fibre) caused GI discomfort late in the session. Carbs weren't the problem, fibre was — cap the pre-feed at two bananas and take the balance from a bagel."
     }
   }
 }
