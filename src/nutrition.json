@@ -2150,6 +2150,14 @@
           "c": 1,
           "f": 0,
           "fibre": 0
+        },
+        {
+          "name": "Purée pouch (afternoon snack)",
+          "kcal": 60,
+          "p": 1,
+          "c": 12,
+          "f": 0,
+          "fibre": 1
         }
       ],
       "note": "Three bananas in the pre-training feed (93g carbs but 10g fibre) caused GI discomfort late in the session. Carbs weren't the problem, fibre was — cap the pre-feed at two bananas and take the balance from a bagel."
