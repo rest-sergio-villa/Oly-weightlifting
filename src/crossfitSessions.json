@@ -798,5 +798,20 @@
       "timeCap": "20:00"
     },
     "notes": "Double: 8:30am CrossFit then 9:30am gymnastics. Metcon went badly. Still no toes to bar, so scaled to leg raises. Power snatch at 35kg — the load was fine, the barbell cycling was the problem, inefficient rather than heavy. Did the optional team finisher as well. The gymnastics class was the good half."
+  },
+  "2026-09-11": {
+    "className": "CrossFit 3056",
+    "time": "6:00am",
+    "week": "week-5-c3",
+    "cycle": "cycle-3",
+    "location": "loc-brunswick",
+    "strength": [],
+    "metcon": {
+      "format": "AMRAP 19 — \"The Man in the Red Bandana\"",
+      "details": "5 Thrusters (135/95lb)\n17 Front Rack Lunges (135/95lb)\n77 Double Unders\n200.1m Plate Carry (45/35lb)",
+      "scoreType": "Rounds + Reps",
+      "timeCap": "19:00"
+    },
+    "notes": "Scored 3 rounds + 5 thrusters + 10 lunges. Barbell at 40kg, plate carry with a 20kg plate. Form was really good throughout. A 9/11 memorial workout, done on the anniversary — the rep scheme spells out the date."
   }
 }
