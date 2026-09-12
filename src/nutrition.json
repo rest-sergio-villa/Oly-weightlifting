@@ -2188,65 +2188,19 @@
       "note": "Three bananas in the pre-training feed (93g carbs but 10g fibre) caused GI discomfort late in the session. Carbs weren't the problem, fibre was — cap the pre-feed at two bananas and take the balance from a bagel."
     },
     "2026-09-12": {
-      "training": "Morning class",
-      "fluidsMl": 750,
+      "training": "Rest",
+      "fluidsMl": 400,
       "closed": false,
       "items": [
         {
-          "name": "PRE-TRAINING: Glick's bagel (90g)",
-          "kcal": 248,
-          "p": 8,
-          "c": 44,
-          "f": 3,
-          "fibre": 2,
-          "slot": "pre"
-        },
-        {
-          "name": "PRE-TRAINING: banana",
-          "kcal": 105,
-          "p": 1,
-          "c": 27,
-          "f": 0,
-          "fibre": 3,
-          "slot": "pre"
-        },
-        {
-          "name": "PRE-TRAINING: purée pouch",
-          "kcal": 60,
-          "p": 1,
-          "c": 12,
-          "f": 0,
-          "fibre": 1,
-          "slot": "pre"
-        },
-        {
-          "name": "INTRA-TRAINING: Gatorade, 2 scoops in 750ml",
-          "kcal": 130,
-          "p": 0,
-          "c": 30,
-          "f": 0,
-          "fibre": 0,
-          "slot": "intra"
-        },
-        {
-          "name": "POST-TRAINING: breakfast smoothie + PB: 400ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens, 40g peanut butter",
+          "name": "Breakfast smoothie + PB: 400ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens, 40g peanut butter",
           "kcal": 879,
           "p": 50,
           "c": 95,
           "f": 32,
-          "fibre": 18,
-          "slot": "post"
-        },
-        {
-          "name": "Coffee from the shop: oat milk flat white",
-          "kcal": 140,
-          "p": 2,
-          "c": 15,
-          "f": 7,
-          "fibre": 1
+          "fibre": 18
         }
-      ],
-      "note": "Pre-feed followed yesterday's fix — bagel + one banana + pouch: 83g carbs with only 6g fibre."
+      ]
     }
   }
 }
