@@ -834,5 +834,19 @@
       "timeCap": "12:00"
     },
     "notes": "No ring muscle-ups yet, so scaled to the halves — 2 false-grip pull-ups and 3 dips on tiptoes on the rings. Also did the optional Tabata (8 x 0:20 on / 0:10 off, L-hang / L-sit): knees up on the rings for the first, dead hang with legs raised for the second. Worth comparing against 7 Jun, where the same finisher is logged as “couldn't do it at all”."
+  },
+  "2026-09-06": {
+    "className": "CrossFit 3056 — Sweat Sunday",
+    "time": "9:00am",
+    "week": "week-4-c3",
+    "cycle": "cycle-3",
+    "location": "loc-brunswick",
+    "strength": [],
+    "metcon": {
+      "format": "Sweat Sunday — 4 x Tabata (rest 1:00 between)",
+      "details": "Tabata 1: Row for calories\nTabata 2: Wall Balls, moderate to light (subbed: plate ground-to-overhead, 15kg)\nTabata 3: Bike for calories\nTabata 4: Walking Lunges",
+      "scoreType": "Total Reps"
+    },
+    "notes": "Wall balls swapped out for plate ground-to-overhead with a 15kg plate. Post-metcon EMOM 9 (strict toes to bar / handstand hold / wall sit) was on the sheet — not confirmed whether it was done."
   }
 }
