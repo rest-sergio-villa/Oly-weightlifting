@@ -1,34 +1,83 @@
 [
   {
     "id": "v546",
-    "title": "Back Squat, set 3",
+    "title": "SSB Split Squat, set 3",
     "date": "2026-09-08",
-    "lift": "back_squat",
+    "lift": "ssb_split_squat",
     "weight": 75,
+    "reps": 8,
     "bodyweight": 80,
-    "tags": ["week-5-c3", "working-set", "cycle-3", "loc-altona"],
-    "notes": "Third set at 75, called RPE 9.",
-    "summary": "Three ascending sets at 70 / 75 / 75, all called RPE 9 — the first back squat work of cycle 3 above the week-1 load of 70."
+    "tags": ["week-5-c3", "working-set", "heavy", "cycle-3", "loc-altona"],
+    "notes": "Third set at 75, RPE 9.",
+    "summary": "70 / 75 / 75, eight reps a side. Prescribed at RPE 7 — all three came in at RPE 9, so the load ran well above target."
   },
   {
     "id": "v547",
-    "title": "Back Squat, set 2",
+    "title": "SSB Split Squat, set 2",
     "date": "2026-09-08",
-    "lift": "back_squat",
+    "lift": "ssb_split_squat",
     "weight": 75,
+    "reps": 8,
     "bodyweight": 80,
-    "tags": ["week-5-c3", "working-set", "cycle-3", "loc-altona"],
-    "notes": "Second set at 75, called RPE 9."
+    "tags": ["week-5-c3", "working-set", "heavy", "cycle-3", "loc-altona"],
+    "notes": "Second set at 75, RPE 9."
   },
   {
     "id": "v548",
-    "title": "Back Squat, set 1",
+    "title": "SSB Split Squat, set 1",
     "date": "2026-09-08",
-    "lift": "back_squat",
+    "lift": "ssb_split_squat",
     "weight": 70,
+    "reps": 8,
     "bodyweight": 80,
     "tags": ["week-5-c3", "working-set", "cycle-3", "loc-altona"],
-    "notes": "Opening set at 70."
+    "notes": "Opening set at 70, RPE 9."
+  },
+  {
+    "id": "v549",
+    "title": "Power Clean + Jerk, 45 → 53kg",
+    "date": "2026-09-08",
+    "lift": "power_clean_jerk",
+    "weight": 53,
+    "reps": 4,
+    "bodyweight": 80,
+    "tags": ["week-5-c3", "working-set", "complex", "cycle-3", "loc-altona"],
+    "notes": "Up the prescribed ladder: 45, 47, 50, 53 (69–81% of the 65 C&J). Each set is 1 power clean + 1 jerk, twice. The cleans felt good; the jerk is the half that needs work. As prescribed; not recorded."
+  },
+  {
+    "id": "v550",
+    "title": "Tall Jerk (primer), 3×3",
+    "date": "2026-09-08",
+    "lift": "tall_jerk",
+    "weight": 20,
+    "reps": 3,
+    "sets": 3,
+    "bodyweight": 80,
+    "tags": ["week-5-c3", "primer", "cycle-3", "loc-altona"],
+    "notes": "Empty-bar primer, three triples with a minute between sets. As prescribed; not recorded."
+  },
+  {
+    "id": "v551",
+    "title": "Above-Knee Hang Snatch, 30 → 36kg",
+    "date": "2026-09-08",
+    "lift": "above_knee_hang_snatch",
+    "weight": 36,
+    "reps": 3,
+    "bodyweight": 80,
+    "tags": ["week-5-c3", "working-set", "btk-hang", "cycle-3", "loc-altona"],
+    "notes": "Triples up the prescribed ladder: 30, 32, 34, 36 (69–81% of the 44 snatch). As prescribed; not recorded."
+  },
+  {
+    "id": "v552",
+    "title": "Paused Overhead Squat, 4×3 @ 40kg",
+    "date": "2026-09-08",
+    "lift": "paused_overhead_squat",
+    "weight": 40,
+    "reps": 3,
+    "sets": 4,
+    "bodyweight": 80,
+    "tags": ["week-5-c3", "working-set", "paused", "technique", "cycle-3", "loc-altona"],
+    "notes": "Four triples at 40 — 90% of the 44 snatch, up from 35 (80%) in week 1. Three-second hold in the bottom. As prescribed; not recorded."
   },
   {
     "id": "v544",
