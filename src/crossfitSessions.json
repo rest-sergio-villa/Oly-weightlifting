@@ -773,5 +773,30 @@
       "timeCap": "10:00"
     },
     "notes": "Felt really good — one of the first classes done fuelled (purée pouch + banana, 40g carbs, 45 min before), and the difference against the unfuelled ones was obvious. Toes to bar scaled to raised legs, ~5 a set; power snatch kept light at 30kg for ~4 a set; 24kg dumbbells on the front rack hold."
+  },
+  "2026-09-12": {
+    "className": "CrossFit 3056 — double (CrossFit + Gymnastics)",
+    "time": "8:30am + 9:30am",
+    "week": "week-5-c3",
+    "cycle": "cycle-3",
+    "location": "loc-brunswick",
+    "strength": [
+      {
+        "name": "Gymnastics class (9:30am) — plyo prep",
+        "scheme": "Landing mechanics, 3 reps of each: stepping off a box, countermovement jumps, broad jumps, jumping onto a box."
+      },
+      {
+        "name": "Gymnastics class (9:30am) — contrast power",
+        "scheme": "5 sets: 3 weighted seated jumps into 2 unweighted broad jumps. Rest 2:00 between sets.",
+        "myWeight": "24 + 2 blue plates"
+      }
+    ],
+    "metcon": {
+      "format": "3 Rounds For Time",
+      "details": "30 Toes to Bar\n20 Burpees Over Bar\n10 Power Snatch (115/75lb)\n\nOptional team finisher — teams of 3, AMRAP 5:\n10 team dumbbell plank drag throughs\n30 synchronised Russian twists",
+      "scoreType": "Time",
+      "timeCap": "20:00"
+    },
+    "notes": "Double: 8:30am CrossFit then 9:30am gymnastics. Metcon went badly. Still no toes to bar, so scaled to leg raises. Power snatch at 35kg — the load was fine, the barbell cycling was the problem, inefficient rather than heavy. The gymnastics class was the good half."
   }
 }
