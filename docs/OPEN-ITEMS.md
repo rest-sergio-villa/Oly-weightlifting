@@ -98,10 +98,12 @@ carbs and 28 Aug is the oldest unlogged 6am class that fits. Sergio described it
 
 ## Health
 
-- **Infected chin wound (active).** Cut on a box around 31 Aug; infected as of
-  10 Sep and it cost him the Thursday Oly session. Ten days is long enough that it
-  needs a doctor if it hasn't been seen. **Tell Seb** — it explains a missed session
-  and may affect the next few.
+- **Infected shin wound — treated, resolving.** Cut the shin on a box around 31 Aug.
+  By Wed 9 Sep the leg was swollen; **urgent care that night started antibiotics**.
+  Still swollen Thu 10 Sep, which cost him Oly Day 2. Down by Fri 11, fine by Sat 12
+  — he trained Fri (6am class) and Sat (double) on it.
+  Watch for: swelling returning, spreading redness, fever. Finish the course.
+  **Tell Seb** — it explains the missed Day 2.
 - **Left knee ITB** — flagged as "getting worse and worse" in the cycle 2 check-in,
   before the deload. Never followed up. Still unanswered: how is it now?
 
