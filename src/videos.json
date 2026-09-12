@@ -113,15 +113,16 @@
   },
   {
     "id": "v563",
-    "title": "Chin-Ups, 4 sets",
+    "title": "Chin-Ups, 4 × 6–7",
     "date": "2026-09-06",
     "lift": "chin_ups",
     "weight": 0,
     "sets": 4,
+    "reps": 7,
     "accessory": true,
     "bodyweight": 80,
     "tags": ["week-4-c3", "working-set", "cycle-3", "loc-brunswick"],
-    "notes": "Four sets at RPE 7, 5–7 prescribed. Reps per set not recorded."
+    "notes": "Four sets of 6–7 at RPE 7, top of the prescribed 5–7 range. Up from 5 / 4 / 6 in week 1."
   },
   {
     "id": "v546",
