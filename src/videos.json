@@ -1,5 +1,36 @@
 [
   {
+    "id": "v546",
+    "title": "Back Squat, set 3",
+    "date": "2026-09-08",
+    "lift": "back_squat",
+    "weight": 75,
+    "bodyweight": 80,
+    "tags": ["week-5-c3", "working-set", "cycle-3", "loc-altona"],
+    "notes": "Third set at 75, called RPE 9.",
+    "summary": "Three ascending sets at 70 / 75 / 75, all called RPE 9 — the first back squat work of cycle 3 above the week-1 load of 70."
+  },
+  {
+    "id": "v547",
+    "title": "Back Squat, set 2",
+    "date": "2026-09-08",
+    "lift": "back_squat",
+    "weight": 75,
+    "bodyweight": 80,
+    "tags": ["week-5-c3", "working-set", "cycle-3", "loc-altona"],
+    "notes": "Second set at 75, called RPE 9."
+  },
+  {
+    "id": "v548",
+    "title": "Back Squat, set 1",
+    "date": "2026-09-08",
+    "lift": "back_squat",
+    "weight": 70,
+    "bodyweight": 80,
+    "tags": ["week-5-c3", "working-set", "cycle-3", "loc-altona"],
+    "notes": "Opening set at 70."
+  },
+  {
     "id": "v544",
     "youtubeId": "zvYehbEe8jo",
     "vertical": true,
