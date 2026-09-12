@@ -848,5 +848,20 @@
       "scoreType": "Total Reps"
     },
     "notes": "Wall balls swapped out for plate ground-to-overhead with a 15kg plate. Did the post-metcon EMOM 9 as well, with the strict toes to bar scaled to leg raises."
+  },
+  "2026-09-05": {
+    "className": "CrossFit 3056 — Super Saturday",
+    "time": "8:30am",
+    "week": "week-4-c3",
+    "cycle": "cycle-3",
+    "location": "loc-brunswick",
+    "strength": [],
+    "metcon": {
+      "format": "Super Saturday — For Time",
+      "details": "Run 1000m\n---\n15-12-9\nThrusters (115/75lb — did 35kg)\nChest to Bar Pull-ups (jumping)\n---\nRun 1000m\n---\n9-15-21\nThrusters (95/65lb — did 30kg)\nPull-ups (jumping)\n---\nRun 1000m",
+      "scoreType": "Time",
+      "timeCap": "30:00"
+    },
+    "notes": "Finished right on the 30:00 cap. Thrusters at 35kg for the 15-12-9 and 30kg for the 9-15-21 (coach's intermediate scale was 43 & 30); chest-to-bar and pull-ups both done as jumping versions. Programmed as a rest day by Seb — this and the following Sunday double made it three sessions in two days."
   }
 }
