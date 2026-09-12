@@ -109,8 +109,10 @@ carbs and 28 Aug is the oldest unlogged 6am class that fits. Sergio described it
 
 ## Maxes
 
-- Deadlift and bench in `src/maxes.json` are estimates (`est: true`). Replace with real
-  numbers whenever they get tested.
+- **Deadlift tested at 140kg on 4 Sep** (6am class) — appended to `src/maxes.json`,
+  replacing the 125 estimate as the current value.
+- Bench in `src/maxes.json` is still an estimate (`est: true`). Replace whenever it
+  gets tested.
 
 ## Scheduling
 
