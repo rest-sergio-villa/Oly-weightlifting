@@ -813,5 +813,26 @@
       "timeCap": "19:00"
     },
     "notes": "Scored 3 rounds + 5 thrusters + 10 lunges. Barbell at 40kg, plate carry with a 20kg plate. Form was really good throughout. A 9/11 memorial workout, done on the anniversary — the rep scheme spells out the date."
+  },
+  "2026-09-02": {
+    "className": "CrossFit 3056",
+    "time": "6:00am",
+    "week": "week-4-c3",
+    "cycle": "cycle-3",
+    "location": "loc-brunswick",
+    "strength": [
+      {
+        "name": "Ring muscle-up skill work",
+        "scheme": "A / B / C skips, swing on ring + pull back, low ring muscle-up transitions.",
+        "myWeight": "Scaled to the two halves separately: 2 false-grip pull-ups, 3 dips on tiptoes"
+      }
+    ],
+    "metcon": {
+      "format": "Every 2:00 x 6",
+      "details": "200m Run\n3/2 Ring Muscle-ups (RX+ 5/3)",
+      "scoreType": "Notes",
+      "timeCap": "12:00"
+    },
+    "notes": "No ring muscle-ups yet, so scaled to the halves — 2 false-grip pull-ups and 3 dips on tiptoes on the rings. Also did the optional Tabata (8 x 0:20 on / 0:10 off, L-hang / L-sit): knees up on the rings for the first, dead hang with legs raised for the second. Worth comparing against 7 Jun, where the same finisher is logged as “couldn't do it at all”."
   }
 }
