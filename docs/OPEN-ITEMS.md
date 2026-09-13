@@ -106,8 +106,9 @@ carbs and 28 Aug is the oldest unlogged 6am class that fits. Sergio described it
   round but jumped, not stepped). Advice given: elevate, mark the redness border,
   same-day care if it spreads / heats / streaks / fever; get it seen Monday regardless
   if not down by morning. **No box or impact work on that leg until healed.**
-  Finish the antibiotic course. **Tell Seb** — it explains the missed Day 2 and now
-  constrains class scaling.
+  On **flucloxacillin (oral) + Fucidin (fusidic acid ointment)** from Wed 9 Sep; pills run
+  through **Tue 15 Sep**. Sun 13 evening: redness still inside the line drawn that morning.
+  **Tell Seb** — it explains the missed Day 2 and now constrains class scaling.
 - **Left knee ITB** — flagged as "getting worse and worse" in the cycle 2 check-in,
   before the deload. Never followed up. Still unanswered: how is it now?
 
