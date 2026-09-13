@@ -1,5 +1,31 @@
 [
   {
+    "id": "v567",
+    "title": "Sunrise Sit-ups, 3×20 @ 5kg",
+    "date": "2026-09-11",
+    "lift": "sunrise_situps",
+    "weight": 5,
+    "sets": 3,
+    "reps": 20,
+    "accessory": true,
+    "bodyweight": 80,
+    "tags": ["week-5-c3", "working-set", "cycle-3", "loc-brunswick"],
+    "notes": "Week-4 Day 2 accessory, done after the Friday 6am class rather than in the Sunday session. 5kg plate, prescribed RPE 8."
+  },
+  {
+    "id": "v568",
+    "title": "Cossack Squats, 3×16",
+    "date": "2026-09-11",
+    "lift": "cossack_squat",
+    "weight": 0,
+    "sets": 3,
+    "reps": 16,
+    "accessory": true,
+    "bodyweight": 80,
+    "tags": ["week-5-c3", "working-set", "cycle-3", "loc-brunswick"],
+    "notes": "Week-4 Day 2 accessory, done after the Friday 6am class. Bodyweight only, prescribed RPE 7."
+  },
+  {
     "id": "v564",
     "title": "Jerk, 40 → 45kg (−10%)",
     "date": "2026-09-13",
