@@ -2314,7 +2314,7 @@
     },
     "2026-09-13": {
       "training": "Double: Oly Day 3 + 9am class (jerks after)",
-      "fluidsMl": 1750,
+      "fluidsMl": 2250,
       "closed": false,
       "items": [
         {
@@ -2403,6 +2403,23 @@
           "f": 0,
           "fibre": 3,
           "slot": "fruit"
+        },
+        {
+          "name": "Dinner: F4F Loaded Chicken Creamy Alfredo Spiral Pasta (label, 624 kcal / 55.3P / 67C / 9.7F, 498mg Na)",
+          "kcal": 624,
+          "p": 55,
+          "c": 67,
+          "f": 10,
+          "fibre": 5
+        },
+        {
+          "name": "Frozen mixed vegetables (carrot, cauliflower, broccoli), 150g",
+          "kcal": 40,
+          "p": 3,
+          "c": 5,
+          "f": 0,
+          "fibre": 3,
+          "slot": "veg"
         }
       ]
     }
