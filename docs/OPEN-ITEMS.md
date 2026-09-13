@@ -141,6 +141,9 @@ plates. Pin down.
   morning — no spread, no streaking visible. Receiving position on the cleans that morning
   was compromised by the pain. Advice given: elevate, keep covered, same-day care if it
   spreads / heats / streaks / fever; get it seen Monday regardless if not down by morning.
+  **Wound still open at two weeks with two days of pills left → advised to go back to the
+  clinic Monday, before the course ends.** Questions to take: extend/switch/stop; swab?;
+  dressing plan; when it can take impact again (get a date or a condition).
   **No box or impact work on that leg until healed. Finish the course. Tell Seb.**
 - **Left knee ITB** — flagged as "getting worse and worse" in the cycle 2 check-in,
   before the deload. Never followed up. Still unanswered: how is it now?
