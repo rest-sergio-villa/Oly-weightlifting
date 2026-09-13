@@ -884,5 +884,20 @@
       "timeCap": "8:00"
     },
     "notes": "Deadlift tested to 140kg — first real number, replacing the 125 estimate that had been on the max board since July. The optional AMRAP wasn't confirmed either way."
+  },
+  "2026-09-13": {
+    "className": "CrossFit 3056",
+    "time": "9:00am",
+    "week": "week-5-c3",
+    "cycle": "cycle-3",
+    "location": "loc-brunswick",
+    "strength": [],
+    "metcon": {
+      "format": "For Time — Row 5000m with interruptions",
+      "details": "Row 5000m\nEvery 2:00, alternate:\n- 10 Box Jump Overs (24/20\") — did 8\n- 10 Dumbbell Push Press (50/35lb) — 17.5kg",
+      "scoreType": "Time",
+      "timeCap": "30:00"
+    },
+    "notes": "Finished in 17:00, row pace reported at 1:50-2:00/500m. Dumbbells at 17.5kg. Box jump overs cut to 8 a round but still jumped, twelve days into the infected shin. Second half of a double — Week 5 Day 3 cleans before it, jerks after. Sorenson holds skipped."
   }
 }
