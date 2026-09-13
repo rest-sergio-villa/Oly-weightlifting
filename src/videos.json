@@ -1,5 +1,38 @@
 [
   {
+    "id": "v564",
+    "title": "Jerk, 40 → 45kg (−10%)",
+    "date": "2026-09-13",
+    "lift": "jerk",
+    "weight": 45,
+    "reps": 2,
+    "bodyweight": 80,
+    "tags": ["week-5-c3", "working-set", "split", "technique", "cycle-3", "loc-brunswick"],
+    "notes": "Done after the 9am class, deliberately 10% under the sheet: 40, 42, 45, 45, 45 for doubles (prescribed 45 → 50). Felt OK; footwork needs a lot of work — the recurring jerk theme."
+  },
+  {
+    "id": "v565",
+    "title": "Above-Knee Hang Clean, 43 → 50kg",
+    "date": "2026-09-13",
+    "lift": "above_knee_hang_clean",
+    "weight": 50,
+    "reps": 3,
+    "bodyweight": 80,
+    "tags": ["week-5-c3", "working-set", "btk-hang", "cycle-3", "loc-brunswick"],
+    "notes": "Triples up the prescribed ladder: 43, 47, 50, 50 (66–77%). Pulls were good, but the receiving position was off — the infected shin hurt in the bottom, and the turnover felt wrong because of it. Pushed through."
+  },
+  {
+    "id": "v566",
+    "title": "Power Snatch + OHS, 33 → 35kg",
+    "date": "2026-09-13",
+    "lift": "power_snatch_ohs",
+    "weight": 35,
+    "reps": 2,
+    "bodyweight": 80,
+    "tags": ["week-5-c3", "working-set", "complex", "cycle-3", "loc-brunswick"],
+    "notes": "Doubles of 1 power snatch + 1 OHS: 33, 33, 35, 35 (75–80%). As prescribed; not separately reported."
+  },
+  {
     "id": "v553",
     "title": "Barbell Strict Press, set 5",
     "date": "2026-09-06",
