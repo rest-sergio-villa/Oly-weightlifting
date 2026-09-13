@@ -2394,6 +2394,15 @@
           "c": 93,
           "f": 31,
           "fibre": 18
+        },
+        {
+          "name": "Banana (before dinner)",
+          "kcal": 105,
+          "p": 1,
+          "c": 27,
+          "f": 0,
+          "fibre": 3,
+          "slot": "fruit"
         }
       ]
     }
