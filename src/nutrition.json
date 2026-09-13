@@ -2259,6 +2259,39 @@
           "c": 1,
           "f": 0,
           "fibre": 0
+        },
+        {
+          "name": "Dinner out, vegan, shared plates (est. half of each): eggplant dip + focaccia",
+          "kcal": 350,
+          "p": 8,
+          "c": 38,
+          "f": 19,
+          "fibre": 4
+        },
+        {
+          "name": "Dinner (est. half): patatas bravas",
+          "kcal": 320,
+          "p": 4,
+          "c": 35,
+          "f": 18,
+          "fibre": 3
+        },
+        {
+          "name": "Dinner (est. half): roasted Brussels sprouts",
+          "kcal": 150,
+          "p": 4,
+          "c": 12,
+          "f": 10,
+          "fibre": 5,
+          "slot": "veg"
+        },
+        {
+          "name": "Dinner (est. half): potato lasagna",
+          "kcal": 400,
+          "p": 10,
+          "c": 45,
+          "f": 20,
+          "fibre": 3
         }
       ]
     }
