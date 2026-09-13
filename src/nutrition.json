@@ -2189,7 +2189,7 @@
     },
     "2026-09-12": {
       "training": "8.30am class",
-      "fluidsMl": 2100,
+      "fluidsMl": 2670,
       "closed": false,
       "items": [
         {
@@ -2292,6 +2292,14 @@
           "c": 45,
           "f": 20,
           "fibre": 3
+        },
+        {
+          "name": "Beer, 1 pint (570ml, full-strength, est.)",
+          "kcal": 230,
+          "p": 2,
+          "c": 17,
+          "f": 0,
+          "fibre": 0
         }
       ]
     }
