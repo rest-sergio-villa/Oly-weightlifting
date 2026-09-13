@@ -2314,7 +2314,7 @@
     },
     "2026-09-13": {
       "training": "Double: Oly Day 3 + 9am class (jerks after)",
-      "fluidsMl": 1350,
+      "fluidsMl": 1750,
       "closed": false,
       "items": [
         {
@@ -2386,6 +2386,23 @@
           "c": 50,
           "f": 20,
           "fibre": 8
+        },
+        {
+          "name": "Smoothie + PB, no WPI today: 400ml unsw. almond milk, 100g rolled oats, banana, 3g creatine, 5g greens, 40g peanut butter",
+          "kcal": 784,
+          "p": 27,
+          "c": 93,
+          "f": 31,
+          "fibre": 18
+        },
+        {
+          "name": "Banana (before dinner)",
+          "kcal": 105,
+          "p": 1,
+          "c": 27,
+          "f": 0,
+          "fibre": 3,
+          "slot": "fruit"
         }
       ]
     }
