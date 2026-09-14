@@ -154,6 +154,9 @@ plates. Pin down.
   telehealth GP; the one question is extend / stop / switch before Tuesday's last dose.
   If neither happens: finish the course, keep covered, no impact, GP review Thursday; a
   flare is a new acute presentation and the UCC will take it.
+  **Decision Mon 14 Sep pm: no GP — finishing the course and watching it.** Defensible on
+  the morning photos. Tripwires: redness past the line / heat / reopens → GP same day or
+  UCC after hours; **not visibly smaller by Thu 17 Sep → GP regardless.**
   **No box or impact work on that leg until healed. Finish the course. Tell Seb.**
 - **Left knee ITB** — flagged as "getting worse and worse" in the cycle 2 check-in,
   before the deload. Never followed up. Still unanswered: how is it now?
