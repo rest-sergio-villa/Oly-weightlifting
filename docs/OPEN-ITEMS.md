@@ -157,6 +157,8 @@ plates. Pin down.
   **Decision Mon 14 Sep pm: no GP — finishing the course and watching it.** Defensible on
   the morning photos. Tripwires: redness past the line / heat / reopens → GP same day or
   UCC after hours; **not visibly smaller by Thu 17 Sep → GP regardless.**
+  **GP booked for Thu 17 Sep.** Wednesday-morning reminder set to decide keep vs cancel on
+  how the wound looks; keep it unless it is clearly closing and the line has held.
   **No box or impact work on that leg until healed. Finish the course. Tell Seb.**
 - **Left knee ITB** — flagged as "getting worse and worse" in the cycle 2 check-in,
   before the deload. Never followed up. Still unanswered: how is it now?
