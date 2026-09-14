@@ -144,6 +144,11 @@ plates. Pin down.
   **Wound still open at two weeks with two days of pills left → advised to go back to the
   clinic Monday, before the course ends.** Questions to take: extend/switch/stop; swab?;
   dressing plan; when it can take impact again (get a date or a condition).
+  **Mon 14 Sep morning: no swelling, redness pulled back well inside the line, wound crusting,
+  calves symmetric, no streaking.** Flare resolved overnight. Clinic visit still advised today —
+  softened from 'must' to 'sensible' — because the wound is open at two weeks and the pills end
+  Tuesday. Fallback if he can't get in: finish the course, keep covered, no impact, review
+  Thursday or sooner if it flares.
   **No box or impact work on that leg until healed. Finish the course. Tell Seb.**
 - **Left knee ITB** — flagged as "getting worse and worse" in the cycle 2 check-in,
   before the deload. Never followed up. Still unanswered: how is it now?
