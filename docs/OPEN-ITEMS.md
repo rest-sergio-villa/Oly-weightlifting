@@ -45,10 +45,16 @@ readings track hydration more than tissue. Don't act on the lean figure.
   (vegan restaurant, highest day in the ledger), Sun 3,179 on a double. That is now
   three weekends running at 3,300+. The fix is a plan for eating out that assumes it
   happens every weekend, not more discipline — **raise with Seb**.
-- **Food4Fitness meals landed Fri 11 Sep.** Structural fat fix (avg 16.8g/meal). Used so
-  far: Singapore noodle ×1, burrito bowl ×1, Souvlaki, nacho bowl, Alfredo. Left: Laksa,
-  Mac & Cheese, Teriyaki, Singapore noodle ×1, burrito bowl ×1. Pairing rules in
+- **Food4Fitness.** The 11 Sep box is down to **Mac & Cheese, Teriyaki and one burrito
+  bowl** — three meals for Tue–Thu. Have the Mac & Cheese (45g fat) on **Wednesday**, a
+  training day, with a lean lunch and **no peanut butter in that morning's smoothie**.
+  **Next order placed 14 Sep: 12 × 450g, arriving Fri 18 Sep** — 3 each of burrito bowl,
+  Alfredo, Singapore noodle and the new beef ragù tortellini, averaging 611 / 46.7P /
+  66.7C / **10.8F** (previous order 671 / 49 / 63 / 16.8). Laksa and Mac & Cheese dropped
+  for good. Full rationale and the pairing rules in
   `docs/nutrition/2026-09-04-seb-macro-targets.md`.
+- **Nothing in the new box clears 72g carbs**, so rest-day meals always need the top-up:
+  150g microwave rice or one bagel alongside.
 - **Pre-training, settled: bagel + banana + pouch = 83g carbs / 3g fat / 6g fibre.**
   Clean on 6, 8, 9, 12, 13 Sep. **Fibre ceiling learned 11 Sep:** three bananas (93g
   carbs but 10g fibre) caused GI trouble late in the session — cap at two bananas,
