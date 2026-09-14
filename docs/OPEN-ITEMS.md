@@ -149,6 +149,11 @@ plates. Pin down.
   softened from 'must' to 'sensible' — because the wound is open at two weeks and the pills end
   Tuesday. Fallback if he can't get in: finish the course, keep covered, no impact, review
   Thursday or sooner if it flares.
+  **Mon 14 Sep pm: the Medicare UCC declined — acute presentations only, no follow-ups.**
+  Plan: own GP (phone/video is fine, photos exist) today or Tue morning, or a same-day
+  telehealth GP; the one question is extend / stop / switch before Tuesday's last dose.
+  If neither happens: finish the course, keep covered, no impact, GP review Thursday; a
+  flare is a new acute presentation and the UCC will take it.
   **No box or impact work on that leg until healed. Finish the course. Tell Seb.**
 - **Left knee ITB** — flagged as "getting worse and worse" in the cycle 2 check-in,
   before the deload. Never followed up. Still unanswered: how is it now?
