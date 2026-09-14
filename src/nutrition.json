@@ -2431,6 +2431,45 @@
           "slot": "supp"
         }
       ]
+    },
+    "2026-09-14": {
+      "training": "Rest",
+      "fluidsMl": 750,
+      "closed": false,
+      "items": [
+        {
+          "name": "Coffee from the shop: oat milk flat white",
+          "kcal": 140,
+          "p": 2,
+          "c": 15,
+          "f": 7,
+          "fibre": 1
+        },
+        {
+          "name": "Lunch: F4F Chicken Laksa, Singaporean (label, 652 kcal / 37P / 51.2C / 28.1F, 988mg Na)",
+          "kcal": 652,
+          "p": 37,
+          "c": 51,
+          "f": 28,
+          "fibre": 6
+        },
+        {
+          "name": "Snack: Glick's bagel (90g)",
+          "kcal": 248,
+          "p": 8,
+          "c": 44,
+          "f": 3,
+          "fibre": 2
+        },
+        {
+          "name": "Snack: purée pouch",
+          "kcal": 60,
+          "p": 1,
+          "c": 12,
+          "f": 0,
+          "fibre": 1
+        }
+      ]
     }
   }
 }
