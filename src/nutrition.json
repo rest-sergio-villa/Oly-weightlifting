@@ -2573,6 +2573,15 @@
           "c": 68,
           "f": 17,
           "fibre": 6
+        },
+        {
+          "name": "Banana (afternoon snack)",
+          "kcal": 105,
+          "p": 1,
+          "c": 27,
+          "f": 0,
+          "fibre": 3,
+          "slot": "fruit"
         }
       ]
     }
