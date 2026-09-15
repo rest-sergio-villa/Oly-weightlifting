@@ -2531,7 +2531,7 @@
     },
     "2026-09-15": {
       "training": "Oly Day 1 (pm)",
-      "fluidsMl": 1025,
+      "fluidsMl": 1775,
       "closed": false,
       "items": [
         {
@@ -2582,6 +2582,33 @@
           "f": 0,
           "fibre": 3,
           "slot": "fruit"
+        },
+        {
+          "name": "PRE-TRAINING: banana",
+          "kcal": 105,
+          "p": 1,
+          "c": 27,
+          "f": 0,
+          "fibre": 3,
+          "slot": "pre"
+        },
+        {
+          "name": "PRE-TRAINING: purée pouch ×2",
+          "kcal": 120,
+          "p": 2,
+          "c": 24,
+          "f": 0,
+          "fibre": 2,
+          "slot": "pre"
+        },
+        {
+          "name": "INTRA-TRAINING: Gatorade, 2 scoops in 750ml",
+          "kcal": 130,
+          "p": 0,
+          "c": 30,
+          "f": 0,
+          "fibre": 0,
+          "slot": "intra"
         }
       ]
     }
