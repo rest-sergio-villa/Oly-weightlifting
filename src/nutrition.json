@@ -2528,6 +2528,53 @@
           "slot": "supp"
         }
       ]
+    },
+    "2026-09-15": {
+      "training": "Oly Day 1 (pm)",
+      "fluidsMl": 1025,
+      "closed": false,
+      "items": [
+        {
+          "name": "Breakfast smoothie + PB: 400ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens, 40g peanut butter",
+          "kcal": 879,
+          "p": 50,
+          "c": 95,
+          "f": 32,
+          "fibre": 18
+        },
+        {
+          "name": "Coffee at home: 125ml barista oat milk + 1 shot",
+          "kcal": 75,
+          "p": 1,
+          "c": 9,
+          "f": 4,
+          "fibre": 1
+        },
+        {
+          "name": "Oat milk flat white at work (7am)",
+          "kcal": 140,
+          "p": 2,
+          "c": 15,
+          "f": 7,
+          "fibre": 1
+        },
+        {
+          "name": "Oat milk flat white, half strength",
+          "kcal": 140,
+          "p": 2,
+          "c": 15,
+          "f": 7,
+          "fibre": 1
+        },
+        {
+          "name": "Lunch: F4F Tokyo Teriyaki Chicken Furikake Bowl (label, 646 kcal / 52.6P / 67.6C / 16.5F, 1462mg Na)",
+          "kcal": 646,
+          "p": 53,
+          "c": 68,
+          "f": 17,
+          "fibre": 6
+        }
+      ]
     }
   }
 }
