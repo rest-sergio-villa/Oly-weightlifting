@@ -2637,6 +2637,100 @@
           "slot": "supp"
         }
       ]
+    },
+    "2026-09-16": {
+      "training": "6am class",
+      "fluidsMl": 1650,
+      "closed": false,
+      "items": [
+        {
+          "name": "PRE-CLASS: Glick's bagel (90g)",
+          "kcal": 248,
+          "p": 8,
+          "c": 44,
+          "f": 3,
+          "fibre": 2,
+          "slot": "pre"
+        },
+        {
+          "name": "PRE-CLASS: banana",
+          "kcal": 105,
+          "p": 1,
+          "c": 27,
+          "f": 0,
+          "fibre": 3,
+          "slot": "pre"
+        },
+        {
+          "name": "PRE-CLASS: purée pouch",
+          "kcal": 60,
+          "p": 1,
+          "c": 12,
+          "f": 0,
+          "fibre": 1,
+          "slot": "pre"
+        },
+        {
+          "name": "Pre-workout, caffeinated (8.3g high-stim: 199mg caffeine)",
+          "kcal": 25,
+          "p": 4,
+          "c": 0,
+          "f": 0,
+          "fibre": 0,
+          "slot": "supp"
+        },
+        {
+          "name": "INTRA-CLASS: Gatorade, 2 scoops in 750ml",
+          "kcal": 130,
+          "p": 0,
+          "c": 30,
+          "f": 0,
+          "fibre": 0,
+          "slot": "intra"
+        },
+        {
+          "name": "POST-CLASS: breakfast smoothie + PB: 400ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens, 40g peanut butter",
+          "kcal": 879,
+          "p": 50,
+          "c": 95,
+          "f": 32,
+          "fibre": 18,
+          "slot": "post"
+        },
+        {
+          "name": "Banana (lunch, away from home)",
+          "kcal": 105,
+          "p": 1,
+          "c": 27,
+          "f": 0,
+          "fibre": 3,
+          "slot": "fruit"
+        },
+        {
+          "name": "Lunch (cafeteria, est.): smoked salmon bagel with cream cheese",
+          "kcal": 430,
+          "p": 21,
+          "c": 47,
+          "f": 15,
+          "fibre": 2
+        },
+        {
+          "name": "Lunch (est.): potato crisps, ~45g packet",
+          "kcal": 235,
+          "p": 3,
+          "c": 23,
+          "f": 15,
+          "fibre": 2
+        },
+        {
+          "name": "Sparkling water, 500ml",
+          "kcal": 0,
+          "p": 0,
+          "c": 0,
+          "f": 0,
+          "fibre": 0
+        }
+      ]
     }
   }
 }
