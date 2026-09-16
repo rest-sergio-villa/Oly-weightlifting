@@ -2640,7 +2640,7 @@
     },
     "2026-09-16": {
       "training": "6am class",
-      "fluidsMl": 1650,
+      "fluidsMl": 2250,
       "closed": false,
       "items": [
         {
@@ -2727,6 +2727,14 @@
           "kcal": 0,
           "p": 0,
           "c": 0,
+          "f": 0,
+          "fibre": 0
+        },
+        {
+          "name": "Electrolyte mix, 1 scoop (14.5g) — label: 24 kcal, 601mg Na, 202mg K, 80mg Mg",
+          "kcal": 24,
+          "p": 0,
+          "c": 6,
           "f": 0,
           "fibre": 0
         }
