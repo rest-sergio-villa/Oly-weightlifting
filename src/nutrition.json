@@ -2531,7 +2531,7 @@
     },
     "2026-09-15": {
       "training": "Oly Day 1 (pm)",
-      "fluidsMl": 1775,
+      "fluidsMl": 2275,
       "closed": true,
       "items": [
         {
@@ -2617,6 +2617,15 @@
           "c": 72,
           "f": 11,
           "fibre": 6
+        },
+        {
+          "name": "Frozen mixed vegetables (carrot, cauliflower, broccoli), 150g",
+          "kcal": 40,
+          "p": 3,
+          "c": 5,
+          "f": 0,
+          "fibre": 3,
+          "slot": "veg"
         },
         {
           "name": "Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate",
