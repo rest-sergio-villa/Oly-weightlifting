@@ -66,10 +66,15 @@ lean gain instead, ~3,000 is the number — but that should be his call, stated,
 - **Reply to Seb** still owed — see the 4 Sep doc. The "2,846 may be short" point is
   superseded; say instead that 20 days at ~2,930 with the loss flattened means the number
   is about right, and ask for a weekend-eating plan rather than a higher target.
-- Electrolyte products (Re-Lyte / Sodii) considered and parked: diet sodium is already
-  high (F4F meals 500–1,460mg each), sessions are 60–75 min indoors, and the actual
-  gap in the data was fluid *volume* (dropped from 3.4L to 2.3L/day in early Sep).
-  Powerade Zero at 254mg Na/600ml did the useful job on 11 Sep — got 600ml in.
+- **Electrolytes: tried, didn't work.** Advised against buying one (13 Sep) — diet sodium
+  is already high from the F4F meals (500–1,460mg each), sessions are 60–75 min indoors,
+  and the measured gap was fluid *volume*, not composition (3.4L → 2.3L/day in early Sep).
+  Sergio bought a tub anyway: **1 scoop (14.5g) = 24 kcal / 6g carbs, 601mg Na, 202mg K,
+  80mg Mg**, carb is HBCD but only 5.8g, so it does **not** replace the Gatorade's 30g.
+  Tasted it 16 Sep and **disliked it** — which decides the question, since the only value
+  was getting fluid in. Salvage options: half a scoop in a full litre (dilution usually
+  fixes palatability), or Sunday doubles only, mixed with the Gatorade to mask it.
+  What actually worked was **Powerade Zero** on 11 Sep — 600ml finished, 10 kcal, 254mg Na.
 
 ## Training log — the remaining gap
 
