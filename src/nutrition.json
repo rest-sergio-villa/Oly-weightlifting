@@ -2640,8 +2640,8 @@
     },
     "2026-09-16": {
       "training": "6am class",
-      "fluidsMl": 2250,
-      "closed": false,
+      "fluidsMl": 2750,
+      "closed": true,
       "items": [
         {
           "name": "PRE-CLASS: Glick's bagel (90g)",
@@ -2737,6 +2737,40 @@
           "c": 6,
           "f": 0,
           "fibre": 0
+        },
+        {
+          "name": "Dinner: tuna in springwater, 2 tins drained (~240g)",
+          "kcal": 272,
+          "p": 60,
+          "c": 0,
+          "f": 2,
+          "fibre": 0
+        },
+        {
+          "name": "Dinner: SunRice long grain white rice, 100g",
+          "kcal": 168,
+          "p": 2,
+          "c": 38,
+          "f": 0,
+          "fibre": 1
+        },
+        {
+          "name": "Frozen mixed vegetables (carrot, cauliflower, broccoli), 150g",
+          "kcal": 40,
+          "p": 3,
+          "c": 6,
+          "f": 0,
+          "fibre": 3,
+          "slot": "veg"
+        },
+        {
+          "name": "Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate",
+          "kcal": 15,
+          "p": 0,
+          "c": 1,
+          "f": 0,
+          "fibre": 3,
+          "slot": "supp"
         }
       ]
     }
