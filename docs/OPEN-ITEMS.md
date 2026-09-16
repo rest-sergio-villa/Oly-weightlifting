@@ -138,34 +138,18 @@ plates. Pin down.
 
 ## Health
 
-- **Infected shin wound — treated, resolving, flared once.** Cut the shin on a box
-  around 31 Aug. By Wed 9 Sep the leg was swollen; **urgent care that night** started
-  **flucloxacillin (oral) + Fucidin (fusidic acid ointment)**, pills through **Tue 15 Sep**.
-  Still swollen Thu 10 Sep, which cost him Oly Day 2. Down by Fri 11, fine Sat 12.
-  **Sun 13 Sep: swelled again after box jump overs in the 9am class** (cut to 8 a round
-  but jumped, not stepped); by evening the redness was still inside the line drawn that
-  morning — no spread, no streaking visible. Receiving position on the cleans that morning
-  was compromised by the pain. Advice given: elevate, keep covered, same-day care if it
-  spreads / heats / streaks / fever; get it seen Monday regardless if not down by morning.
-  **Wound still open at two weeks with two days of pills left → advised to go back to the
-  clinic Monday, before the course ends.** Questions to take: extend/switch/stop; swab?;
-  dressing plan; when it can take impact again (get a date or a condition).
-  **Mon 14 Sep morning: no swelling, redness pulled back well inside the line, wound crusting,
-  calves symmetric, no streaking.** Flare resolved overnight. Clinic visit still advised today —
-  softened from 'must' to 'sensible' — because the wound is open at two weeks and the pills end
-  Tuesday. Fallback if he can't get in: finish the course, keep covered, no impact, review
-  Thursday or sooner if it flares.
-  **Mon 14 Sep pm: the Medicare UCC declined — acute presentations only, no follow-ups.**
-  Plan: own GP (phone/video is fine, photos exist) today or Tue morning, or a same-day
-  telehealth GP; the one question is extend / stop / switch before Tuesday's last dose.
-  If neither happens: finish the course, keep covered, no impact, GP review Thursday; a
-  flare is a new acute presentation and the UCC will take it.
-  **Decision Mon 14 Sep pm: no GP — finishing the course and watching it.** Defensible on
-  the morning photos. Tripwires: redness past the line / heat / reopens → GP same day or
-  UCC after hours; **not visibly smaller by Thu 17 Sep → GP regardless.**
-  **GP booked for Thu 17 Sep.** Wednesday-morning reminder set to decide keep vs cancel on
-  how the wound looks; keep it unless it is clearly closing and the line has held.
-  **No box or impact work on that leg until healed. Finish the course. Tell Seb.**
+- **Infected shin wound — resolved 16 Sep.** Cut on a box ~31 Aug; swollen by Wed 9 Sep,
+  urgent care that night started **flucloxacillin + Fucidin**. Cost him Oly Day 2 on
+  Thu 10 Sep. Flared again Sun 13 Sep after box jump overs (cut to 8 a round but jumped,
+  not stepped) — settled overnight. Oral course finished Tue 15 Sep. **Wed 16 Sep: wound
+  closed, no discharge, no blood in the dressing.** Thursday's GP appointment cancelled —
+  the reason for it (open wound, course ending) had gone.
+  Advice on closing: **stop the Fucidin** (no target once closed, and prolonged fusidic
+  acid drives resistance); keep a plain dressing on a few more days while the new skin is
+  thin; **no box contact until ~23 Sep** — step-overs on the Sat and Sun classes, reassess
+  Monday. Back to a GP same-day if redness, swelling, warmth or reopening returns: the
+  infection was deep enough to need orals, so recurrence after surface closure is possible.
+  The Medicare UCC does not do follow-ups — acute presentations only.
 - **Left knee ITB** — flagged as "getting worse and worse" in the cycle 2 check-in,
   before the deload. Never followed up. Still unanswered: how is it now?
 
