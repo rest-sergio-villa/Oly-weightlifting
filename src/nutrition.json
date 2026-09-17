@@ -2871,6 +2871,14 @@
           "f": 0,
           "fibre": 0,
           "slot": "intra"
+        },
+        {
+          "name": "Dinner: GYG grilled chicken burrito, standard, no cheese / sour cream / guac (est.)",
+          "kcal": 783,
+          "p": 44,
+          "c": 98,
+          "f": 25,
+          "fibre": 11
         }
       ]
     }
