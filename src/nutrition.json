@@ -2784,7 +2784,7 @@
     },
     "2026-09-17": {
       "training": "Oly Day 2 (pm)",
-      "fluidsMl": 1900,
+      "fluidsMl": 2275,
       "closed": false,
       "items": [
         {
@@ -2811,6 +2811,30 @@
           "c": 15,
           "f": 7,
           "fibre": 1
+        },
+        {
+          "name": "Half a Glick's bagel (mid-morning)",
+          "kcal": 124,
+          "p": 4,
+          "c": 22,
+          "f": 2,
+          "fibre": 1
+        },
+        {
+          "name": "Lunch: GYG grilled chicken burrito, extra rice, no guacamole (est.)",
+          "kcal": 867,
+          "p": 47,
+          "c": 118,
+          "f": 22,
+          "fibre": 12
+        },
+        {
+          "name": "Coke Zero, 375ml can (~32mg caffeine)",
+          "kcal": 1,
+          "p": 0,
+          "c": 0,
+          "f": 0,
+          "fibre": 0
         },
         {
           "name": "PRE-TRAINING: banana",
