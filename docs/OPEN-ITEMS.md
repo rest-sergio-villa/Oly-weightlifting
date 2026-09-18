@@ -143,18 +143,22 @@ plates. Pin down.
 
 ## Health
 
-- **Infected shin wound — resolved 16 Sep.** Cut on a box ~31 Aug; swollen by Wed 9 Sep,
-  urgent care that night started **flucloxacillin + Fucidin**. Cost him Oly Day 2 on
-  Thu 10 Sep. Flared again Sun 13 Sep after box jump overs (cut to 8 a round but jumped,
-  not stepped) — settled overnight. Oral course finished Tue 15 Sep. **Wed 16 Sep: wound
-  closed, no discharge, no blood in the dressing.** Thursday's GP appointment cancelled —
-  the reason for it (open wound, course ending) had gone.
-  Advice on closing: **stop the Fucidin** (no target once closed, and prolonged fusidic
-  acid drives resistance); keep a plain dressing on a few more days while the new skin is
-  thin; **no box contact until ~23 Sep** — step-overs on the Sat and Sun classes, reassess
-  Monday. Back to a GP same-day if redness, swelling, warmth or reopening returns: the
-  infection was deep enough to need orals, so recurrence after surface closure is possible.
-  The Medicare UCC does not do follow-ups — acute presentations only.
+- **Infected shin wound — RELAPSED 18 Sep, second antibiotic course.** Cut on a box
+  ~31 Aug. Swollen 9 Sep → urgent care started **flucloxacillin + Fucidin**; cost him
+  Oly Day 2 on the 10th. Flared 13 Sep after box jump overs. Orals finished Tue 15 Sep.
+  Looked **closed 16 Sep**, so the Thursday GP review was cancelled.
+  **Fri 18 Sep it flared again — redness up, yellow discharge.** Back to the GP, now on
+  **cephalexin 500mg × 20 capsules** (Wagner), i.e. most likely 500mg QID for 5 days.
+  **Finish every capsule** — this is the second course on the same wound, and it recurred
+  within 48 hours of the first one ending, which is what an under-treated deep infection
+  does. Four-times-daily is easy to slip; set alarms.
+  **Open questions for the GP:** was it swabbed (a wound that has failed one antibiotic is
+  the case for a culture), and what is the expected timeline — if it is not clearly better
+  in 48-72 hours, go back again.
+  **Training:** keep it covered in the gym; **no box, no impact, indefinitely** — the
+  23 Sep date is void. Rest if systemically unwell. Sunday doubles: the Oly half is fine,
+  the class is where the box and burpees are.
+  Note: the Medicare UCC does not do follow-ups — acute presentations only.
 - **Left knee ITB** — flagged as "getting worse and worse" in the cycle 2 check-in,
   before the deload. Never followed up. Still unanswered: how is it now?
 
