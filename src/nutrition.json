@@ -2881,6 +2881,22 @@
           "fibre": 11
         }
       ]
+    },
+    "2026-09-18": {
+      "training": "6am class",
+      "fluidsMl": 0,
+      "closed": false,
+      "note": "Food4Fitness delivery stolen — the 12-meal box due today never arrived. Improvising.",
+      "items": [
+        {
+          "name": "Glick's bagel (90g)",
+          "kcal": 248,
+          "p": 8,
+          "c": 44,
+          "f": 3,
+          "fibre": 2
+        }
+      ]
     }
   }
 }
