@@ -2893,8 +2893,8 @@
     },
     "2026-09-18": {
       "training": "6am class",
-      "fluidsMl": 1400,
-      "closed": false,
+      "fluidsMl": 2100,
+      "closed": true,
       "note": "Food4Fitness delivery stolen — the 12-meal box due today never arrived. Improvising.",
       "items": [
         {
@@ -2973,6 +2973,40 @@
           "c": 3,
           "f": 0,
           "fibre": 0
+        },
+        {
+          "name": "Dinner: tuna in springwater, 1 tin drained (~120g; label 30.8P)",
+          "kcal": 136,
+          "p": 31,
+          "c": 0,
+          "f": 1,
+          "fibre": 0
+        },
+        {
+          "name": "Frozen mixed vegetables (carrot, cauliflower, broccoli), 150g",
+          "kcal": 40,
+          "p": 3,
+          "c": 6,
+          "f": 0,
+          "fibre": 3,
+          "slot": "veg"
+        },
+        {
+          "name": "Protein water #1: 25g Bulk collagen/WPI blend in 700ml water",
+          "kcal": 95,
+          "p": 20,
+          "c": 1,
+          "f": 0,
+          "fibre": 0
+        },
+        {
+          "name": "Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate",
+          "kcal": 15,
+          "p": 0,
+          "c": 1,
+          "f": 0,
+          "fibre": 3,
+          "slot": "supp"
         }
       ]
     }
