@@ -1,5 +1,65 @@
 [
   {
+    "id": "v596",
+    "title": "Paused Overhead Squat, 4×3 @ 40kg",
+    "date": "2026-09-15",
+    "lift": "paused_overhead_squat",
+    "weight": 40,
+    "sets": 4,
+    "reps": 3,
+    "bodyweight": 81,
+    "tags": ["week-6-c3", "working-set", "cycle-3", "loc-brunswick"],
+    "notes": "Four triples at 40, 90% of the 44 snatch, three-second hold in the bottom, sots press 2×5 to warm up. As written. Not filmed."
+  },
+  {
+    "id": "v597",
+    "title": "Above-Knee Hang Snatch, 4×2 @ 35kg",
+    "date": "2026-09-15",
+    "lift": "above_knee_hang_snatch",
+    "weight": 35,
+    "sets": 4,
+    "reps": 2,
+    "bodyweight": 81,
+    "tags": ["week-6-c3", "working-set", "cycle-3", "loc-brunswick"],
+    "notes": "Four doubles at 35, 79% of 44, two minutes between sets. As written. Not filmed."
+  },
+  {
+    "id": "v598",
+    "title": "Tall Jerk (primer), 3×3",
+    "date": "2026-09-15",
+    "lift": "tall_jerk",
+    "weight": 20,
+    "sets": 3,
+    "reps": 3,
+    "bodyweight": 81,
+    "tags": ["week-6-c3", "primer", "cycle-3", "loc-brunswick"],
+    "notes": "Empty-bar primer, three triples with a minute between. As written. Not filmed."
+  },
+  {
+    "id": "v599",
+    "title": "Power Clean + Jerk, 3×2 @ 50kg",
+    "date": "2026-09-15",
+    "lift": "power_clean_jerk",
+    "weight": 50,
+    "sets": 3,
+    "reps": 2,
+    "bodyweight": 81,
+    "tags": ["week-6-c3", "working-set", "complex", "cycle-3", "loc-brunswick"],
+    "notes": "Misread the sheet: did (1 power clean + 1 jerk) × 2 for three sets at 50kg, where it asked for (2 power clean + 1 jerk) for four sets. Same load, 77% of 65; one fewer set and one fewer clean per set than prescribed. Not filmed."
+  },
+  {
+    "id": "v600",
+    "title": "SSB Split Squat, 3×8 @ 40kg",
+    "date": "2026-09-15",
+    "lift": "ssb_split_squat",
+    "weight": 40,
+    "sets": 3,
+    "reps": 8,
+    "bodyweight": 81,
+    "tags": ["week-6-c3", "working-set", "cycle-3", "loc-brunswick"],
+    "notes": "Three sets of 8 each side at 40kg, prescribed RPE 8. Well under the 70-75 of 8 Sep; the sheet added, in bold, \"this is a split squat not an actual squat\", so the earlier loads were likely a different movement. Dips and leg raises skipped. Not filmed."
+  },
+  {
     "id": "v584",
     "title": "Power Snatch + OHS, 4×2 @ 35kg",
     "date": "2026-09-17",
