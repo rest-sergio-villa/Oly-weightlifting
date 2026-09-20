@@ -3142,6 +3142,57 @@
           "slot": "supp"
         }
       ]
+    },
+    "2026-09-20": {
+      "training": "double session",
+      "fluidsMl": 1400,
+      "closed": false,
+      "items": [
+        {
+          "name": "Coffee at home: 125ml barista oat milk + 1 shot",
+          "kcal": 75,
+          "p": 1,
+          "c": 9,
+          "f": 4,
+          "fibre": 1
+        },
+        {
+          "name": "PRE-SESSION: banana",
+          "kcal": 105,
+          "p": 1,
+          "c": 27,
+          "f": 0,
+          "fibre": 3,
+          "slot": "pre"
+        },
+        {
+          "name": "PRE-SESSION: pur\u00e9e pouch \u00d72",
+          "kcal": 120,
+          "p": 2,
+          "c": 24,
+          "f": 0,
+          "fibre": 2,
+          "slot": "pre"
+        },
+        {
+          "name": "INTRA-SESSION: Gatorade, 3 scoops in 750ml (double)",
+          "kcal": 195,
+          "p": 0,
+          "c": 45,
+          "f": 0,
+          "fibre": 0,
+          "slot": "intra"
+        },
+        {
+          "name": "POST-SESSION: pur\u00e9e pouch",
+          "kcal": 60,
+          "p": 1,
+          "c": 12,
+          "f": 0,
+          "fibre": 1,
+          "slot": "post"
+        }
+      ]
     }
   }
 }
