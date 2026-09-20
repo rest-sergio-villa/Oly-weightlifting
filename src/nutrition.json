@@ -3292,5 +3292,29 @@
         }
       ]
     }
+ ,
+    "2026-09-21": {
+      "training": "Rest",
+      "fluidsMl": 150,
+      "closed": false,
+      "items": [
+        {
+          "name": "Breakfast smoothie, no PB: 400ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens",
+          "kcal": 635,
+          "p": 39,
+          "c": 91,
+          "f": 12,
+          "fibre": 15
+        },
+        {
+          "name": "Coffee at home: 125ml barista oat milk + 1 shot",
+          "kcal": 75,
+          "p": 1,
+          "c": 9,
+          "f": 4,
+          "fibre": 1
+        }
+      ]
+    }
   }
 }
