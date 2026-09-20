@@ -3255,6 +3255,14 @@
           "c": 40,
           "f": 1,
           "fibre": 1
+        },
+        {
+          "name": "Dinner: creamy coleslaw, 1 spoon (~40g; kiosk label 845 kcal large)",
+          "kcal": 60,
+          "p": 0,
+          "c": 3,
+          "f": 5,
+          "fibre": 1
         }
       ]
     }
