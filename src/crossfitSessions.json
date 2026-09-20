@@ -899,5 +899,20 @@
       "timeCap": "30:00"
     },
     "notes": "Finished in 20:00 (first reported as 17:00 — corrected), which squares with the 1:50-2:00/500m row pace over the full 5000m. Dumbbells at 17.5kg. Box jump overs cut to 8 a round but still jumped, twelve days into the infected shin. Second half of a double — Week 5 Day 3 cleans before it, jerks after. Sorenson holds skipped."
+  },
+  "2026-09-20": {
+    "className": "CrossFit 3056",
+    "time": "9:00am",
+    "week": "week-6-c3",
+    "cycle": "cycle-3",
+    "location": "loc-brunswick",
+    "strength": [],
+    "metcon": {
+      "format": "Every 10:00 × 3",
+      "details": "400m Run\n500m Row\n20 Burpees\n30 Ab Mat Sit-ups",
+      "scoreType": "Time each interval",
+      "timeCap": "30:00"
+    },
+    "notes": "Finished every interval with 2:30 left on the clock — about 7:30 a round, and the same all three rounds, so pacing held rather than fading. Rowing felt strong. Trainer Greta Maggs. First half of a double."
   }
 }
