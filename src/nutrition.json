@@ -3191,6 +3191,30 @@
           "f": 0,
           "fibre": 1,
           "slot": "post"
+        },
+        {
+          "name": "Brunch (est.): Ima Asa Yoru Zo-Sui \u2014 rice porridge, mushrooms, takana, bonito-tsukudani, onsen egg, pickles",
+          "kcal": 411,
+          "p": 21,
+          "c": 64,
+          "f": 6,
+          "fibre": 3
+        },
+        {
+          "name": "Brunch (est.): add grilled market fish, barramundi (~130g)",
+          "kcal": 190,
+          "p": 29,
+          "c": 0,
+          "f": 8,
+          "fibre": 0
+        },
+        {
+          "name": "Brunch (est.): add ajitama, soft-boiled egg in bonito dashi",
+          "kcal": 78,
+          "p": 6,
+          "c": 1,
+          "f": 5,
+          "fibre": 0
         }
       ]
     }
