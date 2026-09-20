@@ -7,8 +7,9 @@ before Fri 25, so these days are covered at home.
 possible** — tuna, microwave rice, sausages, assembly. Dinner is shared with Gus,
 one pan, portioned unevenly at the table.
 
-**The shortcut:** a supermarket BBQ chook is Sunday's shared dinner *and* the
-protein for Wednesday's lunch. No chicken cook-up needed.
+**Two shortcuts:** a supermarket BBQ chook is Sunday's shared dinner with zero
+cooking, and **one 1kg batch of lean beef mince cooked Tuesday night** becomes
+Tuesday's bolognese, Wednesday's lunch bowl and Wednesday's burritos.
 
 ## Sunday 20 — double session (2,960 / 160 / 400 / 80)
 
@@ -19,7 +20,7 @@ Sergio's plate: **150g chook meat (mixed breast and leg, skin off), ⅔ of a ric
 pouch (~170g), bagged salad with 2 tsp dressing, 100g peas** — ~654 / 50 / 75 / 16.
 
 Sized against an assumed ~650 kcal lunch; adjust the rice up or down once the
-day's actual lunch is known. Keep the leftover meat for Wednesday.
+day's actual lunch is known.
 
 ## Monday 21 — rest (2,760 / 160 / 350 / 80)
 
@@ -45,73 +46,77 @@ Day: **2,819 / 162 / 350 / 78.**
 cucumber, ¼ avocado, 1 tsp sesame oil, soy, shallot. Two minutes, no heat needed
 beyond the rice.
 
-**Dinner (shared) — teriyaki salmon, rice, greens.** For two: 2 salmon fillets,
-soy/mirin/honey glaze, rice, broccoli and green beans. Ten minutes.
+**Dinner (shared) — spaghetti bolognese, from the big mince batch.** Brown 1kg
+lean beef mince with onion, garlic and a grated carrot in 1 tbsp oil, add 700g
+passata, simmer 20 minutes. That is the whole week's mince cooked: about 650g
+cooked meat. Tonight uses half; the rest goes in the fridge for Wednesday.
 
-Sergio's plate: **130g salmon, 220g cooked rice, 180g greens, ~40ml glaze.**
+Sergio's plate: **110g dry spaghetti, 120g of the cooked mince with its sauce,
+10g parmesan.** Gus takes what he wants from the pot; the batch has room.
 
-Day: **2,881 / 154 / 369 / 78.** The salmon carries 17g of fat in one item —
-that's the gap the F4F meals always left open.
+Day: **2,915 / 166 / 377 / 76.**
 
 ## Wednesday 23 — 6am class (2,860 / 160 / 375 / 80)
 
 Tightest day: the 83g pre-feed and the post-class smoothie put 1,600 kcal down
 before 9am, so lunch and dinner split only ~1,260.
 
-**Lunch — chook and couscous.** 90g dry couscous (boiling water, no cooking),
-150g shredded chook off Sunday's bird, cherry tomatoes, cucumber, parsley, 60g
-Greek yoghurt with sumac and lemon.
+**Lunch — beef and rice bowl.** 150g of Tuesday's mince over 200g microwave rice
+(most of a pouch), 150g frozen veg stirred through. Nothing to cook — it is
+Tuesday's leftovers in a different shape.
 
-**Dinner (shared) — shakshuka.** 2×400g tinned tomatoes, onion, 2 capsicums,
-cumin and paprika, olive oil, 4 eggs, bread to mop. One pan, portioned by how
-much bread each person takes.
+**Dinner (shared) — beef burritos.** Stir a sachet of taco seasoning, a drained
+tin of black beans and a handful of corn through the last of the mince, warm it,
+and build at the table: large tortillas, lettuce, tomato, salsa. Gus adds cheese
+and sour cream. Portions by how much goes in each wrap.
 
-Sergio's plate: **2 eggs, half the sauce, 120g sourdough.**
+Sergio's wrap: **one large tortilla, 120g mince, 80g black beans, corn, salad,
+salsa, ¼ avocado.** No cheese, no sour cream — same rules as the GYG order.
 
-Day: **2,919 / 149 / 377 / 79.** Protein lands 11g light; a protein water covers
-it if the day feels short, otherwise leave it — the rolling average is above 160.
+Day: **2,914 / 163 / 367 / 79.**
 
 ## Shopping list
 
 **Protein**
 - BBQ chook ×1 (hot, from the supermarket)
 - Chicken sausages ×1 pack
-- Salmon, 2 fillets (~300g)
-- Eggs, dozen
+- Lean beef mince, 1kg (5-star / ~5% fat)
 - *(tuna already in the house — 2 tins needed Monday, 1½ Tuesday, so buy 2 more)*
 
 **Carbs**
 - Microwave rice pouches ×4
 - Spaghetti 500g
-- Couscous
 - Baby potatoes, microwave pack 300g
-- Sourdough loaf
+- Large burrito tortillas ×1 pack
 - Glick's bagels
 - Bananas ×8, purée pouches
 
 **Produce**
 - Bagged salad, bagged slaw
-- Cucumber ×2, cherry tomatoes, parsley
+- Cucumber ×2, tomatoes, lettuce
 - Avocado ×1
-- Broccoli, green beans
-- Capsicum ×2, brown onions, garlic, red chilli
-- Lemons
+- Brown onions, garlic, red chilli, 1 carrot
 - Frozen peas, frozen mixed veg
 
 **Pantry**
-- Passata 700g, tinned tomatoes 2×400g
+- Passata 2×700g (Monday's puttanesca and Tuesday's bolognese)
 - Kalamata olives, capers
 - Kimchi
-- Soy, mirin, honey, sesame oil
-- Greek yoghurt 2%
+- Sesame oil, soy
+- Black beans, 1 tin; corn, 1 small tin
+- Taco seasoning, salsa
 - Parmesan
 - Pickles, mustard, vinaigrette
 - Olive oil (check level)
-- Cumin, smoked paprika, sumac
+- For Gus: grated cheese, sour cream
 
 ## Notes
 
-- Nothing here needs more than ten minutes at the stove, and Monday and Tuesday
-  lunches need none at all.
-- Sunday's chook covers Wednesday's lunch protein; eat it by Wednesday lunchtime.
+- Tuesday night is the only real cook (the mince batch, ~30 minutes). Sunday,
+  Monday's lunch and Wednesday's lunch need no stove at all; Monday's pasta and
+  Wednesday's burritos are ten minutes.
+- Mince accounting, cooked weight: Sergio 120g Tue + 150g Wed lunch + 120g Wed
+  dinner = 390g; Gus two dinners ≈ 260g. 1kg raw yields ~750g, so there is
+  ~100g of slack.
+- Lean mince priced at the 10 Sep figure: 170 kcal / 27P / 7F per 100g cooked.
 - Reorder the stolen F4F box (same 12 meals) so Friday 25 is covered.
