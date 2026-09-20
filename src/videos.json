@@ -89,7 +89,7 @@
     "reps": 4,
     "bodyweight": 81,
     "tags": ["week-6-c3", "working-set", "cycle-3", "loc-brunswick"],
-    "summary": "5×5 prescribed at RPE 7→9, worked 30, 35, 38, 40, 40; both 40kg sets stopped at 4.",
+    "summary": "5×5 prescribed at RPE 7→9, worked 30, 35, 38, 40, 40; fives through 38, both 40kg sets stopped at 4.",
     "notes": "40kg × 4 at a prescribed RPE 9 — fifth rep not there. Not filmed."
   },
   {
@@ -109,9 +109,10 @@
     "date": "2026-09-20",
     "lift": "barbell_strict_press",
     "weight": 38,
+    "reps": 5,
     "bodyweight": 81,
     "tags": ["week-6-c3", "working-set", "cycle-3", "loc-brunswick"],
-    "notes": "38kg at a prescribed RPE 8.5; reps not recorded on the sheet. Not filmed."
+    "notes": "38kg × 5 at a prescribed RPE 8.5. Not filmed."
   },
   {
     "id": "v579",
