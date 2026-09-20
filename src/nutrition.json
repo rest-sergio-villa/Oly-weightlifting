@@ -3223,6 +3223,22 @@
           "c": 17,
           "f": 5,
           "fibre": 0
+        },
+        {
+          "name": "Pur\u00e9e pouch",
+          "kcal": 60,
+          "p": 1,
+          "c": 12,
+          "f": 0,
+          "fibre": 1
+        },
+        {
+          "name": "Corn Thins \u00d73",
+          "kcal": 75,
+          "p": 3,
+          "c": 15,
+          "f": 0,
+          "fibre": 3
         }
       ]
     }
