@@ -1,5 +1,31 @@
 [
   {
+    "id": "v582",
+    "title": "Sunrise Sit-ups, 3×20 @ 5kg",
+    "date": "2026-09-18",
+    "lift": "sunrise_situps",
+    "weight": 5,
+    "sets": 3,
+    "reps": 20,
+    "accessory": true,
+    "bodyweight": 81,
+    "tags": ["week-6-c3", "working-set", "cycle-3", "loc-brunswick"],
+    "notes": "Week 6 Day 2 accessory, done after the Friday 6am class (Karen day). Prescribed RPE 8. Load assumed the same 5kg plate as last time — correct if not."
+  },
+  {
+    "id": "v583",
+    "title": "Cossack Squats, 3×16",
+    "date": "2026-09-18",
+    "lift": "cossack_squat",
+    "weight": 0,
+    "sets": 3,
+    "reps": 16,
+    "accessory": true,
+    "bodyweight": 81,
+    "tags": ["week-6-c3", "working-set", "cycle-3", "loc-brunswick"],
+    "notes": "Week 6 Day 2 accessory, done after the Friday 6am class. Bodyweight, prescribed RPE 7."
+  },
+  {
     "id": "v569",
     "youtubeId": "Ff33twCkbCQ",
     "vertical": true,
