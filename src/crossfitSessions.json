@@ -900,6 +900,21 @@
     },
     "notes": "Finished in 20:00 (first reported as 17:00 — corrected), which squares with the 1:50-2:00/500m row pace over the full 5000m. Dumbbells at 17.5kg. Box jump overs cut to 8 a round but still jumped, twelve days into the infected shin. Second half of a double — Week 5 Day 3 cleans before it, jerks after. Sorenson holds skipped."
   },
+  "2026-09-16": {
+    "className": "CrossFit 3056",
+    "time": "6:00am",
+    "week": "week-6-c3",
+    "cycle": "cycle-3",
+    "location": "loc-brunswick",
+    "strength": [],
+    "metcon": {
+      "format": "Cindy — AMRAP 20:00",
+      "details": "5 Pull-ups\n10 Push-ups\n15 Air Squats",
+      "scoreType": "Rounds + Reps",
+      "timeCap": "20:00"
+    },
+    "notes": "10 rounds even — 300 reps, a round every 2:00. Second benchmark on the board. Logged from memory, no whiteboard screenshot; RX assumed (unbanded pull-ups, full push-ups) — correct if scaled."
+  },
   "2026-09-18": {
     "className": "CrossFit 3056",
     "time": "6:00am",
