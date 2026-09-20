@@ -3145,7 +3145,7 @@
     },
     "2026-09-20": {
       "training": "double session",
-      "fluidsMl": 1400,
+      "fluidsMl": 2100,
       "closed": false,
       "items": [
         {
@@ -3263,6 +3263,23 @@
           "c": 3,
           "f": 5,
           "fibre": 1
+        },
+        {
+          "name": "Banana",
+          "kcal": 105,
+          "p": 1,
+          "c": 27,
+          "f": 0,
+          "fibre": 3,
+          "slot": "fruit"
+        },
+        {
+          "name": "Protein water: 25g Bulk collagen/WPI blend in 700ml water",
+          "kcal": 95,
+          "p": 20,
+          "c": 1,
+          "f": 0,
+          "fibre": 0
         }
       ]
     }
