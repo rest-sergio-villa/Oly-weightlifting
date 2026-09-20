@@ -900,6 +900,27 @@
     },
     "notes": "Finished in 20:00 (first reported as 17:00 — corrected), which squares with the 1:50-2:00/500m row pace over the full 5000m. Dumbbells at 17.5kg. Box jump overs cut to 8 a round but still jumped, twelve days into the infected shin. Second half of a double — Week 5 Day 3 cleans before it, jerks after. Sorenson holds skipped."
   },
+  "2026-09-18": {
+    "className": "CrossFit 3056",
+    "time": "6:00am",
+    "week": "week-6-c3",
+    "cycle": "cycle-3",
+    "location": "loc-brunswick",
+    "strength": [
+      {
+        "name": "Weightlifting — 5 rounds: 5 Front Squats @ 70% or RPE 8, 15 V-ups, 75 Double Unders (15:00 cap)",
+        "scheme": "5 × 5, scored on front squat weight",
+        "myWeight": "50kg — tuck-ups for V-ups, single-unders for doubles"
+      }
+    ],
+    "metcon": {
+      "format": "Karen — For Time",
+      "details": "150 Wall Balls",
+      "scoreType": "Time",
+      "timeCap": "10:00"
+    },
+    "notes": "Front squats at 50kg for the five rounds — 62% of the 80 ref against the 70% asked, which is the right call for 25 reps two days before Day 3 fives to 67. V-ups scaled to tuck-ups, double-unders to singles. Karen finished in 9:50, ten seconds inside the cap. Accessories skipped."
+  },
   "2026-09-19": {
     "className": "CrossFit",
     "time": "8:30am",
