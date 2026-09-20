@@ -3013,7 +3013,7 @@
     "2026-09-19": {
       "training": "8.30am class",
       "fluidsMl": 1900,
-      "closed": false,
+      "closed": true,
       "items": [
         {
           "name": "Coffee at home: 125ml barista oat milk + 1 shot",
@@ -3131,6 +3131,15 @@
           "c": 11,
           "f": 0,
           "fibre": 0
+        },
+        {
+          "name": "Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate",
+          "kcal": 15,
+          "p": 0,
+          "c": 1,
+          "f": 0,
+          "fibre": 3,
+          "slot": "supp"
         }
       ]
     }
