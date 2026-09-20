@@ -1,0 +1,10 @@
+{
+  "karen": {
+    "label": "Karen",
+    "description": "150 wall balls for time",
+    "scoreType": "time",
+    "history": [
+      { "date": "2026-09-18", "score": "9:50", "rx": true, "note": "20lb ball, 10:00 cap. After 5×5 front squats at 50kg in the same class." }
+    ]
+  }
+}
