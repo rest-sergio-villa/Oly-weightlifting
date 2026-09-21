@@ -3362,6 +3362,63 @@
           "c": 12,
           "f": 0,
           "fibre": 1
+        },
+        {
+          "name": "Dinner: spaghetti, 170g dry",
+          "kcal": 612,
+          "p": 20,
+          "c": 125,
+          "f": 2,
+          "fibre": 7
+        },
+        {
+          "name": "Dinner: leftover charcoal chicken, ~120g picked meat",
+          "kcal": 240,
+          "p": 32,
+          "c": 0,
+          "f": 12,
+          "fibre": 0
+        },
+        {
+          "name": "Dinner: passata with onion, garlic, chilli, oregano",
+          "kcal": 55,
+          "p": 3,
+          "c": 10,
+          "f": 0,
+          "fibre": 3
+        },
+        {
+          "name": "Dinner: kalamata olives 30g + capers",
+          "kcal": 55,
+          "p": 0,
+          "c": 1,
+          "f": 6,
+          "fibre": 1
+        },
+        {
+          "name": "Dinner: olive oil, 1 tsp",
+          "kcal": 40,
+          "p": 0,
+          "c": 0,
+          "f": 5,
+          "fibre": 0
+        },
+        {
+          "name": "Dinner: parmesan, 10g",
+          "kcal": 40,
+          "p": 4,
+          "c": 0,
+          "f": 3,
+          "fibre": 0
+        },
+        {
+          "name": "Frozen mixed vegetables (carrot, cauliflower, broccoli), 150g",
+          "kcal": 40,
+          "p": 3,
+          "c": 6,
+          "f": 0,
+          "fibre": 3,
+          "slot": "veg"
         }
       ]
     }
