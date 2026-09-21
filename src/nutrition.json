@@ -3295,7 +3295,7 @@
  ,
     "2026-09-21": {
       "training": "Rest",
-      "fluidsMl": 150,
+      "fluidsMl": 1350,
       "closed": false,
       "items": [
         {
@@ -3313,6 +3313,47 @@
           "c": 9,
           "f": 4,
           "fibre": 1
+        },
+        {
+          "name": "Lunch: tuna in springwater, 1 tin drained (~120g)",
+          "kcal": 136,
+          "p": 31,
+          "c": 0,
+          "f": 1,
+          "fibre": 0
+        },
+        {
+          "name": "Lunch: whole-egg mayonnaise, ~1 tbsp (est.)",
+          "kcal": 100,
+          "p": 0,
+          "c": 0,
+          "f": 11,
+          "fibre": 0
+        },
+        {
+          "name": "Lunch: microwave rice pouch, 250g",
+          "kcal": 372,
+          "p": 7,
+          "c": 80,
+          "f": 3,
+          "fibre": 1
+        },
+        {
+          "name": "Frozen mixed vegetables (carrot, cauliflower, broccoli), 150g",
+          "kcal": 40,
+          "p": 3,
+          "c": 6,
+          "f": 0,
+          "fibre": 3,
+          "slot": "veg"
+        },
+        {
+          "name": "Protein water: 25g Bulk collagen/WPI blend in 700ml water",
+          "kcal": 95,
+          "p": 20,
+          "c": 1,
+          "f": 0,
+          "fibre": 0
         }
       ]
     }
