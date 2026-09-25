@@ -3553,7 +3553,7 @@
  ,
     "2026-09-25": {
       "training": "6am class",
-      "fluidsMl": 900,
+      "fluidsMl": 1275,
       "closed": false,
       "items": [
         {
@@ -3640,6 +3640,46 @@
           "c": 15,
           "f": 7,
           "fibre": 1
+        },
+        {
+          "name": "Lunch: F4F Singapore Chicken Noodle Stir-Fry (label, 598.5 kcal / 41.4P / 71.6C / 11.3F, 1143mg Na)",
+          "kcal": 598,
+          "p": 41,
+          "c": 72,
+          "f": 11,
+          "fibre": 6
+        },
+        {
+          "name": "Ice cream, 4 oz (~113g, est.)",
+          "kcal": 235,
+          "p": 4,
+          "c": 27,
+          "f": 12,
+          "fibre": 1
+        },
+        {
+          "name": "Popcorn, small serve (~200 kcal, his estimate)",
+          "kcal": 200,
+          "p": 3,
+          "c": 24,
+          "f": 10,
+          "fibre": 3
+        },
+        {
+          "name": "Pepsi Max, 375ml",
+          "kcal": 1,
+          "p": 0,
+          "c": 0,
+          "f": 0,
+          "fibre": 0
+        },
+        {
+          "name": "Dinner: F4F Loaded Chicken Creamy Alfredo Spiral Pasta (label, 624 kcal / 55.3P / 67.0C / 9.7F, 498mg Na)",
+          "kcal": 624,
+          "p": 55,
+          "c": 67,
+          "f": 10,
+          "fibre": 5
         }
       ]
     }
