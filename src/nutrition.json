@@ -3435,7 +3435,7 @@
     "2026-09-22": {
       "training": "Oly Day 1 (pm)",
       "fluidsMl": 2500,
-      "closed": false,
+      "closed": true,
       "items": [
         {
           "name": "Breakfast smoothie, no PB: 400ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens",
@@ -3530,6 +3530,23 @@
           "f": 0,
           "fibre": 0,
           "slot": "intra"
+        },
+        {
+          "name": "Dinner: GYG grilled chicken burrito bowl — white rice, black beans, extra guacamole, cheese, sour cream, salsa, lettuce (est.)",
+          "kcal": 747,
+          "p": 46,
+          "c": 52,
+          "f": 40,
+          "fibre": 10
+        },
+        {
+          "name": "Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate",
+          "kcal": 15,
+          "p": 0,
+          "c": 1,
+          "f": 0,
+          "fibre": 3,
+          "slot": "supp"
         }
       ]
     }
