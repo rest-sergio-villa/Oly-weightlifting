@@ -108,15 +108,27 @@
   },
   {
     "id": "v620",
-    "title": "Power Clean + Jerk, 2×3 @ 50kg",
+    "youtubeId": "94l4gD9uPPA",
+    "vertical": true,
+    "title": "Power Clean + Jerk, set 2",
     "date": "2026-09-22",
     "lift": "power_clean_jerk",
     "weight": 50,
-    "sets": 2,
     "reps": 3,
     "bodyweight": 80,
     "tags": ["week-7-c3", "working-set", "complex", "split", "technique", "cycle-3", "loc-brunswick"],
-    "notes": "Two sets of (2 power clean + 1 jerk) at 50kg, 77%. Rear leg staying rigid in the split on the jerk — the back knee isn't bending to receive, so the split is shallow and the front leg takes too much of the catch. Footwork remains the recurring jerk theme."
+    "notes": "2 power cleans + 1 jerk at 50kg, 77% of the 65 C&J. Rear leg staying rigid in the split on the jerk — the back knee isn't bending to receive, so the split is shallow and the front leg takes too much of the catch. Footwork remains the recurring jerk theme."
+  },
+  {
+    "id": "v622",
+    "title": "Power Clean + Jerk, set 1",
+    "date": "2026-09-22",
+    "lift": "power_clean_jerk",
+    "weight": 50,
+    "reps": 3,
+    "bodyweight": 80,
+    "tags": ["week-7-c3", "working-set", "complex", "cycle-3", "loc-brunswick"],
+    "notes": "2 power cleans + 1 jerk at 50kg, 77%. Not filmed."
   },
   {
     "id": "v601",
