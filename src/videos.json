@@ -46,16 +46,28 @@
   },
   {
     "id": "v616",
-    "title": "Above-Knee Hang Snatch, 2×2 @ 37kg",
+    "youtubeId": "L64-1y1v-Ss",
+    "vertical": true,
+    "title": "Above-Knee Hang Snatch, set 4",
     "date": "2026-09-22",
     "lift": "above_knee_hang_snatch",
     "weight": 37,
-    "sets": 2,
+    "reps": 2,
+    "bodyweight": 80,
+    "tags": ["week-7-c3", "working-set", "technique", "cycle-3", "loc-brunswick"],
+    "summary": "35, 35, 37, 37 for doubles — 79 to 83% of 44. Seb called the top set good and fast.",
+    "notes": "37kg × 2 (83%). Seb's read: good, and fast — quick turnover, getting under the bar rather than muscling it up. Worth holding onto: at 113% of snatch on the overhead squat the same morning, the receiving position clearly holds under load, so speed under the bar is the thing to keep training."
+  },
+  {
+    "id": "v621",
+    "title": "Above-Knee Hang Snatch, set 3",
+    "date": "2026-09-22",
+    "lift": "above_knee_hang_snatch",
+    "weight": 37,
     "reps": 2,
     "bodyweight": 80,
     "tags": ["week-7-c3", "working-set", "cycle-3", "loc-brunswick"],
-    "summary": "35, 35, 37, 37 for doubles — 79 to 83% of 44. Smooth throughout.",
-    "notes": "Two doubles at 37kg (83%). Not filmed."
+    "notes": "37kg × 2 (83%). Not filmed."
   },
   {
     "id": "v617",
