@@ -3551,6 +3551,130 @@
       ]
     }
  ,
+    "2026-09-23": {
+      "training": "6am class",
+      "fluidsMl": 3250,
+      "closed": true,
+      "items": [
+        {
+          "name": "PRE-CLASS: banana",
+          "kcal": 105,
+          "p": 1,
+          "c": 27,
+          "f": 0,
+          "fibre": 3,
+          "slot": "pre"
+        },
+        {
+          "name": "PRE-CLASS: Glick's bagel (90g)",
+          "kcal": 248,
+          "p": 8,
+          "c": 44,
+          "f": 3,
+          "fibre": 2,
+          "slot": "pre"
+        },
+        {
+          "name": "PRE-CLASS: purée pouch",
+          "kcal": 60,
+          "p": 1,
+          "c": 12,
+          "f": 0,
+          "fibre": 1,
+          "slot": "pre"
+        },
+        {
+          "name": "Coffee at home: 125ml barista oat milk + 1 shot",
+          "kcal": 75,
+          "p": 1,
+          "c": 9,
+          "f": 4,
+          "fibre": 1
+        },
+        {
+          "name": "INTRA-CLASS: Gatorade, 2 scoops in 750ml",
+          "kcal": 130,
+          "p": 0,
+          "c": 30,
+          "f": 0,
+          "fibre": 0,
+          "slot": "intra"
+        },
+        {
+          "name": "Breakfast: 3 eggs",
+          "kcal": 216,
+          "p": 19,
+          "c": 1,
+          "f": 15,
+          "fibre": 0
+        },
+        {
+          "name": "Breakfast: half an arepa (est.)",
+          "kcal": 130,
+          "p": 3,
+          "c": 26,
+          "f": 2,
+          "fibre": 2
+        },
+        {
+          "name": "Lunch: chicken and lettuce wrap, no sauce (est.)",
+          "kcal": 395,
+          "p": 42,
+          "c": 33,
+          "f": 8,
+          "fibre": 3
+        },
+        {
+          "name": "Dinner: pasta plate shared four ways, his quarter (est.)",
+          "kcal": 320,
+          "p": 13,
+          "c": 45,
+          "f": 9,
+          "fibre": 3
+        },
+        {
+          "name": "Dinner: bolognese sub (est.)",
+          "kcal": 550,
+          "p": 27,
+          "c": 70,
+          "f": 16,
+          "fibre": 4
+        },
+        {
+          "name": "Lager, 2 schooners (425ml each, est.)",
+          "kcal": 310,
+          "p": 2,
+          "c": 24,
+          "f": 0,
+          "fibre": 0
+        },
+        {
+          "name": "Mate drink, bottled (est.)",
+          "kcal": 90,
+          "p": 0,
+          "c": 22,
+          "f": 0,
+          "fibre": 0
+        },
+        {
+          "name": "Sparkling water, 500ml",
+          "kcal": 0,
+          "p": 0,
+          "c": 0,
+          "f": 0,
+          "fibre": 0
+        },
+        {
+          "name": "Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate",
+          "kcal": 15,
+          "p": 0,
+          "c": 1,
+          "f": 0,
+          "fibre": 3,
+          "slot": "supp"
+        }
+      ]
+    },
     "2026-09-24": {
       "training": "Oly Day 2 (pm)",
       "fluidsMl": 2050,
