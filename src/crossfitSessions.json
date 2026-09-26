@@ -1019,13 +1019,19 @@
     "week": "week-7-c3",
     "cycle": "cycle-3",
     "location": "loc-brunswick",
-    "strength": [],
+    "strength": [
+      {
+        "name": "Gymnastics class (second session) — handstand technique",
+        "scheme": "Warm-ups: prayer stretch, scap push-ups, planche lean, one-arm HS holds at the wall, inchworms; wrist prep, 8 Cuban press, 10 alternating v-ups. Technique: pike at the wall into spotted handstand holds, building toward 60s.",
+        "myWeight": "Beginner progressions throughout; deficit push-ups in place of the scap push-ups"
+      }
+    ],
     "metcon": {
       "format": "Every 5:00 × 5",
       "details": "2 Rounds:\n10/8 Calorie Row\n8 Dual Dumbbell Step Overs (50/35lb — 22.5/15kg) @ 24/20\"\n6 Handstand Push-ups",
       "scoreType": "Slowest time",
       "timeCap": "25:00"
     },
-    "notes": "Scaled across the board. Step-overs on the 20\" box with 17.5kg dumbbells — above the 15kg women's load, under the 22.5kg RX. Handstand push-ups swapped for seated dual-dumbbell shoulder press at 15kg, sitting on the floor with legs extended, which keeps the press strict and vertical but takes the inversion and the kip out of it. The row came in under 0:40 every round. Finished each window with about a minute to spare, so roughly 4:00 a round across all five — consistent pacing rather than a fade. Trainer Amelia Torr. Plank shoulder airplane accessories skipped."
+    "notes": "Scaled across the board. Step-overs on the 20\" box with 17.5kg dumbbells — above the 15kg women's load, under the 22.5kg RX. Handstand push-ups swapped for seated dual-dumbbell shoulder press at 15kg, sitting on the floor with legs extended, which keeps the press strict and vertical but takes the inversion and the kip out of it. The row came in under 0:40 every round. Finished each window with about a minute to spare, so roughly 4:00 a round across all five — consistent pacing rather than a fade. Trainer Amelia Torr. Plank shoulder airplane accessories skipped. Second session later the same day: a gymnastics class on handstand technique — took the beginner progressions, and went deficit on the push-ups. A purée pouch before it."
   }
 }

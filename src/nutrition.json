@@ -3997,6 +3997,15 @@
           "c": 91,
           "f": 12,
           "fibre": 15
+        },
+        {
+          "name": "PRE-GYMNASTICS: purée pouch",
+          "kcal": 60,
+          "p": 1,
+          "c": 12,
+          "f": 0,
+          "fibre": 1,
+          "slot": "pre"
         }
       ]
     }
