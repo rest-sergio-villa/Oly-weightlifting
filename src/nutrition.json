@@ -4048,6 +4048,116 @@
         }
       ]
     },
+    "2026-09-27": {
+      "training": "Double: 9am class + Oly Day 3",
+      "fluidsMl": 900,
+      "closed": false,
+      "items": [
+        {
+          "name": "PRE-SESSION: Glick's bagel ×1.5 (135g)",
+          "kcal": 372,
+          "p": 12,
+          "c": 66,
+          "f": 5,
+          "fibre": 3,
+          "slot": "pre"
+        },
+        {
+          "name": "PRE-SESSION: purée pouch",
+          "kcal": 60,
+          "p": 1,
+          "c": 12,
+          "f": 0,
+          "fibre": 1,
+          "slot": "pre"
+        },
+        {
+          "name": "Pre-workout, caffeinated",
+          "kcal": 25,
+          "p": 4,
+          "c": 0,
+          "f": 0,
+          "fibre": 0,
+          "slot": "supp"
+        },
+        {
+          "name": "INTRA-SESSION: Gatorade, 3 scoops in 750ml (double)",
+          "kcal": 195,
+          "p": 0,
+          "c": 45,
+          "f": 0,
+          "fibre": 0,
+          "slot": "intra"
+        },
+        {
+          "name": "BETWEEN SESSIONS: purée pouch",
+          "kcal": 60,
+          "p": 1,
+          "c": 12,
+          "f": 0,
+          "fibre": 1,
+          "slot": "intra"
+        },
+        {
+          "name": "POST-SESSION: 3 eggs",
+          "kcal": 216,
+          "p": 19,
+          "c": 1,
+          "f": 15,
+          "fibre": 0
+        },
+        {
+          "name": "POST-SESSION: cooked rice, ½ cup (~90g)",
+          "kcal": 117,
+          "p": 2,
+          "c": 26,
+          "f": 0,
+          "fibre": 0,
+          "slot": "post"
+        },
+        {
+          "name": "Half a banana",
+          "kcal": 53,
+          "p": 1,
+          "c": 14,
+          "f": 0,
+          "fibre": 2,
+          "slot": "fruit"
+        },
+        {
+          "name": "Coffee at home: 125ml barista oat milk + 1 shot",
+          "kcal": 75,
+          "p": 1,
+          "c": 9,
+          "f": 4,
+          "fibre": 1
+        },
+        {
+          "name": "Lunch: F4F Singapore Chicken Noodle Stir-Fry (label, 598.5 kcal / 41.4P / 71.6C / 11.3F, 1143mg Na)",
+          "kcal": 598,
+          "p": 41,
+          "c": 72,
+          "f": 11,
+          "fibre": 6
+        },
+        {
+          "name": "Dinner (est.): falafel, half serve (~3 pieces) with tahini, Lebanese restaurant",
+          "kcal": 230,
+          "p": 8,
+          "c": 20,
+          "f": 13,
+          "fibre": 4
+        },
+        {
+          "name": "Dinner (est.): chicken skewers ×2 (shish tawook, ~100g each)",
+          "kcal": 360,
+          "p": 56,
+          "c": 4,
+          "f": 14,
+          "fibre": 0
+        }
+      ]
+    },
     "2026-09-28": {
       "training": "Rest",
       "fluidsMl": 1350,
