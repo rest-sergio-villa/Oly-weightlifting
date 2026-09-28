@@ -3291,8 +3291,7 @@
           "slot": "supp"
         }
       ]
-    }
- ,
+    },
     "2026-09-21": {
       "training": "Rest",
       "fluidsMl": 1600,
@@ -3430,8 +3429,7 @@
           "slot": "supp"
         }
       ]
-    }
- ,
+    },
     "2026-09-22": {
       "training": "Oly Day 1 (pm)",
       "fluidsMl": 2500,
@@ -3549,8 +3547,7 @@
           "slot": "supp"
         }
       ]
-    }
- ,
+    },
     "2026-09-23": {
       "training": "6am class",
       "fluidsMl": 3250,
@@ -3943,9 +3940,9 @@
       ]
     },
     "2026-09-26": {
-      "training": "8.30am class",
+      "training": "Double: 8.30am class + gymnastics",
       "fluidsMl": 2100,
-      "closed": false,
+      "closed": true,
       "items": [
         {
           "name": "Coffee at home: 125ml barista oat milk + 1 shot",
@@ -4015,10 +4012,34 @@
           "f": 0,
           "fibre": 1,
           "slot": "pre"
+        },
+        {
+          "name": "Lunch: F4F Loaded Chicken Creamy Alfredo Spiral Pasta (label, 624 kcal / 55.3P / 67.0C / 9.7F, 498mg Na)",
+          "kcal": 624,
+          "p": 55,
+          "c": 67,
+          "f": 10,
+          "fibre": 5
+        },
+        {
+          "name": "Dinner: Costco food-court pizza, 2 slices (est. ~700 kcal a slice, ~1,300mg Na each)",
+          "kcal": 1400,
+          "p": 68,
+          "c": 142,
+          "f": 56,
+          "fibre": 8
+        },
+        {
+          "name": "Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate",
+          "kcal": 15,
+          "p": 0,
+          "c": 1,
+          "f": 0,
+          "fibre": 3,
+          "slot": "supp"
         }
       ]
-    }
- ,
+    },
     "2026-09-28": {
       "training": "Rest",
       "fluidsMl": 1350,
