@@ -3804,7 +3804,7 @@
     "2026-09-25": {
       "training": "6am class",
       "fluidsMl": 1775,
-      "closed": false,
+      "closed": true,
       "items": [
         {
           "name": "PRE-CLASS: Glick's bagel (90g)",
@@ -3930,6 +3930,15 @@
           "c": 67,
           "f": 10,
           "fibre": 5
+        },
+        {
+          "name": "Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate",
+          "kcal": 15,
+          "p": 0,
+          "c": 1,
+          "f": 0,
+          "fibre": 3,
+          "slot": "supp"
         }
       ]
     },
