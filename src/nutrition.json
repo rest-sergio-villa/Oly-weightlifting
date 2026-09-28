@@ -4059,7 +4059,7 @@
     "2026-09-27": {
       "training": "Double: 9am class + Oly Day 3",
       "fluidsMl": 1900,
-      "closed": false,
+      "closed": true,
       "items": [
         {
           "name": "PRE-SESSION: Glick's bagel ×1.5 (135g)",
@@ -4163,6 +4163,15 @@
           "c": 4,
           "f": 14,
           "fibre": 0
+        },
+        {
+          "name": "Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate",
+          "kcal": 15,
+          "p": 0,
+          "c": 1,
+          "f": 0,
+          "fibre": 3,
+          "slot": "supp"
         }
       ]
     },
