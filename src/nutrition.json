@@ -4012,7 +4012,7 @@
  ,
     "2026-09-28": {
       "training": "Rest",
-      "fluidsMl": 650,
+      "fluidsMl": 1350,
       "closed": false,
       "items": [
         {
@@ -4047,6 +4047,14 @@
           "c": 67,
           "f": 10,
           "fibre": 5
+        },
+        {
+          "name": "Protein water: 25g Bulk collagen/WPI blend in 700ml water",
+          "kcal": 95,
+          "p": 20,
+          "c": 1,
+          "f": 0,
+          "fibre": 0
         }
       ]
     }
