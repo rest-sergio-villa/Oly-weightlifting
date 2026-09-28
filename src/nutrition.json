@@ -4013,7 +4013,7 @@
     "2026-09-28": {
       "training": "Rest",
       "fluidsMl": 1350,
-      "closed": false,
+      "closed": true,
       "items": [
         {
           "name": "Coffee at home: 125ml barista oat milk + 1 shot",
@@ -4055,6 +4055,39 @@
           "c": 1,
           "f": 0,
           "fibre": 0
+        },
+        {
+          "name": "Glick's bagel (90g)",
+          "kcal": 248,
+          "p": 8,
+          "c": 44,
+          "f": 3,
+          "fibre": 2
+        },
+        {
+          "name": "Purée pouch",
+          "kcal": 60,
+          "p": 1,
+          "c": 12,
+          "f": 0,
+          "fibre": 1
+        },
+        {
+          "name": "Dinner: F4F Chef Carlo's Beef Ragù Tortellini (label, 594 kcal / 48.6P / 64.8C / 15.3F, 1035mg Na)",
+          "kcal": 594,
+          "p": 49,
+          "c": 65,
+          "f": 15,
+          "fibre": 5
+        },
+        {
+          "name": "Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate",
+          "kcal": 15,
+          "p": 0,
+          "c": 1,
+          "f": 0,
+          "fibre": 3,
+          "slot": "supp"
         }
       ]
     }
