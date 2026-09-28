@@ -3941,7 +3941,7 @@
     },
     "2026-09-26": {
       "training": "Double: 8.30am class + gymnastics",
-      "fluidsMl": 2100,
+      "fluidsMl": 2400,
       "closed": true,
       "items": [
         {
@@ -4028,6 +4028,14 @@
           "c": 142,
           "f": 56,
           "fibre": 8
+        },
+        {
+          "name": "Skin-contact (orange) wine, 2 glasses (~150ml each, est.)",
+          "kcal": 250,
+          "p": 0,
+          "c": 8,
+          "f": 0,
+          "fibre": 0
         },
         {
           "name": "Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate",
