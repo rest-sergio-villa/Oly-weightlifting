@@ -4339,6 +4339,15 @@
           "fibre": 5
         },
         {
+          "name": "Frozen mixed vegetables (carrot, cauliflower, broccoli), 150g",
+          "kcal": 40,
+          "p": 3,
+          "c": 6,
+          "f": 0,
+          "fibre": 3,
+          "slot": "veg"
+        },
+        {
           "name": "Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate",
           "kcal": 15,
           "p": 0,
