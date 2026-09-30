@@ -4447,6 +4447,23 @@
           "c": 12,
           "f": 0,
           "fibre": 1
+        },
+        {
+          "name": "Dinner: F4F Fresh & Zesty Beef Burrito Bowl (label, 629 kcal / 41.4P / 63.6C / 6.9F, 1020mg Na) — the tortellini had gone off",
+          "kcal": 629,
+          "p": 41,
+          "c": 64,
+          "f": 7,
+          "fibre": 9
+        },
+        {
+          "name": "Frozen mixed vegetables (carrot, cauliflower, broccoli), 150g",
+          "kcal": 40,
+          "p": 3,
+          "c": 6,
+          "f": 0,
+          "fibre": 3,
+          "slot": "veg"
         }
       ]
     }
