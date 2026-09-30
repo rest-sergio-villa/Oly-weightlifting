@@ -208,3 +208,60 @@ and tortellini in the same day if a third salty item is coming.
 use-by window (the 11 Sep box was stamped 19/09, eight days) and the next Friday delivery.
 A 7 × 350g pack was removed from the cart for that reason — 19 meals would have overrun
 the use-by by about five, and 350g portions land ~130 kcal under the per-meal target.
+
+## Meal order placed 29 Sep (10 × 450g, arrives Tue 6 Oct)
+
+| Meal | Qty | kcal | P | C | F | Na (mg) |
+|---|---|---|---|---|---|---|
+| Singapore Chicken Noodle Stir-Fry | 3 | 598 | 41.4 | 71.5 | 11.2 | 1143 |
+| Loaded Chicken Creamy Alfredo Spiral Pasta | 2 | 624 | 55.3 | 67.0 | 9.7 | 498 |
+| Grilled Souvlaki Chicken + Basmati | 2 | 716 | 74.6 | 78.2 | 12.1 | 626 |
+| Penne Pasta Bolognese (High-Protein Gluten-Free) (new) | 2 | 591 | 49.9 | 61.7 | 15.4 | 926 |
+| Fresh & Zesty Beef Burrito Bowl | 1 | 629 | 41.4 | 63.6 | 6.9 | 1020 |
+| **Average per meal** | **10** | **628** | **52.5** | **69.2** | **11.5** | **855** |
+| *Previous order (12), for comparison* | | *611* | *46.7* | *66.7* | *10.8* | *924* |
+
+**Context: maintenance.** Seb has set three months at maintenance after the long
+deficit (103.6 → 80.5 kg since Feb 2025), and a month of data puts maintenance at
+~2,833 kcal — Seb's 2,846 almost exactly. So the box is optimised for training
+quality, not for weight change.
+
+**What the ideal meal looks like now.** ~600–700 kcal, 45–55g protein, 65–80g carbs,
+~10–12g fat. The PB smoothie already brings 32g fat and 50g protein, and protein was
+running ~175 against 160 — so carbs are the lever and protein shouldn't climb.
+
+**Why ten, not twelve.** Ten meals = lunch and dinner Monday to Friday. Weekends are
+reliably eaten out, and twelve overran the use-by window.
+
+**New meals on the menu, and why most were passed over.** The new F4F range is
+protein-heavy (63–74g) without beating the old meals on carbs:
+
+| Meal | kcal | P | C | F | Na | Decision |
+|---|---|---|---|---|---|---|
+| Penne Pasta Bolognese | 591 | 50 | 62 | 15 | 926 | ✅ ordered — a twin of the ragù tortellini |
+| Lean Chicken Quesadilla | 617 | 63 | 50 | 6.6 | 800 | leanest on the menu, but only 50g carbs |
+| Chicken Parmigiana + Spaghetti Napoli | 658 | 72 | 62 | 13.8 | 1208 | fine, but 22g more protein than the penne for the same carbs |
+| Fettuccine Cremoso Chicken Boscaiola | 654 | 41 | 58 | 27.5 | 950 | laksa problem — only suits a no-PB day |
+| Spinach & Ricotta Tortellini Chicken Salad, Basil Pesto | 705 | 74 | 44 | 24.2 | 818 | fewest carbs, most fat |
+
+Unpriced and worth a look next time: Homestyle Chicken Cacciatora (tomato-based,
+likely lean). Probably not: Creamy Mushroom Chicken Pasta, Spinach & Ricotta
+Cannelloni, Beef Ravioli Brisket Stroganoff, Texas Brisket Mac & Cheese.
+
+**Planned week.**
+
+| Day | Lunch | Dinner |
+|---|---|---|
+| Tue 6 (Oly pm) | Alfredo | Penne |
+| Wed 7 (6am) | Singapore | Burrito bowl |
+| Thu 8 (Oly pm) | Alfredo | Penne |
+| Fri 9 (6am) | Singapore | Souvlaki |
+| Mon 12 (rest) | Souvlaki | Singapore + a bagel |
+
+On a training day, smoothie + coffees + pre-feed + Gatorade + night stack + two
+average meals ≈ 2,933 / 173 / 371 / 69. The rest day is the only one needing a top-up
+(~50g carbs short without the pre-feed), hence the two highest-carb meals and a bagel.
+
+**Delivery moves to Tuesday.** That leaves Wed 30 Sep – Mon 5 Oct with 3 burrito bowls
+and 1–2 tortellini for eight weekday slots. Fill with the no-cook tuna / rice pouch /
+veg bowl, one cook on Monday, and eating out Friday.
