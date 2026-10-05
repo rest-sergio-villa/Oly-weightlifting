@@ -4576,6 +4576,70 @@
           "slot": "intra"
         }
       ]
+    },
+    "2026-10-05": {
+      "training": "Rest",
+      "fluidsMl": 300,
+      "closed": false,
+      "items": [
+        {
+          "name": "Breakfast smoothie + PB: 400ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens, 40g peanut butter",
+          "kcal": 879,
+          "p": 50,
+          "c": 95,
+          "f": 32,
+          "fibre": 18
+        },
+        {
+          "name": "Coffee at home: 125ml barista oat milk + 1 shot",
+          "kcal": 75,
+          "p": 1,
+          "c": 9,
+          "f": 4,
+          "fibre": 1
+        },
+        {
+          "name": "Oat milk flat white at work",
+          "kcal": 140,
+          "p": 2,
+          "c": 15,
+          "f": 7,
+          "fibre": 1
+        },
+        {
+          "name": "Lunch: microwave rice pouch, 250g",
+          "kcal": 372,
+          "p": 7,
+          "c": 80,
+          "f": 3,
+          "fibre": 1
+        },
+        {
+          "name": "Lunch: tuna in springwater, 1 tin drained (~120g)",
+          "kcal": 136,
+          "p": 31,
+          "c": 0,
+          "f": 1,
+          "fibre": 0
+        },
+        {
+          "name": "Frozen mixed vegetables (carrot, cauliflower, broccoli), 150g",
+          "kcal": 40,
+          "p": 3,
+          "c": 6,
+          "f": 0,
+          "fibre": 3,
+          "slot": "veg"
+        },
+        {
+          "name": "Lunch: tomato sauce, 4 spoons (~60g, est.)",
+          "kcal": 30,
+          "p": 1,
+          "c": 4,
+          "f": 1,
+          "fibre": 1
+        }
+      ]
     }
   }
 }
