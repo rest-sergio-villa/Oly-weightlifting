@@ -4693,8 +4693,8 @@
     },
     "2026-10-06": {
       "training": "Oly Day 1 (pm)",
-      "fluidsMl": 150,
-      "closed": false,
+      "fluidsMl": 900,
+      "closed": true,
       "items": [
         {
           "name": "Breakfast smoothie + PB: 400ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens, 40g peanut butter",
@@ -4719,6 +4719,32 @@
           "c": 67,
           "f": 10,
           "fibre": 5
+        },
+        {
+          "name": "INTRA-TRAINING: Gatorade, 3 scoops in 750ml",
+          "kcal": 195,
+          "p": 0,
+          "c": 45,
+          "f": 0,
+          "fibre": 0,
+          "slot": "intra"
+        },
+        {
+          "name": "Rice Thin ×1",
+          "kcal": 25,
+          "p": 1,
+          "c": 5,
+          "f": 0,
+          "fibre": 0
+        },
+        {
+          "name": "Night stack: psyllium 6g + 2 sleep tablets + 2 Mg glycinate",
+          "kcal": 15,
+          "p": 0,
+          "c": 1,
+          "f": 0,
+          "fibre": 3,
+          "slot": "supp"
         }
       ]
     }
