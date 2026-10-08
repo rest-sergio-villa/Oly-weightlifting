@@ -4828,6 +4828,23 @@
           "f": 0,
           "fibre": 0,
           "slot": "intra"
+        },
+        {
+          "name": "Dinner: F4F Penne Pasta Bolognese, High-Protein Gluten-Free (label, 590.6 kcal / 49.9P / 61.7C / 15.4F, 926mg Na)",
+          "kcal": 591,
+          "p": 50,
+          "c": 62,
+          "f": 15,
+          "fibre": 5
+        },
+        {
+          "name": "Frozen mixed vegetables (carrot, cauliflower, broccoli), 150g",
+          "kcal": 40,
+          "p": 3,
+          "c": 6,
+          "f": 0,
+          "fibre": 3,
+          "slot": "veg"
         }
       ]
     }
