@@ -4847,6 +4847,91 @@
           "slot": "veg"
         }
       ]
+    },
+    "2026-10-09": {
+      "training": "6am class",
+      "fluidsMl": 1625,
+      "closed": false,
+      "note": "Logged from the plan rather than item by item, up to dinner.",
+      "items": [
+        {
+          "name": "PRE-CLASS: Glick's bagel (90g)",
+          "kcal": 248,
+          "p": 8,
+          "c": 44,
+          "f": 3,
+          "fibre": 2,
+          "slot": "pre"
+        },
+        {
+          "name": "PRE-CLASS: banana",
+          "kcal": 105,
+          "p": 1,
+          "c": 27,
+          "f": 0,
+          "fibre": 3,
+          "slot": "pre"
+        },
+        {
+          "name": "PRE-CLASS: purée pouch",
+          "kcal": 60,
+          "p": 1,
+          "c": 12,
+          "f": 0,
+          "fibre": 1,
+          "slot": "pre"
+        },
+        {
+          "name": "INTRA-CLASS: Gatorade, 2 scoops in 750ml",
+          "kcal": 130,
+          "p": 0,
+          "c": 30,
+          "f": 0,
+          "fibre": 0,
+          "slot": "intra"
+        },
+        {
+          "name": "POST-CLASS: breakfast smoothie + PB: 400ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens, 40g peanut butter",
+          "kcal": 879,
+          "p": 50,
+          "c": 95,
+          "f": 32,
+          "fibre": 18,
+          "slot": "post"
+        },
+        {
+          "name": "Coffee at home: 125ml barista oat milk + 1 shot",
+          "kcal": 75,
+          "p": 1,
+          "c": 9,
+          "f": 4,
+          "fibre": 1
+        },
+        {
+          "name": "Oat milk flat white",
+          "kcal": 140,
+          "p": 2,
+          "c": 15,
+          "f": 7,
+          "fibre": 1
+        },
+        {
+          "name": "Lunch: F4F Singapore Chicken Noodle Stir-Fry (label, 598.5 kcal / 41.4P / 71.6C / 11.3F, 1143mg Na)",
+          "kcal": 598,
+          "p": 41,
+          "c": 72,
+          "f": 11,
+          "fibre": 6
+        },
+        {
+          "name": "Nutrient water, dragonfruit, 575ml bottle (label: 489kJ, 29g sugar)",
+          "kcal": 117,
+          "p": 0,
+          "c": 29,
+          "f": 0,
+          "fibre": 0
+        }
+      ]
     }
   }
 }
