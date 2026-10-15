@@ -1048,5 +1048,26 @@
       "timeCap": "25:00"
     },
     "notes": "Dumbbell snatches at 22.5kg, the RX load. Double-unders scaled to single-unders. First half of the Sunday double, Oly Day 3 after. Score not recorded. Trainer Greta Maggs."
+  },
+  "2026-09-30": {
+    "className": "CrossFit 3056",
+    "time": "6:00am",
+    "week": "week-8-c3",
+    "cycle": "cycle-3",
+    "location": "loc-brunswick",
+    "strength": [
+      {
+        "name": "Back Squat — every 3:00 × 5, 3 reps @ 75-80% (15:00 cap)",
+        "scheme": "5 × 3",
+        "myWeight": "80, 85, 90, 90, 90kg"
+      }
+    ],
+    "metcon": {
+      "format": "30-20-10 For Time",
+      "details": "Wall Balls (20/14lb)\nBox Jump, step down (24/20\")\nPush-ups",
+      "scoreType": "Time",
+      "timeCap": "12:00"
+    },
+    "notes": "Back squats worked up to three triples at 90kg — 90% of the 100kg ref against a prescribed 75-80%, and more evidence the ref is stale (84×8 on 17 Sep already implied ~106). Metcon finished in 10:00 inside the 12:00 cap, push-ups on knees. Wall ball weight and box height not recorded."
   }
 }
