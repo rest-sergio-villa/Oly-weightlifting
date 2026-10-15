@@ -4987,7 +4987,7 @@
     "2026-10-12": {
       "training": "Oly — week 10 Day 1 (pre-Bali block)",
       "fluidsMl": 2050,
-      "closed": false,
+      "closed": true,
       "items": [
         {
           "name": "Breakfast smoothie + PB: 400ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens, 40g peanut butter",
@@ -5083,7 +5083,23 @@
           "slot": "supp"
         },
         {
-          "name": "INTRA-TRAINING: Gatorade, 2 scoops in 750ml (standing assumption)",
+          "name": "Dinner: lean beef mince, 140g cooked (Gus)",
+          "kcal": 238,
+          "p": 38,
+          "c": 0,
+          "f": 10,
+          "fibre": 0
+        },
+        {
+          "name": "Dinner: cooked rice, 120g",
+          "kcal": 156,
+          "p": 3,
+          "c": 34,
+          "f": 1,
+          "fibre": 1
+        },
+        {
+          "name": "INTRA-TRAINING: Gatorade, 2 scoops in 750ml",
           "kcal": 130,
           "p": 0,
           "c": 30,
