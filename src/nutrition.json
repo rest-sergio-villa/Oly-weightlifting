@@ -4868,8 +4868,8 @@
     },
     "2026-10-09": {
       "training": "6am class",
-      "fluidsMl": 1625,
-      "closed": false,
+      "fluidsMl": 1825,
+      "closed": true,
       "note": "Logged from the plan rather than item by item, up to dinner.",
       "items": [
         {
@@ -4946,6 +4946,30 @@
           "kcal": 117,
           "p": 0,
           "c": 29,
+          "f": 0,
+          "fibre": 0
+        },
+        {
+          "name": "Dinner (est.): Japanese restaurant — chicken with rice (teriyaki-style don)",
+          "kcal": 620,
+          "p": 38,
+          "c": 80,
+          "f": 14,
+          "fibre": 2
+        },
+        {
+          "name": "Dinner (est.): small sushi roll",
+          "kcal": 200,
+          "p": 7,
+          "c": 35,
+          "f": 3,
+          "fibre": 1
+        },
+        {
+          "name": "Beer, half (~200ml)",
+          "kcal": 80,
+          "p": 0,
+          "c": 6,
           "f": 0,
           "fibre": 0
         },
