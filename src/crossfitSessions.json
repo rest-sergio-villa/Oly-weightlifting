@@ -1069,5 +1069,20 @@
       "timeCap": "12:00"
     },
     "notes": "Back squats worked up to three triples at 90kg — 90% of the 100kg ref against a prescribed 75-80%, and more evidence the ref is stale (84×8 on 17 Sep already implied ~106). Metcon finished in 10:00 inside the 12:00 cap, push-ups on knees. Wall ball weight and box height not recorded."
+  },
+  "2026-10-15": {
+    "className": "Bodyweight WOD — hotel, Bali",
+    "time": "morning",
+    "week": "week-10-c3",
+    "cycle": "cycle-3",
+    "location": "loc-bali",
+    "strength": [],
+    "metcon": {
+      "format": "4 Rounds For Time",
+      "details": "10 Push-ups\n15 Air Squats\n10 Reverse Lunges each leg\n20 Mountain Climbers\n0:30 Hollow Hold",
+      "scoreType": "Time",
+      "timeCap": "15:00"
+    },
+    "notes": "Holiday session, no equipment. 12:00 with the push-ups unscaled; felt like it could take more. Followed by the mobility finisher from the massage brief — pigeon, couch stretch, lat stretch, thoracic extension, deep squat hold."
   }
 }
