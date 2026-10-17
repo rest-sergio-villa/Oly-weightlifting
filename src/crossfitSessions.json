@@ -1084,5 +1084,20 @@
       "timeCap": "15:00"
     },
     "notes": "Holiday session, no equipment. 12:00 with the push-ups unscaled; felt like it could take more. Followed by the mobility finisher from the massage brief — pigeon, couch stretch, lat stretch, thoracic extension, deep squat hold."
+  },
+  "2026-10-17": {
+    "className": "Morning run — Sidemen, Bali",
+    "time": "6:42am",
+    "week": "week-10-c3",
+    "cycle": "cycle-3",
+    "location": "loc-bali",
+    "strength": [],
+    "metcon": {
+      "format": "Run",
+      "details": "4.60 km, 111 m elevation gain, max elevation 347 m — Jalan Raya Sangkan Gunung out and back through the rice terraces",
+      "scoreType": "Time",
+      "timeCap": ""
+    },
+    "notes": "25:44 moving, 5:35/km average, with Strava's 3rd-fastest mile on record inside it. Faster than the easy jog that was the brief, and on hills in Bali humidity, so a decent engine marker for someone with no running in the log. Holiday session."
   }
 }
