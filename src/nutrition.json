@@ -5206,6 +5206,73 @@
           "fibre": 0
         }
       ]
+    },
+    "2026-11-25": {
+      "training": "6am class",
+      "fluidsMl": 1125,
+      "closed": false,
+      "items": [
+        {
+          "name": "Pre-workout",
+          "kcal": 25,
+          "p": 4,
+          "c": 0,
+          "f": 0,
+          "fibre": 0,
+          "slot": "supp"
+        },
+        {
+          "name": "PRE-CLASS (assumed — usual): banana + purée pouch",
+          "kcal": 170,
+          "p": 2,
+          "c": 40,
+          "f": 0,
+          "fibre": 5,
+          "slot": "pre"
+        },
+        {
+          "name": "INTRA-CLASS: Gatorade, 2 scoops in 750ml",
+          "kcal": 130,
+          "p": 0,
+          "c": 30,
+          "f": 0,
+          "fibre": 0,
+          "slot": "intra"
+        },
+        {
+          "name": "POST-CLASS: breakfast smoothie + PB: 400ml unsw. almond milk, 100g rolled oats, banana, 25g WPI, 3g creatine, 5g greens, 40g peanut butter",
+          "kcal": 879,
+          "p": 50,
+          "c": 95,
+          "f": 32,
+          "fibre": 18,
+          "slot": "post"
+        },
+        {
+          "name": "Oat milk flat white ×2",
+          "kcal": 280,
+          "p": 4,
+          "c": 30,
+          "f": 14,
+          "fibre": 2
+        },
+        {
+          "name": "Lunch: F4F Loaded Chicken Creamy Alfredo Spiral Pasta (label, 624 kcal / 55.3P / 67.0C / 9.7F, 498mg Na)",
+          "kcal": 624,
+          "p": 55,
+          "c": 67,
+          "f": 10,
+          "fibre": 5
+        },
+        {
+          "name": "Coke Zero, 375ml can",
+          "kcal": 1,
+          "p": 0,
+          "c": 0,
+          "f": 0,
+          "fibre": 0
+        }
+      ]
     }
   }
 }
