@@ -1099,5 +1099,26 @@
       "timeCap": ""
     },
     "notes": "25:44 moving, 5:35/km average, with Strava's 3rd-fastest mile on record inside it. Faster than the easy jog that was the brief, and on hills in Bali humidity, so a decent engine marker for someone with no running in the log. Holiday session."
+  },
+  "2026-11-25": {
+    "className": "CrossFit 3056",
+    "time": "6:00am",
+    "week": "week-15-c3",
+    "cycle": "cycle-3",
+    "location": "loc-brunswick",
+    "strength": [
+      {
+        "name": "Back Squat — every 3:00 × 4 sets, work up to a heavy triple (RPE 8/10)",
+        "scheme": "5-5-3-3",
+        "myWeight": "80kg"
+      }
+    ],
+    "metcon": {
+      "format": "EMOM 10",
+      "details": "Odd: 9 Deadlift (255/155lb)\nEven: 20 Air Squats",
+      "scoreType": "Notes",
+      "timeCap": "10:00"
+    },
+    "notes": "Back squat top triple at 80kg. Deadlifts at 100kg against the 255lb (~115kg) Rx, so scaled."
   }
 }
